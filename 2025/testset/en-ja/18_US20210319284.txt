@@ -1,0 +1,25 @@
+1. A system, comprising:
+a memory;
+an accelerator circuit comprising an input circuit block, a filter circuit block, a post-processing circuit block, and an output circuit block; and
+a processor, communicatively coupled to the memory and the accelerator circuit, to:
+initialize the accelerator circuit;
+determining tasks of a neural network application to be performed by at least one of the input circuit block, the filter circuit block, the post-processing circuit block, or the output circuit block;
+assign each of the tasks to a corresponding one of the input circuit block, the filter circuit block, the post-processing circuit block, or the output circuit block;
+instruct the accelerator circuit to perform the tasks; and
+execute the neural network application based on results received from the accelerator circuit completing performance of the tasks.
+
+2. The system of claim 1, wherein the accelerator circuit further comprises:
+an internal memory to store data received from the memory;
+a plurality of general-purpose registers to store a first flag bit indicating a start of execution of at least one of the tasks;
+a plurality of shadow registers to store content to be copied to the plurality of general-purpose registers responsive to a copy event; and
+an interface circuit comprising:
+a control register to store a plurality of interrupts to the processor,
+an error register to store a plurality of error flags indicating occurrences of different kinds of errors,
+a next register to store a mask for selecting the content of the plurality of shadow registers to be copied to the plurality of general-purpose registers, and
+a quality-of-service register to store controls to the memory associated with the processor.
+
+3. The system of claim 2, wherein
+the input circuit block further comprises an input processor, a first instruction memory, a first data memory, and a first program counter (PC), wherein the first instruction memory is to store first instructions of a first task specified according to a first instruction set architecture (ISA) of the input processor, wherein the first PC is to store an address of a current first instruction to be executed by the first processor, and wherein the input processor is to execute the first instructions using first data stored in the first data memory to perform the first task;
+the filter circuit block comprising a filter processor, a second instruction memory, a second data memory, and a second PC, wherein the second instruction memory is to store second instructions of a second task specified according to a second ISA of the filter processor, wherein the second PC is to store an address of a current second instruction to be executed by the second processor, and wherein the filter processor is to execute the second instructions using second data stored in the second data memory to perform the second task;
+the post-processing circuit block comprising a post-processing processor, a third instruction memory, a third data memory, a third PC, wherein the third instruction memory is to store third instructions of a third task specified according to a third ISA of the post-processing processor, wherein the third PC is to store an address of a current third instruction to be executed by the third processor, and wherein the post-processing processor is to execute the third instructions using third data stored in the third data memory to perform the third task; and
+the output circuit block comprising an output processor, a fourth instruction memory, a fourth data memory, a fourth PC, wherein the fourth instruction memory is to store fourth instructions of a fourth task specified according to a fourth ISA of the output processor, wherein the fourth PC is to store an address of a current fourth instruction to be executed by the fourth processor, and wherein the output processor is to execute the fourth instructions using fourth data stored in the fourth data memory to perform the fourth task.

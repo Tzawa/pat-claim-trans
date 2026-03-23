@@ -1,0 +1,10 @@
+1. A negative-pressure booster comprising:
+	a housing including at least one pressure space formed therein;
+	a movable wall installed within the housing to be able to move forward and backward with respect to the housing, the movable wall dividing the pressure space into a front chamber connected to a negative pressure source and a rear chamber selectively connected to the front chamber and the atmosphere;
+	a power piston coupled to the movable wall, 
+	an input member disposed within the power piston to be able to move forward and backward relative to the power piston, the input member being movable by operation of an operating member;
+	a valve mechanism including a negative pressure valve for connecting the rear chamber to the front chamber in accordance with movement of the input member, and an atmospheric valve for connecting the rear chamber to the atmosphere in accordance with movement of the input member; and
+	an output member that is moved forward when the power piston moves forward accompanying movement of the movable wall, and outputs an advancing force of the power piston to the outside of the booster, wherein
+	the negative-pressure booster further comprises:
+	an actuator capable of generating an advancing force in the output member independently of the advancing force generated in the power piston by actuation of the valve mechanism due to input of the input member accompanying operation of the operating member, wherein
+	an output from the output member is adjustable according to a driving force of the actuator, and the output member is returnable to an initial position due to reduction of input to the input member during operation of the actuator.

@@ -1,0 +1,5 @@
+1. A method for minimally-invasive therapy on a patient, comprising the steps of:
+providing a minimally-invasive therapy apparatus comprising a medical tool inserted into the patient;
+providing a jet ventilator;
+while performing the minimally-invasive therapy on the patient with the minimally-invasive therapy equipment ventilating the patient with the jet ventilator to reduce a magnitude of the patient's breathing and increase a frequency of the patient's breathing; and
+synchronizing operation of the minimally-invasive therapy apparatus comprising said medical tool insertion with the jet ventilator by connecting a signal output of the jet ventilator having signals indicative of respiration breathing control to said minimally-invasive therapy equipment.

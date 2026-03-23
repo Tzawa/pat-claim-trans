@@ -1,0 +1,18 @@
+1. A semiconductor device comprising:
+a first semiconductor die including,
+a semiconductor substrate,
+a first logic circuit comprised in the semiconductor substrate,
+a layer of probe pads,
+a metallization region, and
+a layer of inter-die interface pads on a frontside of the first semiconductor die, and
+a second semiconductor die including a semiconductor substrate comprising a second logic circuit;
+wherein a face-to-face arrangement includes the frontside of the first semiconductor die mounted to a frontside of the semiconductor die;
+wherein a layer of interface terminals of the first semiconductor die is configured as a first signal communications interface to the first semiconductor die and the second semiconductor die;
+wherein the layer of probe pads of the first semiconductor die is disposed between the semiconductor substrate of the second semiconductor die and the metallization region of the first semiconductor die, the layer of probe pads used to test the first logic circuit through the metallization region of the first semiconductor die prior to forming the face-to-face arrangement; and
+wherein the layer of inter-die interface pad layer is formed over the layer of probe pads and are configured as a second signal communications interface between the first logic circuit of the first semiconductor die and the second logic circuit of the second semiconductor die.
+
+2. The semiconductor device of claim 1, further comprising a layer of probe pads of the second semiconductor die disposed between the semiconductor substrate of the first semiconductor die and the semiconductor substrate of the second semiconductor die and used to test the second logic circuit in the semiconductor substrate of the second semiconductor die through metallization layers of the second semiconductor die prior to forming the face-to-face arrangement.
+
+3. The semiconductor device of claim 1, wherein the probe pads of the layer of probe pads are parts of a plurality of testing tile structures disposed in a grid-like arrangement over the semiconductor substrate of the first semiconductor die and the plurality of testing tile structures surrounds a crossbar comprising the layer of inter-die interface pads.
+
+4. The semiconductor device of claim 3, wherein each testing tile structure of the plurality of testing tile structures respectively includes interdigitated fingers of a redistribution layer, wherein a first probe pad of the probe pads comprises a power terminal, a second probe pad of the probe pads comprises a ground terminal, and a third probe pad of the probe pads comprises at least one signal terminal, and wherein the first probe pad, the second probe pad, and the third probe pad are each electrically connected to respective portions of the interdigitated fingers of the redistribution layer.

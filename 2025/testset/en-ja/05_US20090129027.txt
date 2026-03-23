@@ -1,0 +1,8 @@
+1. An integrated voltage regulator module (VRM) and microprocessor assembly comprising:
+a. a multilayer PC board;
+b. a microprocessor mounted to the multilayer PC board; and
+c. a VRM mounted on the multilayer PC board connected to the microprocessor and for regulating the voltage provided to the microprocessor, the VRM comprising at least one magnetic core and a plurality of surface-mount devices (SMDs) mounted along the periphery of the multilayer PC board.
+
+2. The integrated VRM and microprocessor assembly of claim 1 wherein the integrated VRM and microprocessor assembly has at least two magnetic cores which sandwich the multilayer PC board having the SMDs mounted thereon.
+
+3. The integrated VRM and microprocessor assembly of claim 2 wherein the SMDs comprise at least a digital controller, MOSFET chips and at least one ceramic capacitor mounted to the multilayer PC board.

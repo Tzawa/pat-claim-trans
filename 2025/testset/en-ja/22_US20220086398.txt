@@ -1,0 +1,13 @@
+1. A vehicular sensing system, said vehicular sensing system comprising:
+a data processor disposed at a vehicle equipped with said vehicular sensing system;
+a camera disposed at an in-cabin side of a windshield of the equipped vehicle and having a field of view through the windshield exterior and at least forward of the equipped vehicle, wherein said camera comprises a CMOS imaging array sensor;
+wherein said camera is operable to capture image data;
+wherein image data captured by said camera is provided to said data processor, and wherein image data captured by said camera and provided to said data processor is processed at said data processor;
+a range sensor disposed at the equipped vehicle and having a field of sensing at least forward of the equipped vehicle;
+wherein the field of sensing of said range sensor overlaps a portion of the field of view of said camera;
+wherein, during a driving maneuver of the equipped vehicle, and responsive at least in part to sensor data captured by said range sensor, said vehicular sensing system detects an object that is located within the field of sensing of said range sensor and outside of the field of view of said camera and determines movement of the range sensor-detected object relative to the equipped vehicle;
+wherein, during the driving maneuver of the equipped vehicle and responsive at least in part to sensor data captured by said range sensor, information derived from the sensor data captured by said range sensor when the range sensor-detected object is located within the field of sensing of said range sensor and outside of the field of view of said camera is communicated to said data processor, and wherein the communicated information pertains to the range sensor-detected object;
+wherein, when the range sensor-detected object enters the field of view of said camera, said vehicular sensing system, at least in part via processing at said data processor of image data captured by said camera and provided to said data processor and based on the communicated information pertaining to the range sensor-detected object, determines that the range sensor-detected object is another vehicle; and
+wherein an output of said vehicular sensing system is provided for use by at least one driving assist system of the equipped vehicle.
+
+2. The vehicular sensing system of claim 1, wherein, during the driving maneuver of the equipped vehicle, and responsive at least in part to sensor data captured by said range sensor, said vehicular sensing system determines that the range sensor-detected object is moving relative to the equipped vehicle toward the field of view of said camera.

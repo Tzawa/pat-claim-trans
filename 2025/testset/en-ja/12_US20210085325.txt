@@ -1,0 +1,17 @@
+1. A surgical instrument, comprising:
+a shaft assembly, comprising:
+ an anvil jaw movable between an unclamped position and a clamped position;
+ a cartridge jaw comprising a channel;
+ an actuator moveable through a closure motion to move said anvil jaw into said clamped position;
+ an I-beam configured to engage said anvil jaw and said cartridge jaw during a firing stroke and hold said anvil jaw in position relative to said cartridge jaw; and
+ a drive shaft configured to drive said I-beam;
+a detachable motor control unit, comprising:
+ a motor-driven rotary clamping gear train operable to drive said drive shaft to apply a rotary closure motion to said actuator to drive said actuator through said closure motion; and
+ a motor-driven rotary firing gear train, wherein said motor-driven rotary firing gear train is operable to drive said drive shaft to apply a distal motion to said I-beam to drive said I-beam distally through said firing stroke, and wherein said motor-driven rotary firing gear train is operable independently from said motor-driven rotary clamping gear train; and
+a control system configured to prohibit said firing stroke from being performed prior to said closure motion.
+
+2. The surgical instrument of claim 1, further comprising:
+a replaceable staple cartridge positioned in said channel, comprising:
+ a cartridge body;
+ staples removably stored in said cartridge body; and
+ a sled movable within said cartridge body from a proximal position to a distal position to eject said staples from said cartridge body during said firing stroke.

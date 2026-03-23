@@ -1,0 +1,18 @@
+1. A wireless end-user device comprising:
+a wireless modem configured to enable data communications to support a plurality of network service activities over a wireless network; and
+a processor configured to:
+classify each of the plurality of network service activities of the wireless end-user device into one of a plurality of categories including a controlled network service activity, a non-controlled network service activity, and a disallowed network service activity;
+disallow the data communications through the wireless modem when first one or more of the plurality of network service activities are classified as the disallowed network service activity;
+allow the data communications through the wireless modem when second one or more of the plurality of network service activities are classified as the non-controlled network service activity; and
+regulate the data communications through the wireless modem when third one or more of the plurality of network service activities are classified as the controlled network service activity;
+wherein classifying the first one or more of the plurality of network service activities as the disallowed network service activity is based at least in part on a lack of a user interaction with the wireless end-user device for a previously elapsed period of time.
+
+2. The wireless end-user device of claim 1, wherein classifying the third one or more of the plurality of network service activities as the controlled network service activity is based at least in part on the lack of the user interaction with the wireless end-user device for the Previously elapsed period of time.
+
+3. The wireless end-user device of claim 1, wherein the regulated data communications coincide with temporally spaced times during which the wireless modem is allowed by the processor to connect to the wireless network.
+
+4. The wireless end-user device of claim 1, wherein regulating the data communications through the wireless modem when the third one or more of the plurality of network service activities are classified as the controlled network service activity comprises selecting a data access time for the third one or more of the plurality of network service activities based on a state of the wireless modem.
+
+5. The wireless end-user device of claim 1, wherein regulating the data communications through the wireless modem when the third one or more of the plurality of network service activities are classified as the controlled network service activity comprises receiving a scheduled time slot demand from the third one or more of the plurality of network service activities.
+
+6. The wireless end-user device of claim 1, wherein regulating the data communications through the wireless modem when the third one or more of the plurality of network service activities are classified as the controlled network service activity comprises informing the third one or more of the plurality of network service activities when the third one or more of the plurality of network service activities are allowed to access the wireless network.

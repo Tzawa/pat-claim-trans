@@ -1,0 +1,9 @@
+1. An automatic feed control device for a sewing machine, comprising:
+	upper and lower fabric feeding means for respectively feeding two pieces of fabric under a needle;
+	sewing means for sewing together the two pieces of fabric fed under the needle;
+	upper and lower fabric feed amount detecting means for respectively detecting feed amounts of the upper and lower pieces of fabric moved under the needle by the fabric feeding means;
+	feed amount control means for controlling relative feed amounts of the upper and lower pieces of fabric to a desired set value by feedback of detection values from the upper and lower fabric feed amount detecting means; and
+	seam allowance control means for controlling a seam allowance to be constant or arbitrary, wherein
+	the automatic feed control device further comprises:
+	upper and lower fabric elongation correction means, each configured to input data relating to elongation of fabric at a sewing portion estimated from characteristic data regarding elongation with respect to each inclination angle relative to a fabric grain and data of an inclination angle of a sewing line relative to the fabric grain to correct an error due to elongation included in the feed amounts detected by the respective upper and lower fabric feed amount detecting means, and
+	by the elongation correction means, the upper and lower fabric feeding means is controlled and driven so as to perform sewing with a desired easing ratio.

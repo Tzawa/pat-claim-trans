@@ -1,0 +1,11 @@
+1. A network message server adapted to communicate with a mobile end-user device having a plurality of applications, the network message server comprising:
+one or more processors configured to:
+provide a Internet data connection with the mobile end-user device via a device data connection to a wireless network;
+receive a request to transmit application data, the received request corresponding to a first application of the plurality of applications;
+generate an Internet data message based on the received request, the generated Internet data message including the application data and a first application identifier identifying the first application; and
+transmit, over the Internet data connection, the generated Internet data message to the mobile end-user device for mapping the first application identifier included in the transmitted Internet data message to the first application corresponding to the first application identifier, and for forwarding the application data in the transmitted Internet data message to the first application mapped by the mobile end-user device to the first application identifier.
+
+2. The network message server of claim 1, wherein the one or more processors are further configured to:
+prior to transmitting, encrypt the generated Internet data message to generate encrypted Internet data message.
+
+3. The network message server of claim 1, wherein the generated Internet data message is transmitted using one or more of encryption on a transport services stack, Internet Protocol (IP) layer encryption, or tunneling.

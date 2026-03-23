@@ -1,0 +1,11 @@
+1. A seat reclining device comprising:
+	a lower arm held on a seat cushion side;
+	an upper arm supported rotatably by the lower arm and held on a seat back side;
+	a lock mechanism that regulates rotation of the upper arm relative to the lower arm;
+	a cam disposed between the lower arm and the upper arm so as to actuate the lock mechanism; and
+	a shaft that is engaged with the cam, wherein
+	the lock mechanism includes two poles which are arranged symmetrically with respect to an axis of the shaft, and move in a radial direction of the shaft by contact with the cam so as to regulate or allow the rotation of the upper arm relative to the lower arm,
+	the shaft has, on an external surface thereof, a plurality of grooves or flat surfaces extending in an axial direction, side surfaces of the grooves or the flat surfaces forming six or more parallel flat surface portions,
+	the cam has a hole having a flat portion that comes into contact with the flat surface portion of the shaft, and having a diameter of a reference circumferential portion set to be larger than an outer diameter of the shaft,
+	the flat surface portion of the shaft and the flat surface portion of the cam are formed in parallel with a line connecting contact portions between the two poles and the cam, and
+	relative movement of the shaft and the cam along the line connecting the contact portions is allowed, while mutual rotation of the shaft and the cam is regulated.

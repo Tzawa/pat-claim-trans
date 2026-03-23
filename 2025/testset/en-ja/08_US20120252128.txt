@@ -1,0 +1,11 @@
+1. A sensor, comprising
+a catalytic nucleic acid molecule specific for a target agent comprising an enzyme nucleic acid strand and a substrate nucleic acid strand,
+wherein the enzyme nucleic acid strand comprises a 3′-end and a 5′-end and an active site specific for a target agent,
+wherein the substrate nucleic acid strand comprises a 3′-end and a 5′-end,
+wherein the substrate nucleic acid strand comprises nucleotides at the 5′-end of the substrate nucleic acid strand that permits formation of a loop of at least six nucleotides at the 5′-end of the substrate nucleic acid strand, and
+wherein the substrate nucleic acid strand hybridizes with the enzyme nucleic acid strand, thereby forming a vacant site between the 3′-end of the enzyme nucleic acid strand and the 5′-end of the substrate nucleic acid strand, wherein the vacant site is opposite to a cytosine present in the substrate nucleic acid strand and wherein the vacant site can bind to a fluorophore,
+wherein in the absence of the target agent, fluorescence of the fluorophore when bound to the vacant site is quenched, and wherein in the presence of the target agent, catalytic cleavage of substrate nucleic acid strand perturbs the vacant site and releases the fluorophore bound to the vacant site resulting in increased fluorescence.
+
+2. The sensor of claim 1, wherein the vacant site is flanked by guanines present on a 3′-nucleotide of the enzyme nucleic acid strand and a 5′-nucleotide of the substrate nucleic acid strand.
+
+3. The sensor of claim 1, wherein at least one pair of nucleotides are mismatched upon hybridization of the substrate nucleic acid molecule with the enzyme nucleic acid strand.

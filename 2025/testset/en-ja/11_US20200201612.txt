@@ -1,0 +1,12 @@
+1. A computer-implemented method comprising:
+receiving, by a compiler, first instructions of a first instruction set, wherein the first instructions define an image processing algorithm and comprise an instruction specifying, using a two-dimensional address comprising an x-coordinate and a y-coordinate, a position of data within a two-dimensional region of image data; and
+translating, by the compiler, the first instructions into one or more second instructions of a second instruction set, wherein the second instruction set includes one or more shift instructions that are executable by an image processor comprising an array of execution lanes, wherein the second instructions are operable to cause the image processor to load, into a respective execution lane, the data within the two-dimensional region of image data at the position specified by the two-dimensional address using the one or more shift instructions,
+wherein the one or more shift instructions when executed cause the two-dimensional region of image data to be shifted within a two-dimensional shift-register array of the image processor relative to the array of execution lanes.
+
+2. The method of claim 1, wherein the method further comprises:
+causing the image processor to load the data specified by the two-dimensional address into a shift register of the two-dimensional shift-register array, and
+causing the image processor to perform the image processing algorithm on the loaded data.
+
+3. The method of claim 1, wherein the two-dimensional region of image data is a line group of a plurality of line groups of image data for an image frame, and wherein the x-coordinate and the y-coordinate are offsets representing the position of data relative to image data in the line group.
+
+4. The method of claim 3, wherein each line group in the plurality of line groups is referenced in the first instructions according to a respective unique identifier.

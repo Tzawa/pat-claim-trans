@@ -1,0 +1,51 @@
+{
+    "metricx": 3.060492515563965,
+    "detail": [
+        {
+            "s_lang": "en",
+            "t_lang": "ja",
+            "s_errors": [
+                "\u539f\u6587\u30a8\u30e9\u30fc\uff0f\u5c0f\uff08\u521d\u51fa\u3002\u3053\u3053\u3067\u306fchimeric CRISPR RNA having a target-defining spacer region comprising a plurality of DNA nucleotides and a plurality of RNA bases\u306e\u307f\u3092\u6307\u3059\uff08trans-activating CRISPR RNA\u306f\u542b\u307e\u306a\u3044\uff09\u3082\u306e\u3068\u601d\u308f\u308c\u308b\u3002\uff09"
+            ],
+            "t_errors": [
+                "(\u8aa4\u8a33)\u4fc2\u308a\u5148\u8aa4\u308a\uff0f\u5927\uff08\u6b63\u3057\u304f\u306f\u3001\u8907\u6570\u306eDNA\u30cc\u30af\u30ec\u30aa\u30c1\u30c9\u304a\u3088\u3073\u8907\u6570\u306eRNA\u5869\u57fa\u3092\u542b\u3080\u6a19\u7684\u5b9a\u7fa9\u30b9\u30da\u30fc\u30b5\u30fc\u9818\u57df\u3092\u6709\u3059\u308b\u30ad\u30e1\u30e9CRISPR RNA\u3092\uff09",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5c0f",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "1. A method for genome editing, comprising:\ngenerating a complex comprising Cas9, trans-activating CRISPR RNA, and a chimeric CRISPR RNA having a target-defining spacer region comprising a plurality of DNA nucleotides and a plurality of RNA bases, wherein the guide promotes sufficient strand invasion by the RNA motif to allow the complex to be active while also exhibiting increased cleavage specificity via the less thermodynamically stable DNA-DNA interaction; and\nco-transfecting the complex into a cell culture with an exonuclease that promotes DNA repair.",
+            "target": "1. \u30b2\u30ce\u30e0\u7de8\u96c6\u306e\u305f\u3081\u306e\u65b9\u6cd5\u3067\u3042\u3063\u3066\u3001\u4ee5\u4e0b\u306e\u5de5\u7a0b\u3092\u542b\u3080\uff1a\nCas9\u3001\u30c8\u30e9\u30f3\u30b9\u6d3b\u6027\u5316CRISPR RNA\u3001\u304a\u3088\u3073\u8907\u6570\u306eDNA\u30cc\u30af\u30ec\u30aa\u30c1\u30c9\u304b\u3089\u306a\u308b\u6a19\u7684\u5b9a\u7fa9\u30b9\u30da\u30fc\u30b5\u30fc\u9818\u57df\u3068\u8907\u6570\u306eRNA\u5869\u57fa\u304b\u3089\u306a\u308b\u30ad\u30e1\u30e9CRISPR RNA\u3092\u542b\u3080\u8907\u5408\u4f53\u3092\u751f\u6210\u3059\u308b\u5de5\u7a0b\u3067\u3042\u3063\u3066\u3001\u3053\u306e\u30ac\u30a4\u30c9RNA\u304cRNA\u30e2\u30c1\u30fc\u30d5\u306b\u3088\u308b\u5341\u5206\u306a\u9396\u4fb5\u5165\u3092\u4fc3\u9032\u3057\u3001\u8907\u5408\u4f53\u3092\u6d3b\u6027\u5316\u53ef\u80fd\u306b\u3059\u308b\u3068\u3068\u3082\u306b\u3001\u71b1\u529b\u5b66\u7684\u306b\u4e0d\u5b89\u5b9a\u5316\u3057\u305fDNA-DNA\u76f8\u4e92\u4f5c\u7528\u3092\u4ecb\u3057\u3066\u5207\u65ad\u7279\u7570\u6027\u304c\u5411\u4e0a\u3059\u308b\u6027\u8cea\u3092\u6709\u3059\u308b\u5de5\u7a0b\uff1b\u306a\u3089\u3073\u306b\n\u3053\u306e\u8907\u5408\u4f53\u3092\u3001DNA\u4fee\u5fa9\u3092\u4fc3\u9032\u3059\u308b\u30a8\u30ad\u30bd\u30cc\u30af\u30ec\u30a2\u30fc\u30bc\u3068\u3068\u3082\u306b\u7d30\u80de\u57f9\u990a\u7269\u306b\u5171\u5c0e\u5165\u3059\u308b\u5de5\u7a0b\u3002",
+            "reference": null,
+            "score": 35
+        },
+        {
+            "s_lang": "en",
+            "t_lang": "ja",
+            "s_errors": [
+                "\u539f\u6587\u30a8\u30e9\u30fc\uff0f\u5c0f\uff08\u521d\u51fa\u3002claim1\u306e\u300ca chimeric CRISPR RNA having a target-defining spacer region comprising a plurality of DNA nucleotides and a plurality of RNA bases\u300d\u3092\u6307\u3059\u3082\u306e\u3068\u601d\u308f\u308c\u308b\u3002\uff09"
+            ],
+            "t_errors": [
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "2. The method of claim 1, wherein a majority of the bases in the modified CRISPR RNA guide's target-defining spacer region are DNA nucleotides.",
+            "target": "2. \u8acb\u6c42\u98051\u306b\u8a18\u8f09\u306e\u65b9\u6cd5\u306b\u304a\u3044\u3066\u3001\u6539\u5909CRISPR RNA\u30ac\u30a4\u30c9\u306e\u6a19\u7684\u5b9a\u7fa9\u30b9\u30da\u30fc\u30b5\u30fc\u9818\u57df\u306b\u304a\u3051\u308b\u5869\u57fa\u306e\u904e\u534a\u6570\u304cDNA\u30cc\u30af\u30ec\u30aa\u30c1\u30c9\u3067\u3042\u308b\u65b9\u6cd5\u3002",
+            "reference": null,
+            "score": 80
+        },
+        {
+            "s_lang": "en",
+            "t_lang": "ja",
+            "s_errors": [],
+            "t_errors": [
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "3. An edited genome produced by the method of claim 2.",
+            "target": "3. \u8acb\u6c42\u98052\u306b\u8a18\u8f09\u306e\u65b9\u6cd5\u306b\u3088\u3063\u3066\u751f\u6210\u3055\u308c\u305f\u7de8\u96c6\u6e08\u307f\u30b2\u30ce\u30e0",
+            "reference": null,
+            "score": 90
+        }
+    ]
+}

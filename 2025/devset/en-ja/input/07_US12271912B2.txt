@@ -1,0 +1,8 @@
+1. A method of providing advertisements to retail establishments, the method comprising:
+receiving, from a packet data network and at a data center via a computer system including at least one processor, advertisement messages to be displayed, wherein the advertisement messages comprise a first set of advertisement messages, each advertisement message in the first set of advertisement messages being displayable at one or more display devices in retail establishments for a first fee;
+combining the advertisement messages to be displayed to produce a set of aggregated messages;
+sending the set of aggregated messages to the retail establishment and/or other retail establishments, the set of aggregated messages being integratable in a display window with a streaming video signal,
+collecting, on behalf of the data center, the first fees for advertisement messages in the first set of advertisement messages;
+determining whether each of the first set of advertisement messages is related to alcohol; and
+in response to the determination that one of the first set of advertisement messages is related to alcohol, preventing any portion of the first fee collected for the one of the first set of advertisement messages from being shared with retail establishment(s) at which the associated advertisement messages are displayed in order to comply with legal regulations relating to alcoholic beverages,
+wherein the legal regulations relating to alcoholic beverages pertain to how revenue from alcoholic beverage related advertisements may be shared among different parties involved in such advertisements.

@@ -1,0 +1,18 @@
+1. A wireless end-user device comprising:
+a wireless wide area network (WWAN) modem configured to communicate data with a WWAN when a connection is established between the wireless end-user device and the WWAN;
+a memory storing a WWAN network access policy including one or more first policy instructions associated with a first software application of a plurality of software applications resident on the wireless end-user device; and
+one or more processors configured to:
+provide, using the WWAN modem, one or more network data traffic flows between the wireless end-user device and the WWAN;
+associate each of the one or more of the plurality of software applications with a respective one of the one or more network data traffic flows between the wireless end-user device and the WWAN, including associating the first software application with a first one of the one or more network data traffic flows; and
+when (i) the wireless end-user device communicates or attempts to communicate data over the WWAN, and (ii) the first software application is associated with the first one of the one or more network data traffic flows, apply the one or more first policy instructions associated with the first software application to the first one of the one or more network data traffic flows.
+
+2. The wireless end-user device of claim 1, wherein the one or more processors is further configured to:
+use tag information to associate each of the one or more of the plurality of software applications with the respective one of the one or more network data traffic flows.
+
+3. The wireless end-user device of claim 2, wherein the one or more processors is further configured to:
+augment the tag information with flow-specific assignment information, and wherein the flow-specific assignment information includes at least one of an application layer protocol associated with each of the respective one of the one or more network data traffic flows, a transport layer protocol associated with each of the respective one of the one or more network data traffic flows, or IP socket information associated with each of the respective one of the one or more network data traffic flows.
+
+4. The wireless end-user device of claim 3, wherein the one or more processors is further configured to:
+use the flow-specific assignment information to identify one or more downstream packets that are part of the first one of the one or more network data traffic flows.
+
+5. The wireless end-user device of claim 1, wherein applying the one or more first policy instructions associated with the first software application to the first one of the one or more network data traffic flows includes applying a firewall service policy to block the first one of the one or more network data traffic flows through the WWAN.

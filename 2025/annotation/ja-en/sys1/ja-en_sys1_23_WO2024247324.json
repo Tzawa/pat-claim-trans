@@ -1,0 +1,60 @@
+{
+    "metricx": 5.29490852355957,
+    "detail": [
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [],
+            "t_errors": [
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f",
+                "(\u8aa4\u8a33)\u4fc2\u308a\u5148\u304c\u4e0d\u660e\uff0f\u5927",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98051]\n\u8c46\u8150\u306e\u88fd\u9020\u65b9\u6cd5\u3067\u3042\u3063\u3066\u3001\n\u5927\u8c46\u3068\u6c34\u3068\u306e\u7b2c\uff11\u306e\u6df7\u5408\u7269\u3092\u3001\u524d\u8a18\u7b2c\uff11\u306e\u6df7\u5408\u7269\u4e2d\u306e\u524d\u8a18\u5927\u8c46\u306e\u3001\u52d5\u7684\u5149\u6563\u4e71\u6cd5\u306b\u3088\u308a\u6e2c\u5b9a\u3057\u305f\u7c92\u5ea6\u5206\u5e03\u306b\u304a\u3051\u308b\u4f53\u7a4d\u57fa\u6e96\u3067\u306e\u30e1\u30b8\u30a2\u30f3\u5f84\u304c\uff12\uff15\uff10\u03bc\uff4d\u4ee5\u4e0b\u306b\u306a\u308b\u307e\u3067\u6469\u7815\u3059\u308b\u5de5\u7a0b\u3001\n\u6469\u7815\u3055\u308c\u305f\u524d\u8a18\u7b2c\uff11\u306e\u6df7\u5408\u7269\u3092\u52a0\u71b1\u3059\u308b\u5de5\u7a0b\u3001\n\u6469\u7815\u53ca\u3073\u52a0\u71b1\u3055\u308c\u305f\u524d\u8a18\u7b2c\uff11\u306e\u6df7\u5408\u7269\u3092\u3001\u8c46\u4e73\u3068\u304a\u304b\u3089\u3068\u306b\u5206\u96e2\u3059\u308b\u5de5\u7a0b\u3001\u4e26\u3073\u306b\u3001\n\u524d\u8a18\u8c46\u4e73\u3068\u51dd\u56fa\u5264\u3068\u306e\u7b2c\uff12\u306e\u6df7\u5408\u7269\u3092\u51dd\u56fa\u3055\u305b\u3066\u8c46\u8150\u3092\u8abf\u88fd\u3059\u308b\u5de5\u7a0b\n\u3092\u542b\u3080\u65b9\u6cd5\u3002",
+            "target": "1.\nA method for manufacturing tofu, the method comprising: grinding a first mixture comprising soybeans and water until a volume-based median diameter in a particle size distribution, measured by a dynamic light scattering method, of the soybeans in the first mixture becomes less than or equal to 250 um; heating the ground first mixture; separating the ground and heated first mixture into soy milk and soybean curd residue; and coagulating a second mixture comprising the soy milk and a coagulant to prepare tofu.",
+            "reference": null,
+            "score": 60
+        },
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [],
+            "t_errors": [],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98052]\n\u524d\u8a18\u51dd\u56fa\u5264\u304c\u786b\u9178\u30ab\u30eb\u30b7\u30a6\u30e0\u3092\u542b\u3080\u3001\u8acb\u6c42\u9805\uff11\u306b\u8a18\u8f09\u306e\u65b9\u6cd5\u3002",
+            "target": "2.\nThe method according to claim 1, wherein the coagulant comprises calcium sulfate.",
+            "reference": null,
+            "score": 100
+        },
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [
+                "\u8a33\u629c\u3051\uff0f\u5927"
+            ],
+            "t_errors": [
+                "(\u8aa4\u8a33)\u89e3\u91c8\u306e\u66d6\u6627\u6027\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98053]\n\u524d\u8a18\u8c46\u8150\u304c\u3001\u4e00\u8fba\uff13\uff43\uff4d\u306e\u7acb\u65b9\u4f53\u5f62\u306e\uff15\u2103\u306b\u8abf\u6e29\u3057\u305f\u8a66\u6599\u3092\u3001\u76f4\u5f84\uff12\uff10\uff4d\uff4d\u306e\u5186\u5f62\u30d7\u30e9\u30f3\u30b8\u30e3\u30fc\u306b\u3088\u308a\uff16\uff10\uff4d\uff4d\uff0f\u5206\u306e\u7b49\u901f\u5ea6\u3067\u5727\u7e2e\u3057\u305f\u3068\u304d\u306e\u7834\u58ca\u6642\u306e\u524d\u8a18\u5186\u5f62\u30d7\u30e9\u30f3\u30b8\u30e3\u30fc\u306b\u304b\u304b\u308b\u529b\u304c\uff12\uff19\uff10\uff47\uff46\u4ee5\u4e0a\u3068\u306a\u308b\u786c\u3055\u3092\u6709\u3059\u308b\u3001\u8acb\u6c42\u9805\uff11\u53c8\u306f\uff12\u306b\u8a18\u8f09\u306e\u65b9\u6cd5\u3002",
+            "target": "3.\nThe method according to claim 1 or 2, wherein the tofu has a hardness such that when a 3 cm cube sample adjusted to 5 \u00b0C is compressed at a constant rate of 60 mm/min with a circular plunger with a diameter of 20 mm, a force applied thereto at fracture is equal to or greater than 290 gf.",
+            "reference": null,
+            "score": 70
+        },
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [],
+            "t_errors": [
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98054]\n\u5927\u8c46\u3092\u3072\u304d\u5272\u308a\u3059\u308b\u5de5\u7a0b\u3092\u66f4\u306b\u542b\u307f\u3001\u524d\u8a18\u7b2c\uff11\u306e\u6df7\u5408\u7269\u304c\u3001\u3072\u304d\u5272\u308a\u3055\u308c\u305f\u524d\u8a18\u5927\u8c46\u3068\u6c34\u3068\u306e\u6df7\u5408\u7269\u3067\u3042\u308b\u3001\u8acb\u6c42\u9805\uff11\uff5e\uff13\u306e\u3044\u305a\u308c\u304b\uff11\u9805\u306b\u8a18\u8f09\u306e\u65b9\u6cd5\u3002",
+            "target": "4.\nThe method according to any one of claims 1 to 3, wherein the method further comprises splitting soybeans, and wherein the first mixture is a mixture of the split soybeans and water.",
+            "reference": null,
+            "score": 75
+        }
+    ]
+}

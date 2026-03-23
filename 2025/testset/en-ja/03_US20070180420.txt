@@ -1,0 +1,7 @@
+3. A method for designing a circuit apparatus having at least first and second layers and at least first and second conductors disposed within the first and second layers, respectively, for conducting at least first and second signals, respectively, comprising:
+determining a minimum length for each of the conductors, the first conductor being longer than the second conductor;
+determining a propagation time for the first and second signals to propagate through the first and second conductors and whether the propagation time for each signal is within a time constraint; and
+upon determining that the propagation times for the signals are not within the time constraint, selecting first and second dielectric materials having different characteristic propagation speeds for the first and second layers, respectively, the characteristic propagation speed of the first dielectric material being faster than the characteristic propagation speed of the second dielectric material.
+
+4. A method as defined in claim 3, further comprising:
+selecting the first and second dielectric materials to minimize a difference between a ratio of the length of$-the first conductor to the length of the second conductor and a ratio of the characteristic propagation speed of the first dielectric material to the characteristic propagation speed of the second dielectric material.

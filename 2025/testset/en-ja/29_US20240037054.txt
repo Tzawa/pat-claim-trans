@@ -1,0 +1,9 @@
+1. A system, comprising:
+a processor configured to communicate over a network interface and a processor peripheral communication interface;
+communication switch circuitry communicatively coupling the processor peripheral communication interface and a device peripheral communication interface of an endpoint device;
+the communication switch circuitry configured to establish logical isolation among ports of the communication switch circuitry by instantiating visibility over the logical isolation among the processor and the endpoint device; and
+the processor configured to determine transactions received over the network interface are targeted for the endpoint device, and transfer at least data of the transactions over the communication switch circuitry for receipt by the endpoint device.
+
+2. The system of claim 1, wherein the endpoint device comprises at least one among a graphics processing unit (GPU) and Peripheral Component Interconnect Express (PCIe) graphics card.
+
+3. The system of claim 1, wherein the processor peripheral communication interface and the device peripheral communication interface each comprise a Peripheral Component Interconnect Express (PCIe) interface.

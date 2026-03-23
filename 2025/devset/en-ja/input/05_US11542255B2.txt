@@ -1,0 +1,11 @@
+1. A compound of formula (I):
+or a pharmaceutically acceptable salt or solvate thereof, wherein:
+Q is selected from O or S;
+ring A is monocyclic;
+V, X and Y are each independently selected from C and N, and W and Z are each independently selected from N, O, S, NH and CH, provided that at least one of V, W, X, Y and Z is N, O, S or NH;
+RX and RY are each independently any saturated or unsaturated hydrocarbyl group, wherein the hydrocarbyl group may be straight-chained or branched, or be or include cyclic groups, wherein the hydrocarbyl group may optionally be substituted, and wherein the hydrocarbyl group may optionally include one or more heteroatoms N, O or S in its carbon skeleton;
+R1 is a cyclic group substituted at the α-position, wherein R1 may optionally be further substituted;
+m is 0, 1 or 2; and
+each R2 is independently a halo, ?OH, ?NO2, ?NH2, ?N3, ?SH, or a saturated or unsaturated hydrocarbyl group, wherein the hydrocarbyl group may be straight-chained or branched, or be or include cyclic groups, wherein the hydrocarbyl group may optionally be substituted, and wherein the hydrocarbyl group may optionally include one or more heteroatoms N, O or S in its carbon skeleton;
+provided that at least one of RX and RY comprises a nitrogen atom; and
+provided that the compound is not:

@@ -1,0 +1,9 @@
+1. A washing machine comprising:
+	a main body having an opening portion for loading and unloading an object to be washed into and out of a washing chamber, the opening portion being opened forward;
+	a door portion fixed to the main body so as to be rotatable between a closed position in which the opening portion is closed and an open position in which the opening portion is opened, wherein
+	the door portion includes:
+	a door main body that covers the opening portion when the door portion is in the closed position;
+	a door holding portion rotatably fixed to the main body and projecting from the door main body toward the washing chamber side when the door portion is in the closed position; and
+	a roller portion rotatably provided on the door holding portion,
+	the main body is provided with a leaf spring having a portion formed with a locking portion for locking the roller portion, which moves accompanying rotation of the door holding portion, at the closed position, and
+	the leaf spring is arranged such that a fixing portion fixed to the main body is located on a side closer to the closing direction than the locking portion, assuming that a moving direction of the roller portion when the door portion rotates from the open position toward the closed position is the closing direction.

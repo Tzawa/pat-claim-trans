@@ -1,0 +1,6 @@
+8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to:
+communicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices;
+receive a sensor output signal from a sensor on the surgical stapling instrument;
+determine a parameter associated with closure of an end effector based on the sensor output signal;
+receive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and
+adjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.

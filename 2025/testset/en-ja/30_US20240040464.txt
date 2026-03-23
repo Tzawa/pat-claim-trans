@@ -1,0 +1,8 @@
+1. A method for unmanned aerial vehicle handover, comprising:
+determining, by a source base station, that one or more base stations meet one or more handover conditions based on a measurement report from an unmanned aerial vehicle;
+determining, by the source base station, a candidate base station that has completed a handover preparation among the one or more base stations meeting the one or more handover conditions;
+handing over, by the source base station, the unmanned aerial vehicle to the candidate base station meeting the one or more handover conditions;
+determining, by the source base station, one or more accessible base stations based on a flight path of the unmanned aerial vehicle and geographical location information of the one or more accessible base stations;
+selecting, by the source base station, a base station from the one or more accessible base stations based on a flight speed, a flight altitude, or the flight speed and the flight altitude of the unmanned aerial vehicle, wherein the selected base station is to perform a handover preparation operation, and the accessible base station is a base station that the unmanned aerial vehicle is able to access when flying according to the flight path;
+performing, by the source base station, a handover preparation operation for handing over the base station that is to perform the handover preparation operation; and
+determining, by the source base station, the base station that has successfully performed the handover preparation as the candidate base station that has completed the handover preparation.

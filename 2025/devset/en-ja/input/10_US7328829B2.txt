@@ -1,0 +1,9 @@
+1. A palm-size stapler for hand-assisted laparoscopic and open surgery comprising:
+a) a chassis member in which at least the following elements are supported:
+i) a cartridge assembly for containing at least two rows of staples; and
+ii) a slider assembly operative to slidably move along a predetermined path with respect to said cartridge assembly, thereby to provide a predetermined staple ejection force to cause the ejection of staples from said cartridge assembly, said slider assembly including:
+at least one staple ejector element aligned with said at least two rows of staples for causing ejection of the staples;
+b) an anvil member operable in closed and open positions with respect to said cartridge assembly and when in a closed position said anvil member is spaced from said cartridge assembly so as to hold a portion of tissue to be stapled therebetween and to allow closure of staples ejected into the tissue from said cartridge assembly in response to the predetermined staple ejection force provided by said slider assembly;
+c) a lever member mounted to said chassis member pivotably movable with respect to said cartridge assembly and operable by using one hand; and
+d) a locking mechanism operable in locked and unlocked positions and in operative association with said anvil member, said locking mechanism being brought to its locked position when said lever member is pressed and brought down, and when said locking mechanism is brought to its locked position said anvil member is brought to and locked in its closed position and held adjacent to said cartridge assembly during subsequent operation,
+thereby to allow closure of staples in the portion of the tissue held between said cartridge assembly and said anvil member as said slider assembly advances step-wise incrementally ejecting staples into the tissue with each step.

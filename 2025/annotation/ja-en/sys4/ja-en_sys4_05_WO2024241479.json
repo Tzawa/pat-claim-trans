@@ -1,0 +1,62 @@
+{
+    "metricx": 2.965580701828003,
+    "detail": [
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [
+                "\u539f\u6587\u30a8\u30e9\u30fc\uff0f\u5c0f",
+                "\u8a33\u629c\u3051\uff0f\u5927"
+            ],
+            "t_errors": [
+                "\u6587\u6cd5\uff0f\u5c0f",
+                "\u8aa4\u8a33\uff0f\u5927",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5c0f",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5c0f",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98051]\n\u96fb\u6e90\u4f9b\u7d66\u56de\u8def\u3001\n\u5185\u8996\u93e1\u63a5\u7d9a\u90e8\u3001\n\u524d\u8a18\u96fb\u6e90\u4f9b\u7d66\u56de\u8def\u3068\u524d\u8a18\u5185\u8996\u93e1\u63a5\u7d9a\u90e8\u3068\u306e\u9593\u306b\u914d\u7f6e\u3055\u308c\u305f\u653e\u96fb\u62b5\u6297\u3001\n\u524d\u8a18\u653e\u96fb\u62b5\u6297\u3068\u524d\u8a18\u5185\u8996\u93e1\u63a5\u7d9a\u90e8\u3068\u306e\u9593\u306b\u914d\u7f6e\u3055\u308c\u305f\u96fb\u6e90\u5c0e\u901a\u56de\u8def\u3001\n\u524d\u8a18\u5185\u8996\u93e1\u63a5\u7d9a\u90e8\u306b\u5185\u8996\u93e1\u304c\u63a5\u7d9a\u3055\u308c\u305f\u3053\u3068\u3092\u691c\u77e5\u3059\u308b\u5185\u8996\u93e1\u63a5\u7d9a\u691c\u77e5\u90e8\u3001\u304a\u3088\u3073\n\u524d\u8a18\u5185\u8996\u93e1\u63a5\u7d9a\u691c\u77e5\u90e8\u306b\u63a5\u7d9a\u3055\u308c\u3066\u304a\u308a\u3001\u524d\u8a18\u96fb\u6e90\u4f9b\u7d66\u56de\u8def\u3092\u5236\u5fa1\u3059\u308b\u5236\u5fa1\u90e8\n\u3092\u6709\u3057\u3001\n\u524d\u8a18\u5236\u5fa1\u90e8\u306f\u3001\n\u524d\u8a18\u691c\u77e5\u90e8\u304c\u524d\u8a18\u5185\u8996\u93e1\u304c\u975e\u63a5\u7d9a\u72b6\u614b\u304b\u3089\u63a5\u7d9a\u72b6\u614b\u3068\u306a\u3063\u305f\u3053\u3068\u3092\u691c\u77e5\u3057\u305f\u3053\u3068\u306b\u4f34\u3044\u524d\u8a18\u96fb\u6e90\u5c0e\u901a\u56de\u8def\u3092\u5c0e\u901a\u72b6\u614b\u306b\u3059\u308b\u3053\u3068\u3067\u3001\u524d\u8a18\u5185\u8996\u93e1\u3068\u524d\u8a18\u653e\u96fb\u62b5\u6297\u3068\u3092\u5c0e\u901a\u3055\u305b\u3066\u3001\u524d\u8a18\u5185\u8996\u93e1\u306b\u84c4\u7a4d\u3055\u308c\u305f\u96fb\u8377\u3092\u524d\u8a18\u5185\u8996\u93e1\u30d7\u30ed\u30bb\u30c3\u30b5\u306e\u653e\u96fb\u62b5\u6297\u304b\u3089\u653e\u96fb\u3055\u305b\u3066\u3001\n\u524d\u8a18\u96fb\u6e90\u4f9b\u7d66\u56de\u8def\u306b\u3088\u308b\u524d\u8a18\u5185\u8996\u93e1\u3078\u306e\u96fb\u529b\u4f9b\u7d66\u306b\u4f34\u3044\u524d\u8a18\u96fb\u6e90\u5c0e\u901a\u56de\u8def\u306b\u3088\u3063\u3066\u524d\u8a18\u5185\u8996\u93e1\u3068\u524d\u8a18\u653e\u96fb\u62b5\u6297\u3068\u3092\u975e\u5c0e\u901a\u306b\u3059\u308b\u5185\u8996\u93e1\u30d7\u30ed\u30bb\u30c3\u30b5\u3002",
+            "target": "[Claim 1]\nEndoscope processor, wherein an endoscope apparatus comprising: a power supply circuit; an endoscope connection unit; a discharge resistor disposed between the power supply circuit and the endoscope connection unit; a power conduction circuit disposed between the discharge resistor and the endoscope connection unit; an endoscope connection detection unit configured to detect that an endoscope is connected to the endoscope connection unit; and a control unit connected to the endoscope connection detection unit and configured to control the power supply circuit, the control unit electrically connects the endoscope and the discharge resistor to each other by electrically connecting the endoscope and the discharge resistor to each other in response to the detection unit detecting that the endoscope is switched from a non-connected state to a connected state, and discharges electric charges accumulated in the endoscope from the discharge resistor of the endoscope processor, and electrically disconnects the endoscope and the discharge resistor from each other by the power conduction circuit in response to power supply to the endoscope by the power supply circuit.",
+            "reference": null,
+            "score": 85
+        },
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [
+                "\u8a33\u629c\u3051\uff0f\u5c0f"
+            ],
+            "t_errors": [
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5927",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5927"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98052]\n\u524d\u8a18\u5236\u5fa1\u90e8\u306f\u3001\u5185\u8996\u93e1\u691c\u67fb\u7d42\u4e86\u5f8c\u3001\n\u524d\u8a18\u96fb\u6e90\u4f9b\u7d66\u56de\u8def\u306e\u99c6\u52d5\u505c\u6b62\u5f8c\u3001\n\u524d\u8a18\u96fb\u6e90\u5c0e\u901a\u56de\u8def\u3092\u5c0e\u901a\u72b6\u614b\u306b\u3059\u308b\u3053\u3068\u3067\u3001\u524d\u8a18\u5185\u8996\u93e1\u3068\u524d\u8a18\u653e\u96fb\u62b5\u6297\u3068\u3092\u5c0e\u901a\u3055\u305b\u3066\u3001\u524d\u8a18\u5185\u8996\u93e1\u306b\u84c4\u7a4d\u3055\u308c\u305f\u96fb\u8377\u3092\u524d\u8a18\u5185\u8996\u93e1\u30d7\u30ed\u30bb\u30c3\u30b5\u306e\u653e\u96fb\u62b5\u6297\u304b\u3089\u653e\u96fb\u3055\u305b\u308b\n\u8acb\u6c42\u9805\uff11\u306b\u8a18\u8f09\u306e\u5185\u8996\u93e1\u30d7\u30ed\u30bb\u30c3\u30b5\u3002",
+            "target": "[Claim 2]\nThe endoscope processor of claim 1, wherein the control unit electrically connects the endoscope and the discharge resistor to discharge the electric charge accumulated in the endoscope from the discharge resistor of the endoscope processor by electrically connecting the endoscope and the discharge resistor to each other by bringing the power supply conduction circuit into a conductive state after the drive of the power supply circuit is stopped after the endoscopic inspection is ended.",
+            "reference": null,
+            "score": 85
+        },
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [
+                "\u8a33\u629c\u3051\uff0f\u5c0f"
+            ],
+            "t_errors": [
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "(\u8aa4\u8a33)\u4fc2\u308a\u5148\u8aa4\u308a\uff0f\u5927",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98053]\n\u524d\u8a18\u5236\u5fa1\u90e8\u306f\u3001\n\u524d\u8a18\u5185\u8996\u93e1\u63a5\u7d9a\u90e8\u306b\u524d\u8a18\u5185\u8996\u93e1\u3092\u63a5\u7d9a\u3057\u3066\u524d\u8a18\u96fb\u6e90\u5c0e\u901a\u56de\u8def\u3092\u5c0e\u901a\u72b6\u614b\u306b\u3057\u305f\u5f8c\u3001\n\u524d\u8a18\u96fb\u6e90\u4f9b\u7d66\u56de\u8def\u3092\u99c6\u52d5\u3057\u3066\u524d\u8a18\u96fb\u6e90\u4f9b\u7d66\u56de\u8def\u306e\u7570\u5e38\u691c\u77e5\u3092\u884c\u3046\u9593\u3001\u524d\u8a18\u96fb\u6e90\u5c0e\u901a\u56de\u8def\u3092\u975e\u5c0e\u901a\u72b6\u614b\u306b\u3059\u308b\n\u8acb\u6c42\u9805\uff11\u306b\u8a18\u8f09\u306e\u5185\u8996\u93e1\u30d7\u30ed\u30bb\u30c3\u30b5\u3002",
+            "target": "[Claim 3]\nThe endoscope processor of claim 1, wherein the control unit connects the endoscope to the endoscope connection unit to bring the power supply conduction circuit into a conduction state, and then drives the power supply circuit to bring the power supply conduction circuit into a non-conduction state while performing abnormality detection of the power supply circuit.",
+            "reference": null,
+            "score": 85
+        }
+    ]
+}

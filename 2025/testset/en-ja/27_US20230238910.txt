@@ -1,0 +1,4 @@
+1. A motor system configured to replace an internal combustion engine having a maximum engine speed in a machine, the motor system comprising:
+an electric motor having a maximum motor speed that is greater than the maximum engine speed;
+a battery configured to power the electric motor; and
+control electronics configured to control current delivered from the battery to the motor by delivering reduced current to the motor when the motor speed is less than a low motor speed threshold, delivering high current when the motor speed is between the low motor speed threshold and an intermediate speed threshold that is greater than the low speed threshold, delivering reduced current to the motor when the motor speed is between an intermediate motor speed threshold and a high motor speed threshold that corresponds the maximum engine speed.

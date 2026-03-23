@@ -1,0 +1,48 @@
+{
+    "metricx": 2.180346727371216,
+    "detail": [
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [
+                "\u8a33\u629c\u3051\uff0f\u5c0f"
+            ],
+            "t_errors": [
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207\uff08\u8a33\u8a9e\u9078\u629e\uff09\uff0f\u5c0f",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207\uff08\u8a33\u8a9e\u9078\u629e\uff09\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98051]\n\u91d1\u5c5e\u307e\u305f\u306f\u5408\u91d1\u304b\u3089\u306a\u308b\u57fa\u6750\u3068\u3001\n\u4e0a\u8a18\u57fa\u6750\u306e\u5c11\u306a\u304f\u3068\u3082\u30ea\u30c1\u30a6\u30e0\u542b\u6709\u8907\u5408\u9178\u5316\u7269\u306e\u539f\u6599\u306e\u7c89\u4f53\u304c\u63a5\u89e6\u3059\u308b\u8868\u9762\u306b\u8a2d\u3051\u3089\u308c\u305f\u3001\u5c11\u306a\u304f\u3068\u3082\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u304a\u3088\u3073\u30cb\u30c3\u30b1\u30eb\u3068\u30ec\u30cb\u30a6\u30e0\u304a\u3088\u3073\u30b3\u30d0\u30eb\u30c8\u306e\u3046\u3061\u306e\u5c11\u306a\u304f\u3068\u3082\u4e00\u7a2e\u306e\u91d1\u5c5e\u3068\u3092\u542b\u6709\u3057\u3001\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u6fc3\u5ea6\u306e\u6700\u5927\u5024\u304c\uff16\uff10\u539f\u5b50\uff05\u4ee5\u4e0a\uff18\uff11\u539f\u5b50\uff05\u4ee5\u4e0b\u3067\u3042\u308a\u3001\u4e0a\u8a18\u5c11\u306a\u304f\u3068\u3082\u4e00\u7a2e\u306e\u91d1\u5c5e\u306e\u5c11\u306a\u304f\u3068\u3082\u4e00\u90e8\u306f\u30cb\u30c3\u30b1\u30eb\u2212\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u5408\u91d1\u306e\u30cb\u30c3\u30b1\u30eb\u306e\u4e00\u90e8\u304c\u5f53\u8a72\u91d1\u5c5e\u3067\u7f6e\u63db\u3055\u308c\u305f\u5408\u91d1\u307e\u305f\u306f\u30b3\u30d0\u30eb\u30c8\u2212\u30a2\u30eb\u30df\u30cb\u30a6\u30e0\u5408\u91d1\u306e\u30b3\u30d0\u30eb\u30c8\u306e\u4e00\u90e8\u304c\u30cb\u30c3\u30b1\u30eb\u304a\u3088\u3073\u30ec\u30cb\u30a6\u30e0\u306e\u3046\u3061\u306e\u5c11\u306a\u304f\u3068\u3082\u30cb\u30c3\u30b1\u30eb\u3067\u7f6e\u63db\u3055\u308c\u305f\u5408\u91d1\u3068\u3057\u3066\u5b58\u5728\u3059\u308b\u30b3\u30fc\u30c6\u30a3\u30f3\u30b0\u76ae\u819c\u3068\u3001\n\u3092\u6709\u3059\u308b\u30ea\u30c1\u30a6\u30e0\u542b\u6709\u8907\u5408\u9178\u5316\u7269\u88fd\u9020\u7528\u90e8\u6750\u3002",
+            "target": "1. A member for producing a lithium-containing composite oxide, comprising:\na substrate made of a metal or an alloy; and\na coating film provided on at least a surface of the substrate that comes into contact with a raw material powder of the lithium-containing composite oxide,\nthe coating film containing aluminum and at least one metal selected from rhenium and cobalt in addition to nickel,\nwherein the maximum aluminum concentration is 60 atomic% or more and 81 atomic% or less, and\nat least a part of the at least one metal is present as an alloy in which a part of the nickel of a nickel\u2013aluminum alloy is substituted with the metal, or as an alloy in which a part of the cobalt of a cobalt\u2013aluminum alloy is substituted with at least nickel among nickel and rhenium.",
+            "reference": null,
+            "score": 85
+        },
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [],
+            "t_errors": [
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207\uff08\u8a33\u8a9e\u9078\u629e\uff09\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98052]\n\u4e0a\u8a18\u30b3\u30fc\u30c6\u30a3\u30f3\u30b0\u76ae\u819c\u306f\u3055\u3089\u306b\u30bf\u30f3\u30b0\u30b9\u30c6\u30f3\u3001\u30e2\u30ea\u30d6\u30c7\u30f3\u304a\u3088\u3073\u30cb\u30aa\u30d6\u304b\u3089\u306a\u308b\u7fa4\u3088\u308a\u9078\u3070\u308c\u305f\u5c11\u306a\u304f\u3068\u3082\u4e00\u7a2e\u306e\u91d1\u5c5e\u3092\u542b\u6709\u3059\u308b\u8acb\u6c42\u9805\uff11\u8a18\u8f09\u306e\u30ea\u30c1\u30a6\u30e0\u542b\u6709\u8907\u5408\u9178\u5316\u7269\u88fd\u9020\u7528\u90e8\u6750\u3002",
+            "target": "2. The member for producing a lithium-containing composite oxide according to claim 1,\nwherein the coating film further contains at least one metal selected from the group consisting of tungsten, molybdenum, and niobium.",
+            "reference": null,
+            "score": 90
+        },
+        {
+            "s_lang": "ja",
+            "t_lang": "en",
+            "s_errors": [],
+            "t_errors": [
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207\uff08\u8a33\u8a9e\u9078\u629e\uff09\uff0f\u5c0f",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207\uff08\u8a33\u8a9e\u9078\u629e\uff09\uff0f\u5c0f"
+            ],
+            "t_wide_errors": null,
+            "source": "[\u8acb\u6c42\u98053]\n\u4e0a\u8a18\u5c11\u306a\u304f\u3068\u3082\u4e00\u7a2e\u306e\u91d1\u5c5e\u306f\u4e0a\u8a18\u30b3\u30fc\u30c6\u30a3\u30f3\u30b0\u76ae\u819c\u306e\u539a\u3055\u65b9\u5411\u306e\u5168\u4f53\u306b\u308f\u305f\u3063\u3066\u5b58\u5728\u3059\u308b\u8acb\u6c42\u9805\uff11\u8a18\u8f09\u306e\u30ea\u30c1\u30a6\u30e0\u542b\u6709\u8907\u5408\u9178\u5316\u7269\u88fd\u9020\u7528\u90e8\u6750\u3002",
+            "target": "3. The member for producing a lithium-containing composite oxide according to claim 1,\nwherein the at least one metal is present throughout the entire thickness direction of the coating film.",
+            "reference": null,
+            "score": 80
+        }
+    ]
+}

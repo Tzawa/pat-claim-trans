@@ -1,0 +1,16 @@
+1. A method for communication, the method comprising:
+in an optical assembly coupled to a photonic chip, the optical assembly comprising a lens array on the photonic chip, a mirror, a transparent spacer, and a plurality of thin film filters:
+receiving an input optical signal comprising a plurality of optical signals at different wavelengths;
+communicating the plurality of optical signals through the transparent spacer;
+passing a first of the plurality of optical signals through the first of the plurality of thin film filters while reflecting others of the plurality of optical signals back through the transparent spacer;
+reflecting the others of the plurality of optical signals towards a second of the plurality of thin film filters via a reflective surface of the transparent spacer;
+passing one of the others of the plurality of optical signals through the second of the plurality of thin film filters; and
+reflecting the passed optical signals into the photonic chip using the mirror.
+
+2. The method according to claim 1, wherein each of the plurality of thin film filters is configured for one of the different wavelengths of the plurality of optical signals.
+
+3. The method according to claim 1, wherein the input optical signal is a coarse wavelength division multiplexed (CWDM) signal.
+
+4. The method according to claim 1, wherein the optical assembly comprises a second lens array on a surface of the photonic chip, a second mirror, a second transparent spacer, and a second plurality of thin film filters.
+
+5. The method according to claim 4, comprising receiving a second input optical signal comprising a second plurality of optical signals at different wavelengths at the second transparent spacer.

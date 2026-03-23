@@ -1,0 +1,26 @@
+1. A thermostat apparatus, operable to communicate with an air conditioner and a mobile device via a remote server, the thermostat apparatus comprising:
+an occupancy detector configured to detect a human presence at a location of the thermostat apparatus;
+a memory configured to store a first temperature set-point associated with a home mode, and a second temperature set-point associated with an away mode;
+a processor configured to:
+obtain information corresponding to a selection of the home mode or the away mode input through a user interface of the mobile device,
+transmit first information to the air conditioner to cause the air conditioner to operate according to the first temperature set-point provided the information obtained corresponds to the selection being the home mode;
+transmit second information to the air conditioner to cause the air conditioner to operate according to the second temperature set-point provided the information obtained corresponds to the selection being the away mode, the second information being different from the first information;
+identify an operation condition of the air conditioner as one of the home mode while the air conditioner operates according to the first temperature set-point and identify the operation condition of the air conditioner as one of the away mode while the air conditioner operates according to the second temperature set-point;
+identify, while the operation condition of the air conditioner is the away mode whether the human presence is detected at the location through detection of the occupancy detector; and
+transmit the first information to the air conditioner to cause the air conditioner to change the operation condition identified as being according to the second temperature set-point to the first temperature set-point in response to identifying the human presence being detected at the location through the detection of the occupancy detector.
+
+2. The thermostat apparatus of claim 1, wherein the processor is further configured to transmit information to the air conditioner to cause the air conditioner to operate according to the first temperature set-point in response to receiving information associated with a location of the mobile device from the remote server.
+
+3. The thermostat apparatus of claim 1, further comprises an input module disposed on the thermostat apparatus through which an input associated with the selection of the home mode or the away mode is received.
+
+7. An air conditioning system comprising:
+an indoor air conditioner configured to heat or cool air at a site;
+an occupancy detector configured to detect a human presence at the site;
+a memory configured to store a first temperature set-point associated with a home mode, and a second temperature set-point associated with an away mode; and
+a processor configured to:
+obtain information corresponding to a selection of the home mode or the away mode on a user interface of a mobile device enabled to communicate with the air conditioning system via a remote server,
+control the indoor air conditioner to operate according to the first temperature set-point provided the obtained information is first information corresponds to the selection being the home mode;
+control the indoor air conditioner to operate according to the second temperature set-point provided the obtained information is second information which is different from the first information and corresponds to the selection being the away mode;
+identify an operation condition of the indoor air conditioner as one of the home mode while the air conditioner operates according to the first temperature set-point and identify the operation condition of the air conditioner as one of the away mode while the air conditioner operates according to the second temperature set-point;
+identify, while the operation condition of the indoor air conditioner is the away mode, whether the human presence is detected at the site through detection of the occupancy detector; and
+control to the indoor air conditioner to change the operation condition identified as being according to the second temperature set-point to the first temperature set-point in response to identifying the human presence being detected at the site through the detection of the occupancy detector.

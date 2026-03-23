@@ -1,0 +1,6 @@
+1. An aftermarket vehicle communication device engageable to a vehicle for providing location information associated with the vehicle to a V2X data stream, the device comprising:
+a housing configured to be detachably engageable to the vehicle;
+a GPS circuit disposable in communication with a GPS system to receive a GPS signal therefrom, the received GPS signal being representative of a location of the vehicle when the housing is engaged to the vehicle; and
+an antenna circuit coupled to the housing and in communication with the GPS circuit, the antenna circuit being configured to receive the GPS signal from the GPS circuit and communicate the GPS signal to the V2X data stream;
+a micro computing unit (MCU) coupled to the housing and in communication with the GPS circuit and the antenna circuit, the MCU being configured to generate an alert signal communicable to the V2X data stream via the antenna circuit, the alert signal being receivable by autonomous vehicles via the V2X data stream to facilitate assigning a prescribed margin of separation to the vehicle to which the housing is engaged;
+the GPS circuit and the antenna circuit being configured to facilitate both the receipt of the GPS signal from the GPS system and communication of the GPS signal to the V2X data stream independent of receiving information or data from the vehicle.

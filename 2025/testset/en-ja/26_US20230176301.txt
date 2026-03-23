@@ -1,0 +1,11 @@
+1. An apparatus comprising:
+one or more optical fibers having a plurality of fiber cores in a two-dimensional arrangement;
+a photonic integrated circuit including a plurality of vertical-coupling elements disposed along a main surface of the photonic integrated circuit in a two-dimensional arrangement; and
+a fiber-optic connector connected between the one or more optical fibers and the photonic integrated circuit to communicate light therebetween through the main surface, wherein the fiber-optic connector comprises a first connector element and a second connector element, the first connector element is coupled to the one or more optical fibers, the second connector element is coupled to the photonic integrated circuit;
+wherein the first connector element and the second connector element are configured to transfer light beams between the plurality of fiber cores and the plurality of vertical-coupling elements such that for each of the light beams, a first diameter of the light beam emitting from an exit surface or entering an entrance surface of at least one of the fiber cores is optically scaled by a scaling factor, wherein at a vertical-coupling element optically coupled to the fiber core, the light beam has a second diameter that is different from the first diameter, and a ratio between the second diameter and the first diameter is equal to the scaling factor;
+wherein the first connector element is configured to transfer the light beams between the plurality of fiber cores and a connector mating plane, the second connector element is configured to transfer the light beams between the connector mating plane and the plurality of vertical-coupling elements;
+wherein the second connector element comprises a two-dimensional arrangement of optical waveguides, each optical waveguide has a mode field diameter that is expanded at the connector mating plane relative to the mode field diameter at a coupling plane where the second connector element is coupled to the vertical-coupling element.
+
+2. The apparatus of claim 1, wherein the first connector element comprises a first two-dimensional arrangement of lenses.
+
+3. The apparatus of claim 2, wherein the two-dimensional arrangement of lenses comprises at least two rows of lenses, and each row of lenses comprises at least five lenses.

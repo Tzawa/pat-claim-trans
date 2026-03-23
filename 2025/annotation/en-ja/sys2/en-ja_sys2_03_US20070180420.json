@@ -1,0 +1,53 @@
+{
+    "metricx": 3.6856675148010254,
+    "detail": [
+        {
+            "s_lang": "en",
+            "t_lang": "ja",
+            "s_errors": [
+                "\u8a33\u629c\u3051\uff0f\u5c0f"
+            ],
+            "t_errors": [
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u304e\u3053\u3061\u306a\u3044\uff0f\u5927",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5c0f",
+                "\u6e67\u304d\u51fa\u3057\uff0f\u5c0f",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5927",
+                "(\u8aa4\u8a33)\u4fc2\u308a\u5148\u8aa4\u308a\uff0f\u5927"
+            ],
+            "t_wide_errors": null,
+            "source": "3. A method for designing a circuit apparatus having at least first and second layers and at least first and second conductors disposed within the first and second layers, respectively, for conducting at least first and second signals, respectively, comprising:\ndetermining a minimum length for each of the conductors, the first conductor being longer than the second conductor;\ndetermining a propagation time for the first and second signals to propagate through the first and second conductors and whether the propagation time for each signal is within a time constraint; and\nupon determining that the propagation times for the signals are not within the time constraint, selecting first and second dielectric materials having different characteristic propagation speeds for the first and second layers, respectively, the characteristic propagation speed of the first dielectric material being faster than the characteristic propagation speed of the second dielectric material.",
+            "target": "3. \u5c11\u306a\u304f\u3068\u3082\u7b2c1\u53ca\u3073\u7b2c2\u306e\u4fe1\u53f7\u3092\u305d\u308c\u305e\u308c\u4f1d\u5c0e\u3059\u308b\u305f\u3081\u306b\u3001\u5c11\u306a\u304f\u3068\u3082\u7b2c1\u53ca\u3073\u7b2c2\u306e\u5c64\u3068\u3001\u524d\u8a18\u7b2c1\u53ca\u3073\u7b2c2\u306e\u5c64\u5185\u306b\u305d\u308c\u305e\u308c\u914d\u7f6e\u3055\u308c\u305f\u5c11\u306a\u304f\u3068\u3082\u7b2c1\u53ca\u3073\u7b2c2\u306e\u5c0e\u4f53\u3068\u3092\u6709\u3059\u308b\u56de\u8def\u88c5\u7f6e\u3092\u8a2d\u8a08\u3059\u308b\u65b9\u6cd5\u3067\u3042\u3063\u3066\u3001\u4ee5\u4e0b\u3092\u542b\u3080\uff1a\u5c0e\u4f53\u306e\u5404\u3005\u306e\u6700\u5c0f\u9577\u3055\u3092\u6c7a\u5b9a\u3059\u308b\u30b9\u30c6\u30c3\u30d7\u3067\u3042\u3063\u3066\u3001\u524d\u8a18\u7b2c1\u306e\u5c0e\u4f53\u306f\u524d\u8a18\u7b2c2\u306e\u5c0e\u4f53\u3088\u308a\u3082\u9577\u3044\u3001\u30b9\u30c6\u30c3\u30d7\u3068\u3001\u524d\u8a18\u7b2c1\u304a\u3088\u3073\u524d\u8a18\u7b2c2\u306e\u4fe1\u53f7\u304c\u524d\u8a18\u7b2c1\u304a\u3088\u3073\u524d\u8a18\u7b2c2\u306e\u5c0e\u4f53\u3092\u901a\u3063\u3066\u4f1d\u642c\u3059\u308b\u305f\u3081\u306e\u4f1d\u642c\u6642\u9593\u3068\u3001\u5404\u4fe1\u53f7\u306e\u4f1d\u642c\u6642\u9593\u304c\u6642\u9593\u5236\u7d04\u5185\u306b\u3042\u308b\u304b\u3069\u3046\u304b\u3068\u3092\u6c7a\u5b9a\u3059\u308b\u30b9\u30c6\u30c3\u30d7\u3068\u3001\u305d\u3057\u3066\u3001\u4fe1\u53f7\u306e\u4f1d\u642c\u6642\u9593\u304c\u6642\u9593\u5236\u7d04\u5185\u306b\u306a\u3044\u3068\u5224\u5b9a\u3059\u308b\u3068\u3001\u7b2c1\u306e\u5c64\u304a\u3088\u3073\u7b2c2\u306e\u5c64\u306b\u5bfe\u3057\u3066\u305d\u308c\u305e\u308c\u7570\u306a\u308b\u7279\u6027\u4f1d\u642c\u901f\u5ea6\u3092\u6709\u3059\u308b\u7b2c1\u306e\u8a98\u96fb\u4f53\u6750\u6599\u304a\u3088\u3073\u7b2c2\u306e\u8a98\u96fb\u4f53\u6750\u6599\u3092\u9078\u629e\u3057\u3001\u7b2c1\u306e\u8a98\u96fb\u4f53\u6750\u6599\u306e\u7279\u6027\u4f1d\u642c\u901f\u5ea6\u306f\u3001\u7b2c2\u306e\u8a98\u96fb\u4f53\u6750\u6599\u306e\u7279\u6027\u4f1d\u642c\u901f\u5ea6\u3088\u308a\u3082\u901f\u3044\u3002",
+            "reference": null,
+            "score": 75
+        },
+        {
+            "s_lang": "en",
+            "t_lang": "ja",
+            "s_errors": [
+                "\u539f\u6587\u30a8\u30e9\u30fc\uff0f\u5c0f"
+            ],
+            "t_errors": [
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5c0f",
+                "\u53e5\u8aad\u70b9\uff0f\u5927",
+                "\u304e\u3053\u3061\u306a\u3044\uff0f\u5927",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u7528\u8a9e\u306e\u4e00\u8cab\u6027\uff0f\u5c0f",
+                "\u6587\u8108\u4e0a\u4e0d\u9069\u5207 (\u8a33\u8a9e\u9078\u629e)\uff0f\u5927"
+            ],
+            "t_wide_errors": null,
+            "source": "4. A method as defined in claim 3, further comprising:\nselecting the first and second dielectric materials to minimize a difference between a ratio of the length of$-the first conductor to the length of the second conductor and a ratio of the characteristic propagation speed of the first dielectric material to the characteristic propagation speed of the second dielectric material.",
+            "target": "4. \u4ee5\u4e0b\u3092\u3055\u3089\u306b\u542b\u3080\u8acb\u6c42\u98053\u306b\u8a18\u8f09\u306e\u65b9\u6cd5\u3002\u524d\u8a18\u7b2c2\u306e\u5c0e\u4f53\u306e\u9577\u3055\u306b\u5bfe\u3059\u308b\u7b2c1\u306e\u5c0e\u4f53\u306e\u9577\u3055\u306e\u6bd4\u3068\u3001\u524d\u8a18\u7b2c2\u306e\u8a98\u96fb\u4f53\u6750\u6599\u306e\u7279\u6027\u4f1d\u642c\u901f\u5ea6\u306b\u5bfe\u3059\u308b\u7b2c1\u306e\u8a98\u96fb\u4f53\u6750\u6599\u306e\u7279\u6027\u4f1d\u642c\u901f\u5ea6\u306e\u6bd4\u3068\u306e\u9593\u306e\u5dee\u3092\u6700\u5c0f\u306b\u3059\u308b\u3088\u3046\u306b\u3001\u7b2c1\u304a\u3088\u3073\u524d\u8a18\u7b2c2\u306e\u8a98\u96fb\u4f53\u6750\u6599\u3092\u9078\u629e\u3059\u308b\u3002",
+            "reference": null,
+            "score": 70
+        }
+    ]
+}

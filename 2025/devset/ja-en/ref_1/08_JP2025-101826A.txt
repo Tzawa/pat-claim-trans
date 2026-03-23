@@ -1,0 +1,12 @@
+1. An elevator cooperation system for an autonomous traveling mobile body for causing the autonomous traveling mobile body to cooperate with an elevator, the elevator cooperation system for the autonomous traveling mobile body comprising:
+	inside an elevator car,
+	an in-car auxiliary operation unit for operating an in-car operation unit; and
+	an identification mark for identifying an individual elevator from a remote location;
+	outside the elevator car,
+	an out-of-car auxiliary operation unit for operating an out-of-car operation unit, provided outside the elevator car; and
+	at portions other than the elevator,
+	a destination reception means for receiving an instruction about a destination of the autonomous traveling mobile body;
+	a boarding-floor arrival detection means for detecting arrival of the elevator at a boarding floor, including which elevator has arrived in a case where a plurality of elevators are present;
+	a disembarking-floor arrival detection means for detecting that the elevator has arrived at a disembarking floor after the autonomous traveling mobile body has boarded the elevator;
+	a boarding/disembarking determination means for determining completion of boarding or disembarking of the autonomous traveling mobile body with respect to the elevator; and
+	a drive command means for remotely issuing drive commands to the out-of-car auxiliary operation unit and the in-car auxiliary operation unit at the time of boarding or disembarking from the elevator on a destination route.
