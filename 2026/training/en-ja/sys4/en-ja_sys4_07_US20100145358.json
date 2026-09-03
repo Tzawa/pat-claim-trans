@@ -1,0 +1,83 @@
+{
+  "file": "en-ja_sys4_07_US20100145358.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 85,
+      "input_text": "1. A method for minimally-invasive therapy on a patient, comprising the steps of:\nproviding a minimally-invasive therapy apparatus comprising a medical tool inserted into the patient;\nproviding a jet ventilator;\nwhile performing the minimally-invasive therapy on the patient with the minimally-invasive therapy equipment ventilating the patient with the jet ventilator to reduce a magnitude of the patient's breathing and increase a frequency of the patient's breathing; and\nsynchronizing operation of the minimally-invasive therapy apparatus comprising said medical tool insertion with the jet ventilator by connecting a signal output of the jet ventilator having signals indicative of respiration breathing control to said minimally-invasive therapy equipment.",
+      "output_text": "低侵襲治療装置を提供するステップであって、前記低侵襲治療装置は、前記患者に挿入される医療ツールを備える、ステップと、ジェットベンチレータを提供するステップと、前記低侵襲治療装置を用いて前記患者に前記低侵襲治療を実行する間、前記ジェットベンチレータを用いて前記患者を換気して、前記患者の呼吸の大きさを低減し、前記患者の呼吸の頻度を増加させるステップと、呼吸制御を示す信号を有する前記ジェットベンチレータの信号出力を前記低侵襲治療装置に接続することによって、前記医療ツールの挿入を含む前記低侵襲治療装置の動作を前記ジェットベンチレータと同期させるステップと、を含む、患者に対する低侵襲治療のための方法。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "1.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:B7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 311,
+          "end": 320,
+          "text": "equipment",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "AB16:AJ16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 687,
+          "end": 698,
+          "text": "respiration",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "W28:AG28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 752,
+          "end": 761,
+          "text": "equipment",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "CJ28:CR28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 32,
+          "end": 34,
+          "text": "前記",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "EM7:EN7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 145,
+          "end": 148,
+          "text": "大きさ",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "EF16:EH16"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A method for minimally-invasive therapy on a patient, comprising the steps of: providing a minimally-invasive therapy apparatus comprising a medical tool inserted into the patient; providing a jet ventilator; while performing the minimally-invasive therapy on the patient with the minimally-invasive therapy equipment ventilating the patient with the jet ventilator to reduce a magnitude of the patient's breathing and increase a frequency of the patient's breathing; and synchronizing operation of the minimally-invasive therapy apparatus comprising said medical tool insertion with the jet ventilator by connecting a signal output of the jet ventilator having signals indicative of respiration breathing control to said minimally-invasive therapy equipment.",
+      "output_text_grid": "低侵襲治療装置を提供するステップであって、前記低侵襲治療装置は、前記患者に挿入される医療ツールを備える、ステップと、ジェットベンチレータを提供するステップと、前記低侵襲治療装置を用いて前記患者に前記低侵襲治療を実行する間、前記ジェットベンチレータを用いて前記患者を換気して、前記患者の呼吸の大きさを低減し、前記患者の呼吸の頻度を増加させるステップと、呼吸制御を示す信号を有する前記ジェットベンチレータの信号出力を前記低侵襲治療装置に接続することによって、前記医療ツールの挿入を含む前記低侵襲治療装置の動作を前記ジェットベンチレータと同期させるステップと、を含む、患者に対する低侵襲治療のための方法。"
+    }
+  ]
+}

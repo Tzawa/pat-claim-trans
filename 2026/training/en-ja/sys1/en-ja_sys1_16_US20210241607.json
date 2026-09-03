@@ -1,0 +1,318 @@
+{
+  "file": "en-ja_sys1_16_US20210241607.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 60,
+      "input_text": "1. A system including a first electronic device and a cell phone, the first electronic device including a processor and a wired or wireless interface to a network, said first electronic device being adapted to respond to user instructions by changing device state, the cell phone being equipped with a camera and a touchscreen, characterized in that the first electronic device lacks buttons by which the user instructions can be entered, the cell phone being adapted to communicate with the first electronic device over said network, the cell phone further including software instructions adapted to present on the cell phone touchscreen a user interface including Up and Down buttons by which a user can enter user control instructions for transmission to said first electronic device to control said device state, the software instructions also including instructions to obtain identification information corresponding to the first electronic device by decoding information from a 2D machine readable code on the first electronic device that is sensed by a camera of the cell phone, to thereby authorize the cell phone to interact with the first electronic device.",
+      "output_text": "[請求項1]\n第１電子デバイスおよび携帯電話を含むシステムであって、前記第１電子デバイスがプロセッサおよびネットワークへの有線または無線インターフェースを備え、ユーザの指示に応答してデバイス状態を変更するよう適合されており、前記携帯電話がカメラおよびタッチスクリーンを備え、前記第１電子デバイスがユーザの指示を入力するためのボタンを有しておらず、前記携帯電話が前記ネットワークを介して前記第１電子デバイスと通信するよう適合され、さらに前記携帯電話が、ユーザが前記第１電子デバイスのデバイス状態を制御するために入力するユーザ制御指示を送信するためのアップボタンおよびダウンボタンを含むユーザインターフェースを前記携帯電話のタッチスクリーン上に表示するよう構成されたソフトウェア命令を備え、また、前記携帯電話のカメラによって前記第１電子デバイス上の２次元機械可読コードから情報を読み取り、前記情報をデコードして前記第１電子デバイスに対応する識別情報を取得し、これにより前記携帯電話が前記第１電子デバイスと連携することを認証するよう構成された命令を含むことを特徴とするシステム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 401,
+          "end": 405,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "R19:U19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 423,
+          "end": 427,
+          "text": "can ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AN19:AQ19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 702,
+          "end": 706,
+          "text": "can ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AD28:AG28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 798,
+          "end": 803,
+          "text": "said ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AD31:AH31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 817,
+          "end": 843,
+          "text": "the software instructions ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AW31:BV31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1058,
+          "end": 1060,
+          "text": "a ",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "D40:E40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 7,
+          "end": 10,
+          "text": "第１電",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DN7:DP7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 36,
+          "end": 39,
+          "text": "第１電",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EQ7:ES7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 61,
+          "end": 63,
+          "text": "有線",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EB10:EC10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 139,
+          "end": 142,
+          "text": "第１電",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DZ16:EB16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 194,
+          "end": 197,
+          "text": "第１電",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EO19:EQ19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 214,
+          "end": 217,
+          "text": "さらに",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DU22:DW22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 231,
+          "end": 234,
+          "text": "第１電",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EL22:EN22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 231,
+          "end": 240,
+          "text": "第１電子デバイスの",
+          "error": "(誤訳)係り先誤り（「送信する」の目的語であるべき）",
+          "severity": "大",
+          "cells": [
+            "EL23:ET23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 346,
+          "end": 360,
+          "text": "前記携帯電話のカメラによって",
+          "error": "(誤訳)係り先誤り（「読み取る」に係るべきである）",
+          "severity": "大",
+          "cells": [
+            "EG31:ET31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 346,
+          "end": 397,
+          "text": "前記携帯電話のカメラによって前記第１電子デバイス上の２次元機械可読コードから情報を読み取り、前記情報を",
+          "error": "(誤訳)係り先誤り（この部分全体を「情報」の名詞節にすべき）",
+          "severity": "大",
+          "cells": [
+            "EG32:ET32",
+            "DG35:EQ35"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 362,
+          "end": 365,
+          "text": "第１電",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DI34:DK34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 405,
+          "end": 408,
+          "text": "第１電",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DL37:DN37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 441,
+          "end": 444,
+          "text": "第１電",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DH40:DJ40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 463,
+          "end": 468,
+          "text": "構成された",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "ED40:EH40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 473,
+          "end": 481,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EN40:ET40",
+            "DG43:DG43"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A system including a first electronic device and a cell phone, the first electronic device including a processor and a wired or wireless interface to a network, said first electronic device being adapted to respond to user instructions by changing device state, the cell phone being equipped with a camera and a touchscreen, characterized in that the first electronic device lacks buttons by which the user instructions can be entered, the cell phone being adapted to communicate with the first electronic device over said network, the cell phone further including software instructions adapted to present on the cell phone touchscreen a user interface including Up and Down buttons by which a user can enter user control instructions for transmission to said first electronic device to control said device state, the software instructions also including instructions to obtain identification information corresponding to the first electronic device by decoding information from a 2D machine readable code on the first electronic device that is sensed by a camera of the cell phone, to thereby authorize the cell phone to interact with the first electronic device.",
+      "output_text_grid": "[請求項1]\n第１電子デバイスおよび携帯電話を含むシステムであって、前記第１電子デバイスがプロセッサおよびネットワークへの有線または無線インターフェースを備え、ユーザの指示に応答してデバイス状態を変更するよう適合されており、前記携帯電話がカメラおよびタッチスクリーンを備え、前記第１電子デバイスがユーザの指示を入力するためのボタンを有しておらず、前記携帯電話が前記ネットワークを介して前記第１電子デバイスと通信するよう適合され、さらに前記携帯電話が、ユーザが前記第１電子デバイスのデバイス状態を制御するために入力するユーザ制御指示を送信するためのアップボタンおよびダウンボタンを含むユーザインターフェースを前記携帯電話のタッチスクリーン上に表示するよう構成されたソフトウェア命令を備え、また、前記携帯電話のカメラによって前記第１電子デバイス上の２次元機械可読コードから情報を読み取り、前記情報をデコードして前記第１電子デバイスに対応する識別情報を取得し、これにより前記携帯電話が前記第１電子デバイスと連携することを認証するよう構成された命令を含むことを特徴とするシステム。"
+    },
+    {
+      "index": 2,
+      "score": 70,
+      "input_text": "2. The system of claim 1 in which the first electronic device comprises a thermostat.",
+      "output_text": "[請求項2]\n請求項１に記載のシステムであって、前記第１電子デバイスがサーモスタットであることを特徴とするシステム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 7,
+          "end": 24,
+          "text": "請求項１に記載のシステムであって、",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DN58:ED58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 45,
+          "end": 53,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DL61:DS61"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The system of claim 1 in which the first electronic device comprises a thermostat.",
+      "output_text_grid": "[請求項2]\n請求項１に記載のシステムであって、前記第１電子デバイスがサーモスタットであることを特徴とするシステム。"
+    },
+    {
+      "index": 3,
+      "score": 70,
+      "input_text": "3. The system of claim 1 in which the first electronic device also omits a display and a light, wherein omission of a display, buttons, and a light, reduces the cost of manufacturing the first electronic device.",
+      "output_text": "[請求項3]\n請求項１に記載のシステムであって、前記第１電子デバイスがディスプレイおよびライトも省略しており、ディスプレイ、ボタンおよびライトを省略することによって前記第１電子デバイスの製造コストが低減されることを特徴とするシステム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 7,
+          "end": 24,
+          "text": "請求項１に記載のシステムであって、",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DN76:ED76"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 104,
+          "end": 112,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EE82:EL82"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The system of claim 1 in which the first electronic device also omits a display and a light, wherein omission of a display, buttons, and a light, reduces the cost of manufacturing the first electronic device.",
+      "output_text_grid": "[請求項3]\n請求項１に記載のシステムであって、前記第１電子デバイスがディスプレイおよびライトも省略しており、ディスプレイ、ボタンおよびライトを省略することによって前記第１電子デバイスの製造コストが低減されることを特徴とするシステム。"
+    }
+  ]
+}

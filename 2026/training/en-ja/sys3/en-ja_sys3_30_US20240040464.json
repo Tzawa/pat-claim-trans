@@ -1,0 +1,495 @@
+{
+  "file": "en-ja_sys3_30_US20240040464.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 50,
+      "input_text": "1. A method for unmanned aerial vehicle handover, comprising:\ndetermining, by a source base station, that one or more base stations meet one or more handover conditions based on a measurement report from an unmanned aerial vehicle;\ndetermining, by the source base station, a candidate base station that has completed a handover preparation among the one or more base stations meeting the one or more handover conditions;\nhanding over, by the source base station, the unmanned aerial vehicle to the candidate base station meeting the one or more handover conditions;\ndetermining, by the source base station, one or more accessible base stations based on a flight path of the unmanned aerial vehicle and geographical location information of the one or more accessible base stations;\nselecting, by the source base station, a base station from the one or more accessible base stations based on a flight speed, a flight altitude, or the flight speed and the flight altitude of the unmanned aerial vehicle, wherein the selected base station is to perform a handover preparation operation, and the accessible base station is a base station that the unmanned aerial vehicle is able to access when flying according to the flight path;\nperforming, by the source base station, a handover preparation operation for handing over the base station that is to perform the handover preparation operation; and\ndetermining, by the source base station, the base station that has successfully performed the handover preparation as the candidate base station that has completed the handover preparation.",
+      "output_text": "1. 無人航空機のハンドオーバー方法であって、以下の工程を含む：\n送信元基地局が、無人航空機からの測定報告に基づいて、1つ以上の基地局が1つ以上のハンドオーバー条件を満たすか否かを判定する工程；\n送信元基地局が、上記のハンドオーバー条件を満たす1つ以上の基地局の中から、ハンドオーバー準備を完了した候補基地局を特定する工程；\n送信元基地局が、上記のハンドオーバー条件を満たす候補基地局へ無人航空機を引き渡す工程；\n送信元基地局が、無人航空機の飛行経路および当該1つ以上のアクセス可能な基地局の地理的位置情報に基づいて、アクセス可能な基地局を1つ以上特定する工程；\n送信元基地局が、無人航空機の飛行速度、飛行高度、またはこれらの組み合わせに基づいて、上記のアクセス可能な基地局の中から基地局を選択する工程。ここで選択される基地局はハンドオーバー準備を実施するものであり、アクセス可能な基地局とは、無人航空機が当該飛行経路に従って飛行する際にアクセス可能な基地局を指す；\n送信元基地局が、ハンドオーバー準備を実施する基地局に対してハンドオーバー準備操作を実行する工程；\n送信元基地局が、ハンドオーバー準備を正常に完了した基地局を、ハンドオーバー準備を完了した候補基地局として特定する工程。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 248,
+          "end": 252,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BE13:BH13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 346,
+          "end": 350,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BE16:BH16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 388,
+          "end": 399,
+          "text": "one or more",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A19:K19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 438,
+          "end": 442,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AY19:BB19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 463,
+          "end": 467,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BX19:CA19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 494,
+          "end": 498,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "L22:O22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 533,
+          "end": 544,
+          "text": "one or more",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AY22:BI22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 582,
+          "end": 586,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A25:D25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 670,
+          "end": 674,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CK25:CN25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 795,
+          "end": 799,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Y31:AB31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 844,
+          "end": 855,
+          "text": "one or more",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BV31:CF31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 972,
+          "end": 976,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "M37:P37"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1009,
+          "end": 1013,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AX37:BA37"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1072,
+          "end": 1081,
+          "text": "operation",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "M40:U40"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1087,
+          "end": 1091,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AB40:AE40"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1138,
+          "end": 1142,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CA40:CD40"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1241,
+          "end": 1245,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CF43:CI43"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1266,
+          "end": 1268,
+          "text": "a ",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "J46:K46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1299,
+          "end": 1315,
+          "text": "for handing over",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AQ46:BF46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1377,
+          "end": 1386,
+          "text": "operation",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "V49:AD49"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1408,
+          "end": 1412,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BA49:BD49"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1482,
+          "end": 1486,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AB52:AE52"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1556,
+          "end": 1560,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "K55:N55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 23,
+          "end": 31,
+          "text": "以下の工程を含む",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "ED7:EK7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 33,
+          "end": 40,
+          "text": "送信元基地局が",
+          "error": "(誤訳)係り先誤り（主語ではなく手段の副詞句とするべき）",
+          "severity": "大",
+          "cells": [
+            "EN7:ET7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 59,
+          "end": 64,
+          "text": "1つ以上の",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DZ10:ED10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 68,
+          "end": 73,
+          "text": "1つ以上の",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EI10:EM10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 98,
+          "end": 105,
+          "text": "送信元基地局が",
+          "error": "(誤訳)係り先誤り（主語ではなく手段の副詞句とするべき）",
+          "severity": "大",
+          "cells": [
+            "DY13:EE13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 106,
+          "end": 109,
+          "text": "上記の",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "EG14:EI14"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 163,
+          "end": 170,
+          "text": "送信元基地局が",
+          "error": "(誤訳)係り先誤り（主語ではなく手段の副詞句とするべき）",
+          "severity": "大",
+          "cells": [
+            "DJ19:DP19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 171,
+          "end": 174,
+          "text": "上記の",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DR20:DT20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 199,
+          "end": 203,
+          "text": "引き渡す",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "ET19:ET19",
+            "DG22:DI22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 207,
+          "end": 214,
+          "text": "送信元基地局が",
+          "error": "(誤訳)係り先誤り（主語ではなく手段の副詞句とするべき）",
+          "severity": "大",
+          "cells": [
+            "DN22:DT22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 230,
+          "end": 235,
+          "text": "1つ以上の",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EK22:EO22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 270,
+          "end": 274,
+          "text": "1つ以上",
+          "error": "(誤訳)係り先誤り（「アクセス可能な基地局」に係るべき）",
+          "severity": "小",
+          "cells": [
+            "EK25:EN25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 280,
+          "end": 432,
+          "text": "；\n送信元基地局が、無人航空機の飛行速度、飛行高度、またはこれらの組み合わせに基づいて、上記のアクセス可能な基地局の中から基地局を選択する工程。ここで選択される基地局はハンドオーバー準備を実施するものであり、アクセス可能な基地局とは、無人航空機が当該飛行経路に従って飛行する際にアクセス可能な基地局を指す",
+          "error": "非翻訳",
+          "severity": "大",
+          "cells": [
+            "DG29:ET29",
+            "DG32:ET32",
+            "DG35:ET35",
+            "DG38:EL38"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 282,
+          "end": 289,
+          "text": "送信元基地局が",
+          "error": "(誤訳)係り先誤り（主語ではなく手段の副詞句とするべき）",
+          "severity": "大",
+          "cells": [
+            "DI28:DO28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 309,
+          "end": 318,
+          "text": "これらの組み合わせ",
+          "error": "言語使用域",
+          "severity": "大",
+          "cells": [
+            "EJ28:ER28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 324,
+          "end": 327,
+          "text": "上記の",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DK31:DM31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 351,
+          "end": 352,
+          "text": "。",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "EL31:EL31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 403,
+          "end": 405,
+          "text": "当該",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DJ37:DK37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 434,
+          "end": 441,
+          "text": "送信元基地局が",
+          "error": "(誤訳)係り先誤り（主語ではなく手段の副詞句とするべき）",
+          "severity": "大",
+          "cells": [
+            "EO37:ET37",
+            "DG40:DG40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 483,
+          "end": 490,
+          "text": "送信元基地局が",
+          "error": "(誤訳)係り先誤り（主語ではなく手段の副詞句とするべき）",
+          "severity": "大",
+          "cells": [
+            "DJ43:DP43"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A method for unmanned aerial vehicle handover, comprising: determining, by a source base station, that one or more base stations meet one or more handover conditions based on a measurement report from an unmanned aerial vehicle; determining, by the source base station, a candidate base station that has completed a handover preparation among the one or more base stations meeting the one or more handover conditions; handing over, by the source base station, the unmanned aerial vehicle to the candidate base station meeting the one or more handover conditions; determining, by the source base station, one or more accessible base stations based on a flight path of the unmanned aerial vehicle and geographical location information of the one or more accessible base stations; selecting, by the source base station, a base station from the one or more accessible base stations based on a flight speed, a flight altitude, or the flight speed and the flight altitude of the unmanned aerial vehicle, wherein the selected base station is to perform a handover preparation operation, and the accessible base station is a base station that the unmanned aerial vehicle is able to access when flying according to the flight path; performing, by the source base station, a handover preparation operation for handing over the base station that is to perform the handover preparation operation; and determining, by the source base station, the base station that has successfully performed the handover preparation as the candidate base station that has completed the handover preparation.",
+      "output_text_grid": "1. 無人航空機のハンドオーバー方法であって、以下の工程を含む：\n送信元基地局が、無人航空機からの測定報告に基づいて、1つ以上の基地局が1つ以上のハンドオーバー条件を満たすか否かを判定する工程；\n送信元基地局が、上記のハンドオーバー条件を満たす1つ以上の基地局の中から、ハンドオーバー準備を完了した候補基地局を特定する工程；\n送信元基地局が、上記のハンドオーバー条件を満たす候補基地局へ無人航空機を引き渡す工程；\n送信元基地局が、無人航空機の飛行経路および当該1つ以上のアクセス可能な基地局の地理的位置情報に基づいて、アクセス可能な基地局を1つ以上特定する工程；\n送信元基地局が、無人航空機の飛行速度、飛行高度、またはこれらの組み合わせに基づいて、上記のアクセス可能な基地局の中から基地局を選択する工程。ここで選択される基地局はハンドオーバー準備を実施するものであり、アクセス可能な基地局とは、無人航空機が当該飛行経路に従って飛行する際にアクセス可能な基地局を指す；\n送信元基地局が、ハンドオーバー準備を実施する基地局に対してハンドオーバー準備操作を実行する工程；\n送信元基地局が、ハンドオーバー準備を正常に完了した基地局を、ハンドオーバー準備を完了した候補基地局として特定する工程。"
+    }
+  ]
+}

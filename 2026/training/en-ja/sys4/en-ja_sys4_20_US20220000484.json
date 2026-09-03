@@ -1,0 +1,50 @@
+{
+  "file": "en-ja_sys4_20_US20220000484.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to:\ncommunicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices;\nreceive a sensor output signal from a sensor on the surgical stapling instrument;\ndetermine a parameter associated with closure of an end effector based on the sensor output signal;\nreceive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and\nadjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.",
+      "output_text": "ある外科用ステープル留め器具の制御回路であって、前記制御回路は、プロセッサと、前記プロセッサと信号通信するメモリとを備え、前記メモリは、前記プロセッサによって実行可能な命令を記憶し、前記命令は、 状況認識モジュールに通信可能に結合することであって、前記状況認識モジュールは、１つ以上の外科用デバイスと信号通信する別個の制御回路を備え、前記別個の制御回路は、前記１つ以上の外科用デバイスから受信したデータに基づいて処置情報を推論するように構成される、通信可能に結合することと、 前記外科用ステープル留め器具上のセンサからセンサ出力信号を受信することと、 前記センサ出力信号に基づいてエンドエフェクタの閉鎖に関連するパラメータを決定することと、 前記状況認識モジュールから入力を受信することであって、前記入力は、前記状況認識モジュールによって推論された前記処置情報に基づく、受信することと、 前記状況認識モジュールからの前記入力と前記センサ出力信号とに基づいて前記外科用ステープル留め器具の発射パラメータを調整することと を前記プロセッサによって実行可能である、制御回路。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "8.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:B7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "ある",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "DG7:DH7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 459,
+          "end": 475,
+          "text": "を前記プロセッサによって実行可能",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DZ40:EO40"
+          ]
+        }
+      ],
+      "input_text_grid": "8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to: communicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices; receive a sensor output signal from a sensor on the surgical stapling instrument; determine a parameter associated with closure of an end effector based on the sensor output signal; receive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and adjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.",
+      "output_text_grid": "ある外科用ステープル留め器具の制御回路であって、前記制御回路は、プロセッサと、前記プロセッサと信号通信するメモリとを備え、前記メモリは、前記プロセッサによって実行可能な命令を記憶し、前記命令は、 状況認識モジュールに通信可能に結合することであって、前記状況認識モジュールは、１つ以上の外科用デバイスと信号通信する別個の制御回路を備え、前記別個の制御回路は、前記１つ以上の外科用デバイスから受信したデータに基づいて処置情報を推論するように構成される、通信可能に結合することと、 前記外科用ステープル留め器具上のセンサからセンサ出力信号を受信することと、 前記センサ出力信号に基づいてエンドエフェクタの閉鎖に関連するパラメータを決定することと、 前記状況認識モジュールから入力を受信することであって、前記入力は、前記状況認識モジュールによって推論された前記処置情報に基づく、受信することと、 前記状況認識モジュールからの前記入力と前記センサ出力信号とに基づいて前記外科用ステープル留め器具の発射パラメータを調整することと を前記プロセッサによって実行可能である、制御回路。"
+    }
+  ]
+}

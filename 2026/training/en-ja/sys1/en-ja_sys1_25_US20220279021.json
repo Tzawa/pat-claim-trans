@@ -1,0 +1,110 @@
+{
+  "file": "en-ja_sys1_25_US20220279021.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 60,
+      "input_text": "1. A network message server adapted to communicate with a mobile end-user device having a plurality of applications, the network message server comprising:\none or more processors configured to:\nprovide a Internet data connection with the mobile end-user device via a device data connection to a wireless network;\nreceive a request to transmit application data, the received request corresponding to a first application of the plurality of applications;\ngenerate an Internet data message based on the received request, the generated Internet data message including the application data and a first application identifier identifying the first application; and\ntransmit, over the Internet data connection, the generated Internet data message to the mobile end-user device for mapping the first application identifier included in the transmitted Internet data message to the first application corresponding to the first application identifier, and for forwarding the application data in the transmitted Internet data message to the first application mapped by the mobile end-user device to the first application identifier.",
+      "output_text": "[請求項1]\n複数のアプリケーションを有するモバイルエンドユーザデバイスと通信するよう構成されたネットワークメッセージサーバであって、１つ以上のプロセッサを備え、前記１つ以上のプロセッサが、ワイヤレスネットワークへのデバイスデータ接続を介して前記モバイルエンドユーザデバイスとのインターネットデータ接続を提供し、アプリケーションデータの送信要求を受信し、前記受信された要求が前記複数のアプリケーションのうちの第１のアプリケーションに対応し、前記受信された要求に基づいて前記アプリケーションデータおよび前記第１のアプリケーションを識別する第１のアプリケーション識別子を含むインターネットデータメッセージを生成し、前記生成されたインターネットデータメッセージを前記インターネットデータ接続を介して前記モバイルエンドユーザデバイスへ送信し、送信された前記インターネットデータメッセージに含まれる前記第１のアプリケーション識別子を前記第１のアプリケーション識別子に対応する前記第１のアプリケーションにマッピングし、前記モバイルエンドユーザデバイスによって前記第１のアプリケーション識別子にマッピングされた前記第１のアプリケーションへ送信された前記インターネットデータメッセージ内の前記アプリケーションデータを転送させることを特徴とするネットワークメッセージサーバ。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 453,
+          "end": 520,
+          "text": "前記モバイルエンドユーザデバイスによって前記第１のアプリケーション識別子にマッピングされた前記第１のアプリケーションへ送信された前記イ",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "DT40:ET40",
+            "DG43:ET43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 520,
+          "end": 563,
+          "text": "ンターネットデータメッセージ内の前記アプリケーションデータを転送させることを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DG46:ET46",
+            "DG49:DI49"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A network message server adapted to communicate with a mobile end-user device having a plurality of applications, the network message server comprising: one or more processors configured to: provide a Internet data connection with the mobile end-user device via a device data connection to a wireless network; receive a request to transmit application data, the received request corresponding to a first application of the plurality of applications; generate an Internet data message based on the received request, the generated Internet data message including the application data and a first application identifier identifying the first application; and transmit, over the Internet data connection, the generated Internet data message to the mobile end-user device for mapping the first application identifier included in the transmitted Internet data message to the first application corresponding to the first application identifier, and for forwarding the application data in the transmitted Internet data message to the first application mapped by the mobile end-user device to the first application identifier.",
+      "output_text_grid": "[請求項1]\n複数のアプリケーションを有するモバイルエンドユーザデバイスと通信するよう構成されたネットワークメッセージサーバであって、１つ以上のプロセッサを備え、前記１つ以上のプロセッサが、ワイヤレスネットワークへのデバイスデータ接続を介して前記モバイルエンドユーザデバイスとのインターネットデータ接続を提供し、アプリケーションデータの送信要求を受信し、前記受信された要求が前記複数のアプリケーションのうちの第１のアプリケーションに対応し、前記受信された要求に基づいて前記アプリケーションデータおよび前記第１のアプリケーションを識別する第１のアプリケーション識別子を含むインターネットデータメッセージを生成し、前記生成されたインターネットデータメッセージを前記インターネットデータ接続を介して前記モバイルエンドユーザデバイスへ送信し、送信された前記インターネットデータメッセージに含まれる前記第１のアプリケーション識別子を前記第１のアプリケーション識別子に対応する前記第１のアプリケーションにマッピングし、前記モバイルエンドユーザデバイスによって前記第１のアプリケーション識別子にマッピングされた前記第１のアプリケーションへ送信された前記インターネットデータメッセージ内の前記アプリケーションデータを転送させることを特徴とするネットワークメッセージサーバ。"
+    },
+    {
+      "index": 2,
+      "score": 90,
+      "input_text": "2. The network message server of claim 1, wherein the one or more processors are further configured to:\nprior to transmitting, encrypt the generated Internet data message to generate encrypted Internet data message.",
+      "output_text": "[請求項2]\n請求項１に記載のネットワークメッセージサーバであって、前記１つ以上のプロセッサが、送信前に前記生成されたインターネットデータメッセージを暗号化して暗号化インターネットデータメッセージを生成するようさらに構成されていることを特徴とするネットワークメッセージサーバ。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 48,
+          "end": 52,
+          "text": "送信前に",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DO67:DR67"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 115,
+          "end": 123,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EP70:ET70",
+            "DG73:DI73"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The network message server of claim 1, wherein the one or more processors are further configured to: prior to transmitting, encrypt the generated Internet data message to generate encrypted Internet data message.",
+      "output_text_grid": "[請求項2]\n請求項１に記載のネットワークメッセージサーバであって、前記１つ以上のプロセッサが、送信前に前記生成されたインターネットデータメッセージを暗号化して暗号化インターネットデータメッセージを生成するようさらに構成されていることを特徴とするネットワークメッセージサーバ。"
+    },
+    {
+      "index": 3,
+      "score": 80,
+      "input_text": "3. The network message server of claim 1, wherein the generated Internet data message is transmitted using one or more of encryption on a transport services stack, Internet Protocol (IP) layer encryption, or tunneling.",
+      "output_text": "[請求項3]\n請求項１に記載のネットワークメッセージサーバであって、前記生成されたインターネットデータメッセージが、トランスポートサービススタック上での暗号化、インターネットプロトコル（ＩＰ）層での暗号化、またはトンネリングの１つ以上を用いて送信されることを特徴とするネットワークメッセージサーバ。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 112,
+          "end": 117,
+          "text": "の１つ以上",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "EM94:EQ94"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 126,
+          "end": 134,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DM97:DT97"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The network message server of claim 1, wherein the generated Internet data message is transmitted using one or more of encryption on a transport services stack, Internet Protocol (IP) layer encryption, or tunneling.",
+      "output_text_grid": "[請求項3]\n請求項１に記載のネットワークメッセージサーバであって、前記生成されたインターネットデータメッセージが、トランスポートサービススタック上での暗号化、インターネットプロトコル（ＩＰ）層での暗号化、またはトンネリングの１つ以上を用いて送信されることを特徴とするネットワークメッセージサーバ。"
+    }
+  ]
+}

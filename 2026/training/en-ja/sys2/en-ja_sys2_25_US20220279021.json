@@ -1,0 +1,369 @@
+{
+  "file": "en-ja_sys2_25_US20220279021.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 5,
+      "input_text": "1. A network message server adapted to communicate with a mobile end-user device having a plurality of applications, the network message server comprising:\none or more processors configured to:\nprovide a Internet data connection with the mobile end-user device via a device data connection to a wireless network;\nreceive a request to transmit application data, the received request corresponding to a first application of the plurality of applications;\ngenerate an Internet data message based on the received request, the generated Internet data message including the application data and a first application identifier identifying the first application; and\ntransmit, over the Internet data connection, the generated Internet data message to the mobile end-user device for mapping the first application identifier included in the transmitted Internet data message to the first application corresponding to the first application identifier, and for forwarding the application data in the transmitted Internet data message to the first application mapped by the mobile end-user device to the first application identifier.",
+      "output_text": "1. 複数のアプリケーションを有するモバイルエンドユーザデバイスと通信するように適合されたネットワークメッセージサーバであって、ネットワークメッセージサーバは以下を含むことを特徴とする：プロセッサは、ワイヤレスネットワークへのデバイスデータ接続を介してモバイルエンドユーザデバイスとのインターネットデータ接続を提供するステップと、複数のアプリケーションのうちの第1のアプリケーションに対応するアプリケーションデータを送信する要求を受信するステップと、受信された要求に基づいてインターネットデータメッセージを生成し、生成されたインターネットデータメッセージは、アプリケーションデータと、第1のアプリケーションを識別する第1のアプリケーション識別子とを含む；そして、インターネットデータ接続を介して、生成されたインターネットデータメッセージをモバイルエンドユーザデバイスに送信して、送信されたインターネットデータメッセージに含まれる前記第1のアプリケーション識別子を、前記第1のアプリケーション識別子に対応する前記第1のアプリケーションにマッピングし、送信されたインターネットデータメッセージ内のアプリケーションデータを、モバイルエンドユーザデバイスによって前記第1のアプリケーション識別子にマッピングされた前記第1のアプリケーションに転送する。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 40,
+          "end": 45,
+          "text": "適合された",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG10:DK10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 64,
+          "end": 80,
+          "text": "ネットワークメッセージサーバは以",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "EE10:ET10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 80,
+          "end": 100,
+          "text": "下を含むことを特徴とする：プロセッサは、",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "DG13:DZ13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 92,
+          "end": 93,
+          "text": "：",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "DS15:DS15"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 93,
+          "end": 100,
+          "text": "プロセッサは、",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "DT14:DZ14"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 159,
+          "end": 160,
+          "text": "ス",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "ET17:ET17"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 160,
+          "end": 176,
+          "text": "テップと、複数のアプリケーション",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DG20:DV20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 217,
+          "end": 225,
+          "text": "するステップと、",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "DX23:EE23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 225,
+          "end": 232,
+          "text": "受信された要求",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EF23:EL23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 225,
+          "end": 326,
+          "text": "受信された要求に基づいてインターネットデータメッセージを生成し、生成されたインターネットデータメッセージは、アプリケーションデータと、第1のアプリケーションを識別する第1のアプリケーション識別子とを含む",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "EF24:ET24",
+            "DG26:ET26",
+            "DG29:ET29",
+            "DG32:DL32"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 326,
+          "end": 327,
+          "text": "；",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "DM33:DM33"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 327,
+          "end": 331,
+          "text": "そして、",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DN32:DQ32"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 331,
+          "end": 343,
+          "text": "インターネットデータ接続",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DR32:EC32"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 347,
+          "end": 368,
+          "text": "、生成されたインターネットデータメッセージ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EH32:ET32",
+            "DG35:DN35"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 369,
+          "end": 383,
+          "text": "モバイルエンドユーザデバイス",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DP35:EC35"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 389,
+          "end": 409,
+          "text": "送信されたインターネットデータメッセージ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EJ35:ET35",
+            "DG38:DO38"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 474,
+          "end": 494,
+          "text": "送信されたインターネットデータメッセージ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EO41:ET41",
+            "DG44:DT44"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 496,
+          "end": 507,
+          "text": "アプリケーションデータ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DW44:EG44"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 509,
+          "end": 523,
+          "text": "モバイルエンドユーザデバイス",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EJ44:ET44",
+            "DG47:DI47"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 570,
+          "end": 571,
+          "text": "。",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "DQ50:DQ50"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A network message server adapted to communicate with a mobile end-user device having a plurality of applications, the network message server comprising: one or more processors configured to: provide a Internet data connection with the mobile end-user device via a device data connection to a wireless network; receive a request to transmit application data, the received request corresponding to a first application of the plurality of applications; generate an Internet data message based on the received request, the generated Internet data message including the application data and a first application identifier identifying the first application; and transmit, over the Internet data connection, the generated Internet data message to the mobile end-user device for mapping the first application identifier included in the transmitted Internet data message to the first application corresponding to the first application identifier, and for forwarding the application data in the transmitted Internet data message to the first application mapped by the mobile end-user device to the first application identifier.",
+      "output_text_grid": "1. 複数のアプリケーションを有するモバイルエンドユーザデバイスと通信するように適合されたネットワークメッセージサーバであって、ネットワークメッセージサーバは以下を含むことを特徴とする：プロセッサは、ワイヤレスネットワークへのデバイスデータ接続を介してモバイルエンドユーザデバイスとのインターネットデータ接続を提供するステップと、複数のアプリケーションのうちの第1のアプリケーションに対応するアプリケーションデータを送信する要求を受信するステップと、受信された要求に基づいてインターネットデータメッセージを生成し、生成されたインターネットデータメッセージは、アプリケーションデータと、第1のアプリケーションを識別する第1のアプリケーション識別子とを含む；そして、インターネットデータ接続を介して、生成されたインターネットデータメッセージをモバイルエンドユーザデバイスに送信して、送信されたインターネットデータメッセージに含まれる前記第1のアプリケーション識別子を、前記第1のアプリケーション識別子に対応する前記第1のアプリケーションにマッピングし、送信されたインターネットデータメッセージ内のアプリケーションデータを、モバイルエンドユーザデバイスによって前記第1のアプリケーション識別子にマッピングされた前記第1のアプリケーションに転送する。"
+    },
+    {
+      "index": 2,
+      "score": 20,
+      "input_text": "2. The network message server of claim 1, wherein the one or more processors are further configured to:\nprior to transmitting, encrypt the generated Internet data message to generate encrypted Internet data message.",
+      "output_text": "2. 1つまたは複数のプロセッサは、以下を行うようにさらに構成されることを特徴とする請求項1に記載のネットワークメッセージサーバ。送信する前に、生成されたインターネットデータメッセージを暗号化して、暗号化されたインターネットデータメッセージを生成する。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 3,
+          "end": 16,
+          "text": "1つまたは複数のプロセッサ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DJ65:DV65"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 18,
+          "end": 65,
+          "text": "以下を行うようにさらに構成されることを特徴とする請求項1に記載のネットワークメッセージサーバ。",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DY65:ET65",
+            "DG68:EE68"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 64,
+          "end": 65,
+          "text": "。",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "EE69:EE69"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 72,
+          "end": 92,
+          "text": "生成されたインターネットデータメッセージ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EM68:ET68",
+            "DG71:DR71"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 125,
+          "end": 126,
+          "text": "。",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DL74:DL74"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The network message server of claim 1, wherein the one or more processors are further configured to: prior to transmitting, encrypt the generated Internet data message to generate encrypted Internet data message.",
+      "output_text_grid": "2. 1つまたは複数のプロセッサは、以下を行うようにさらに構成されることを特徴とする請求項1に記載のネットワークメッセージサーバ。送信する前に、生成されたインターネットデータメッセージを暗号化して、暗号化されたインターネットデータメッセージを生成する。"
+    },
+    {
+      "index": 3,
+      "score": 70,
+      "input_text": "3. The network message server of claim 1, wherein the generated Internet data message is transmitted using one or more of encryption on a transport services stack, Internet Protocol (IP) layer encryption, or tunneling.",
+      "output_text": "3. 生成されたインターネットデータメッセージは、トランスポートサービススタック上の暗号化、インターネットプロトコル(IP)層暗号化、またはトンネリングのうちの1つ以上を使用して送信されることを特徴とする請求項1に記載のネットワークメッセージサーバ。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 3,
+          "end": 23,
+          "text": "生成されたインターネットデータメッセージ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DJ89:EC89"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 41,
+          "end": 42,
+          "text": "の",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "DH92:DH92"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 62,
+          "end": 66,
+          "text": "層暗号化",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "EC92:EF92"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 94,
+          "end": 102,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DU95:EB95"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The network message server of claim 1, wherein the generated Internet data message is transmitted using one or more of encryption on a transport services stack, Internet Protocol (IP) layer encryption, or tunneling.",
+      "output_text_grid": "3. 生成されたインターネットデータメッセージは、トランスポートサービススタック上の暗号化、インターネットプロトコル(IP)層暗号化、またはトンネリングのうちの1つ以上を使用して送信されることを特徴とする請求項1に記載のネットワークメッセージサーバ。"
+    }
+  ]
+}

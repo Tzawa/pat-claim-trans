@@ -1,0 +1,84 @@
+{
+  "file": "ja-en_sys3_23_WO2024247324.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 90,
+      "input_text": "[請求項1]\n豆腐の製造方法であって、\n大豆と水との第１の混合物を、前記第１の混合物中の前記大豆の、動的光散乱法により測定した粒度分布における体積基準でのメジアン径が２５０μｍ以下になるまで摩砕する工程、\n摩砕された前記第１の混合物を加熱する工程、\n摩砕及び加熱された前記第１の混合物を、豆乳とおからとに分離する工程、並びに、\n前記豆乳と凝固剤との第２の混合物を凝固させて豆腐を調製する工程\nを含む方法。",
+      "output_text": "1. A method for producing tofu, comprising:\na grinding step of grinding a first mixture of soybeans and water until a volume-based median diameter in a particle size distribution of the soybeans in the first mixture, measured by a dynamic light scattering method, becomes 250 μm or less;\na heating step of heating the ground first mixture;\na separating step of separating the ground and heated first mixture into soymilk and okara; and\na coagulating step of preparing tofu by coagulating a second mixture of the soymilk and a coagulant.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 458,
+          "end": 475,
+          "text": "preparing tofu by",
+          "error": "(誤訳)係り先が不明",
+          "severity": "小",
+          "cells": [
+            "DK19:EA19"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n豆腐の製造方法であって、\n大豆と水との第１の混合物を、前記第１の混合物中の前記大豆の、動的光散乱法により測定した粒度分布における体積基準でのメジアン径が２５０μｍ以下になるまで摩砕する工程、\n摩砕された前記第１の混合物を加熱する工程、\n摩砕及び加熱された前記第１の混合物を、豆乳とおからとに分離する工程、並びに、\n前記豆乳と凝固剤との第２の混合物を凝固させて豆腐を調製する工程\nを含む方法。",
+      "output_text_grid": "1. A method for producing tofu, comprising: a grinding step of grinding a first mixture of soybeans and water until a volume-based median diameter in a particle size distribution of the soybeans in the first mixture, measured by a dynamic light scattering method, becomes 250 μm or less; a heating step of heating the ground first mixture; a separating step of separating the ground and heated first mixture into soymilk and okara; and a coagulating step of preparing tofu by coagulating a second mixture of the soymilk and a coagulant."
+    },
+    {
+      "index": 2,
+      "score": 100,
+      "input_text": "[請求項2]\n前記凝固剤が硫酸カルシウムを含む、請求項１に記載の方法。",
+      "output_text": "2. The method according to claim 1,\nwherein the coagulant contains calcium sulfate.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [],
+      "input_text_grid": "[請求項2]\n前記凝固剤が硫酸カルシウムを含む、請求項１に記載の方法。",
+      "output_text_grid": "2. The method according to claim 1, wherein the coagulant contains calcium sulfate."
+    },
+    {
+      "index": 3,
+      "score": 100,
+      "input_text": "[請求項3]\n前記豆腐が、一辺３ｃｍの立方体形の５℃に調温した試料を、直径２０ｍｍの円形プランジャーにより６０ｍｍ／分の等速度で圧縮したときの破壊時の前記円形プランジャーにかかる力が２９０ｇｆ以上となる硬さを有する、請求項１又は２に記載の方法。",
+      "output_text": "3. The method according to claim 1 or 2,\nwherein the tofu has a hardness such that, when a cubic sample having a side length of 3 cm and adjusted to 5°C is compressed at a constant speed of 60 mm/min by a circular plunger having a diameter of 20 mm, a force of 290 gf or more is applied to the circular plunger at the time of breakage.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [],
+      "input_text_grid": "[請求項3]\n前記豆腐が、一辺３ｃｍの立方体形の５℃に調温した試料を、直径２０ｍｍの円形プランジャーにより６０ｍｍ／分の等速度で圧縮したときの破壊時の前記円形プランジャーにかかる力が２９０ｇｆ以上となる硬さを有する、請求項１又は２に記載の方法。",
+      "output_text_grid": "3. The method according to claim 1 or 2, wherein the tofu has a hardness such that, when a cubic sample having a side length of 3 cm and adjusted to 5°C is compressed at a constant speed of 60 mm/min by a circular plunger having a diameter of 20 mm, a force of 290 gf or more is applied to the circular plunger at the time of breakage."
+    },
+    {
+      "index": 4,
+      "score": 90,
+      "input_text": "[請求項4]\n大豆をひき割りする工程を更に含み、前記第１の混合物が、ひき割りされた前記大豆と水との混合物である、請求項１～３のいずれか１項に記載の方法。",
+      "output_text": "4. The method according to any one of claims 1 to 3,\nfurther comprising a step of splitting the soybeans,\nwherein the first mixture is a mixture of the split soybeans and water.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 82,
+          "end": 91,
+          "text": "splitting",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EC76:EK76"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 152,
+          "end": 157,
+          "text": "split",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DC79:DG79"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項4]\n大豆をひき割りする工程を更に含み、前記第１の混合物が、ひき割りされた前記大豆と水との混合物である、請求項１～３のいずれか１項に記載の方法。",
+      "output_text_grid": "4. The method according to any one of claims 1 to 3, further comprising a step of splitting the soybeans, wherein the first mixture is a mixture of the split soybeans and water."
+    }
+  ]
+}

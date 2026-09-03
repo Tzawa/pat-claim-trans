@@ -1,0 +1,39 @@
+{
+  "file": "ja-en_sys2_16_WO2024241779.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 95,
+      "input_text": "[請求項1]\n複数の分割コアが溶接により結合されてなる固定子と、\n前記固定子と対向して配置される回転子と、を備え、\n前記固定子の軸方向端からこれに最も近い連続した溶接部の終端までの領域を第１領域とし、かつ前記固定子の軸方向中央部を含む前記第１領域以外の領域を第２領域として、\n前記複数の分割コアの間の複数の結合部の少なくとも１つにおいて、前記第２領域における溶接部の割合は、前記第１領域における溶接部の割合よりも小さい、電動機。",
+      "output_text": "1.\nA motor comprising: a stator formed by joining a plurality of split cores by welding; and a rotor disposed to face the stator; wherein: (i) a region from an axial end of the stator to an end of a nearest continuous welded portion is defined as a first region, and a region other than the first region and including an axial central portion of the stator is defined as a second region; and (ii) in at least one of a plurality of joints between the plurality of split cores, a proportion of welded portions in the second region is smaller than a proportion of welded portions in the first region.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 139,
+          "end": 142,
+          "text": "(i)",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "CQ10:CS10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 392,
+          "end": 396,
+          "text": "(ii)",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "BC19:BF19"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n複数の分割コアが溶接により結合されてなる固定子と、\n前記固定子と対向して配置される回転子と、を備え、\n前記固定子の軸方向端からこれに最も近い連続した溶接部の終端までの領域を第１領域とし、かつ前記固定子の軸方向中央部を含む前記第１領域以外の領域を第２領域として、\n前記複数の分割コアの間の複数の結合部の少なくとも１つにおいて、前記第２領域における溶接部の割合は、前記第１領域における溶接部の割合よりも小さい、電動機。",
+      "output_text_grid": "1. A motor comprising: a stator formed by joining a plurality of split cores by welding; and a rotor disposed to face the stator; wherein: (i) a region from an axial end of the stator to an end of a nearest continuous welded portion is defined as a first region, and a region other than the first region and including an axial central portion of the stator is defined as a second region; and (ii) in at least one of a plurality of joints between the plurality of split cores, a proportion of welded portions in the second region is smaller than a proportion of welded portions in the first region."
+    }
+  ]
+}

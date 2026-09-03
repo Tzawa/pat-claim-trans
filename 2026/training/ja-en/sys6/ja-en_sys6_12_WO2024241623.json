@@ -1,0 +1,233 @@
+{
+  "file": "ja-en_sys6_12_WO2024241623.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 5,
+      "input_text": "[請求項1]\n金属または合金からなる基材と、\n上記基材の少なくともリチウム含有複合酸化物の原料の粉体が接触する表面に設けられた、少なくともアルミニウムおよびニッケルとレニウムおよびコバルトのうちの少なくとも一種の金属とを含有し、アルミニウム濃度の最大値が６０原子％以上８１原子％以下であり、上記少なくとも一種の金属の少なくとも一部はニッケル−アルミニウム合金のニッケルの一部が当該金属で置換された合金またはコバルト−アルミニウム合金のコバルトの一部がニッケルおよびレニウムのうちの少なくともニッケルで置換された合金として存在するコーティング皮膜と、\nを有するリチウム含有複合酸化物製造用部材。",
+      "output_text": "a substrate made of a metal or an alloy; and a coating film provided on at least a surface of the substrate with which a powder of a raw material of a lithium-containing composite oxide is brought into contact, the coating film containing at least aluminum and at least one metal of rhenium and cobalt, a maximum value of an aluminum concentration being 60 atom % or more and 81 atom % or less, at least a part of the at least one metal being present as an alloy in which a part of nickel of a nickel-aluminum alloy is substituted with the metal or an alloy in which a part of cobalt of a cobalt-aluminum alloy is substituted with at least nickel of nickel and rhenium.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項1]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:F7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 78,
+          "end": 81,
+          "text": "ニッケ",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "AM10:AO10"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 80,
+          "end": 82,
+          "text": "ケル",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A13:B13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 275,
+          "end": 280,
+          "text": "を有するリ",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "AJ25:AN25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 280,
+          "end": 295,
+          "text": "チウム含有複合酸化物製造用部材",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A28:O28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 393,
+          "text": "a substrate made of a metal or an alloy; and a coating film provided on at least a surface of the substrate with which a powder of a raw material of a lithium-containing composite oxide is brought into contact, the coating film containing at least aluminum and at least one metal of rhenium and cobalt, a maximum value of an aluminum concentration being 60 atom % or more and 81 atom % or less",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "AY7:EQ7",
+            "AY10:ER10",
+            "AY13:EQ13",
+            "AY16:ER16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 395,
+          "end": 493,
+          "text": "at least a part of the at least one metal being present as an alloy in which a part of nickel of a",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "AY19:ER19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 414,
+          "end": 436,
+          "text": "the at least one metal",
+          "error": "文脈上不適切（訳語選択）",
+          "severity": "小",
+          "cells": [
+            "BR20:CM20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 482,
+          "end": 488,
+          "text": "nickel",
+          "error": "（誤訳）冠詞・小",
+          "severity": "",
+          "cells": [
+            "EH20:EM20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 495,
+          "end": 669,
+          "text": "ickel-aluminum alloy is substituted with the metal or an alloy in which a part of cobalt of a cobalt-aluminum alloy is substituted with at least nickel of nickel and rhenium.",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "AZ22:EN22",
+            "AY25:DZ25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 577,
+          "end": 583,
+          "text": "cobalt",
+          "error": "（誤訳）冠詞",
+          "severity": "小",
+          "cells": [
+            "ED23:EI23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 647,
+          "end": 649,
+          "text": "of",
+          "error": "文脈上不適切（訳語選択）",
+          "severity": "小",
+          "cells": [
+            "DE26:DF26"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n金属または合金からなる基材と、\n上記基材の少なくともリチウム含有複合酸化物の原料の粉体が接触する表面に設けられた、少なくともアルミニウムおよびニッケルとレニウムおよびコバルトのうちの少なくとも一種の金属とを含有し、アルミニウム濃度の最大値が６０原子％以上８１原子％以下であり、上記少なくとも一種の金属の少なくとも一部はニッケル−アルミニウム合金のニッケルの一部が当該金属で置換された合金またはコバルト−アルミニウム合金のコバルトの一部がニッケルおよびレニウムのうちの少なくともニッケルで置換された合金として存在するコーティング皮膜と、\nを有するリチウム含有複合酸化物製造用部材。",
+      "output_text_grid": "a substrate made of a metal or an alloy; and a coating film provided on at least a surface of the substrate with which a powder of a raw material of a lithium-containing composite oxide is brought into contact, the coating film containing at least aluminum and at least one metal of rhenium and cobalt, a maximum value of an aluminum concentration being 60 atom % or more and 81 atom % or less, at least a part of the at least one metal being present as an alloy in which a part of nickel of a nickel-aluminum alloy is substituted with the metal or an alloy in which a part of cobalt of a cobalt-aluminum alloy is substituted with at least nickel of nickel and rhenium."
+    },
+    {
+      "index": 2,
+      "score": 95,
+      "input_text": "[請求項2]\n上記コーティング皮膜はさらにタングステン、モリブデンおよびニオブからなる群より選ばれた少なくとも一種の金属を含有する請求項１記載のリチウム含有複合酸化物製造用部材。",
+      "output_text": "The member for producing a lithium-containing composite oxide according to claim 1, wherein the coating film further contains at least one metal selected from the group consisting of tungsten, molybdenum, and niobium.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項2]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A43:F43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 135,
+          "end": 138,
+          "text": "one",
+          "error": "文脈上不適切（訳語選択）",
+          "severity": "小",
+          "cells": [
+            "CL46:CN46"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n上記コーティング皮膜はさらにタングステン、モリブデンおよびニオブからなる群より選ばれた少なくとも一種の金属を含有する請求項１記載のリチウム含有複合酸化物製造用部材。",
+      "output_text_grid": "The member for producing a lithium-containing composite oxide according to claim 1, wherein the coating film further contains at least one metal selected from the group consisting of tungsten, molybdenum, and niobium."
+    },
+    {
+      "index": 3,
+      "score": 80,
+      "input_text": "[請求項3]\n上記少なくとも一種の金属は上記コーティング皮膜の厚さ方向の全体にわたって存在する請求項１記載のリチウム含有複合酸化物製造用部材。",
+      "output_text": "The member for producing a lithium-containing composite oxide according to claim 1, wherein the at least one metal is present throughout the thickness direction of the coating film.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項3]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A64:F64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 92,
+          "end": 114,
+          "text": "the at least one metal",
+          "error": "文脈上不適切（訳語選択）",
+          "severity": "小",
+          "cells": [
+            "EM64:ER64",
+            "AY67:BM67"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 151,
+          "end": 160,
+          "text": "direction",
+          "error": "文脈上不適切（訳語選択）",
+          "severity": "小",
+          "cells": [
+            "CY67:DG67"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\n上記少なくとも一種の金属は上記コーティング皮膜の厚さ方向の全体にわたって存在する請求項１記載のリチウム含有複合酸化物製造用部材。",
+      "output_text_grid": "The member for producing a lithium-containing composite oxide according to claim 1, wherein the at least one metal is present throughout the thickness direction of the coating film."
+    }
+  ]
+}

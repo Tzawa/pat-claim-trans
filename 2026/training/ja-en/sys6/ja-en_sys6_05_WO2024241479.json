@@ -1,0 +1,208 @@
+{
+  "file": "ja-en_sys6_05_WO2024241479.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 50,
+      "input_text": "[請求項1]\n電源供給回路、\n内視鏡接続部、\n前記電源供給回路と前記内視鏡接続部との間に配置された放電抵抗、\n前記放電抵抗と前記内視鏡接続部との間に配置された電源導通回路、\n前記内視鏡接続部に内視鏡が接続されたことを検知する内視鏡接続検知部、および\n前記内視鏡接続検知部に接続されており、前記電源供給回路を制御する制御部\nを有し、\n前記制御部は、\n前記検知部が前記内視鏡が非接続状態から接続状態となったことを検知したことに伴い前記電源導通回路を導通状態にすることで、前記内視鏡と前記放電抵抗とを導通させて、前記内視鏡に蓄積された電荷を前記内視鏡プロセッサの放電抵抗から放電させて、\n前記電源供給回路による前記内視鏡への電力供給に伴い前記電源導通回路によって前記内視鏡と前記放電抵抗とを非導通にする内視鏡プロセッサ。",
+      "output_text": "a power supply circuit; an endoscope connection unit; a discharge resistor disposed between the power supply circuit and the endoscope connection unit; a power supply conduction circuit disposed between the discharge resistor and the endoscope connection unit; an endoscope connection detection unit that detects that an endoscope is connected to the endoscope connection unit; and a control unit that is connected to the endoscope connection detection unit and controls the power supply circuit, wherein the control unit brings the power supply conduction circuit into a conduction state in response to the endoscope connection detection unit detecting that the endoscope is in a connected state from a non-connected state, thereby bringing the endoscope and the discharge resistor into conduction and discharging electric charges accumulated in the endoscope from the discharge resistor of the endoscope processor, and the power supply conduction circuit brings the endoscope and the discharge resistor into a non-conduction state in response to the power supply circuit supplying power to the endoscope.",
+      "broad_error": "原文５行目の「前記検知部」は「前記内視鏡接続検知部」の誤記と思われるため「原文エラー」としました。対応する訳文では「湧き出し」としていますが、「前記内視鏡接続検知部」と正しく訳されています。",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項1]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:F7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 161,
+          "end": 164,
+          "text": "を有し",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "B19:D19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 176,
+          "end": 179,
+          "text": "検知部",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "Q19:S19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 348,
+          "end": 356,
+          "text": "内視鏡プロセッサ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AC31:AJ31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 608,
+          "end": 628,
+          "text": "endoscope connection",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "BX25:CQ25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 673,
+          "end": 723,
+          "text": "is in a connected state from a non-connected state",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EK25:EQ25",
+            "AY28:CN28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1027,
+          "end": 1032,
+          "text": "state",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DF37:DJ37"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n電源供給回路、\n内視鏡接続部、\n前記電源供給回路と前記内視鏡接続部との間に配置された放電抵抗、\n前記放電抵抗と前記内視鏡接続部との間に配置された電源導通回路、\n前記内視鏡接続部に内視鏡が接続されたことを検知する内視鏡接続検知部、および\n前記内視鏡接続検知部に接続されており、前記電源供給回路を制御する制御部\nを有し、\n前記制御部は、\n前記検知部が前記内視鏡が非接続状態から接続状態となったことを検知したことに伴い前記電源導通回路を導通状態にすることで、前記内視鏡と前記放電抵抗とを導通させて、前記内視鏡に蓄積された電荷を前記内視鏡プロセッサの放電抵抗から放電させて、\n前記電源供給回路による前記内視鏡への電力供給に伴い前記電源導通回路によって前記内視鏡と前記放電抵抗とを非導通にする内視鏡プロセッサ。",
+      "output_text_grid": "a power supply circuit; an endoscope connection unit; a discharge resistor disposed between the power supply circuit and the endoscope connection unit; a power supply conduction circuit disposed between the discharge resistor and the endoscope connection unit; an endoscope connection detection unit that detects that an endoscope is connected to the endoscope connection unit; and a control unit that is connected to the endoscope connection detection unit and controls the power supply circuit, wherein the control unit brings the power supply conduction circuit into a conduction state in response to the endoscope connection detection unit detecting that the endoscope is in a connected state from a non-connected state, thereby bringing the endoscope and the discharge resistor into conduction and discharging electric charges accumulated in the endoscope from the discharge resistor of the endoscope processor, and the power supply conduction circuit brings the endoscope and the discharge resistor into a non-conduction state in response to the power supply circuit supplying power to the endoscope."
+    },
+    {
+      "index": 2,
+      "score": 85,
+      "input_text": "[請求項2]\n前記制御部は、内視鏡検査終了後、\n前記電源供給回路の駆動停止後、\n前記電源導通回路を導通状態にすることで、前記内視鏡と前記放電抵抗とを導通させて、前記内視鏡に蓄積された電荷を前記内視鏡プロセッサの放電抵抗から放電させる\n請求項１に記載の内視鏡プロセッサ。",
+      "output_text": "The endoscope processor according to claim 1, wherein the control unit, after the endoscopic examination is finished, causes the endoscope and the discharge resistor to be electrically connected by bringing the power supply conduction circuit into a conduction state after the power supply circuit is stopped, and causes the electric charge accumulated in the endoscope to be discharged from the discharge resistor of the endoscope processor.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項2]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A55:F55"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 33,
+          "end": 35,
+          "text": "駆動",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AH55:AI55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 78,
+          "end": 81,
+          "text": "the",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DY55:EA55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 118,
+          "end": 194,
+          "text": "causes the endoscope and the discharge resistor to be electrically connected",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "BX58:EK58",
+            "AY61:BG61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 334,
+          "end": 340,
+          "text": "charge",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "CX64:DC64"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記制御部は、内視鏡検査終了後、\n前記電源供給回路の駆動停止後、\n前記電源導通回路を導通状態にすることで、前記内視鏡と前記放電抵抗とを導通させて、前記内視鏡に蓄積された電荷を前記内視鏡プロセッサの放電抵抗から放電させる\n請求項１に記載の内視鏡プロセッサ。",
+      "output_text_grid": "The endoscope processor according to claim 1, wherein the control unit, after the endoscopic examination is finished, causes the endoscope and the discharge resistor to be electrically connected by bringing the power supply conduction circuit into a conduction state after the power supply circuit is stopped, and causes the electric charge accumulated in the endoscope to be discharged from the discharge resistor of the endoscope processor."
+    },
+    {
+      "index": 3,
+      "score": 90,
+      "input_text": "[請求項3]\n前記制御部は、\n前記内視鏡接続部に前記内視鏡を接続して前記電源導通回路を導通状態にした後、\n前記電源供給回路を駆動して前記電源供給回路の異常検知を行う間、前記電源導通回路を非導通状態にする\n請求項１に記載の内視鏡プロセッサ。",
+      "output_text": "The endoscope processor according to claim 1, wherein the control unit is configured to, after the endoscope is connected to the endoscope connection unit and the power supply conduction circuit is brought into the conduction state, bring the power supply conduction circuit into the non-conduction state while the power supply circuit is driven to detect an abnormality of the power supply circuit.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項3]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A82:F82"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 71,
+          "end": 87,
+          "text": "is configured to",
+          "error": "一貫性の欠如",
+          "severity": "小",
+          "cells": [
+            "DR82:EG82"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 280,
+          "end": 283,
+          "text": "the",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EC88:EE88"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\n前記制御部は、\n前記内視鏡接続部に前記内視鏡を接続して前記電源導通回路を導通状態にした後、\n前記電源供給回路を駆動して前記電源供給回路の異常検知を行う間、前記電源導通回路を非導通状態にする\n請求項１に記載の内視鏡プロセッサ。",
+      "output_text_grid": "The endoscope processor according to claim 1, wherein the control unit is configured to, after the endoscope is connected to the endoscope connection unit and the power supply conduction circuit is brought into the conduction state, bring the power supply conduction circuit into the non-conduction state while the power supply circuit is driven to detect an abnormality of the power supply circuit."
+    }
+  ]
+}

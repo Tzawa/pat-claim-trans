@@ -1,0 +1,318 @@
+{
+  "file": "en-ja_sys3_20_US20220000484.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 5,
+      "input_text": "8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to:\ncommunicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices;\nreceive a sensor output signal from a sensor on the surgical stapling instrument;\ndetermine a parameter associated with closure of an end effector based on the sensor output signal;\nreceive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and\nadjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.",
+      "output_text": "8. 外科用ステープリング器具の制御回路であって、当該制御回路はプロセッサとメモリを含み、これらが信号通信可能に接続されている。メモリには、プロセッサが実行可能な以下の命令が格納されている：\n状況認識モジュールと信号通信可能に接続すること（状況認識モジュールは、1つ以上の外科用デバイスと信号通信可能な独立した制御回路を備えており、この独立した制御回路は、1つ以上の外科用デバイスから受信したデータに基づいて処置情報を推定するように構成されている）；\n外科用ステープリング器具に搭載されたセンサから出力信号を受信すること；\nセンサ出力信号に基づいてエンドエフェクタの閉鎖に関連するパラメータを決定すること；\n状況認識モジュールから入力を受け取ること（この入力は、状況認識モジュールによって推定された処置情報に基づいている）；\n状況認識モジュールからの入力とセンサ出力信号に基づいて、外科用ステープリング器具の発射パラメータを調整すること。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 45,
+          "end": 49,
+          "text": "これらが",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "DL10:DO10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 63,
+          "end": 64,
+          "text": "。",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "ED10:ED10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 64,
+          "end": 67,
+          "text": "メモリ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EE11:EG11"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 70,
+          "end": 75,
+          "text": "プロセッサ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EK10:EO10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 81,
+          "end": 86,
+          "text": "以下の命令",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "DH13:DL13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 94,
+          "end": 95,
+          "text": "：",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "DU13:DU13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 119,
+          "end": 224,
+          "text": "（状況認識モジュールは、1つ以上の外科用デバイスと信号通信可能な独立した制御回路を備えており、この独立した制御回路は、1つ以上の外科用デバイスから受信したデータに基づいて処置情報を推定するように構成されている）",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "ET14:ET14",
+            "DG17:ET17",
+            "DG20:ET20",
+            "DG23:ED23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 120,
+          "end": 129,
+          "text": "状況認識モジュール",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DG16:DO16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 148,
+          "end": 151,
+          "text": "可能な",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EI16:EK16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 166,
+          "end": 168,
+          "text": "この",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DM19:DN19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 178,
+          "end": 190,
+          "text": "1つ以上の外科用デバイス",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DY19:EJ19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 224,
+          "end": 225,
+          "text": "；",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "EE22:EE22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 226,
+          "end": 238,
+          "text": "外科用ステープリング器具",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EG23:ER23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 260,
+          "end": 261,
+          "text": "；",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "EA25:EA25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 262,
+          "end": 269,
+          "text": "センサ出力信号",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "EC26:EI26"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 302,
+          "end": 303,
+          "text": "；",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "EC28:EC28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 304,
+          "end": 313,
+          "text": "状況認識モジュール",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EE29:EM29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 324,
+          "end": 360,
+          "text": "（この入力は、状況認識モジュールによって推定された処置情報に基づいている",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DK31:ET31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 325,
+          "end": 327,
+          "text": "この",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DL32:DM32"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 331,
+          "end": 340,
+          "text": "状況認識モジュール",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DR32:DZ32"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 349,
+          "end": 353,
+          "text": "処置情報",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EJ32:EM32"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 360,
+          "end": 362,
+          "text": "）；",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "DG34:DH34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 363,
+          "end": 372,
+          "text": "状況認識モジュール",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DJ35:DR35"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 375,
+          "end": 377,
+          "text": "入力",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DV34:DW34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 378,
+          "end": 385,
+          "text": "センサ出力信号",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DY35:EE35"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 391,
+          "end": 403,
+          "text": "外科用ステープリング器具",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EL35:ET35",
+            "DG38:DI38"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 418,
+          "end": 419,
+          "text": "。",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DY37:DY37"
+          ]
+        }
+      ],
+      "input_text_grid": "8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to: communicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices; receive a sensor output signal from a sensor on the surgical stapling instrument; determine a parameter associated with closure of an end effector based on the sensor output signal; receive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and adjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.",
+      "output_text_grid": "8. 外科用ステープリング器具の制御回路であって、当該制御回路はプロセッサとメモリを含み、これらが信号通信可能に接続されている。メモリには、プロセッサが実行可能な以下の命令が格納されている：\n状況認識モジュールと信号通信可能に接続すること（状況認識モジュールは、1つ以上の外科用デバイスと信号通信可能な独立した制御回路を備えており、この独立した制御回路は、1つ以上の外科用デバイスから受信したデータに基づいて処置情報を推定するように構成されている）；\n外科用ステープリング器具に搭載されたセンサから出力信号を受信すること；\nセンサ出力信号に基づいてエンドエフェクタの閉鎖に関連するパラメータを決定すること；\n状況認識モジュールから入力を受け取ること（この入力は、状況認識モジュールによって推定された処置情報に基づいている）；\n状況認識モジュールからの入力とセンサ出力信号に基づいて、外科用ステープリング器具の発射パラメータを調整すること。"
+    }
+  ]
+}

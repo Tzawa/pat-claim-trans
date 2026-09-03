@@ -1,0 +1,207 @@
+{
+  "file": "ja-en_sys2_01_WO2024241396.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 90,
+      "input_text": "[請求項1]\n説明変数及び目的変数を含む複数の訓練データと、ガウス分布分散関数モデルの分散パラメータと、ガウス分布平均関数モデルの平均パラメータと、を用いて計算される平均負対数尤度の、前記分散パラメータについての勾配値を計算する、第１の勾配値計算手段と、\n前記複数の訓練データと、ガウス分布平均関数モデルの平均パラメータとを用いて計算される、前記説明変数及び平均パラメータを入力としたときの前記ガウス分布平均関数モデルの出力値と前記目的変数との平均二乗誤差の、平均パラメータについての勾配値を計算する、第２の勾配値計算手段と、\n前記平均負対数尤度の前記分散パラメータについての勾配値を用いて前記分散パラメータを更新し、前記平均二乗誤差の前記平均パラメータについての勾配値を用いて前記平均パラメータを更新する、パラメータ更新手段と、\nを備えている、ことを特徴とする機械学習装置。",
+      "output_text": "1.\nA machine learning apparatus comprising: a first gradient value calculation means configured to calculate a gradient value, with respect to a variance parameter of a Gaussian distribution variance function model, of an average negative log-likelihood calculated using a plurality of training data including explanatory variables and objective variables, the variance parameter, and a mean parameter of a Gaussian distribution mean function model; a second gradient value calculation means configured to calculate a gradient value, with respect to the mean parameter, of a mean squared error between an output value of the Gaussian distribution mean function model when the explanatory variables and the mean parameter are input and the objective variables, the mean squared error being calculated using the plurality of training data and the mean parameter; and a parameter updating means configured to update the variance parameter using the gradient value with respect to the variance parameter of the average negative log-likelihood and to update the mean parameter using the gradient value with respect to the mean parameter of the mean squared error.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 140,
+          "end": 153,
+          "text": "ガウス分布平均関数モデルの",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "U16:AG16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 271,
+          "end": 299,
+          "text": "a plurality of training data",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "EA13:EN13",
+            "AY16:BK16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 387,
+          "end": 391,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BA19:BD19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 429,
+          "end": 433,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CQ19:CT19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 554,
+          "end": 558,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EA22:ED22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 575,
+          "end": 579,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BA25:BD25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 647,
+          "end": 651,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DU25:DX25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 706,
+          "end": 710,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CG28:CJ28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 806,
+          "end": 836,
+          "text": "the plurality of training data",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "CJ31:DM31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1057,
+          "end": 1061,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EL37:EO37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1117,
+          "end": 1121,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DB40:DE40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1139,
+          "end": 1143,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DX40:EA40"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n説明変数及び目的変数を含む複数の訓練データと、ガウス分布分散関数モデルの分散パラメータと、ガウス分布平均関数モデルの平均パラメータと、を用いて計算される平均負対数尤度の、前記分散パラメータについての勾配値を計算する、第１の勾配値計算手段と、\n前記複数の訓練データと、ガウス分布平均関数モデルの平均パラメータとを用いて計算される、前記説明変数及び平均パラメータを入力としたときの前記ガウス分布平均関数モデルの出力値と前記目的変数との平均二乗誤差の、平均パラメータについての勾配値を計算する、第２の勾配値計算手段と、\n前記平均負対数尤度の前記分散パラメータについての勾配値を用いて前記分散パラメータを更新し、前記平均二乗誤差の前記平均パラメータについての勾配値を用いて前記平均パラメータを更新する、パラメータ更新手段と、\nを備えている、ことを特徴とする機械学習装置。",
+      "output_text_grid": "1. A machine learning apparatus comprising: a first gradient value calculation means configured to calculate a gradient value, with respect to a variance parameter of a Gaussian distribution variance function model, of an average negative log-likelihood calculated using a plurality of training data including explanatory variables and objective variables, the variance parameter, and a mean parameter of a Gaussian distribution mean function model; a second gradient value calculation means configured to calculate a gradient value, with respect to the mean parameter, of a mean squared error between an output value of the Gaussian distribution mean function model when the explanatory variables and the mean parameter are input and the objective variables, the mean squared error being calculated using the plurality of training data and the mean parameter; and a parameter updating means configured to update the variance parameter using the gradient value with respect to the variance parameter of the average negative log-likelihood and to update the mean parameter using the gradient value with respect to the mean parameter of the mean squared error."
+    },
+    {
+      "index": 2,
+      "score": 70,
+      "input_text": "[請求項2]\n前記パラメータ更新手段が、前記平均負対数尤度と前記平均二乗誤差との和を計算する損失関数が最小化するように、前記分散パラメータ及び前記平均パラメータを更新する、\n請求項１に記載の機械学習装置。",
+      "output_text": "2.\nThe machine learning apparatus according to claim 1, wherein the parameter updating means is configured to update the variance parameter and the mean parameter such that a loss function that calculates the sum of the average negative log-likelihood and the mean squared error is minimized.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 148,
+          "end": 152,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CY58:DB58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 189,
+          "end": 204,
+          "text": "that calculates",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "EN58:EQ58",
+            "AY61:BH61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 205,
+          "end": 208,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BJ61:BL61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 260,
+          "end": 264,
+          "text": "mean",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DM61:DP61"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記パラメータ更新手段が、前記平均負対数尤度と前記平均二乗誤差との和を計算する損失関数が最小化するように、前記分散パラメータ及び前記平均パラメータを更新する、\n請求項１に記載の機械学習装置。",
+      "output_text_grid": "2. The machine learning apparatus according to claim 1, wherein the parameter updating means is configured to update the variance parameter and the mean parameter such that a loss function that calculates the sum of the average negative log-likelihood and the mean squared error is minimized."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "file": "ja-en_sys4_01_WO2024241396.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 20,
+      "input_text": "[請求項1]\n説明変数及び目的変数を含む複数の訓練データと、ガウス分布分散関数モデルの分散パラメータと、ガウス分布平均関数モデルの平均パラメータと、を用いて計算される平均負対数尤度の、前記分散パラメータについての勾配値を計算する、第１の勾配値計算手段と、\n前記複数の訓練データと、ガウス分布平均関数モデルの平均パラメータとを用いて計算される、前記説明変数及び平均パラメータを入力としたときの前記ガウス分布平均関数モデルの出力値と前記目的変数との平均二乗誤差の、平均パラメータについての勾配値を計算する、第２の勾配値計算手段と、\n前記平均負対数尤度の前記分散パラメータについての勾配値を用いて前記分散パラメータを更新し、前記平均二乗誤差の前記平均パラメータについての勾配値を用いて前記平均パラメータを更新する、パラメータ更新手段と、\nを備えている、ことを特徴とする機械学習装置。",
+      "output_text": "[Claim 1]\nMachine learning device, wherein a plurality of training data including explanatory variables and objective variables; and; the variance parameter of the Gaussian distribution variance function model; first gradient value calculation means for calculating a gradient value for the variance parameter of an average negative log likelihood calculated using an average parameter of a Gaussian distribution average function model; the plurality of training data; a second gradient value calculation means for calculating a gradient value of an average square error between an output value of the Gaussian distribution average function model and the objective variable when the explanatory variable and the average parameter are input, the gradient value being calculated using the average parameter of the Gaussian distribution average function model; and parameter updating means for updating the variance parameter using a gradient value for the variance parameter of the average negative log likelihood and updating the average parameter using a gradient value for the average parameter of the average square error.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 10,
+          "end": 33,
+          "text": "Machine learning device",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BI7:CE7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 35,
+          "end": 42,
+          "text": "wherein",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CH7:CN7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 43,
+          "end": 210,
+          "text": "a plurality of training data including explanatory variables and objective variables; and; the variance parameter of the Gaussian distribution variance function model;",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "CP7:EM7",
+            "AY10:EK10",
+            "AY13:BV13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 283,
+          "end": 347,
+          "text": "for the variance parameter of an average negative log likelihood",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "AY16:DJ16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 437,
+          "end": 468,
+          "text": "the plurality of training data;",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "DH19:EL19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 679,
+          "end": 703,
+          "text": "the explanatory variable",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "BM28:CJ28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 741,
+          "end": 759,
+          "text": "the gradient value",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DW28:EN28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 929,
+          "end": 930,
+          "text": "a",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DR34:DR34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 946,
+          "end": 1011,
+          "text": "for the variance parameter of the average negative log likelihood",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "EI34:EO34",
+            "AY37:DC37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1070,
+          "end": 1123,
+          "text": "for the average parameter of the average square error",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "BP40:DP40"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n説明変数及び目的変数を含む複数の訓練データと、ガウス分布分散関数モデルの分散パラメータと、ガウス分布平均関数モデルの平均パラメータと、を用いて計算される平均負対数尤度の、前記分散パラメータについての勾配値を計算する、第１の勾配値計算手段と、\n前記複数の訓練データと、ガウス分布平均関数モデルの平均パラメータとを用いて計算される、前記説明変数及び平均パラメータを入力としたときの前記ガウス分布平均関数モデルの出力値と前記目的変数との平均二乗誤差の、平均パラメータについての勾配値を計算する、第２の勾配値計算手段と、\n前記平均負対数尤度の前記分散パラメータについての勾配値を用いて前記分散パラメータを更新し、前記平均二乗誤差の前記平均パラメータについての勾配値を用いて前記平均パラメータを更新する、パラメータ更新手段と、\nを備えている、ことを特徴とする機械学習装置。",
+      "output_text_grid": "[Claim 1] Machine learning device, wherein a plurality of training data including explanatory variables and objective variables; and; the variance parameter of the Gaussian distribution variance function model; first gradient value calculation means for calculating a gradient value for the variance parameter of an average negative log likelihood calculated using an average parameter of a Gaussian distribution average function model; the plurality of training data; a second gradient value calculation means for calculating a gradient value of an average square error between an output value of the Gaussian distribution average function model and the objective variable when the explanatory variable and the average parameter are input, the gradient value being calculated using the average parameter of the Gaussian distribution average function model; and parameter updating means for updating the variance parameter using a gradient value for the variance parameter of the average negative log likelihood and updating the average parameter using a gradient value for the average parameter of the average square error."
+    },
+    {
+      "index": 2,
+      "score": 80,
+      "input_text": "[請求項2]\n前記パラメータ更新手段が、前記平均負対数尤度と前記平均二乗誤差との和を計算する損失関数が最小化するように、前記分散パラメータ及び前記平均パラメータを更新する、\n請求項１に記載の機械学習装置。",
+      "output_text": "[Claim 2]\nThe machine learning device according to claim 1, wherein the parameter updating unit updates the variance parameter and the average parameter such that a loss function that calculates a sum of the average negative log likelihood and the average square error is minimized.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 91,
+          "end": 95,
+          "text": "unit",
+          "error": "用語の一貫性",
+          "severity": "大",
+          "cells": [
+            "EL55:EO55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 179,
+          "end": 194,
+          "text": "that calculates",
+          "error": "文法",
+          "severity": "大",
+          "cells": [
+            "ED58:ER58"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記パラメータ更新手段が、前記平均負対数尤度と前記平均二乗誤差との和を計算する損失関数が最小化するように、前記分散パラメータ及び前記平均パラメータを更新する、\n請求項１に記載の機械学習装置。",
+      "output_text_grid": "[Claim 2] The machine learning device according to claim 1, wherein the parameter updating unit updates the variance parameter and the average parameter such that a loss function that calculates a sum of the average negative log likelihood and the average square error is minimized."
+    }
+  ]
+}

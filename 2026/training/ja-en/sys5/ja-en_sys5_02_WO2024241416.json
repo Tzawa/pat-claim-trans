@@ -1,0 +1,504 @@
+{
+  "file": "ja-en_sys5_02_WO2024241416.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 50,
+      "input_text": "[請求項1]\n自車両と通信可能な範囲を走行する他車両の他車時系列情報を車両間通信装置を介して入手して記憶する他車情報記憶部と、\n前記他車情報記憶部に記憶された前記他車時系列情報に基づいて前記他車両の運動状態を推定する運動状態推定部と、\n前記他車情報記憶部に記憶された前記他車時系列情報に含まれる信頼度情報が予め設定された閾値よりも小さく、かつその状態が予め設定された時間よりも長く継続している場合は、前記信頼度情報が予め設定された閾値よりも小さい状態が継続している区間を補正対象区間として検知して前記運動状態推定部に出力する補正対象区間検知部と、\n前記運動状態推定部で推定された前記他車両の運動状態から前記他車両の走行軌跡をシミュレートし、シミュレートした前記他車両の前記走行軌跡を出力する運動状態補正部とを備えた運転支援装置であって、\n前記運動状態は、時系列の前記他車両の水平面内の方位情報、速度情報、加速度情報および車両方位の角速度情報を含み、\n前記運動状態推定部は、前記補正対象区間検知部から入力された前記補正対象区間を走行している前記他車両の運動状態を推定し、\n前記運動状態補正部は、前記他車両の運動状態に含まれる各情報の補正候補を生成して前記運動状態を補正し、この補正した前記運動状態からシミュレートした前記他車両の前記走行軌跡と車線情報を含む地図情報との一致度評価値を算出し、算出した前記一致度評価値に基づいて前記地図情報との一致度が最も高い前記走行軌跡を出力することを特徴とする運転支援装置。",
+      "output_text": "[Claim 1]\nA driving assistance device comprising:\na vehicle information storage unit that acquires and stores other vehicle time-series information transmitted from vehicles operating within a communication range with the vehicle via a vehicle-to-vehicle communication device;\nan motion state estimation unit that estimates the motion state of the other vehicle based on the stored other vehicle time-series information;\na correction target interval detection unit that, when:\nthe reliability information contained in the other vehicle time-series information stored in the vehicle information storage unit is below a predetermined threshold value, and\nthis state persists for a duration longer than a predetermined time interval,\ndetects the interval during which the reliability information remains below the predetermined threshold as a correction target interval and outputs it to the motion state estimation unit; and\nan motion state correction unit that:\nsimulates the other vehicle's trajectory based on the estimated motion state of the other vehicle, and\noutputs the simulated trajectory of the other vehicle;\nwhere the motion state includes:\ntime-series horizontal orientation information, velocity information, acceleration information, and angular velocity information of the vehicle's orientation;\nthe motion state estimation unit estimates the motion state of the other vehicle while it is traveling through the correction target interval input from the correction target interval detection unit;\nthe motion state correction unit generates correction candidates for each piece of information contained in the other vehicle's motion state, corrects the motion state, and calculates an alignment evaluation value between the simulated trajectory of the other vehicle and map information containing lane information; and\nthe device is characterized by outputting the trajectory with the highest alignment with the map information based on the calculated alignment evaluation value.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 7,
+          "end": 8,
+          "text": "自",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "H7:H7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 54,
+          "end": 55,
+          "text": "他",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "O10:O10"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 64,
+          "end": 74,
+          "text": "前記他車情報記憶部に",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Y10:AH10"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 120,
+          "end": 121,
+          "text": "他",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A16:A16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 274,
+          "end": 284,
+          "text": "前記運動状態推定部で",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AI25:AN25",
+            "A28:D28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 307,
+          "end": 309,
+          "text": "走行",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AB28:AC28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 336,
+          "end": 338,
+          "text": "走行",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Q31:R31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 381,
+          "end": 387,
+          "text": "前記他車両の",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "V34:AA34"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 389,
+          "end": 392,
+          "text": "面内の",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AD34:AF34"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 535,
+          "end": 557,
+          "text": "この補正した前記運動状態からシミュレートした",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "P46:AK46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 565,
+          "end": 567,
+          "text": "走行",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "F49:G49"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 629,
+          "end": 631,
+          "text": "走行",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AD52:AE52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 110,
+          "end": 147,
+          "text": "other vehicle time-series information",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "BJ10:CT10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 148,
+          "end": 164,
+          "text": "transmitted from",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "CV10:DK10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 218,
+          "end": 221,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BX13:BZ13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 277,
+          "end": 279,
+          "text": "an",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "EE13:EF13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 324,
+          "end": 327,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CD16:CF16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 344,
+          "end": 361,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CX16:DN16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 382,
+          "end": 419,
+          "text": "other vehicle time-series information",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "EJ16:EN16",
+            "AY19:CC19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 441,
+          "end": 449,
+          "text": "interval",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "CZ19:DG19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 477,
+          "end": 480,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "EJ19:EL19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 518,
+          "end": 559,
+          "text": "the other vehicle time-series information",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "CJ22:DX22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 618,
+          "end": 631,
+          "text": "predetermined",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "CQ25:DC25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 702,
+          "end": 715,
+          "text": "predetermined",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "CB28:CN28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 716,
+          "end": 717,
+          "text": "t",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "CP29:CP29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 717,
+          "end": 729,
+          "text": "ime interval",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "CQ29:DB29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 739,
+          "end": 751,
+          "text": "the interval",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DM28:DX28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 811,
+          "end": 824,
+          "text": "predetermined",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "CO31:DA31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 858,
+          "end": 866,
+          "text": "interval",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "EJ31:EQ31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 923,
+          "end": 925,
+          "text": "an",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DC34:DD34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 971,
+          "end": 988,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "BI37:BY37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1041,
+          "end": 1058,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "EA37:EQ37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1119,
+          "end": 1124,
+          "text": "where",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DF40:DJ40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1284,
+          "end": 1297,
+          "text": "the vehicle's",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CE46:CQ46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1374,
+          "end": 1391,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CC49:CS49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1398,
+          "end": 1403,
+          "text": "it is",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DA49:DE49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1444,
+          "end": 1452,
+          "text": "interval",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "AY52:BF52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1486,
+          "end": 1494,
+          "text": "interval",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "CO52:CV52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1619,
+          "end": 1638,
+          "text": "the other vehicle's",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DV55:EN55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1698,
+          "end": 1707,
+          "text": "alignment",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DF58:DN58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1761,
+          "end": 1778,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "BW61:CM61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1828,
+          "end": 1862,
+          "text": "and the device is characterized by",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "EL61:ER61",
+            "AY64:BX64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1906,
+          "end": 1915,
+          "text": "alignment",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DQ64:DY64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1965,
+          "end": 1974,
+          "text": "alignment",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "CI67:CQ67"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n自車両と通信可能な範囲を走行する他車両の他車時系列情報を車両間通信装置を介して入手して記憶する他車情報記憶部と、\n前記他車情報記憶部に記憶された前記他車時系列情報に基づいて前記他車両の運動状態を推定する運動状態推定部と、\n前記他車情報記憶部に記憶された前記他車時系列情報に含まれる信頼度情報が予め設定された閾値よりも小さく、かつその状態が予め設定された時間よりも長く継続している場合は、前記信頼度情報が予め設定された閾値よりも小さい状態が継続している区間を補正対象区間として検知して前記運動状態推定部に出力する補正対象区間検知部と、\n前記運動状態推定部で推定された前記他車両の運動状態から前記他車両の走行軌跡をシミュレートし、シミュレートした前記他車両の前記走行軌跡を出力する運動状態補正部とを備えた運転支援装置であって、\n前記運動状態は、時系列の前記他車両の水平面内の方位情報、速度情報、加速度情報および車両方位の角速度情報を含み、\n前記運動状態推定部は、前記補正対象区間検知部から入力された前記補正対象区間を走行している前記他車両の運動状態を推定し、\n前記運動状態補正部は、前記他車両の運動状態に含まれる各情報の補正候補を生成して前記運動状態を補正し、この補正した前記運動状態からシミュレートした前記他車両の前記走行軌跡と車線情報を含む地図情報との一致度評価値を算出し、算出した前記一致度評価値に基づいて前記地図情報との一致度が最も高い前記走行軌跡を出力することを特徴とする運転支援装置。",
+      "output_text_grid": "[Claim 1] A driving assistance device comprising: a vehicle information storage unit that acquires and stores other vehicle time-series information transmitted from vehicles operating within a communication range with the vehicle via a vehicle-to-vehicle communication device; an motion state estimation unit that estimates the motion state of the other vehicle based on the stored other vehicle time-series information; a correction target interval detection unit that, when: the reliability information contained in the other vehicle time-series information stored in the vehicle information storage unit is below a predetermined threshold value, and this state persists for a duration longer than a predetermined time interval, detects the interval during which the reliability information remains below the predetermined threshold as a correction target interval and outputs it to the motion state estimation unit; and an motion state correction unit that: simulates the other vehicle's trajectory based on the estimated motion state of the other vehicle, and outputs the simulated trajectory of the other vehicle; where the motion state includes: time-series horizontal orientation information, velocity information, acceleration information, and angular velocity information of the vehicle's orientation; the motion state estimation unit estimates the motion state of the other vehicle while it is traveling through the correction target interval input from the correction target interval detection unit; the motion state correction unit generates correction candidates for each piece of information contained in the other vehicle's motion state, corrects the motion state, and calculates an alignment evaluation value between the simulated trajectory of the other vehicle and map information containing lane information; and the device is characterized by outputting the trajectory with the highest alignment with the map information based on the calculated alignment evaluation value."
+    }
+  ]
+}

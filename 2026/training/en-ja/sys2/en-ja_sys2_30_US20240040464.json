@@ -1,0 +1,393 @@
+{
+  "file": "en-ja_sys2_30_US20240040464.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 65,
+      "input_text": "1. A method for unmanned aerial vehicle handover, comprising:\ndetermining, by a source base station, that one or more base stations meet one or more handover conditions based on a measurement report from an unmanned aerial vehicle;\ndetermining, by the source base station, a candidate base station that has completed a handover preparation among the one or more base stations meeting the one or more handover conditions;\nhanding over, by the source base station, the unmanned aerial vehicle to the candidate base station meeting the one or more handover conditions;\ndetermining, by the source base station, one or more accessible base stations based on a flight path of the unmanned aerial vehicle and geographical location information of the one or more accessible base stations;\nselecting, by the source base station, a base station from the one or more accessible base stations based on a flight speed, a flight altitude, or the flight speed and the flight altitude of the unmanned aerial vehicle, wherein the selected base station is to perform a handover preparation operation, and the accessible base station is a base station that the unmanned aerial vehicle is able to access when flying according to the flight path;\nperforming, by the source base station, a handover preparation operation for handing over the base station that is to perform the handover preparation operation; and\ndetermining, by the source base station, the base station that has successfully performed the handover preparation as the candidate base station that has completed the handover preparation.",
+      "output_text": "1. 無人航空機ハンドオーバのための方法であって、以下を含む：ソース基地局によって、無人航空機からの測定報告に基づいて、1つまたは複数の基地局が1つまたは複数のハンドオーバ条件を満たすと決定するステップと、ソース基地局によって、1つまたは複数のハンドオーバ条件を満たす1つまたは複数の基地局の中からハンドオーバ準備を完了した候補基地局を決定するステップと、ソース基地局によって、1つまたは複数のハンドオーバ条件を満たす候補基地局に無人航空機をハンドオーバするステップと、ソース基地局によって、無人航空機の飛行経路および1つまたは複数のアクセス可能な基地局の地理的位置情報に基づき、1つまたは複数のアクセス可能な基地局を決定するステップと、ソース基地局によって、無人航空機の飛行速度、飛行高度、または飛行速度および飛行高度に基づいて、1つまたは複数のアクセス可能な基地局から基地局を選択するステップであって、選択された基地局は、ハンドオーバ準備動作を実行するものであり、アクセス可能な基地局は、飛行経路に従って飛行するときに無人航空機がアクセスすることができる基地局である、ステップと、ソース基地局によって、ハンドオーバ準備動作を行うべき基地局をハンドオーバするためのハンドオーバ準備動作を行うステップと、そして、ソース基地局は、ハンドオーバ準備を成功した基地局を、ハンドオーバ準備を完了した候補基地局として決定する。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 248,
+          "end": 252,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BE13:BH13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 346,
+          "end": 350,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BE16:BH16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 384,
+          "end": 388,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CQ16:CT16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 438,
+          "end": 442,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AY19:BB19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 463,
+          "end": 467,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BX19:CA19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 529,
+          "end": 533,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AU22:AX22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 582,
+          "end": 586,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A25:D25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 670,
+          "end": 674,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CK25:CN25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 795,
+          "end": 799,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Y31:AB31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 840,
+          "end": 844,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BR31:BU31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 928,
+          "end": 932,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BJ34:BM34"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 949,
+          "end": 953,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CE34:CH34"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 972,
+          "end": 976,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "M37:P37"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1009,
+          "end": 1013,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AX37:BA37"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1087,
+          "end": 1091,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AB40:AE40"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1138,
+          "end": 1142,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CA40:CD40"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1209,
+          "end": 1213,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AZ43:BC43"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1241,
+          "end": 1245,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CF43:CI43"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1266,
+          "end": 1268,
+          "text": "a ",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "J46:K46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1352,
+          "end": 1356,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CR46:CU46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1408,
+          "end": 1412,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BA49:BD49"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1482,
+          "end": 1486,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AB52:AE52"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1556,
+          "end": 1560,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "K54:N54"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 25,
+          "end": 31,
+          "text": "以下を含む：",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "EF7:EK7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 37,
+          "end": 41,
+          "text": "によって",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "ER7:ET7",
+            "DG10:DG10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 109,
+          "end": 113,
+          "text": "によって",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EJ13:EM13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 184,
+          "end": 188,
+          "text": "によって",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EE19:EH19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 241,
+          "end": 245,
+          "text": "によって",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DH25:DK25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 325,
+          "end": 329,
+          "text": "によって",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DL31:DO31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 486,
+          "end": 492,
+          "text": "ステップと、",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DM43:DR43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 498,
+          "end": 502,
+          "text": "によって",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DY43:EB43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 552,
+          "end": 555,
+          "text": "そして",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EM46:EO46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 556,
+          "end": 563,
+          "text": "ソース基地局は",
+          "error": "(誤訳)係り先誤り（この部分は主語ではなく「ソース基地局により、」として修飾句とするべきである）",
+          "severity": "大",
+          "cells": [
+            "EQ47:ET47",
+            "DG50:DI50"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 606,
+          "end": 607,
+          "text": "る",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DM52:DM52"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A method for unmanned aerial vehicle handover, comprising: determining, by a source base station, that one or more base stations meet one or more handover conditions based on a measurement report from an unmanned aerial vehicle; determining, by the source base station, a candidate base station that has completed a handover preparation among the one or more base stations meeting the one or more handover conditions; handing over, by the source base station, the unmanned aerial vehicle to the candidate base station meeting the one or more handover conditions; determining, by the source base station, one or more accessible base stations based on a flight path of the unmanned aerial vehicle and geographical location information of the one or more accessible base stations; selecting, by the source base station, a base station from the one or more accessible base stations based on a flight speed, a flight altitude, or the flight speed and the flight altitude of the unmanned aerial vehicle, wherein the selected base station is to perform a handover preparation operation, and the accessible base station is a base station that the unmanned aerial vehicle is able to access when flying according to the flight path; performing, by the source base station, a handover preparation operation for handing over the base station that is to perform the handover preparation operation; and determining, by the source base station, the base station that has successfully performed the handover preparation as the candidate base station that has completed the handover preparation.",
+      "output_text_grid": "1. 無人航空機ハンドオーバのための方法であって、以下を含む：ソース基地局によって、無人航空機からの測定報告に基づいて、1つまたは複数の基地局が1つまたは複数のハンドオーバ条件を満たすと決定するステップと、ソース基地局によって、1つまたは複数のハンドオーバ条件を満たす1つまたは複数の基地局の中からハンドオーバ準備を完了した候補基地局を決定するステップと、ソース基地局によって、1つまたは複数のハンドオーバ条件を満たす候補基地局に無人航空機をハンドオーバするステップと、ソース基地局によって、無人航空機の飛行経路および1つまたは複数のアクセス可能な基地局の地理的位置情報に基づき、1つまたは複数のアクセス可能な基地局を決定するステップと、ソース基地局によって、無人航空機の飛行速度、飛行高度、または飛行速度および飛行高度に基づいて、1つまたは複数のアクセス可能な基地局から基地局を選択するステップであって、選択された基地局は、ハンドオーバ準備動作を実行するものであり、アクセス可能な基地局は、飛行経路に従って飛行するときに無人航空機がアクセスすることができる基地局である、ステップと、ソース基地局によって、ハンドオーバ準備動作を行うべき基地局をハンドオーバするためのハンドオーバ準備動作を行うステップと、そして、ソース基地局は、ハンドオーバ準備を成功した基地局を、ハンドオーバ準備を完了した候補基地局として決定する。"
+    }
+  ]
+}

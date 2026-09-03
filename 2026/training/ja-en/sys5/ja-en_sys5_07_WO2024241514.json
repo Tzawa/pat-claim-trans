@@ -1,0 +1,382 @@
+{
+  "file": "ja-en_sys5_07_WO2024241514.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 30,
+      "input_text": "[請求項1]\n直流電力を交流電力に変換する単相インバータの交流側が複数直列接続されており、複数の前記単相インバータが出力する出力電圧が総和された全体出力電圧の直流電力又は交流電力を負荷に供給する電力変換器と、前記電力変換器を制御する制御部とを備えた電力変換装置であって、\n前記出力電圧の絶対値が最小である最小出力電圧を出力する前記単相インバータを最小単相インバータとし、\n複数の前記単相インバータの出力を選択的に組み合わせることで離散的に設定可能な前記全体出力電圧の絶対値を階調レベルとし、\n前記出力電圧の組合せである電圧組合せの複数によって同一の前記全体出力電圧のレベルが実現される予め定められた前記階調レベルを特別レベルとし、\n設定可能な前記階調レベルには少なくとも１つの前記特別レベルが含まれており、\n前記制御部は、\n複数の前記単相インバータにおける前記出力電圧の組合せを選択することにより設定電圧値の前記全体出力電圧を出力するように前記単相インバータを制御し、\n前記階調レベルを前後の一方に前記特別レベルを含ませて変更する際に、前記最小単相インバータを除いた少なくとも１つの前記単相インバータの前記出力電圧が変化しない前記電圧組合せを選択する、\n電力変換装置。",
+      "output_text": "[Claim 1]\nA power conversion device comprising: a power converter that converts direct current power to alternating current power, wherein the AC side of a single-phase inverter is configured in multiple series connections, and multiple such single-phase inverters collectively supply either direct or alternating current power to loads by summing their output voltages; and a control unit for controlling the power converter, characterized in that:\nthe single-phase inverter outputting the minimum absolute value of output voltage is designated as the minimal single-phase inverter;\nthe absolute value of the total output voltage, which is discretely adjustable by selectively combining the outputs of multiple single-phase inverters, is referred to as a gradation level;\nthe predetermined gradation level where the same total output voltage level is achieved through multiple combinations of output voltages is designated as a special level;\nthe adjustable gradation levels include at least one such special level; and\nthe control unit:\ncontrols the single-phase inverters to output the set voltage value total output voltage by selecting combinations of output voltages among the multiple single-phase inverters; and\nwhen changing the gradation level to include the special level in either the forward or backward direction, selects an output voltage combination such that at least one single-phase inverter other than the minimal single-phase inverter maintains its output voltage unchanged.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 136,
+          "end": 138,
+          "text": "前記",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Q16:R16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 246,
+          "end": 259,
+          "text": "前記出力電圧の組合せである",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "G25:S25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 378,
+          "end": 380,
+          "text": "前記",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "S34:T34"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 491,
+          "end": 493,
+          "text": "前記",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "L43:M43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 48,
+          "end": 129,
+          "text": "a power converter that converts direct current power to alternating current power",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CU7:EN7",
+            "AY10:CF10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 139,
+          "end": 292,
+          "text": "the AC side of a single-phase inverter is configured in multiple series connections, and multiple such single-phase inverters collectively supply either ",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CQ10:ES10",
+            "AY13:EQ13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 292,
+          "end": 327,
+          "text": "direct or alternating current power",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "AY16:CG16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 331,
+          "end": 336,
+          "text": "loads",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CL16:CP16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 337,
+          "end": 369,
+          "text": "by summing their output voltages",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "CR17:DW17"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 348,
+          "end": 353,
+          "text": "their",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "DC16:DG16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 427,
+          "end": 448,
+          "text": "characterized in that",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "CJ19:DD19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 448,
+          "end": 449,
+          "text": ":",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DE20:DE20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 487,
+          "end": 531,
+          "text": "the minimum absolute value of output voltage",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "AY22:CP22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 549,
+          "end": 552,
+          "text": "the",
+          "error": "（誤訳）冠詞",
+          "severity": "大",
+          "cells": [
+            "DI22:DK22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 582,
+          "end": 583,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "EP22:EP22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 584,
+          "end": 587,
+          "text": "the",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "AY25:BA25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 652,
+          "end": 662,
+          "text": "adjustable",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DO25:DX25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 688,
+          "end": 691,
+          "text": "the",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "BI28:BK28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 771,
+          "end": 772,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "EN28:EN28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 813,
+          "end": 848,
+          "text": "the same total output voltage level",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CI31:DQ31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 894,
+          "end": 900,
+          "text": "output",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "BX34:CC34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 942,
+          "end": 943,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DT34:DT34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 948,
+          "end": 958,
+          "text": "adjustable",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DZ35:EI35"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1015,
+          "end": 1016,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "CS37:CS37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1037,
+          "end": 1038,
+          "text": ":",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DO37:DO37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1085,
+          "end": 1127,
+          "text": "the set voltage value total output voltage",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "BS40:DH40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1173,
+          "end": 1178,
+          "text": "among",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BH43:BL43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1214,
+          "end": 1215,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "CW43:CW43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1293,
+          "end": 1326,
+          "text": "the forward or backward direction",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CI46:DO46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1336,
+          "end": 1338,
+          "text": "an",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "DZ46:EA46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1339,
+          "end": 1345,
+          "text": "output",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EC47:EH47"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1376,
+          "end": 1410,
+          "text": "at least one single-phase inverter",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BU49:DB49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1466,
+          "end": 1469,
+          "text": "its",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BR52:BT52"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n直流電力を交流電力に変換する単相インバータの交流側が複数直列接続されており、複数の前記単相インバータが出力する出力電圧が総和された全体出力電圧の直流電力又は交流電力を負荷に供給する電力変換器と、前記電力変換器を制御する制御部とを備えた電力変換装置であって、\n前記出力電圧の絶対値が最小である最小出力電圧を出力する前記単相インバータを最小単相インバータとし、\n複数の前記単相インバータの出力を選択的に組み合わせることで離散的に設定可能な前記全体出力電圧の絶対値を階調レベルとし、\n前記出力電圧の組合せである電圧組合せの複数によって同一の前記全体出力電圧のレベルが実現される予め定められた前記階調レベルを特別レベルとし、\n設定可能な前記階調レベルには少なくとも１つの前記特別レベルが含まれており、\n前記制御部は、\n複数の前記単相インバータにおける前記出力電圧の組合せを選択することにより設定電圧値の前記全体出力電圧を出力するように前記単相インバータを制御し、\n前記階調レベルを前後の一方に前記特別レベルを含ませて変更する際に、前記最小単相インバータを除いた少なくとも１つの前記単相インバータの前記出力電圧が変化しない前記電圧組合せを選択する、\n電力変換装置。",
+      "output_text_grid": "[Claim 1] A power conversion device comprising: a power converter that converts direct current power to alternating current power, wherein the AC side of a single-phase inverter is configured in multiple series connections, and multiple such single-phase inverters collectively supply either direct or alternating current power to loads by summing their output voltages; and a control unit for controlling the power converter, characterized in that: the single-phase inverter outputting the minimum absolute value of output voltage is designated as the minimal single-phase inverter; the absolute value of the total output voltage, which is discretely adjustable by selectively combining the outputs of multiple single-phase inverters, is referred to as a gradation level; the predetermined gradation level where the same total output voltage level is achieved through multiple combinations of output voltages is designated as a special level; the adjustable gradation levels include at least one such special level; and the control unit: controls the single-phase inverters to output the set voltage value total output voltage by selecting combinations of output voltages among the multiple single-phase inverters; and when changing the gradation level to include the special level in either the forward or backward direction, selects an output voltage combination such that at least one single-phase inverter other than the minimal single-phase inverter maintains its output voltage unchanged."
+    }
+  ]
+}

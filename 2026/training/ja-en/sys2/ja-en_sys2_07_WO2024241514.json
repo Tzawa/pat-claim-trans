@@ -1,0 +1,183 @@
+{
+  "file": "ja-en_sys2_07_WO2024241514.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 85,
+      "input_text": "[請求項1]\n直流電力を交流電力に変換する単相インバータの交流側が複数直列接続されており、複数の前記単相インバータが出力する出力電圧が総和された全体出力電圧の直流電力又は交流電力を負荷に供給する電力変換器と、前記電力変換器を制御する制御部とを備えた電力変換装置であって、\n前記出力電圧の絶対値が最小である最小出力電圧を出力する前記単相インバータを最小単相インバータとし、\n複数の前記単相インバータの出力を選択的に組み合わせることで離散的に設定可能な前記全体出力電圧の絶対値を階調レベルとし、\n前記出力電圧の組合せである電圧組合せの複数によって同一の前記全体出力電圧のレベルが実現される予め定められた前記階調レベルを特別レベルとし、\n設定可能な前記階調レベルには少なくとも１つの前記特別レベルが含まれており、\n前記制御部は、\n複数の前記単相インバータにおける前記出力電圧の組合せを選択することにより設定電圧値の前記全体出力電圧を出力するように前記単相インバータを制御し、\n前記階調レベルを前後の一方に前記特別レベルを含ませて変更する際に、前記最小単相インバータを除いた少なくとも１つの前記単相インバータの前記出力電圧が変化しない前記電圧組合せを選択する、\n電力変換装置。",
+      "output_text": "1.\nA power conversion apparatus comprising: a power converter in which AC sides of a plurality of single-phase inverters that convert DC power into AC power are connected in series, the power converter being configured to supply to a load DC power or AC power of an overall output voltage obtained by summing output voltages output by the plurality of single-phase inverters; and a control unit configured to control the power converter; wherein: a minimum single-phase inverter is the single-phase inverter that outputs a minimum output voltage whose absolute value is minimum; an absolute value of the overall output voltage that is discretely settable by selectively combining outputs of the plurality of single-phase inverters is defined as a gradation level; a predetermined one of the gradation levels, at which a same overall output voltage level is realized by a plurality of voltage combinations that are combinations of the output voltages, is defined as a special level; the settable gradation levels include at least one special level; the control unit is configured to control the single-phase inverters to output the overall output voltage having a set voltage value by selecting a combination of the output voltages of the plurality of single-phase inverters; and when changing the gradation level such that the special level is included in one of a preceding level and a following level, the control unit selects the voltage combination in which an output voltage of at least one of the single-phase inverters other than the minimum single-phase inverter does not change.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 136,
+          "end": 143,
+          "text": "前記出力電圧の",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Q16:W16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 338,
+          "end": 340,
+          "text": "前記",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "S31:T31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 228,
+          "end": 229,
+          "text": " ",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "CI13:CI13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 238,
+          "end": 239,
+          "text": " ",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "CS13:CS13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 436,
+          "end": 437,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DA19:DA19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 445,
+          "end": 446,
+          "text": ":",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DJ19:DJ19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 447,
+          "end": 577,
+          "text": "a minimum single-phase inverter is the single-phase inverter that outputs a minimum output voltage whose absolute value is minimum",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DL20:ES20",
+            "AY22:EO22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 577,
+          "end": 578,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "EP23:EP23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 762,
+          "end": 763,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "EC28:EC28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 818,
+          "end": 853,
+          "text": "a same overall output voltage level",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CK31:DS31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 980,
+          "end": 981,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "BL37:BL37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1046,
+          "end": 1047,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DZ37:DZ37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1231,
+          "end": 1233,
+          "text": "of",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DO43:DP43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1273,
+          "end": 1274,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "BU46:BU46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1462,
+          "end": 1464,
+          "text": "an",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BT52:BU52"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n直流電力を交流電力に変換する単相インバータの交流側が複数直列接続されており、複数の前記単相インバータが出力する出力電圧が総和された全体出力電圧の直流電力又は交流電力を負荷に供給する電力変換器と、前記電力変換器を制御する制御部とを備えた電力変換装置であって、\n前記出力電圧の絶対値が最小である最小出力電圧を出力する前記単相インバータを最小単相インバータとし、\n複数の前記単相インバータの出力を選択的に組み合わせることで離散的に設定可能な前記全体出力電圧の絶対値を階調レベルとし、\n前記出力電圧の組合せである電圧組合せの複数によって同一の前記全体出力電圧のレベルが実現される予め定められた前記階調レベルを特別レベルとし、\n設定可能な前記階調レベルには少なくとも１つの前記特別レベルが含まれており、\n前記制御部は、\n複数の前記単相インバータにおける前記出力電圧の組合せを選択することにより設定電圧値の前記全体出力電圧を出力するように前記単相インバータを制御し、\n前記階調レベルを前後の一方に前記特別レベルを含ませて変更する際に、前記最小単相インバータを除いた少なくとも１つの前記単相インバータの前記出力電圧が変化しない前記電圧組合せを選択する、\n電力変換装置。",
+      "output_text_grid": "1. A power conversion apparatus comprising: a power converter in which AC sides of a plurality of single-phase inverters that convert DC power into AC power are connected in series, the power converter being configured to supply to a load DC power or AC power of an overall output voltage obtained by summing output voltages output by the plurality of single-phase inverters; and a control unit configured to control the power converter; wherein: a minimum single-phase inverter is the single-phase inverter that outputs a minimum output voltage whose absolute value is minimum; an absolute value of the overall output voltage that is discretely settable by selectively combining outputs of the plurality of single-phase inverters is defined as a gradation level; a predetermined one of the gradation levels, at which a same overall output voltage level is realized by a plurality of voltage combinations that are combinations of the output voltages, is defined as a special level; the settable gradation levels include at least one special level; the control unit is configured to control the single-phase inverters to output the overall output voltage having a set voltage value by selecting a combination of the output voltages of the plurality of single-phase inverters; and when changing the gradation level such that the special level is included in one of a preceding level and a following level, the control unit selects the voltage combination in which an output voltage of at least one of the single-phase inverters other than the minimum single-phase inverter does not change."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "file": "ja-en_sys1_23_WO2024247324.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 60,
+      "input_text": "[請求項1]\n豆腐の製造方法であって、\n大豆と水との第１の混合物を、前記第１の混合物中の前記大豆の、動的光散乱法により測定した粒度分布における体積基準でのメジアン径が２５０μｍ以下になるまで摩砕する工程、\n摩砕された前記第１の混合物を加熱する工程、\n摩砕及び加熱された前記第１の混合物を、豆乳とおからとに分離する工程、並びに、\n前記豆乳と凝固剤との第２の混合物を凝固させて豆腐を調製する工程\nを含む方法。",
+      "output_text": "1.\nA method for manufacturing tofu, the method comprising: grinding a first mixture comprising soybeans and water until a volume-based median diameter in a particle size distribution, measured by a dynamic light scattering method, of the soybeans in the first mixture becomes less than or equal to 250 um; heating the ground first mixture; separating the ground and heated first mixture into soy milk and soybean curd residue; and coagulating a second mixture comprising the soy milk and a coagulant to prepare tofu.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 16,
+          "end": 29,
+          "text": "manufacturing",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "BO7:CA7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 84,
+          "end": 94,
+          "text": "comprising",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EE7:EN7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 170,
+          "end": 246,
+          "text": "distribution, measured by a dynamic light scattering method, of the soybeans",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "DV10:EQ10",
+            "AY13:CY13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 460,
+          "end": 470,
+          "text": "comprising",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DT19:EC19"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n豆腐の製造方法であって、\n大豆と水との第１の混合物を、前記第１の混合物中の前記大豆の、動的光散乱法により測定した粒度分布における体積基準でのメジアン径が２５０μｍ以下になるまで摩砕する工程、\n摩砕された前記第１の混合物を加熱する工程、\n摩砕及び加熱された前記第１の混合物を、豆乳とおからとに分離する工程、並びに、\n前記豆乳と凝固剤との第２の混合物を凝固させて豆腐を調製する工程\nを含む方法。",
+      "output_text_grid": "1. A method for manufacturing tofu, the method comprising: grinding a first mixture comprising soybeans and water until a volume-based median diameter in a particle size distribution, measured by a dynamic light scattering method, of the soybeans in the first mixture becomes less than or equal to 250 um; heating the ground first mixture; separating the ground and heated first mixture into soy milk and soybean curd residue; and coagulating a second mixture comprising the soy milk and a coagulant to prepare tofu."
+    },
+    {
+      "index": 2,
+      "score": 100,
+      "input_text": "[請求項2]\n前記凝固剤が硫酸カルシウムを含む、請求項１に記載の方法。",
+      "output_text": "2.\nThe method according to claim 1, wherein the coagulant comprises calcium sulfate.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [],
+      "input_text_grid": "[請求項2]\n前記凝固剤が硫酸カルシウムを含む、請求項１に記載の方法。",
+      "output_text_grid": "2. The method according to claim 1, wherein the coagulant comprises calcium sulfate."
+    },
+    {
+      "index": 3,
+      "score": 70,
+      "input_text": "[請求項3]\n前記豆腐が、一辺３ｃｍの立方体形の５℃に調温した試料を、直径２０ｍｍの円形プランジャーにより６０ｍｍ／分の等速度で圧縮したときの破壊時の前記円形プランジャーにかかる力が２９０ｇｆ以上となる硬さを有する、請求項１又は２に記載の方法。",
+      "output_text": "3.\nThe method according to claim 1 or 2, wherein the tofu has a hardness such that when a 3 cm cube sample adjusted to 5 °C is compressed at a constant rate of 60 mm/min with a circular plunger with a diameter of 20 mm, a force applied thereto at fracture is equal to or greater than 290 gf.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 13,
+          "end": 15,
+          "text": "一辺",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "N52:O52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 236,
+          "end": 243,
+          "text": "thereto",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "CJ58:CP58"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\n前記豆腐が、一辺３ｃｍの立方体形の５℃に調温した試料を、直径２０ｍｍの円形プランジャーにより６０ｍｍ／分の等速度で圧縮したときの破壊時の前記円形プランジャーにかかる力が２９０ｇｆ以上となる硬さを有する、請求項１又は２に記載の方法。",
+      "output_text_grid": "3. The method according to claim 1 or 2, wherein the tofu has a hardness such that when a 3 cm cube sample adjusted to 5 °C is compressed at a constant rate of 60 mm/min with a circular plunger with a diameter of 20 mm, a force applied thereto at fracture is equal to or greater than 290 gf."
+    },
+    {
+      "index": 4,
+      "score": 75,
+      "input_text": "[請求項4]\n大豆をひき割りする工程を更に含み、前記第１の混合物が、ひき割りされた前記大豆と水との混合物である、請求項１～３のいずれか１項に記載の方法。",
+      "output_text": "4.\nThe method according to any one of claims 1 to 3, wherein the method further comprises splitting soybeans, and wherein the first mixture is a mixture of the split soybeans and water.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 51,
+          "end": 89,
+          "text": ", wherein the method further comprises",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "CX76:EI76"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項4]\n大豆をひき割りする工程を更に含み、前記第１の混合物が、ひき割りされた前記大豆と水との混合物である、請求項１～３のいずれか１項に記載の方法。",
+      "output_text_grid": "4. The method according to any one of claims 1 to 3, wherein the method further comprises splitting soybeans, and wherein the first mixture is a mixture of the split soybeans and water."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "file": "ja-en_sys6_26_WO2025134470.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 30,
+      "input_text": "[請求項1]\nｐＨ５．０未満のシアノコバルト錯体含有水溶液と、銅化合物と、ジチオカルバミン酸塩ポリマーとを混合するか、ｐＨ５．０以上のシアノコバルト錯体含有水溶液と、酸と、銅化合物と、ジチオカルバミン酸塩ポリマーとを混合することにより、ｐＨが５．０未満のコバルト含有酸性水溶液中に第１沈殿物を生成させることと、\n前記第１沈殿物が生成した後の、前記コバルト含有酸性水溶液のｐＨを８．０以上に調整して、コバルト含有塩基性水溶液中に第２沈殿物を生成させることと、\n前記第１沈殿物、及び前記第２沈殿物を含む前記コバルト含有塩基性水溶液から、前記第１沈殿物の少なくとも一部、及び前記第２沈殿物の少なくとも一部を除去することと、\nを含む、シアノコバルト錯体含有水溶液中のコバルトの含有量を低減する方法。",
+      "output_text": "generating a first precipitate in a cobalt-containing acidic aqueous solution having a pH of less than 5.0 by mixing a cyanocobalt complex-containing aqueous solution having a pH of less than 5.0 with a copper compound and a dithiocarbamate polymer, or by mixing a cyanocobalt complex-containing aqueous solution having a pH of 5.0 or more with an acid, a copper compound, and a dithiocarbamate polymer; adjusting the pH of the cobalt-containing acidic aqueous solution after the first precipitate is generated to 8.0 or more to generate a second precipitate in a cobalt-containing basic aqueous solution; and removing at least a part of the first precipitate and at least a part of the second precipitate from the cobalt-containing basic aqueous solution containing the first precipitate and the second precipitate.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項1]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:F7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 309,
+          "end": 344,
+          "text": "を含む、シアノコバルト錯体含有水溶液中のコバルトの含有量を低減する方法",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AD28:AN28",
+            "A31:X31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 815,
+          "text": "generating a first precipitate in a cobalt-containing acidic aqueous solution having a pH of less than 5.0 by mixing a cyanocobalt complex-containing aqueous solution having a pH of less than 5.0 with a copper compound and a dithiocarbamate polymer, or by mixing a cyanocobalt complex-containing aqueous solution having a pH of 5.0 or more with an acid, a copper compound, and a dithiocarbamate polymer; adjusting the pH of the cobalt-containing acidic aqueous solution after the first precipitate is generated to 8.0 or more to generate a second precipitate in a cobalt-containing basic aqueous solution; and removing at least a part of the first precipitate and at least a part of the second precipitate from the cobalt-containing basic aqueous solution containing the first precipitate and the second precipitate",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "AY7:EQ7",
+            "AY10:EQ10",
+            "AY13:ES13",
+            "AY16:ER16",
+            "AY19:EJ19",
+            "AY22:EO22",
+            "AY25:EQ25",
+            "AY28:EP28",
+            "AY31:CJ31"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\nｐＨ５．０未満のシアノコバルト錯体含有水溶液と、銅化合物と、ジチオカルバミン酸塩ポリマーとを混合するか、ｐＨ５．０以上のシアノコバルト錯体含有水溶液と、酸と、銅化合物と、ジチオカルバミン酸塩ポリマーとを混合することにより、ｐＨが５．０未満のコバルト含有酸性水溶液中に第１沈殿物を生成させることと、\n前記第１沈殿物が生成した後の、前記コバルト含有酸性水溶液のｐＨを８．０以上に調整して、コバルト含有塩基性水溶液中に第２沈殿物を生成させることと、\n前記第１沈殿物、及び前記第２沈殿物を含む前記コバルト含有塩基性水溶液から、前記第１沈殿物の少なくとも一部、及び前記第２沈殿物の少なくとも一部を除去することと、\nを含む、シアノコバルト錯体含有水溶液中のコバルトの含有量を低減する方法。",
+      "output_text_grid": "generating a first precipitate in a cobalt-containing acidic aqueous solution having a pH of less than 5.0 by mixing a cyanocobalt complex-containing aqueous solution having a pH of less than 5.0 with a copper compound and a dithiocarbamate polymer, or by mixing a cyanocobalt complex-containing aqueous solution having a pH of 5.0 or more with an acid, a copper compound, and a dithiocarbamate polymer; adjusting the pH of the cobalt-containing acidic aqueous solution after the first precipitate is generated to 8.0 or more to generate a second precipitate in a cobalt-containing basic aqueous solution; and removing at least a part of the first precipitate and at least a part of the second precipitate from the cobalt-containing basic aqueous solution containing the first precipitate and the second precipitate."
+    },
+    {
+      "index": 2,
+      "score": 30,
+      "input_text": "[請求項2]\nｐＨ５．０未満のシアノコバルト錯体含有水溶液と、銅化合物と、ジチオカルバミン酸塩ポリマーとを混合するか、ｐＨ５．０以上のシアノコバルト錯体含有水溶液と、酸と、銅化合物と、ジチオカルバミン酸塩ポリマーとを混合することにより、ｐＨが５．０未満のコバルト含有酸性水溶液中に第１沈殿物を生成させ、第１沈殿物を含むコバルト含有酸性水溶液を得ることと、\n前記第１沈殿物を含む前記コバルト含有酸性水溶液から、前記第１沈殿物の少なくとも一部を除去することと、\n前記第１沈殿物の少なくとも一部が除去されたコバルト含有酸性水溶液のｐＨを８．０以上に調整して、第２沈殿物を生成させることと、\n前記第２沈殿物を含むコバルト含有塩基性水溶液から、前記第２沈殿物の少なくとも一部を除去することと、\nを含む、シアノコバルト錯体含有水溶液中のコバルトの含有量を低減する方法。",
+      "output_text": "mixing a cyanocobalt complex-containing aqueous solution having a pH of less than 5.0, a copper compound, and a dithiocarbamate polymer, or mixing a cyanocobalt complex-containing aqueous solution having a pH of 5.0 or more, an acid, a copper compound, and a dithiocarbamate polymer, to thereby generate a first precipitate in a cobalt-containing acidic aqueous solution having a pH of less than 5.0, and obtaining a cobalt-containing acidic aqueous solution containing the first precipitate; removing at least a part of the first precipitate from the cobalt-containing acidic aqueous solution containing the first precipitate; adjusting the pH of the cobalt-containing acidic aqueous solution from which at least a part of the first precipitate has been removed to 8.0 or more, to thereby generate a second precipitate; and removing at least a part of the second precipitate from a cobalt-containing basic aqueous solution containing the second precipitate.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項2]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A46:F46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 342,
+          "end": 378,
+          "text": "を含む、シアノコバルト錯体含有水溶液中のコバルトの含有量を低減する方法。",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "W70:AN70",
+            "A73:R73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 957,
+          "text": "mixing a cyanocobalt complex-containing aqueous solution having a pH of less than 5.0, a copper compound, and a dithiocarbamate polymer, or mixing a cyanocobalt complex-containing aqueous solution having a pH of 5.0 or more, an acid, a copper compound, and a dithiocarbamate polymer, to thereby generate a first precipitate in a cobalt-containing acidic aqueous solution having a pH of less than 5.0, and obtaining a cobalt-containing acidic aqueous solution containing the first precipitate; removing at least a part of the first precipitate from the cobalt-containing acidic aqueous solution containing the first precipitate; adjusting the pH of the cobalt-containing acidic aqueous solution from which at least a part of the first precipitate has been removed to 8.0 or more, to thereby generate a second precipitate; and removing at least a part of the second precipitate from a cobalt-containing basic aqueous solution containing the second precipitate",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "AY46:EO46",
+            "AY49:EK49",
+            "AY52:ER52",
+            "AY55:ER55",
+            "AY58:EM58",
+            "AY61:EP61",
+            "AY64:ES64",
+            "AY67:EO67",
+            "AY70:EJ70",
+            "AY73:EM73"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\nｐＨ５．０未満のシアノコバルト錯体含有水溶液と、銅化合物と、ジチオカルバミン酸塩ポリマーとを混合するか、ｐＨ５．０以上のシアノコバルト錯体含有水溶液と、酸と、銅化合物と、ジチオカルバミン酸塩ポリマーとを混合することにより、ｐＨが５．０未満のコバルト含有酸性水溶液中に第１沈殿物を生成させ、第１沈殿物を含むコバルト含有酸性水溶液を得ることと、\n前記第１沈殿物を含む前記コバルト含有酸性水溶液から、前記第１沈殿物の少なくとも一部を除去することと、\n前記第１沈殿物の少なくとも一部が除去されたコバルト含有酸性水溶液のｐＨを８．０以上に調整して、第２沈殿物を生成させることと、\n前記第２沈殿物を含むコバルト含有塩基性水溶液から、前記第２沈殿物の少なくとも一部を除去することと、\nを含む、シアノコバルト錯体含有水溶液中のコバルトの含有量を低減する方法。",
+      "output_text_grid": "mixing a cyanocobalt complex-containing aqueous solution having a pH of less than 5.0, a copper compound, and a dithiocarbamate polymer, or mixing a cyanocobalt complex-containing aqueous solution having a pH of 5.0 or more, an acid, a copper compound, and a dithiocarbamate polymer, to thereby generate a first precipitate in a cobalt-containing acidic aqueous solution having a pH of less than 5.0, and obtaining a cobalt-containing acidic aqueous solution containing the first precipitate; removing at least a part of the first precipitate from the cobalt-containing acidic aqueous solution containing the first precipitate; adjusting the pH of the cobalt-containing acidic aqueous solution from which at least a part of the first precipitate has been removed to 8.0 or more, to thereby generate a second precipitate; and removing at least a part of the second precipitate from a cobalt-containing basic aqueous solution containing the second precipitate."
+    }
+  ]
+}

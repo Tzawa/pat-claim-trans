@@ -1,0 +1,271 @@
+{
+  "file": "en-ja_sys2_07_US20100145358.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 40,
+      "input_text": "1. A method for minimally-invasive therapy on a patient, comprising the steps of:\nproviding a minimally-invasive therapy apparatus comprising a medical tool inserted into the patient;\nproviding a jet ventilator;\nwhile performing the minimally-invasive therapy on the patient with the minimally-invasive therapy equipment ventilating the patient with the jet ventilator to reduce a magnitude of the patient's breathing and increase a frequency of the patient's breathing; and\nsynchronizing operation of the minimally-invasive therapy apparatus comprising said medical tool insertion with the jet ventilator by connecting a signal output of the jet ventilator having signals indicative of respiration breathing control to said minimally-invasive therapy equipment.",
+      "output_text": "1. 患者に対する低侵襲療法のための方法であって、以下のステップを含む：患者に挿入される医療ツールを備える低侵襲治療装置を提供するステップと、ジェット人工呼吸器を提供するステップと、低侵襲療法機器を用いて患者に低侵襲療法を実行しながら、ジェット人工呼吸器を用いて患者を換気して、患者の呼吸の大きさを低減し、患者の呼吸の頻度を増加させることと、そして、呼吸呼吸制御を示す信号を有するジェット人工呼吸器の信号出力を低侵襲治療装置に接続することによって、ジェット人工呼吸器との医療ツール挿入を含む低侵襲治療装置の動作を同期させる。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 171,
+          "end": 175,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BZ10:CC10"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 229,
+          "end": 233,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AJ13:AM13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 263,
+          "end": 267,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BR13:BU13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 311,
+          "end": 320,
+          "text": "equipment",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "AB16:AJ16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 333,
+          "end": 337,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AX16:BA16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 350,
+          "end": 354,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BO16:BR16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 394,
+          "end": 398,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "N19:Q19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 446,
+          "end": 450,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BN19:BQ19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 502,
+          "end": 506,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AB22:AE22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 554,
+          "end": 581,
+          "text": "said medical tool insertion",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "CB22:CR22",
+            "A25:I25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 587,
+          "end": 591,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "P25:S25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 639,
+          "end": 643,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BP25:BS25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 720,
+          "end": 725,
+          "text": "said ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BD28:BH28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 752,
+          "end": 761,
+          "text": "equipment",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "CJ28:CR28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 25,
+          "end": 35,
+          "text": "以下のステップを含む",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "EF7:EO7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 145,
+          "end": 148,
+          "text": "大きさ",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "EF16:EH16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 167,
+          "end": 169,
+          "text": "こと",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DN19:DO19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 171,
+          "end": 174,
+          "text": "そして",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DR19:DT19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 175,
+          "end": 181,
+          "text": "呼吸呼吸制御",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DV20:EA20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 210,
+          "end": 212,
+          "text": "装置",
+          "error": "用語の一貫性",
+          "severity": "大",
+          "cells": [
+            "DQ22:DR22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 224,
+          "end": 235,
+          "text": "ジェット人工呼吸器との",
+          "error": "係り先誤り（「同期させる」の目的語となるべき）",
+          "severity": "大",
+          "cells": [
+            "EE22:EO22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 260,
+          "end": 261,
+          "text": "る",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "EA25:EA25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 260,
+          "end": 265,
+          "text": "る。",
+          "error": "非翻訳",
+          "severity": "大",
+          "cells": [
+            "EA26:EE26"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A method for minimally-invasive therapy on a patient, comprising the steps of: providing a minimally-invasive therapy apparatus comprising a medical tool inserted into the patient; providing a jet ventilator; while performing the minimally-invasive therapy on the patient with the minimally-invasive therapy equipment ventilating the patient with the jet ventilator to reduce a magnitude of the patient's breathing and increase a frequency of the patient's breathing; and synchronizing operation of the minimally-invasive therapy apparatus comprising said medical tool insertion with the jet ventilator by connecting a signal output of the jet ventilator having signals indicative of respiration breathing control to said minimally-invasive therapy equipment.",
+      "output_text_grid": "1. 患者に対する低侵襲療法のための方法であって、以下のステップを含む：患者に挿入される医療ツールを備える低侵襲治療装置を提供するステップと、ジェット人工呼吸器を提供するステップと、低侵襲療法機器を用いて患者に低侵襲療法を実行しながら、ジェット人工呼吸器を用いて患者を換気して、患者の呼吸の大きさを低減し、患者の呼吸の頻度を増加させることと、そして、呼吸呼吸制御を示す信号を有するジェット人工呼吸器の信号出力を低侵襲治療装置に接続することによって、ジェット人工呼吸器との医療ツール挿入を含む低侵襲治療装置の動作を同期させる。"
+    }
+  ]
+}

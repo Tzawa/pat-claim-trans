@@ -1,0 +1,74 @@
+{
+  "file": "ja-en_sys6_18_WO2024247036.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 40,
+      "input_text": "[請求項1]\n特定の種別の光の方路切替が可能な第１振分部と、\n前記第１振分部で取り扱うことができる特定の種別の光と、前記第１振分部で取り扱うことができない特定の種別の光の方路切替が可能な第２振分部と、\nを備え、\n前記第２振分部は、\n入力された前記光を、前記第１振分部を経由する第１経路と、前記第１振分部を経由しない第２経路の少なくともいずれかの経路に出力する光出力部と、\n前記第２経路上に設けられ、Ｎ（Ｎは１以上の整数）個のポートとｋ（ｋは２以上の整数）個のポートとを有し、前記Ｎ個のポートのいずれかのポートに入力された前記光を、他の前記第２振分部が接続されている前記ｋ個のポートのいずれかのポートから出力するＮ×ｋマトリックス光スイッチと、\nを備え、\n前記光出力部は、端末間において波長単位の光パスを確立する場合には入力された前記光を少なくとも前記第１経路に出力し、光ファイバ単位の光パスを確立する場合には入力された前記光を少なくとも前記第２経路に出力する、\nを備える光ノード装置。",
+      "output_text": "a second distribution unit capable of switching a route of a specific type of light that can be handled by the first distribution unit and a specific type of light that cannot be handled by the first distribution unit, wherein the second distribution unit includes: an optical output unit configured to output the input light to at least one of a first route passing through the first distribution unit and a second route not passing through the first distribution unit; and an N×k matrix optical switch provided on the second route, the N×k matrix optical switch including N (N is an integer of 1 or more) ports and k (k is an integer of 2 or more) ports, and configured to output the light input to any one of the N ports from any one of the k ports to which another second distribution unit is connected, and wherein the optical output unit outputs the input light to at least the first route when an optical path in a wavelength unit is established between terminals, and outputs the input light to at least the second route when an optical path in an optical fiber unit is established.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項1]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:F7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 7,
+          "end": 29,
+          "text": "特定の種別の光の方路切替が可能な第１振分部と",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "H7:AC7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 431,
+          "end": 441,
+          "text": "を備える光ノード装置",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AF37:AN37",
+            "A40:A40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 916,
+          "end": 937,
+          "text": " in a wavelength unit",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CO34:DI34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1050,
+          "end": 1075,
+          "text": "in an optical fiber unit ",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DY37:EQ37",
+            "AY40:BC40"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n特定の種別の光の方路切替が可能な第１振分部と、\n前記第１振分部で取り扱うことができる特定の種別の光と、前記第１振分部で取り扱うことができない特定の種別の光の方路切替が可能な第２振分部と、\nを備え、\n前記第２振分部は、\n入力された前記光を、前記第１振分部を経由する第１経路と、前記第１振分部を経由しない第２経路の少なくともいずれかの経路に出力する光出力部と、\n前記第２経路上に設けられ、Ｎ（Ｎは１以上の整数）個のポートとｋ（ｋは２以上の整数）個のポートとを有し、前記Ｎ個のポートのいずれかのポートに入力された前記光を、他の前記第２振分部が接続されている前記ｋ個のポートのいずれかのポートから出力するＮ×ｋマトリックス光スイッチと、\nを備え、\n前記光出力部は、端末間において波長単位の光パスを確立する場合には入力された前記光を少なくとも前記第１経路に出力し、光ファイバ単位の光パスを確立する場合には入力された前記光を少なくとも前記第２経路に出力する、\nを備える光ノード装置。",
+      "output_text_grid": "a second distribution unit capable of switching a route of a specific type of light that can be handled by the first distribution unit and a specific type of light that cannot be handled by the first distribution unit, wherein the second distribution unit includes: an optical output unit configured to output the input light to at least one of a first route passing through the first distribution unit and a second route not passing through the first distribution unit; and an N×k matrix optical switch provided on the second route, the N×k matrix optical switch including N (N is an integer of 1 or more) ports and k (k is an integer of 2 or more) ports, and configured to output the light input to any one of the N ports from any one of the k ports to which another second distribution unit is connected, and wherein the optical output unit outputs the input light to at least the first route when an optical path in a wavelength unit is established between terminals, and outputs the input light to at least the second route when an optical path in an optical fiber unit is established."
+    }
+  ]
+}

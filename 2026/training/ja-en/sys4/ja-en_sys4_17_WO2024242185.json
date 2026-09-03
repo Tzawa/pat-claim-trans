@@ -1,0 +1,153 @@
+{
+  "file": "ja-en_sys4_17_WO2024242185.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "[請求項1]\n第１ユーザ群のユーザごとの属性を示す第１データによって構成される第１テーブルデータに基づいて前記第１テーブルデータ内の欠損データを推定する第１推定モデルを構築する第１学習部と、\n前記第１ユーザ群の一部と共通する共通ユーザ群である第２ユーザ群のユーザごとの属性を示す第２データを有する第２テーブルデータ、および、前記第１テーブルデータにおける前記共通ユーザ群についての前記第１データに基づいて、前記第２テーブルデータ内の前記共通ユーザ群の欠損データを推定する第２推定モデルを構築する第２学習部と、\n前記第１推定モデルと前記第２推定モデルとに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する推定部と、を備える、推定装置。",
+      "output_text": "[Claim 1]\nEstimation device, comprising: a first learning unit that constructs a first estimation model that estimates missing data in first table data based on first table data configured by first data indicating attributes of each user of a first user group; a second learning unit that constructs a second estimation model that estimates missing data of a second user group in second table data having second data indicating an attribute of each user of the second user group, which is a common user group common to a part of the first user group, and the first data of the common user group in the first table data; and an estimation unit that estimates a value of the second data for the first user group excluding the common user group based on the first estimation model and the second estimation model.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 139,
+          "end": 162,
+          "text": "第２データを有する第２テーブルデータ、および、",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "T16:AN16",
+            "A19:B19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 197,
+          "end": 202,
+          "text": "に基づいて",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AL19:AN19",
+            "A22:B22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 10,
+          "end": 27,
+          "text": "Estimation device",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BI7:BY7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 27,
+          "end": 28,
+          "text": ",",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "BZ8:BZ8"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 428,
+          "end": 440,
+          "text": "an attribute",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "CN19:CY19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 551,
+          "end": 618,
+          "text": "and the first data of the common user group in the first table data",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "DL22:EQ22",
+            "AY25:CF25"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n第１ユーザ群のユーザごとの属性を示す第１データによって構成される第１テーブルデータに基づいて前記第１テーブルデータ内の欠損データを推定する第１推定モデルを構築する第１学習部と、\n前記第１ユーザ群の一部と共通する共通ユーザ群である第２ユーザ群のユーザごとの属性を示す第２データを有する第２テーブルデータ、および、前記第１テーブルデータにおける前記共通ユーザ群についての前記第１データに基づいて、前記第２テーブルデータ内の前記共通ユーザ群の欠損データを推定する第２推定モデルを構築する第２学習部と、\n前記第１推定モデルと前記第２推定モデルとに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する推定部と、を備える、推定装置。",
+      "output_text_grid": "[Claim 1] Estimation device, comprising: a first learning unit that constructs a first estimation model that estimates missing data in first table data based on first table data configured by first data indicating attributes of each user of a first user group; a second learning unit that constructs a second estimation model that estimates missing data of a second user group in second table data having second data indicating an attribute of each user of the second user group, which is a common user group common to a part of the first user group, and the first data of the common user group in the first table data; and an estimation unit that estimates a value of the second data for the first user group excluding the common user group based on the first estimation model and the second estimation model."
+    },
+    {
+      "index": 2,
+      "score": 80,
+      "input_text": "[請求項2]\n前記第１推定モデルは、前記第１ユーザ群のそれぞれのユーザの特徴量と前記第１テーブルデータを構成するそれぞれの項目の特徴量とから前記第１ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記第２推定モデルは、前記共通ユーザ群のそれぞれのユーザの特徴量と前記第２テーブルデータを構成するそれぞれの項目の特徴量とから前記共通ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記推定部は、前記第１推定モデルで利用される前記第１ユーザ群のそれぞれのユーザの特徴量と前記第２推定モデルで利用される前記第２テーブルデータを構成するそれぞれの項目の特徴量とに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する、請求項１に記載の推定装置。",
+      "output_text": "[Claim 2]\nThe estimation device according to claim 1, wherein the first estimation model estimates a value of each item corresponding to each user of the first user group from a feature amount of each user of the first user group and a feature amount of each item configuring the first table data, the second estimation model estimates a value of each item corresponding to each user of the common user group from a feature amount of each user of the common user group and a feature amount of each item configuring the second table data, and the estimation unit includes, based on a feature quantity of each user of the first user group used in the first estimation model and a feature quantity of each item constituting the second table data used in the second estimation model, a value of the second data for the first user group excluding the common user group is estimated.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 562,
+          "end": 570,
+          "text": "includes",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DS61:DZ61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 591,
+          "end": 599,
+          "text": "quantity",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BG64:BN64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 676,
+          "end": 677,
+          "text": "a",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "EN64:EN64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 686,
+          "end": 694,
+          "text": "quantity",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BG67:BN67"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 708,
+          "end": 720,
+          "text": "constituting",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CC67:CN67"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記第１推定モデルは、前記第１ユーザ群のそれぞれのユーザの特徴量と前記第１テーブルデータを構成するそれぞれの項目の特徴量とから前記第１ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記第２推定モデルは、前記共通ユーザ群のそれぞれのユーザの特徴量と前記第２テーブルデータを構成するそれぞれの項目の特徴量とから前記共通ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記推定部は、前記第１推定モデルで利用される前記第１ユーザ群のそれぞれのユーザの特徴量と前記第２推定モデルで利用される前記第２テーブルデータを構成するそれぞれの項目の特徴量とに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する、請求項１に記載の推定装置。",
+      "output_text_grid": "[Claim 2] The estimation device according to claim 1, wherein the first estimation model estimates a value of each item corresponding to each user of the first user group from a feature amount of each user of the first user group and a feature amount of each item configuring the first table data, the second estimation model estimates a value of each item corresponding to each user of the common user group from a feature amount of each user of the common user group and a feature amount of each item configuring the second table data, and the estimation unit includes, based on a feature quantity of each user of the first user group used in the first estimation model and a feature quantity of each item constituting the second table data used in the second estimation model, a value of the second data for the first user group excluding the common user group is estimated."
+    }
+  ]
+}

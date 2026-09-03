@@ -1,0 +1,440 @@
+{
+  "file": "ja-en_sys4_14_WO2024241676.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 65,
+      "input_text": "[請求項1]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤがクエストをクリアできなかった場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text": "[Claim 1]\nProgram for executing quest using deck organized by a predetermined number or less of owned contents among owned contents owned by player, wherein a storage means for storing a clear deck which is a deck used when the computer clears the quest in association with the quest; a determination means for determining whether or not one clear deck associated with the quest can be organized by the owned content of the player when the player fails to clear the quest; and, the control unit causes the player to function as: a specifying unit that specifies content lacking in the clear deck as specific content; and a control unit that causes the player to display an acquisition screen for acquiring the specific content while consuming cost.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 237,
+          "end": 241,
+          "text": "前記プレ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AL23:AO23"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 240,
+          "end": 254,
+          "text": "レイヤの所有コンテンツのうち",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "A28:N28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 10,
+          "end": 17,
+          "text": "Program",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "BI7:BO7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 32,
+          "end": 37,
+          "text": "quest",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CE7:CI7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 44,
+          "end": 48,
+          "text": "deck",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CQ7:CT7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 141,
+          "end": 147,
+          "text": "player",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CR10:CW10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 149,
+          "end": 156,
+          "text": "wherein",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "CZ10:DF10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 224,
+          "end": 253,
+          "text": "the computer clears the quest",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CD13:DF13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 409,
+          "end": 416,
+          "text": "content",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "BV19:CB19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 476,
+          "end": 477,
+          "text": ",",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "EK19:EK19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 478,
+          "end": 481,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "EM20:EO20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 478,
+          "end": 528,
+          "text": "the control unit causes the player to function as:",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "EM21:EO21",
+            "AY25:CR25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 490,
+          "end": 494,
+          "text": "unit",
+          "error": "用語の一貫性",
+          "severity": "大",
+          "cells": [
+            "BG23:BJ23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 542,
+          "end": 546,
+          "text": "unit",
+          "error": "用語の一貫性",
+          "severity": "大",
+          "cells": [
+            "DG23:DJ23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 562,
+          "end": 569,
+          "text": "content",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "EA23:EG23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 570,
+          "end": 581,
+          "text": "lacking in ",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "EI24:ES24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 581,
+          "end": 595,
+          "text": "the clear deck",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "AY29:BL29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 599,
+          "end": 615,
+          "text": "specific content",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BQ28:CF28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 631,
+          "end": 635,
+          "text": "unit",
+          "error": "用語の一貫性",
+          "severity": "大",
+          "cells": [
+            "CW28:CZ28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 641,
+          "end": 669,
+          "text": "causes the player to display",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DG29:EH29"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤがクエストをクリアできなかった場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text_grid": "[Claim 1] Program for executing quest using deck organized by a predetermined number or less of owned contents among owned contents owned by player, wherein a storage means for storing a clear deck which is a deck used when the computer clears the quest in association with the quest; a determination means for determining whether or not one clear deck associated with the quest can be organized by the owned content of the player when the player fails to clear the quest; and, the control unit causes the player to function as: a specifying unit that specifies content lacking in the clear deck as specific content; and a control unit that causes the player to display an acquisition screen for acquiring the specific content while consuming cost."
+    },
+    {
+      "index": 2,
+      "score": 70,
+      "input_text": "[請求項2]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤが実行するクエストを選択した場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤが前記選択したクエストを実行する前に、当該プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text": "[Claim 2]\nProgram for executing quest using deck organized by a predetermined number or less of owned contents among owned contents owned by player, wherein a storage means for storing a clear deck which is a deck used when clearing the quest in association with the quest; a determination means for determining whether or not one clear deck associated with the quest can be organized by the owned content of the player when the quest executed by the player is selected; and, the method further includes the steps of: identifying content lacking in the clear deck as specific content; and displaying an acquisition screen for acquiring the specific content by consuming cost to the player before the player executes the selected quest.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 76,
+          "end": 83,
+          "text": "コンピュータを",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AK56:AN56",
+            "A60:C60"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 223,
+          "end": 235,
+          "text": "前記判定が否定された場合",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "X69:AI69"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 236,
+          "end": 253,
+          "text": "前記プレイヤの所有コンテンツのうち",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AK69:AN69",
+            "A72:M72"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 289,
+          "end": 293,
+          "text": "特定手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "J75:M75"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 366,
+          "end": 380,
+          "text": "制御手段、\nとして機能させる",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "G81:T81"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 10,
+          "end": 17,
+          "text": "Program",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "BI53:BO53"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 32,
+          "end": 37,
+          "text": "quest",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CE53:CI53"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 44,
+          "end": 48,
+          "text": "deck",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CQ53:CT53"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 141,
+          "end": 147,
+          "text": "player",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CR56:CW56"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 149,
+          "end": 156,
+          "text": "wherein",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "CZ56:DF56"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 219,
+          "end": 242,
+          "text": "when clearing the quest",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "BY60:CU60"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 398,
+          "end": 405,
+          "text": "content",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "BI66:BO66"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 420,
+          "end": 469,
+          "text": "when the quest executed by the player is selected",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CE66:EA66"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 471,
+          "end": 517,
+          "text": "and, the method further includes the steps of:",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "ED66:ER66",
+            "AY69:CB69"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 530,
+          "end": 537,
+          "text": "content",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CP69:CV69"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 538,
+          "end": 563,
+          "text": "lacking in the clear deck",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CX69:DV69"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 567,
+          "end": 583,
+          "text": "specific content",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "EA69:EP69"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤが実行するクエストを選択した場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤが前記選択したクエストを実行する前に、当該プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text_grid": "[Claim 2] Program for executing quest using deck organized by a predetermined number or less of owned contents among owned contents owned by player, wherein a storage means for storing a clear deck which is a deck used when clearing the quest in association with the quest; a determination means for determining whether or not one clear deck associated with the quest can be organized by the owned content of the player when the quest executed by the player is selected; and, the method further includes the steps of: identifying content lacking in the clear deck as specific content; and displaying an acquisition screen for acquiring the specific content by consuming cost to the player before the player executes the selected quest."
+    }
+  ]
+}

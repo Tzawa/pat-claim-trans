@@ -1,0 +1,200 @@
+{
+  "file": "ja-en_sys6_13_WO2024241635.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 20,
+      "input_text": "[請求項1]\n水面下で軸線が前後方向に延びるように配置され、前側を上流側とするとともに後側を下流側とする流路を形成する筒部と、\n前記筒部の内部に配置され、前記軸線方向に延びる軸部と、\n前記軸部に装着され、前記流路内で前記軸線の径方向に延びるとともに前記軸線の周方向に配列された複数のプロペラ翼を有し、前記軸線回りに回転可能なプロペラと、\n前記流路内で前記プロペラに対して前側及び後側の少なくともいずれか一方に設けられ、前記径方向に延びるとともに前記周方向に配列され、前記軸部を支持する複数のストラットと、\nを備え、\n前記複数のストラットは、上下方向に延びて前記軸線を通る対称線に対して左右対称に配置され、\n前記ストラット同士の角度間隔のうち少なくとも１つの角度間隔は、他の前記ストラット同士の角度間隔と異なり、\n前記軸線を通るように水平方向に延在する水平面に対して、上下方向両側に少なくとも１つの前記ストラットが配置されている、推進装置。",
+      "output_text": "a plurality of struts provided in the flow path at least one of a front side and a rear side of the propeller, extending in the radial direction, arranged in a circumferential direction of the axis, and supporting the shaft portion, wherein the plurality of struts are arranged bilaterally symmetrically with respect to a symmetry line extending in a vertical direction and passing through the axis, at least one angular interval of angular intervals between the struts is different from an angular interval between other struts, and at least one of the struts is arranged on both sides in the vertical direction with respect to a horizontal plane extending in a horizontal direction so as to pass through the axis.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項1]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:F7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 7,
+          "end": 168,
+          "text": "水面下で軸線が前後方向に延びるように配置され、前側を上流側とするとともに後側を下流側とする流路を形成する筒部と、\n前記筒部の内部に配置され、前記軸線方向に延びる軸部と、\n前記軸部に装着され、前記流路内で前記軸線の径方向に延びるとともに前記軸線の周方向に配列された複数のプロペラ翼を有し、前記軸線回りに回転可能なプロペラと、",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "H7:AN7",
+            "A10:AN10",
+            "A13:AN13",
+            "A16:AN16",
+            "A19:H19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 414,
+          "end": 418,
+          "text": "推進装置",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "O37:R37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 1,
+          "text": "a",
+          "error": "文法",
+          "severity": "大",
+          "cells": [
+            "AY7:AY7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 48,
+          "end": 92,
+          "text": "at least one of a front side and a rear side",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "CU7:EL7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 186,
+          "end": 197,
+          "text": "of the axis",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EG10:EQ10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 488,
+          "end": 528,
+          "text": "an angular interval between other struts",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "AY22:CL22"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n水面下で軸線が前後方向に延びるように配置され、前側を上流側とするとともに後側を下流側とする流路を形成する筒部と、\n前記筒部の内部に配置され、前記軸線方向に延びる軸部と、\n前記軸部に装着され、前記流路内で前記軸線の径方向に延びるとともに前記軸線の周方向に配列された複数のプロペラ翼を有し、前記軸線回りに回転可能なプロペラと、\n前記流路内で前記プロペラに対して前側及び後側の少なくともいずれか一方に設けられ、前記径方向に延びるとともに前記周方向に配列され、前記軸部を支持する複数のストラットと、\nを備え、\n前記複数のストラットは、上下方向に延びて前記軸線を通る対称線に対して左右対称に配置され、\n前記ストラット同士の角度間隔のうち少なくとも１つの角度間隔は、他の前記ストラット同士の角度間隔と異なり、\n前記軸線を通るように水平方向に延在する水平面に対して、上下方向両側に少なくとも１つの前記ストラットが配置されている、推進装置。",
+      "output_text_grid": "a plurality of struts provided in the flow path at least one of a front side and a rear side of the propeller, extending in the radial direction, arranged in a circumferential direction of the axis, and supporting the shaft portion, wherein the plurality of struts are arranged bilaterally symmetrically with respect to a symmetry line extending in a vertical direction and passing through the axis, at least one angular interval of angular intervals between the struts is different from an angular interval between other struts, and at least one of the struts is arranged on both sides in the vertical direction with respect to a horizontal plane extending in a horizontal direction so as to pass through the axis."
+    },
+    {
+      "index": 2,
+      "score": 95,
+      "input_text": "[請求項2]\n前記ストラット同士の角度間隔のうち１つの角度間隔のみが、他の前記ストラット同士の角度間隔と異なっている、請求項１に記載の推進装置。",
+      "output_text": "The propulsion device according to claim 1, wherein only one angular interval of the angular intervals between the struts is different from the other angular intervals between the struts.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項2]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A52:F52"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記ストラット同士の角度間隔のうち１つの角度間隔のみが、他の前記ストラット同士の角度間隔と異なっている、請求項１に記載の推進装置。",
+      "output_text_grid": "The propulsion device according to claim 1, wherein only one angular interval of the angular intervals between the struts is different from the other angular intervals between the struts."
+    },
+    {
+      "index": 3,
+      "score": 80,
+      "input_text": "[請求項3]\nＮ本の前記ストラットのそれぞれが、前記軸線回りの領域を前記周方向に均等に分割する（Ｎ×２−１）本の分割線のいずれかに配置され、１以上Ｎ未満であるＮ’に対して、前記ストラット同士の角度間隔は、Ｎ’×３６０／（Ｎ×２−１）度のいずれかである、請求項１又は２に記載の推進装置。",
+      "output_text": "The propulsion device according to claim 1, wherein each of the N struts is disposed on any one of (N×2−1) division lines equally dividing the region around the axis in the circumferential direction, and an angular interval between the struts is any one of N′×360/(N×2−1) degrees, where N′ is 1 or more and less than N.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項3]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A70:F70"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 102,
+          "end": 122,
+          "text": "Ｎ’×３６０／（Ｎ×２−１）度のいずれか",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "W76:AN76",
+            "A79:B79"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 130,
+          "end": 133,
+          "text": "又は２",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "K79:M79"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 139,
+          "end": 142,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CM73:CO73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 204,
+          "end": 207,
+          "text": "an ",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BN76:BP76"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 207,
+          "end": 223,
+          "text": "angular interval",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "BQ77:CF77"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\nＮ本の前記ストラットのそれぞれが、前記軸線回りの領域を前記周方向に均等に分割する（Ｎ×２−１）本の分割線のいずれかに配置され、１以上Ｎ未満であるＮ’に対して、前記ストラット同士の角度間隔は、Ｎ’×３６０／（Ｎ×２−１）度のいずれかである、請求項１又は２に記載の推進装置。",
+      "output_text_grid": "The propulsion device according to claim 1, wherein each of the N struts is disposed on any one of (N×2−1) division lines equally dividing the region around the axis in the circumferential direction, and an angular interval between the struts is any one of N′×360/(N×2−1) degrees, where N′ is 1 or more and less than N."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "file": "ja-en_sys4_02_WO2024241416.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 10,
+      "input_text": "[請求項1]\n自車両と通信可能な範囲を走行する他車両の他車時系列情報を車両間通信装置を介して入手して記憶する他車情報記憶部と、\n前記他車情報記憶部に記憶された前記他車時系列情報に基づいて前記他車両の運動状態を推定する運動状態推定部と、\n前記他車情報記憶部に記憶された前記他車時系列情報に含まれる信頼度情報が予め設定された閾値よりも小さく、かつその状態が予め設定された時間よりも長く継続している場合は、前記信頼度情報が予め設定された閾値よりも小さい状態が継続している区間を補正対象区間として検知して前記運動状態推定部に出力する補正対象区間検知部と、\n前記運動状態推定部で推定された前記他車両の運動状態から前記他車両の走行軌跡をシミュレートし、シミュレートした前記他車両の前記走行軌跡を出力する運動状態補正部とを備えた運転支援装置であって、\n前記運動状態は、時系列の前記他車両の水平面内の方位情報、速度情報、加速度情報および車両方位の角速度情報を含み、\n前記運動状態推定部は、前記補正対象区間検知部から入力された前記補正対象区間を走行している前記他車両の運動状態を推定し、\n前記運動状態補正部は、前記他車両の運動状態に含まれる各情報の補正候補を生成して前記運動状態を補正し、この補正した前記運動状態からシミュレートした前記他車両の前記走行軌跡と車線情報を含む地図情報との一致度評価値を算出し、算出した前記一致度評価値に基づいて前記地図情報との一致度が最も高い前記走行軌跡を出力することを特徴とする運転支援装置。",
+      "output_text": "[Claim 1]\nDriving support device in which in a case where other vehicle time-series information of other vehicles traveling in a communicable range with the host vehicle is acquired and stored via an inter-vehicle communication device, a motion state estimation unit that estimates a motion state of the other vehicle based on the other vehicle time-series information stored in the other vehicle information storage unit, and reliability information included in the other vehicle time-series information stored in the other vehicle information storage unit is smaller than a preset threshold value and the state continues for a longer time than a preset time, a motion state correction unit that simulates a travel trajectory of the other vehicle from a motion state of the other vehicle estimated by the motion state estimation unit and outputs the travel trajectory of the simulated other vehicle to the motion state estimation unit., wherein the motion state includes time-series azimuth information, velocity information, acceleration information, and angular velocity information of a vehicle azimuth in a horizontal plane of the other vehicle, the motion state estimation unit estimates a motion state of the other vehicle traveling in the correction target section input from the correction target section detection unit, the motion state correction unit corrects the motion state by generating a correction candidate of each piece of information included in the motion state of the other vehicle, and calculates a matching degree evaluation value between the travel trajectory of the other vehicle simulated from the corrected motion state and map information including lane information, based on the calculated matching degree evaluation value, the travel trajectory having the highest matching degree with the map information is output.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 200,
+          "end": 272,
+          "text": "前記信頼度情報が予め設定された閾値よりも小さい状態が継続している区間を補正対象区間として検知して前記運動状態推定部に出力する補正対象区間検知部と",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A22:AN22",
+            "A25:AF25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 10,
+          "end": 32,
+          "text": "Driving support device",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BI7:CD7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 33,
+          "end": 41,
+          "text": "in which",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CF7:CM7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 42,
+          "end": 660,
+          "text": "in a case where other vehicle time-series information of other vehicles traveling in a communicable range with the host vehicle is acquired and stored via an inter-vehicle communication device, a motion state estimation unit that estimates a motion state of the other vehicle based on the other vehicle time-series information stored in the other vehicle information storage unit, and reliability information included in the other vehicle time-series information stored in the other vehicle information storage unit is smaller than a preset threshold value and the state continues for a longer time than a preset time,",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "CO8:ER8",
+            "AY11:EQ11",
+            "AY14:ES14",
+            "AY17:ES17",
+            "AY20:EO20",
+            "AY23:ES23",
+            "AY26:DM26"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 58,
+          "end": 71,
+          "text": "other vehicle",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "DE7:DQ7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 153,
+          "end": 156,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DA10:DC10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 300,
+          "end": 317,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "BB16:BR16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 331,
+          "end": 368,
+          "text": "other vehicle time-series information",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "CG16:DQ16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 383,
+          "end": 421,
+          "text": "other vehicle information storage unit",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "EG16:ES16",
+            "AY19:BV19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 467,
+          "end": 504,
+          "text": "other vehicle time-series information",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "DQ19:EO19",
+            "AY22:BI22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 519,
+          "end": 557,
+          "text": "other vehicle information storage unit",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "大",
+          "cells": [
+            "BY22:DJ22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 707,
+          "end": 726,
+          "text": "a travel trajectory",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "BN28:CF28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 730,
+          "end": 747,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CK28:DA28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 753,
+          "end": 754,
+          "text": "a",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DH28:DH28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 771,
+          "end": 788,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DZ28:EP28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 847,
+          "end": 868,
+          "text": "the travel trajectory",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DE31:DY31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 872,
+          "end": 899,
+          "text": "the simulated other vehicle",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "ED31:EP31",
+            "AY35:BK35"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 872,
+          "end": 899,
+          "text": "the simulated other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "ED32:EP32",
+            "AY34:BK34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1107,
+          "end": 1128,
+          "text": "in a horizontal plane",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "CF40:CZ40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1132,
+          "end": 1149,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DE40:DU40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1212,
+          "end": 1229,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CQ43:DG43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1487,
+          "end": 1504,
+          "text": "the other vehicle",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CE52:CU52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1506,
+          "end": 1509,
+          "text": "and",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CX52:CZ52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1588,
+          "end": 1605,
+          "text": " the other vehicl",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CK55:DA55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1697,
+          "end": 1753,
+          "text": "based on the calculated matching degree evaluation value",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "CU58:ER58",
+            "AY61:BC61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1755,
+          "end": 1846,
+          "text": "the travel trajectory having the highest matching degree with the map information is output",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "BF61:ER61"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n自車両と通信可能な範囲を走行する他車両の他車時系列情報を車両間通信装置を介して入手して記憶する他車情報記憶部と、\n前記他車情報記憶部に記憶された前記他車時系列情報に基づいて前記他車両の運動状態を推定する運動状態推定部と、\n前記他車情報記憶部に記憶された前記他車時系列情報に含まれる信頼度情報が予め設定された閾値よりも小さく、かつその状態が予め設定された時間よりも長く継続している場合は、前記信頼度情報が予め設定された閾値よりも小さい状態が継続している区間を補正対象区間として検知して前記運動状態推定部に出力する補正対象区間検知部と、\n前記運動状態推定部で推定された前記他車両の運動状態から前記他車両の走行軌跡をシミュレートし、シミュレートした前記他車両の前記走行軌跡を出力する運動状態補正部とを備えた運転支援装置であって、\n前記運動状態は、時系列の前記他車両の水平面内の方位情報、速度情報、加速度情報および車両方位の角速度情報を含み、\n前記運動状態推定部は、前記補正対象区間検知部から入力された前記補正対象区間を走行している前記他車両の運動状態を推定し、\n前記運動状態補正部は、前記他車両の運動状態に含まれる各情報の補正候補を生成して前記運動状態を補正し、この補正した前記運動状態からシミュレートした前記他車両の前記走行軌跡と車線情報を含む地図情報との一致度評価値を算出し、算出した前記一致度評価値に基づいて前記地図情報との一致度が最も高い前記走行軌跡を出力することを特徴とする運転支援装置。",
+      "output_text_grid": "[Claim 1] Driving support device in which in a case where other vehicle time-series information of other vehicles traveling in a communicable range with the host vehicle is acquired and stored via an inter-vehicle communication device, a motion state estimation unit that estimates a motion state of the other vehicle based on the other vehicle time-series information stored in the other vehicle information storage unit, and reliability information included in the other vehicle time-series information stored in the other vehicle information storage unit is smaller than a preset threshold value and the state continues for a longer time than a preset time, a motion state correction unit that simulates a travel trajectory of the other vehicle from a motion state of the other vehicle estimated by the motion state estimation unit and outputs the travel trajectory of the simulated other vehicle to the motion state estimation unit., wherein the motion state includes time-series azimuth information, velocity information, acceleration information, and angular velocity information of a vehicle azimuth in a horizontal plane of the other vehicle, the motion state estimation unit estimates a motion state of the other vehicle traveling in the correction target section input from the correction target section detection unit, the motion state correction unit corrects the motion state by generating a correction candidate of each piece of information included in the motion state of the other vehicle, and calculates a matching degree evaluation value between the travel trajectory of the other vehicle simulated from the corrected motion state and map information including lane information, based on the calculated matching degree evaluation value, the travel trajectory having the highest matching degree with the map information is output."
+    }
+  ]
+}

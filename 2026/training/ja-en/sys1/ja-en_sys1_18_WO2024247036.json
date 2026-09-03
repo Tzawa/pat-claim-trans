@@ -1,0 +1,116 @@
+{
+  "file": "ja-en_sys1_18_WO2024247036.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 60,
+      "input_text": "[請求項1]\n特定の種別の光の方路切替が可能な第１振分部と、\n前記第１振分部で取り扱うことができる特定の種別の光と、前記第１振分部で取り扱うことができない特定の種別の光の方路切替が可能な第２振分部と、\nを備え、\n前記第２振分部は、\n入力された前記光を、前記第１振分部を経由する第１経路と、前記第１振分部を経由しない第２経路の少なくともいずれかの経路に出力する光出力部と、\n前記第２経路上に設けられ、Ｎ（Ｎは１以上の整数）個のポートとｋ（ｋは２以上の整数）個のポートとを有し、前記Ｎ個のポートのいずれかのポートに入力された前記光を、他の前記第２振分部が接続されている前記ｋ個のポートのいずれかのポートから出力するＮ×ｋマトリックス光スイッチと、\nを備え、\n前記光出力部は、端末間において波長単位の光パスを確立する場合には入力された前記光を少なくとも前記第１経路に出力し、光ファイバ単位の光パスを確立する場合には入力された前記光を少なくとも前記第２経路に出力する、\nを備える光ノード装置。",
+      "output_text": "1.\nAn optical node apparatus comprising: a first distribution unit configured to switch an optical path of a specific type of light; and a second distribution unit configured to switch optical paths of: (i) a specific type of light that can be handled by the first distribution unit; and (ii) a specific type of light that cannot be handled by the first distribution unit, the second distribution unit comprising: a light output unit configured to output the input light to at least one of: (i) a first path that passes through the first distribution unit; and (ii) a second path that does not pass through the first distribution unit; and an N x k matrix optical switch provided on the second path and having N (N is an integer equal to or greater than 1) ports and k (k is an integer equal to or greater than 2) ports, each of the k ports being connected to another second distribution unit, the N x k matrix optical switch being configured such that light input to any one of the N ports is output from any one of the k ports; wherein: when establishing an optical path between terminals on a wavelength basis, the light output unit is configured to output the input light to at least the first path; and when establishing an optical path on an optical fiber basis, the light output unit is configured to output the input light to at least the second path.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 203,
+          "end": 206,
+          "text": "(i)",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "BC13:BE13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 288,
+          "end": 292,
+          "text": "(ii)",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EJ13:EM13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 455,
+          "end": 470,
+          "text": "the input light",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DR19:EF19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 491,
+          "end": 494,
+          "text": "(i)",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "BG22:BI22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 561,
+          "end": 565,
+          "text": "(ii)",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DY22:EB22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 821,
+          "end": 828,
+          "text": "each of",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "CP31:CV31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 953,
+          "end": 958,
+          "text": "light",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DY34:EC34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1114,
+          "end": 1152,
+          "text": "the light output unit is configured to",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CS40:ED40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1269,
+          "end": 1307,
+          "text": "the light output unit is configured to",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "BF46:CQ46"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n特定の種別の光の方路切替が可能な第１振分部と、\n前記第１振分部で取り扱うことができる特定の種別の光と、前記第１振分部で取り扱うことができない特定の種別の光の方路切替が可能な第２振分部と、\nを備え、\n前記第２振分部は、\n入力された前記光を、前記第１振分部を経由する第１経路と、前記第１振分部を経由しない第２経路の少なくともいずれかの経路に出力する光出力部と、\n前記第２経路上に設けられ、Ｎ（Ｎは１以上の整数）個のポートとｋ（ｋは２以上の整数）個のポートとを有し、前記Ｎ個のポートのいずれかのポートに入力された前記光を、他の前記第２振分部が接続されている前記ｋ個のポートのいずれかのポートから出力するＮ×ｋマトリックス光スイッチと、\nを備え、\n前記光出力部は、端末間において波長単位の光パスを確立する場合には入力された前記光を少なくとも前記第１経路に出力し、光ファイバ単位の光パスを確立する場合には入力された前記光を少なくとも前記第２経路に出力する、\nを備える光ノード装置。",
+      "output_text_grid": "1. An optical node apparatus comprising: a first distribution unit configured to switch an optical path of a specific type of light; and a second distribution unit configured to switch optical paths of: (i) a specific type of light that can be handled by the first distribution unit; and (ii) a specific type of light that cannot be handled by the first distribution unit, the second distribution unit comprising: a light output unit configured to output the input light to at least one of: (i) a first path that passes through the first distribution unit; and (ii) a second path that does not pass through the first distribution unit; and an N x k matrix optical switch provided on the second path and having N (N is an integer equal to or greater than 1) ports and k (k is an integer equal to or greater than 2) ports, each of the k ports being connected to another second distribution unit, the N x k matrix optical switch being configured such that light input to any one of the N ports is output from any one of the k ports; wherein: when establishing an optical path between terminals on a wavelength basis, the light output unit is configured to output the input light to at least the first path; and when establishing an optical path on an optical fiber basis, the light output unit is configured to output the input light to at least the second path."
+    }
+  ]
+}

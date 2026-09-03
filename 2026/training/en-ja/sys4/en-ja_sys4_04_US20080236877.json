@@ -1,0 +1,85 @@
+{
+  "file": "en-ja_sys4_04_US20080236877.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 90,
+      "input_text": "1. A printed wiring board device comprising a power core having an outer layer, said power core comprising at least one embedded singulated capacitor wherein said embedded singulated capacitor comprises at least a first embedded singulated capacitor electrode and a second embedded singulated capacitor electrode and wherein said embedded singulated capacitor is positioned on said outer layer of said power core and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are directly connected to at least one Vcc (power) terminal and at least one Vss (ground) terminal, respectively, of a semiconductor device and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are interconnected to a first external planar capacitor electrode and a second external planar capacitor electrode, respectively of an external planar capacitor embedded within a printed wiring motherboard and wherein said printed wiring motherboard serves to supply a charge to said embedded singulated capacitor.",
+      "output_text": "１つの外層を有するパワーコアを備えるプリント配線板デバイスであって、前記パワーコアは、少なくとも１つの埋め込み個片化キャパシタを備え、前記埋め込み個片化キャパシタは、少なくとも第１の埋め込み個片化キャパシタ電極および第２の埋め込み個片化キャパシタ電極を備え、前記埋め込み個片化キャパシタは、前記パワーコアの前記外層上に配置され、前記第１の埋め込み個片化キャパシタ電極および前記第２の埋め込み個片化キャパシタ電極は、それぞれ、半導体デバイスの少なくとも１つのＶｃｃ（電源）端子および少なくとも１つのＶｓｓ（接地）端子に直接接続され、前記第１の埋め込み個片化キャパシタ電極および前記第２の埋め込み個片化キャパシタ電極は、それぞれ、プリント配線マザーボード内に埋め込まれた外部平面キャパシタの第１の外部平面キャパシタ電極および第２の外部平面キャパシタ電極に相互接続され、前記プリント配線マザーボードは、前記埋め込み個片化キャパシタに電荷を供給するように機能する、プリント配線板デバイス。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "1.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:B7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 3,
+          "text": "１つの",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG7:DI7"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A printed wiring board device comprising a power core having an outer layer, said power core comprising at least one embedded singulated capacitor wherein said embedded singulated capacitor comprises at least a first embedded singulated capacitor electrode and a second embedded singulated capacitor electrode and wherein said embedded singulated capacitor is positioned on said outer layer of said power core and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are directly connected to at least one Vcc (power) terminal and at least one Vss (ground) terminal, respectively, of a semiconductor device and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are interconnected to a first external planar capacitor electrode and a second external planar capacitor electrode, respectively of an external planar capacitor embedded within a printed wiring motherboard and wherein said printed wiring motherboard serves to supply a charge to said embedded singulated capacitor.",
+      "output_text_grid": "１つの外層を有するパワーコアを備えるプリント配線板デバイスであって、前記パワーコアは、少なくとも１つの埋め込み個片化キャパシタを備え、前記埋め込み個片化キャパシタは、少なくとも第１の埋め込み個片化キャパシタ電極および第２の埋め込み個片化キャパシタ電極を備え、前記埋め込み個片化キャパシタは、前記パワーコアの前記外層上に配置され、前記第１の埋め込み個片化キャパシタ電極および前記第２の埋め込み個片化キャパシタ電極は、それぞれ、半導体デバイスの少なくとも１つのＶｃｃ（電源）端子および少なくとも１つのＶｓｓ（接地）端子に直接接続され、前記第１の埋め込み個片化キャパシタ電極および前記第２の埋め込み個片化キャパシタ電極は、それぞれ、プリント配線マザーボード内に埋め込まれた外部平面キャパシタの第１の外部平面キャパシタ電極および第２の外部平面キャパシタ電極に相互接続され、前記プリント配線マザーボードは、前記埋め込み個片化キャパシタに電荷を供給するように機能する、プリント配線板デバイス。"
+    },
+    {
+      "index": 2,
+      "score": 95,
+      "input_text": "2. The printed wiring board device of claim 1 wherein said semiconductor device is a microprocessor.",
+      "output_text": "前記半導体デバイスは、マイクロプロセッサである、請求項１に記載のプリント配線板デバイス。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "2.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A55:B55"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The printed wiring board device of claim 1 wherein said semiconductor device is a microprocessor.",
+      "output_text_grid": "前記半導体デバイスは、マイクロプロセッサである、請求項１に記載のプリント配線板デバイス。"
+    },
+    {
+      "index": 3,
+      "score": 95,
+      "input_text": "3. The printed wiring board device of claim 1 wherein said power core is interconnected to at least one signal layer.",
+      "output_text": "前記パワーコアが、少なくとも１つの信号層に相互接続されている、請求項１に記載のプリント配線板デバイス。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "3.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A73:B73"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The printed wiring board device of claim 1 wherein said power core is interconnected to at least one signal layer.",
+      "output_text_grid": "前記パワーコアが、少なくとも１つの信号層に相互接続されている、請求項１に記載のプリント配線板デバイス。"
+    }
+  ]
+}

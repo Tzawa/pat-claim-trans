@@ -1,0 +1,95 @@
+{
+  "file": "ja-en_sys4_07_WO2024241514.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 75,
+      "input_text": "[請求項1]\n直流電力を交流電力に変換する単相インバータの交流側が複数直列接続されており、複数の前記単相インバータが出力する出力電圧が総和された全体出力電圧の直流電力又は交流電力を負荷に供給する電力変換器と、前記電力変換器を制御する制御部とを備えた電力変換装置であって、\n前記出力電圧の絶対値が最小である最小出力電圧を出力する前記単相インバータを最小単相インバータとし、\n複数の前記単相インバータの出力を選択的に組み合わせることで離散的に設定可能な前記全体出力電圧の絶対値を階調レベルとし、\n前記出力電圧の組合せである電圧組合せの複数によって同一の前記全体出力電圧のレベルが実現される予め定められた前記階調レベルを特別レベルとし、\n設定可能な前記階調レベルには少なくとも１つの前記特別レベルが含まれており、\n前記制御部は、\n複数の前記単相インバータにおける前記出力電圧の組合せを選択することにより設定電圧値の前記全体出力電圧を出力するように前記単相インバータを制御し、\n前記階調レベルを前後の一方に前記特別レベルを含ませて変更する際に、前記最小単相インバータを除いた少なくとも１つの前記単相インバータの前記出力電圧が変化しない前記電圧組合せを選択する、\n電力変換装置。",
+      "output_text": "[Claim 1]\nPower conversion device comprising: a power converter in which a plurality of AC sides of a single-phase inverter that converts DC power into AC power are connected in series, and DC power or AC power of a total output voltage obtained by summing output voltages output from the plurality of single-phase inverters is supplied to a load; and a control unit that controls the power converter, wherein the single-phase inverter that outputs a minimum output voltage having a minimum absolute value of the output voltage is defined as a minimum single-phase inverter, the absolute value of the total output voltage that can be discretely set by selectively combining outputs of a plurality of the single-phase inverters is defined as a gradation level, and the predetermined gradation level at which the same level of the total output voltage is realized by a plurality of voltage combinations that are combinations of the output voltages is defined as a special level, the settable gradation level includes at least one of the special levels, and the control unit controls the single-phase inverter to output the entire output voltage of a set voltage value by selecting a combination of the output voltages of a plurality of the single-phase inverters, and selects the voltage combination in which the output voltage of at least one of the single-phase inverters excluding the minimum single-phase inverter does not change when the gradation level is changed by including the special level in one of the front and the rear.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 10,
+          "end": 14,
+          "text": "Powe",
+          "error": "（誤訳）冠詞",
+          "severity": "小",
+          "cells": [
+            "BI7:BL7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 73,
+          "end": 123,
+          "text": "a plurality of AC sides of a single-phase inverter",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DT7:ES7",
+            "AY10:BU10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 575,
+          "end": 578,
+          "text": "the",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "EE22:EG22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1098,
+          "end": 1106,
+          "text": "inverter",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "BY40:CF40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1121,
+          "end": 1127,
+          "text": "entire",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CV40:DA40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1468,
+          "end": 1480,
+          "text": "by including",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "BG52:BR52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1509,
+          "end": 1531,
+          "text": "the front and the rear",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CV52:DQ52"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n直流電力を交流電力に変換する単相インバータの交流側が複数直列接続されており、複数の前記単相インバータが出力する出力電圧が総和された全体出力電圧の直流電力又は交流電力を負荷に供給する電力変換器と、前記電力変換器を制御する制御部とを備えた電力変換装置であって、\n前記出力電圧の絶対値が最小である最小出力電圧を出力する前記単相インバータを最小単相インバータとし、\n複数の前記単相インバータの出力を選択的に組み合わせることで離散的に設定可能な前記全体出力電圧の絶対値を階調レベルとし、\n前記出力電圧の組合せである電圧組合せの複数によって同一の前記全体出力電圧のレベルが実現される予め定められた前記階調レベルを特別レベルとし、\n設定可能な前記階調レベルには少なくとも１つの前記特別レベルが含まれており、\n前記制御部は、\n複数の前記単相インバータにおける前記出力電圧の組合せを選択することにより設定電圧値の前記全体出力電圧を出力するように前記単相インバータを制御し、\n前記階調レベルを前後の一方に前記特別レベルを含ませて変更する際に、前記最小単相インバータを除いた少なくとも１つの前記単相インバータの前記出力電圧が変化しない前記電圧組合せを選択する、\n電力変換装置。",
+      "output_text_grid": "[Claim 1] Power conversion device comprising: a power converter in which a plurality of AC sides of a single-phase inverter that converts DC power into AC power are connected in series, and DC power or AC power of a total output voltage obtained by summing output voltages output from the plurality of single-phase inverters is supplied to a load; and a control unit that controls the power converter, wherein the single-phase inverter that outputs a minimum output voltage having a minimum absolute value of the output voltage is defined as a minimum single-phase inverter, the absolute value of the total output voltage that can be discretely set by selectively combining outputs of a plurality of the single-phase inverters is defined as a gradation level, and the predetermined gradation level at which the same level of the total output voltage is realized by a plurality of voltage combinations that are combinations of the output voltages is defined as a special level, the settable gradation level includes at least one of the special levels, and the control unit controls the single-phase inverter to output the entire output voltage of a set voltage value by selecting a combination of the output voltages of a plurality of the single-phase inverters, and selects the voltage combination in which the output voltage of at least one of the single-phase inverters excluding the minimum single-phase inverter does not change when the gradation level is changed by including the special level in one of the front and the rear."
+    }
+  ]
+}

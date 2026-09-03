@@ -1,0 +1,162 @@
+{
+  "file": "en-ja_sys4_03_US20070180420.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 90,
+      "input_text": "3. A method for designing a circuit apparatus having at least first and second layers and at least first and second conductors disposed within the first and second layers, respectively, for conducting at least first and second signals, respectively, comprising:\ndetermining a minimum length for each of the conductors, the first conductor being longer than the second conductor;\ndetermining a propagation time for the first and second signals to propagate through the first and second conductors and whether the propagation time for each signal is within a time constraint; and\nupon determining that the propagation times for the signals are not within the time constraint, selecting first and second dielectric materials having different characteristic propagation speeds for the first and second layers, respectively, the characteristic propagation speed of the first dielectric material being faster than the characteristic propagation speed of the second dielectric material.",
+      "output_text": "それぞれ少なくとも第１及び第２の信号を伝導するための、少なくとも第１及び第２の層と、前記第１及び第２の層内にそれぞれ配置された少なくとも第１及び第２の導体とを有する回路装置を設計する方法であって、 前記導体のそれぞれの最小長さを決定するステップであって、前記第１の導体は前記第２の導体よりも長い、ステップと、 前記第１及び第２の信号が前記第１及び第２の導体を通って伝播するための伝播時間を決定するステップと、 各信号の前記伝播時間が時間制約内にあるかどうかを決定するステップと、 前記信号の前記伝播時間が前記時間制約内にないと決定すると、前記第１及び第２の層のそれぞれに異なる特性伝播速度を有する第１及び第２の誘電材料を選択するステップであって、前記第１の誘電材料の前記特性伝播速度は前記第２の誘電材料の前記特性伝播速度よりも速い、ステップと、 を含む、方法。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "3.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:B7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 12,
+          "end": 15,
+          "text": "for",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "M7:O7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 194,
+          "end": 203,
+          "text": "決定するステップと",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EO19:ET19",
+            "DG22:DI22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 371,
+          "end": 372,
+          "text": "、",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DR34:DR34"
+          ]
+        }
+      ],
+      "input_text_grid": "3. A method for designing a circuit apparatus having at least first and second layers and at least first and second conductors disposed within the first and second layers, respectively, for conducting at least first and second signals, respectively, comprising: determining a minimum length for each of the conductors, the first conductor being longer than the second conductor; determining a propagation time for the first and second signals to propagate through the first and second conductors and whether the propagation time for each signal is within a time constraint; and upon determining that the propagation times for the signals are not within the time constraint, selecting first and second dielectric materials having different characteristic propagation speeds for the first and second layers, respectively, the characteristic propagation speed of the first dielectric material being faster than the characteristic propagation speed of the second dielectric material.",
+      "output_text_grid": "それぞれ少なくとも第１及び第２の信号を伝導するための、少なくとも第１及び第２の層と、前記第１及び第２の層内にそれぞれ配置された少なくとも第１及び第２の導体とを有する回路装置を設計する方法であって、 前記導体のそれぞれの最小長さを決定するステップであって、前記第１の導体は前記第２の導体よりも長い、ステップと、 前記第１及び第２の信号が前記第１及び第２の導体を通って伝播するための伝播時間を決定するステップと、 各信号の前記伝播時間が時間制約内にあるかどうかを決定するステップと、 前記信号の前記伝播時間が前記時間制約内にないと決定すると、前記第１及び第２の層のそれぞれに異なる特性伝播速度を有する第１及び第２の誘電材料を選択するステップであって、前記第１の誘電材料の前記特性伝播速度は前記第２の誘電材料の前記特性伝播速度よりも速い、ステップと、 を含む、方法。"
+    },
+    {
+      "index": 2,
+      "score": 85,
+      "input_text": "4. A method as defined in claim 3, further comprising:\nselecting the first and second dielectric materials to minimize a difference between a ratio of the length of$-the first conductor to the length of the second conductor and a ratio of the characteristic propagation speed of the first dielectric material to the characteristic propagation speed of the second dielectric material.",
+      "output_text": "さらに、前記第１の導体の長さと前記第２の導体の長さとの比と、前記第１の誘電体材料の特性伝搬速度と前記第２の誘電体材料の特性伝搬速度との比との間の差を最小にするように、前記第１および第２の誘電体材料を選択することを含む、請求項３に記載の方法。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "4.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A52:B52"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 164,
+          "end": 166,
+          "text": "$-",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "BP55:BQ55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 4,
+          "text": "さらに、",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DG52:DJ52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 4,
+          "end": 6,
+          "text": "前記",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DK53:DL53"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 15,
+          "end": 17,
+          "text": "前記",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DV52:DW52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 30,
+          "end": 32,
+          "text": "前記",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EK52:EL52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 48,
+          "end": 50,
+          "text": "前記",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DO55:DP55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 83,
+          "end": 85,
+          "text": "前記",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DJ58:DK58"
+          ]
+        }
+      ],
+      "input_text_grid": "4. A method as defined in claim 3, further comprising: selecting the first and second dielectric materials to minimize a difference between a ratio of the length of$-the first conductor to the length of the second conductor and a ratio of the characteristic propagation speed of the first dielectric material to the characteristic propagation speed of the second dielectric material.",
+      "output_text_grid": "さらに、前記第１の導体の長さと前記第２の導体の長さとの比と、前記第１の誘電体材料の特性伝搬速度と前記第２の誘電体材料の特性伝搬速度との比との間の差を最小にするように、前記第１および第２の誘電体材料を選択することを含む、請求項３に記載の方法。"
+    }
+  ]
+}

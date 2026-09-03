@@ -1,0 +1,107 @@
+{
+  "file": "ja-en_sys5_23_WO2024247324.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 95,
+      "input_text": "[請求項1]\n豆腐の製造方法であって、\n大豆と水との第１の混合物を、前記第１の混合物中の前記大豆の、動的光散乱法により測定した粒度分布における体積基準でのメジアン径が２５０μｍ以下になるまで摩砕する工程、\n摩砕された前記第１の混合物を加熱する工程、\n摩砕及び加熱された前記第１の混合物を、豆乳とおからとに分離する工程、並びに、\n前記豆乳と凝固剤との第２の混合物を凝固させて豆腐を調製する工程\nを含む方法。",
+      "output_text": "[Claim 1]\nA method for producing tofu comprising:\ncomminuting a first mixture of soybeans and water until the volume-weighted median particle size of soybeans in the first mixture, as measured using dynamic light scattering, is 250 μm or less;\nheating the comminuted first mixture;\nseparating the comminuted and heated first mixture into soymilk and okara; and\ncoagulating a second mixture of the soymilk and a coagulant to prepare tofu.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 110,
+          "end": 125,
+          "text": "volume-weighted",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BI10:BW10"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n豆腐の製造方法であって、\n大豆と水との第１の混合物を、前記第１の混合物中の前記大豆の、動的光散乱法により測定した粒度分布における体積基準でのメジアン径が２５０μｍ以下になるまで摩砕する工程、\n摩砕された前記第１の混合物を加熱する工程、\n摩砕及び加熱された前記第１の混合物を、豆乳とおからとに分離する工程、並びに、\n前記豆乳と凝固剤との第２の混合物を凝固させて豆腐を調製する工程\nを含む方法。",
+      "output_text_grid": "[Claim 1] A method for producing tofu comprising: comminuting a first mixture of soybeans and water until the volume-weighted median particle size of soybeans in the first mixture, as measured using dynamic light scattering, is 250 μm or less; heating the comminuted first mixture; separating the comminuted and heated first mixture into soymilk and okara; and coagulating a second mixture of the soymilk and a coagulant to prepare tofu."
+    },
+    {
+      "index": 2,
+      "score": 100,
+      "input_text": "[請求項2]\n前記凝固剤が硫酸カルシウムを含む、請求項１に記載の方法。",
+      "output_text": "[Claim 2]\nThe method described in Claim 1, wherein the coagulant contains calcium sulfate.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [],
+      "input_text_grid": "[請求項2]\n前記凝固剤が硫酸カルシウムを含む、請求項１に記載の方法。",
+      "output_text_grid": "[Claim 2] The method described in Claim 1, wherein the coagulant contains calcium sulfate."
+    },
+    {
+      "index": 3,
+      "score": 90,
+      "input_text": "[請求項3]\n前記豆腐が、一辺３ｃｍの立方体形の５℃に調温した試料を、直径２０ｍｍの円形プランジャーにより６０ｍｍ／分の等速度で圧縮したときの破壊時の前記円形プランジャーにかかる力が２９０ｇｆ以上となる硬さを有する、請求項１又は２に記載の方法。",
+      "output_text": "[Claim 3]\nThe method described in Claims 1 or 2, wherein the tofu has a hardness such that when the previously described sample—a cubic shape measuring 3 cm per side and maintained at 5°C—is compressed at a constant rate of 60 mm/min using a 20 mm-diameter circular plunger, the force exerted on the circular plunger at the time of fracture exceeds 290 gF.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 96,
+          "end": 99,
+          "text": "the",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "EQ52:ES52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 100,
+          "end": 127,
+          "text": "previously described sample",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "AY55:BY55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 341,
+          "end": 348,
+          "text": "exceeds",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DC61:DI61"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\n前記豆腐が、一辺３ｃｍの立方体形の５℃に調温した試料を、直径２０ｍｍの円形プランジャーにより６０ｍｍ／分の等速度で圧縮したときの破壊時の前記円形プランジャーにかかる力が２９０ｇｆ以上となる硬さを有する、請求項１又は２に記載の方法。",
+      "output_text_grid": "[Claim 3] The method described in Claims 1 or 2, wherein the tofu has a hardness such that when the previously described sample—a cubic shape measuring 3 cm per side and maintained at 5°C—is compressed at a constant rate of 60 mm／min using a 20 mm-diameter circular plunger, the force exerted on the circular plunger at the time of fracture exceeds 290 gF."
+    },
+    {
+      "index": 4,
+      "score": 95,
+      "input_text": "[請求項4]\n大豆をひき割りする工程を更に含み、前記第１の混合物が、ひき割りされた前記大豆と水との混合物である、請求項１～３のいずれか１項に記載の方法。",
+      "output_text": "[Claim 4]\nA method according to any one of Claims 1-3, further comprising a process for breaking the soybeans into split pieces, where the first mixture is a mixture of the split soybeans and water.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 129,
+          "end": 134,
+          "text": "where",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CE79:CI79"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項4]\n大豆をひき割りする工程を更に含み、前記第１の混合物が、ひき割りされた前記大豆と水との混合物である、請求項１～３のいずれか１項に記載の方法。",
+      "output_text_grid": "[Claim 4] A method according to any one of Claims 1-3, further comprising a process for breaking the soybeans into split pieces, where the first mixture is a mixture of the split soybeans and water."
+    }
+  ]
+}

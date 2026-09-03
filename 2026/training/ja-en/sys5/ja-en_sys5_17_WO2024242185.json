@@ -1,0 +1,503 @@
+{
+  "file": "ja-en_sys5_17_WO2024242185.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 50,
+      "input_text": "[請求項1]\n第１ユーザ群のユーザごとの属性を示す第１データによって構成される第１テーブルデータに基づいて前記第１テーブルデータ内の欠損データを推定する第１推定モデルを構築する第１学習部と、\n前記第１ユーザ群の一部と共通する共通ユーザ群である第２ユーザ群のユーザごとの属性を示す第２データを有する第２テーブルデータ、および、前記第１テーブルデータにおける前記共通ユーザ群についての前記第１データに基づいて、前記第２テーブルデータ内の前記共通ユーザ群の欠損データを推定する第２推定モデルを構築する第２学習部と、\n前記第１推定モデルと前記第２推定モデルとに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する推定部と、を備える、推定装置。",
+      "output_text": "[Claim 1]\nAn estimation device comprising:\na first learning unit that constructs a first estimation model by analyzing the first table data—which consists of first data indicating attributes for each user in the first user group—to estimate missing data within said first table data;\na second learning unit that constructs a second estimation model using:\n- second table data containing second data indicating attributes for each user in the second user group, which shares common users with said first user group, and\n- the first data pertaining to said common users in the first table data, to estimate missing data for said common users within said second table data; and\nan estimation unit that, based on both the first estimation model and the second estimation model, estimates values of the second data for users in the first user group excluding said common users.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 112,
+          "end": 121,
+          "text": "共通ユーザ群である",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AG13:AN13",
+            "A16:A16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 184,
+          "end": 185,
+          "text": "群",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Y19:Y19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 223,
+          "end": 224,
+          "text": "群",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "X22:X22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 288,
+          "end": 289,
+          "text": "群",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "I28:I28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 106,
+          "end": 118,
+          "text": "by analyzing",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "BE10:BP10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 119,
+          "end": 122,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BR10:BT10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 139,
+          "end": 140,
+          "text": "—",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CL10:CL10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 208,
+          "end": 211,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BG13:BI13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 228,
+          "end": 229,
+          "text": "—",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CA13:CA13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 261,
+          "end": 265,
+          "text": "said",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DH13:DK13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 349,
+          "end": 354,
+          "text": "using",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DC16:DG16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 356,
+          "end": 357,
+          "text": "-",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DJ17:DJ17"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 438,
+          "end": 441,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CX19:CZ19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 492,
+          "end": 496,
+          "text": "said",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "BD22:BG22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 519,
+          "end": 520,
+          "text": "-",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CE22:CE22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 550,
+          "end": 554,
+          "text": "said",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DJ22:DM22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 622,
+          "end": 626,
+          "text": "said",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "CH25:CK25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 647,
+          "end": 651,
+          "text": "said",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG25:DJ25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 814,
+          "end": 822,
+          "text": "users in",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "CM31:CT31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 854,
+          "end": 858,
+          "text": "said",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EA31:ED31"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n第１ユーザ群のユーザごとの属性を示す第１データによって構成される第１テーブルデータに基づいて前記第１テーブルデータ内の欠損データを推定する第１推定モデルを構築する第１学習部と、\n前記第１ユーザ群の一部と共通する共通ユーザ群である第２ユーザ群のユーザごとの属性を示す第２データを有する第２テーブルデータ、および、前記第１テーブルデータにおける前記共通ユーザ群についての前記第１データに基づいて、前記第２テーブルデータ内の前記共通ユーザ群の欠損データを推定する第２推定モデルを構築する第２学習部と、\n前記第１推定モデルと前記第２推定モデルとに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する推定部と、を備える、推定装置。",
+      "output_text_grid": "[Claim 1] An estimation device comprising: a first learning unit that constructs a first estimation model by analyzing the first table data—which consists of first data indicating attributes for each user in the first user group—to estimate missing data within said first table data; a second learning unit that constructs a second estimation model using: - second table data containing second data indicating attributes for each user in the second user group, which shares common users with said first user group, and - the first data pertaining to said common users in the first table data, to estimate missing data for said common users within said second table data; and an estimation unit that, based on both the first estimation model and the second estimation model, estimates values of the second data for users in the first user group excluding said common users."
+    },
+    {
+      "index": 2,
+      "score": 40,
+      "input_text": "[請求項2]\n前記第１推定モデルは、前記第１ユーザ群のそれぞれのユーザの特徴量と前記第１テーブルデータを構成するそれぞれの項目の特徴量とから前記第１ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記第２推定モデルは、前記共通ユーザ群のそれぞれのユーザの特徴量と前記第２テーブルデータを構成するそれぞれの項目の特徴量とから前記共通ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記推定部は、前記第１推定モデルで利用される前記第１ユーザ群のそれぞれのユーザの特徴量と前記第２推定モデルで利用される前記第２テーブルデータを構成するそれぞれの項目の特徴量とに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する、請求項１に記載の推定装置。",
+      "output_text": "[Claim 2]\nThe aforementioned first estimation model estimates the value of each item corresponding to the respective users in the first user group by analyzing the feature vectors of each user in the first user group and the feature vectors of each item comprising the first table data.\nThe aforementioned second estimation model estimates the value of each item corresponding to the respective users in the common user group by analyzing the feature vectors of each user in the common user group and the feature vectors of each item comprising the second table data.\nThe estimation unit estimates the value of the second data for the users in the first user group excluding the common user group based on the feature vectors of each user in the first user group utilized by the first estimation model and the feature vectors of each item comprising the second table data utilized by the second estimation model, as stated in Claim 1.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 351,
+          "end": 355,
+          "text": "推定装置",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AF70:AI70"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 14,
+          "end": 28,
+          "text": "aforementioned",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "BM46:BZ46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 62,
+          "end": 65,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DI46:DK46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 147,
+          "end": 159,
+          "text": "by analyzing",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "CU49:DF49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 160,
+          "end": 163,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DH49:DJ49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 164,
+          "end": 179,
+          "text": "feature vectors",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DL50:DZ50"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 221,
+          "end": 224,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BX52:BZ52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 225,
+          "end": 240,
+          "text": "feature vectors",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "CB53:CP53"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 254,
+          "end": 264,
+          "text": "comprising",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DE52:DN52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 285,
+          "end": 290,
+          "text": ". The",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "EJ52:EN52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 291,
+          "end": 305,
+          "text": "aforementioned",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "AY55:BL55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 340,
+          "end": 343,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CV55:CX55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 426,
+          "end": 438,
+          "text": "by analyzing",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "CO58:CZ58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 443,
+          "end": 458,
+          "text": "feature vectors",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DF58:DT58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 505,
+          "end": 520,
+          "text": "feature vectors",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "BY61:CM61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 534,
+          "end": 544,
+          "text": "comprising",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DB61:DK61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 566,
+          "end": 571,
+          "text": ". The",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "EH61:EL61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 598,
+          "end": 601,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BY64:CA64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 631,
+          "end": 643,
+          "text": "the users in",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DF64:DQ64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 710,
+          "end": 725,
+          "text": "feature vectors",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "CR67:DF67"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 810,
+          "end": 825,
+          "text": "feature vectors",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "CT70:DH70"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 839,
+          "end": 849,
+          "text": "comprising",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DW70:EF70"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 911,
+          "end": 933,
+          "text": ", as stated in Claim 1",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CW73:DR73"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記第１推定モデルは、前記第１ユーザ群のそれぞれのユーザの特徴量と前記第１テーブルデータを構成するそれぞれの項目の特徴量とから前記第１ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記第２推定モデルは、前記共通ユーザ群のそれぞれのユーザの特徴量と前記第２テーブルデータを構成するそれぞれの項目の特徴量とから前記共通ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記推定部は、前記第１推定モデルで利用される前記第１ユーザ群のそれぞれのユーザの特徴量と前記第２推定モデルで利用される前記第２テーブルデータを構成するそれぞれの項目の特徴量とに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する、請求項１に記載の推定装置。",
+      "output_text_grid": "[Claim 2] The aforementioned first estimation model estimates the value of each item corresponding to the respective users in the first user group by analyzing the feature vectors of each user in the first user group and the feature vectors of each item comprising the first table data. The aforementioned second estimation model estimates the value of each item corresponding to the respective users in the common user group by analyzing the feature vectors of each user in the common user group and the feature vectors of each item comprising the second table data. The estimation unit estimates the value of the second data for the users in the first user group excluding the common user group based on the feature vectors of each user in the first user group utilized by the first estimation model and the feature vectors of each item comprising the second table data utilized by the second estimation model, as stated in Claim 1."
+    }
+  ]
+}

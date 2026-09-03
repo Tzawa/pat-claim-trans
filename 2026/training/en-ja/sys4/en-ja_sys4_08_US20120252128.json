@@ -1,0 +1,231 @@
+{
+  "file": "en-ja_sys4_08_US20120252128.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 50,
+      "input_text": "1. A sensor, comprising\na catalytic nucleic acid molecule specific for a target agent comprising an enzyme nucleic acid strand and a substrate nucleic acid strand,\nwherein the enzyme nucleic acid strand comprises a 3′-end and a 5′-end and an active site specific for a target agent,\nwherein the substrate nucleic acid strand comprises a 3′-end and a 5′-end,\nwherein the substrate nucleic acid strand comprises nucleotides at the 5′-end of the substrate nucleic acid strand that permits formation of a loop of at least six nucleotides at the 5′-end of the substrate nucleic acid strand, and\nwherein the substrate nucleic acid strand hybridizes with the enzyme nucleic acid strand, thereby forming a vacant site between the 3′-end of the enzyme nucleic acid strand and the 5′-end of the substrate nucleic acid strand, wherein the vacant site is opposite to a cytosine present in the substrate nucleic acid strand and wherein the vacant site can bind to a fluorophore,\nwherein in the absence of the target agent, fluorescence of the fluorophore when bound to the vacant site is quenched, and wherein in the presence of the target agent, catalytic cleavage of substrate nucleic acid strand perturbs the vacant site and releases the fluorophore bound to the vacant site resulting in increased fluorescence.",
+      "output_text": "３’末端および５’末端ならびに標的薬剤に特異的な活性部位を含む酵素核酸鎖と、３’末端および５’末端を含む基質核酸鎖とを含む、標的薬剤に特異的な触媒核酸分子を含むセンサーであって、前記基質核酸鎖は、前記基質核酸鎖の５’末端に少なくとも６ヌクレオチドのループの形成を可能にする前記基質核酸鎖の５’末端のヌクレオチドを含み、前記基質核酸鎖は、前記酵素核酸鎖とハイブリダイズし、それによって前記酵素核酸鎖の３’末端と前記基質核酸鎖の５’末端との間に空の部位を形成し、前記空の部位は、前記基質核酸鎖中に存在するシトシンに対向し、前記空の部位は、フルオロフォアに結合することができ、前記標的薬剤の非存在下では、前記空の部位に結合したときの前記フルオロフォアの蛍光が消光され、前記標的薬剤の存在下では、前記基質核酸鎖の触媒切断が前記空の部位を撹乱し、前記空の部位に結合した前記フルオロフォアを放出し、蛍光の増加をもたらす、センサー。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "1.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:B7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 17,
+          "end": 19,
+          "text": "薬剤",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DX7:DY7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 64,
+          "end": 66,
+          "text": "薬剤",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EE10:EF10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 220,
+          "end": 224,
+          "text": "空の部位",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EA22:ED22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 231,
+          "end": 235,
+          "text": "空の部位",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EL22:EO22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 261,
+          "end": 265,
+          "text": "空の部位",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EB25:EE25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 289,
+          "end": 291,
+          "text": "薬剤",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DP28:DQ28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 301,
+          "end": 305,
+          "text": "空の部位",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EB28:EE28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 335,
+          "end": 337,
+          "text": "薬剤",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DV31:DW31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 359,
+          "end": 363,
+          "text": "空の部位",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "ET31:ET31",
+            "DG34:DI34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 370,
+          "end": 374,
+          "text": "空の部位",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DQ34:DT34"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A sensor, comprising a catalytic nucleic acid molecule specific for a target agent comprising an enzyme nucleic acid strand and a substrate nucleic acid strand, wherein the enzyme nucleic acid strand comprises a 3′-end and a 5′-end and an active site specific for a target agent, wherein the substrate nucleic acid strand comprises a 3′-end and a 5′-end, wherein the substrate nucleic acid strand comprises nucleotides at the 5′-end of the substrate nucleic acid strand that permits formation of a loop of at least six nucleotides at the 5′-end of the substrate nucleic acid strand, and wherein the substrate nucleic acid strand hybridizes with the enzyme nucleic acid strand, thereby forming a vacant site between the 3′-end of the enzyme nucleic acid strand and the 5′-end of the substrate nucleic acid strand, wherein the vacant site is opposite to a cytosine present in the substrate nucleic acid strand and wherein the vacant site can bind to a fluorophore, wherein in the absence of the target agent, fluorescence of the fluorophore when bound to the vacant site is quenched, and wherein in the presence of the target agent, catalytic cleavage of substrate nucleic acid strand perturbs the vacant site and releases the fluorophore bound to the vacant site resulting in increased fluorescence.",
+      "output_text_grid": "３’末端および５’末端ならびに標的薬剤に特異的な活性部位を含む酵素核酸鎖と、３’末端および５’末端を含む基質核酸鎖とを含む、標的薬剤に特異的な触媒核酸分子を含むセンサーであって、前記基質核酸鎖は、前記基質核酸鎖の５’末端に少なくとも６ヌクレオチドのループの形成を可能にする前記基質核酸鎖の５’末端のヌクレオチドを含み、前記基質核酸鎖は、前記酵素核酸鎖とハイブリダイズし、それによって前記酵素核酸鎖の３’末端と前記基質核酸鎖の５’末端との間に空の部位を形成し、前記空の部位は、前記基質核酸鎖中に存在するシトシンに対向し、前記空の部位は、フルオロフォアに結合することができ、前記標的薬剤の非存在下では、前記空の部位に結合したときの前記フルオロフォアの蛍光が消光され、前記標的薬剤の存在下では、前記基質核酸鎖の触媒切断が前記空の部位を撹乱し、前記空の部位に結合した前記フルオロフォアを放出し、蛍光の増加をもたらす、センサー。"
+    },
+    {
+      "index": 2,
+      "score": 30,
+      "input_text": "2. The sensor of claim 1, wherein the vacant site is flanked by guanines present on a 3′-nucleotide of the enzyme nucleic acid strand and a 5′-nucleotide of the substrate nucleic acid strand.",
+      "output_text": "３’−ヌクレオチドのグアニンと５’−ヌクレオチドのグアニンが隣接する空き部位を有する、請求項１に記載のセンサー。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "2.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A61:B61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 42,
+          "text": "３’−ヌクレオチドのグアニンと５’−ヌクレオチドのグアニンが隣接する空き部位を有する",
+          "error": "誤訳（whrein～はclaim 1に記載のvacant siteに関する限定の記載であり、vacant siteを主語とすべきと思われる）",
+          "severity": "小",
+          "cells": [
+            "DG61:ET61",
+            "DG64:DH64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 34,
+          "end": 38,
+          "text": "空き部位",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EO62:ER62"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The sensor of claim 1, wherein the vacant site is flanked by guanines present on a 3′-nucleotide of the enzyme nucleic acid strand and a 5′-nucleotide of the substrate nucleic acid strand.",
+      "output_text_grid": "３’−ヌクレオチドのグアニンと５’−ヌクレオチドのグアニンが隣接する空き部位を有する、請求項１に記載のセンサー。"
+    },
+    {
+      "index": 3,
+      "score": 40,
+      "input_text": "3. The sensor of claim 1, wherein at least one pair of nucleotides are mismatched upon hybridization of the substrate nucleic acid molecule with the enzyme nucleic acid strand.",
+      "output_text": "１対以上のヌクレオチドが、前記基質核酸分子と前記酵素核酸鎖とのハイブリダイゼーション時にミスマッチである、請求項１に記載のセンサー。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "3.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A79:B79"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 4,
+          "text": "１対以上",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG79:DJ79"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 52,
+          "text": "１対以上のヌクレオチドが、前記基質核酸分子と前記酵素核酸鎖とのハイブリダイゼーション時にミスマッチである",
+          "error": "誤訳（whrein～はclaim 1に記載位のhybridization に関する限定の記載であり、先に出した方がよいと思われる）",
+          "severity": "小",
+          "cells": [
+            "DG80:ET80",
+            "DG82:DR82"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The sensor of claim 1, wherein at least one pair of nucleotides are mismatched upon hybridization of the substrate nucleic acid molecule with the enzyme nucleic acid strand.",
+      "output_text_grid": "１対以上のヌクレオチドが、前記基質核酸分子と前記酵素核酸鎖とのハイブリダイゼーション時にミスマッチである、請求項１に記載のセンサー。"
+    }
+  ]
+}

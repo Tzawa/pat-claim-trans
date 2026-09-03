@@ -1,0 +1,342 @@
+{
+  "file": "en-ja_sys2_04_US20080236877.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "1. A printed wiring board device comprising a power core having an outer layer, said power core comprising at least one embedded singulated capacitor wherein said embedded singulated capacitor comprises at least a first embedded singulated capacitor electrode and a second embedded singulated capacitor electrode and wherein said embedded singulated capacitor is positioned on said outer layer of said power core and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are directly connected to at least one Vcc (power) terminal and at least one Vss (ground) terminal, respectively, of a semiconductor device and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are interconnected to a first external planar capacitor electrode and a second external planar capacitor electrode, respectively of an external planar capacitor embedded within a printed wiring motherboard and wherein said printed wiring motherboard serves to supply a charge to said embedded singulated capacitor.",
+      "output_text": "1. 外層を有するパワーコアを備えるプリント配線板装置であって、前記電力コアは、少なくとも1つの埋め込まれた個片化されたキャパシタを備え、前記埋め込まれた個片化されたキャパシタは、少なくとも第1の埋め込まれた個片化されたキャパシタ電極と、第2の埋め込まれた個片化されたキャパシタ電極とを備え、前記埋め込まれた個片化されたコンデンサは、前記電力コアの前記外層上に配置され、前記第1の埋め込み個片化キャパシタ電極および前記第2の埋め込み個片化キャパシタ電極は、それぞれ少なくとも1つのVcc(電力)端子および少なくとも1つのVss(接地)端子に直接接続される、半導体装置であって、前記第1の埋め込み個片化キャパシタ電極および前記第2の埋め込み個片化キャパシタ電極は、プリント配線マザーボード内に埋め込まれた外部平面キャパシタの第1の外部平面キャパシタ電極および第2の外部平面キャパシタ電極にそれぞれ相互接続され、前記プリント配線母基板は、前記埋め込み個片化キャパシタに電荷を供給する役割を果たす。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "1.",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG7:DH7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 9,
+          "end": 14,
+          "text": "パワーコア",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DP8:DT8"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 34,
+          "end": 39,
+          "text": "電力コアは",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EO7:ES7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 48,
+          "end": 65,
+          "text": "埋め込まれた個片化されたキャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DO10:EE10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 83,
+          "end": 88,
+          "text": "キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DJ13:DN13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 98,
+          "end": 115,
+          "text": "埋め込まれた個片化されたキャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DY13:EO13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 122,
+          "end": 139,
+          "text": "埋め込まれた個片化されたキャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DI16:DY16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 148,
+          "end": 165,
+          "text": "埋め込まれた個片化されたコンデンサ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EI16:ET16",
+            "DG19:DK19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 169,
+          "end": 174,
+          "text": "電力コアの",
+          "error": "一貫性の欠如",
+          "severity": "小",
+          "cells": [
+            "DP19:DT19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 190,
+          "end": 202,
+          "text": "埋め込み個片化キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EK19:ET19",
+            "DG22:DH22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 212,
+          "end": 224,
+          "text": "埋め込み個片化キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DS22:ED22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 276,
+          "end": 288,
+          "text": "る、半導体装置であって、",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "EQ26:ET26",
+            "DG29:DN29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 293,
+          "end": 305,
+          "text": "埋め込み個片化キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DT28:EE28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 315,
+          "end": 327,
+          "text": "埋め込み個片化キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EP28:ET28",
+            "DG31:DM31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 331,
+          "end": 343,
+          "text": "プリント配線マザーボード",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DR31:EC31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 355,
+          "end": 360,
+          "text": "キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EP31:ET31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 368,
+          "end": 373,
+          "text": "キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DO34:DS34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 385,
+          "end": 390,
+          "text": "キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EF34:EJ34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 406,
+          "end": 415,
+          "text": "プリント配線母基板",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DM37:DU37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 419,
+          "end": 431,
+          "text": "埋め込み個片化キャパシタ",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DZ37:EK37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 445,
+          "end": 446,
+          "text": "。",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DL40:DL40"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A printed wiring board device comprising a power core having an outer layer, said power core comprising at least one embedded singulated capacitor wherein said embedded singulated capacitor comprises at least a first embedded singulated capacitor electrode and a second embedded singulated capacitor electrode and wherein said embedded singulated capacitor is positioned on said outer layer of said power core and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are directly connected to at least one Vcc (power) terminal and at least one Vss (ground) terminal, respectively, of a semiconductor device and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are interconnected to a first external planar capacitor electrode and a second external planar capacitor electrode, respectively of an external planar capacitor embedded within a printed wiring motherboard and wherein said printed wiring motherboard serves to supply a charge to said embedded singulated capacitor.",
+      "output_text_grid": "1. 外層を有するパワーコアを備えるプリント配線板装置であって、前記電力コアは、少なくとも1つの埋め込まれた個片化されたキャパシタを備え、前記埋め込まれた個片化されたキャパシタは、少なくとも第1の埋め込まれた個片化されたキャパシタ電極と、第2の埋め込まれた個片化されたキャパシタ電極とを備え、前記埋め込まれた個片化されたコンデンサは、前記電力コアの前記外層上に配置され、前記第1の埋め込み個片化キャパシタ電極および前記第2の埋め込み個片化キャパシタ電極は、それぞれ少なくとも1つのVcc(電力)端子および少なくとも1つのVss(接地)端子に直接接続される、半導体装置であって、前記第1の埋め込み個片化キャパシタ電極および前記第2の埋め込み個片化キャパシタ電極は、プリント配線マザーボード内に埋め込まれた外部平面キャパシタの第1の外部平面キャパシタ電極および第2の外部平面キャパシタ電極にそれぞれ相互接続され、前記プリント配線母基板は、前記埋め込み個片化キャパシタに電荷を供給する役割を果たす。"
+    },
+    {
+      "index": 2,
+      "score": 80,
+      "input_text": "2. The printed wiring board device of claim 1 wherein said semiconductor device is a microprocessor.",
+      "output_text": "2. 前記半導体装置はマイクロプロセッサであることを特徴とする請求項1に記載のプリント配線板装置。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "2.",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG55:DH55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 23,
+          "end": 31,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "ED55:EK55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 30,
+          "end": 31,
+          "text": "る",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "EK56:EK56"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The printed wiring board device of claim 1 wherein said semiconductor device is a microprocessor.",
+      "output_text_grid": "2. 前記半導体装置はマイクロプロセッサであることを特徴とする請求項1に記載のプリント配線板装置。"
+    },
+    {
+      "index": 3,
+      "score": 80,
+      "input_text": "3. The printed wiring board device of claim 1 wherein said power core is interconnected to at least one signal layer.",
+      "output_text": "3. 前記電力コアは、少なくとも1つの信号層に相互接続されることを特徴とする請求項1に記載のプリント配線板装置。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "3.",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG73:DH73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 30,
+          "end": 38,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EK73:ER73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 37,
+          "end": 38,
+          "text": "る",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "ER74:ER74"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The printed wiring board device of claim 1 wherein said power core is interconnected to at least one signal layer.",
+      "output_text_grid": "3. 前記電力コアは、少なくとも1つの信号層に相互接続されることを特徴とする請求項1に記載のプリント配線板装置。"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "file": "ja-en_sys1_13_WO2024241635.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 80,
+      "input_text": "[請求項1]\n水面下で軸線が前後方向に延びるように配置され、前側を上流側とするとともに後側を下流側とする流路を形成する筒部と、\n前記筒部の内部に配置され、前記軸線方向に延びる軸部と、\n前記軸部に装着され、前記流路内で前記軸線の径方向に延びるとともに前記軸線の周方向に配列された複数のプロペラ翼を有し、前記軸線回りに回転可能なプロペラと、\n前記流路内で前記プロペラに対して前側及び後側の少なくともいずれか一方に設けられ、前記径方向に延びるとともに前記周方向に配列され、前記軸部を支持する複数のストラットと、\nを備え、\n前記複数のストラットは、上下方向に延びて前記軸線を通る対称線に対して左右対称に配置され、\n前記ストラット同士の角度間隔のうち少なくとも１つの角度間隔は、他の前記ストラット同士の角度間隔と異なり、\n前記軸線を通るように水平方向に延在する水平面に対して、上下方向両側に少なくとも１つの前記ストラットが配置されている、推進装置。",
+      "output_text": "1.\nA propulsion apparatus comprising: a tubular portion arranged below a water surface such that an axis of the tubular portion extends in a fore-aft direction, the tubular portion forming a flow path in which a front side is an upstream side and a rear side is a downstream side; a shaft portion disposed inside the tubular portion and extending in an axial direction; a propeller mounted to the shaft portion, the propeller having a plurality of propeller blades that extend in a radial direction of the axis and are arranged in a circumferential direction of the axis, the propeller being rotatable about the axis; and a plurality of struts provided in the flow path on at least one of a front side and a rear side of the propeller, the plurality of struts extending in the radial direction and being arranged in the circumferential direction, the plurality of struts being configured to support the shaft portion; wherein: (i) the plurality of struts extend in a vertical direction and are disposed left-right symmetrically with respect to a line of symmetry that passes through the axis; (ii) at least one angular interval between the struts differs from the other angular intervals between the struts; and (iii) with respect to a horizontal plane that passes through the axis, at least one of the struts is disposed on each of an upper side and a lower side.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 77,
+          "end": 79,
+          "text": "前記",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "AL10:AM10"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 102,
+          "end": 108,
+          "text": "前記流路内で",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "W13:AB13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 312,
+          "end": 320,
+          "text": "の角度間隔のうち",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AG28:AN28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 366,
+          "end": 375,
+          "text": "水平方向に延在する",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "G34:O34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 927,
+          "end": 930,
+          "text": "(i)",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DC34:DE34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1093,
+          "end": 1097,
+          "text": "(ii)",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "CC40:CF40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1212,
+          "end": 1217,
+          "text": "(iii)",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "CY43:DC43"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n水面下で軸線が前後方向に延びるように配置され、前側を上流側とするとともに後側を下流側とする流路を形成する筒部と、\n前記筒部の内部に配置され、前記軸線方向に延びる軸部と、\n前記軸部に装着され、前記流路内で前記軸線の径方向に延びるとともに前記軸線の周方向に配列された複数のプロペラ翼を有し、前記軸線回りに回転可能なプロペラと、\n前記流路内で前記プロペラに対して前側及び後側の少なくともいずれか一方に設けられ、前記径方向に延びるとともに前記周方向に配列され、前記軸部を支持する複数のストラットと、\nを備え、\n前記複数のストラットは、上下方向に延びて前記軸線を通る対称線に対して左右対称に配置され、\n前記ストラット同士の角度間隔のうち少なくとも１つの角度間隔は、他の前記ストラット同士の角度間隔と異なり、\n前記軸線を通るように水平方向に延在する水平面に対して、上下方向両側に少なくとも１つの前記ストラットが配置されている、推進装置。",
+      "output_text_grid": "1. A propulsion apparatus comprising: a tubular portion arranged below a water surface such that an axis of the tubular portion extends in a fore-aft direction, the tubular portion forming a flow path in which a front side is an upstream side and a rear side is a downstream side; a shaft portion disposed inside the tubular portion and extending in an axial direction; a propeller mounted to the shaft portion, the propeller having a plurality of propeller blades that extend in a radial direction of the axis and are arranged in a circumferential direction of the axis, the propeller being rotatable about the axis; and a plurality of struts provided in the flow path on at least one of a front side and a rear side of the propeller, the plurality of struts extending in the radial direction and being arranged in the circumferential direction, the plurality of struts being configured to support the shaft portion; wherein: (i) the plurality of struts extend in a vertical direction and are disposed left-right symmetrically with respect to a line of symmetry that passes through the axis; (ii) at least one angular interval between the struts differs from the other angular intervals between the struts; and (iii) with respect to a horizontal plane that passes through the axis, at least one of the struts is disposed on each of an upper side and a lower side."
+    },
+    {
+      "index": 2,
+      "score": 80,
+      "input_text": "[請求項2]\n前記ストラット同士の角度間隔のうち１つの角度間隔のみが、他の前記ストラット同士の角度間隔と異なっている、請求項１に記載の推進装置。",
+      "output_text": "2.\nThe propulsion apparatus according to claim 1, wherein exactly one of the angular spacings between the plurality of struts differs from each of the other angular spacings between the plurality of struts.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 58,
+          "end": 65,
+          "text": "exactly",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DE64:DK64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 77,
+          "end": 93,
+          "text": "angular spacings",
+          "error": "一貫性の欠如",
+          "severity": "小",
+          "cells": [
+            "DX64:EM64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 106,
+          "end": 118,
+          "text": "plurality of",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "BK67:BV67"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 157,
+          "end": 173,
+          "text": "angular spacings",
+          "error": "一貫性の欠如",
+          "severity": "小",
+          "cells": [
+            "DJ67:DY67"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 186,
+          "end": 198,
+          "text": "plurality of",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "AY70:BJ70"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記ストラット同士の角度間隔のうち１つの角度間隔のみが、他の前記ストラット同士の角度間隔と異なっている、請求項１に記載の推進装置。",
+      "output_text_grid": "2. The propulsion apparatus according to claim 1, wherein exactly one of the angular spacings between the plurality of struts differs from each of the other angular spacings between the plurality of struts."
+    },
+    {
+      "index": 3,
+      "score": 80,
+      "input_text": "[請求項3]\nＮ本の前記ストラットのそれぞれが、前記軸線回りの領域を前記周方向に均等に分割する（Ｎ×２−１）本の分割線のいずれかに配置され、１以上Ｎ未満であるＮ’に対して、前記ストラット同士の角度間隔は、Ｎ’×３６０／（Ｎ×２−１）度のいずれかである、請求項１又は２に記載の推進装置。",
+      "output_text": "3.\nThe propulsion apparatus according to claim 1 or 2, wherein each of the N struts is disposed on any one of (N x 2 - 1) lines that equally divide, in the circumferential direction, the region around the axis into (N x 2 - 1) equal parts; and, for N' that is equal to or greater than 1 and less than N, the angular interval between the struts is equal to any one of ((N' x 360) / (N x 2 - 1)) degrees.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 56,
+          "end": 58,
+          "text": "分割",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "Q88:R88"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 102,
+          "end": 122,
+          "text": "Ｎ’×３６０／（Ｎ×２−１）度のいずれか",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "W91:AN91",
+            "A94:B94"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 183,
+          "end": 186,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "EE88:EG88"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 215,
+          "end": 226,
+          "text": "(N x 2 - 1)",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "BT91:CD91"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 347,
+          "end": 355,
+          "text": "equal to",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "DC94:DJ94"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\nＮ本の前記ストラットのそれぞれが、前記軸線回りの領域を前記周方向に均等に分割する（Ｎ×２−１）本の分割線のいずれかに配置され、１以上Ｎ未満であるＮ’に対して、前記ストラット同士の角度間隔は、Ｎ’×３６０／（Ｎ×２−１）度のいずれかである、請求項１又は２に記載の推進装置。",
+      "output_text_grid": "3. The propulsion apparatus according to claim 1 or 2, wherein each of the N struts is disposed on any one of (N x 2 - 1) lines that equally divide, in the circumferential direction, the region around the axis into (N x 2 - 1) equal parts; and, for N' that is equal to or greater than 1 and less than N, the angular interval between the struts is equal to any one of ((N' x 360) / (N x 2 - 1)) degrees."
+    }
+  ]
+}

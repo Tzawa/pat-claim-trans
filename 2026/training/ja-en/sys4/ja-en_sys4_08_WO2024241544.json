@@ -1,0 +1,284 @@
+{
+  "file": "ja-en_sys4_08_WO2024241544.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "[請求項1]\n或る分野に関連する複数の技術と前記分野に関連する複数の製品又はサービスとを含む前記分野に関連する複数の事象を示す文字列が時間軸上に配置されたロードマップのうち、前記製品又はサービスごとに、当該製品又はサービスに関する環境負荷値を消費対象ごとに計算するように構成されている計算部と、\n前記環境負荷値が最大となる消費対象の環境負荷値の算定式の項ごとに、当該項の意味を示す文字列との類似性に基づいて、前記ロードマップに配置された文字列のうち当該項に関連する文字列を特定するように構成されている特定部と、\n特定された文字列を出力するように構成されている出力部と、\nを有することを特徴とする情報処理装置。",
+      "output_text": "[Claim 1]\nInformation processing apparatus, wherein a calculation unit configured to calculate, for each product or service, an environmental load value related to the product or service for each consumption target in a roadmap in which a character string indicating a plurality of events related to the field including a plurality of technologies related to the field and a plurality of products or services related to the field is arranged on a time axis; and; an identification unit configured to identify, for each term of an expression for calculating an environmental load value of a consumption target having a maximum environmental load value, a character string related to the term among character strings arranged in the roadmap based on similarity to a character string indicating a meaning of the term; and an output unit configured to output an identified character string.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 148,
+          "end": 150,
+          "text": "前記",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AC16:AD16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 285,
+          "end": 297,
+          "text": "を有することを特徴とする",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "F28:Q28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 10,
+          "end": 21,
+          "text": "Information",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BI7:BS7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 237,
+          "end": 255,
+          "text": "a character string",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CN13:DE13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 300,
+          "end": 303,
+          "text": "the",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BJ16:BL16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 310,
+          "end": 429,
+          "text": "including a plurality of technologies related to the field and a plurality of products or services related to the field",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "BT16:ER16",
+            "AY19:CM19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 461,
+          "end": 462,
+          "text": ";",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "DT19:DT19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 697,
+          "end": 714,
+          "text": "character strings",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BN28:CD28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 855,
+          "end": 857,
+          "text": "an",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DU31:DV31"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n或る分野に関連する複数の技術と前記分野に関連する複数の製品又はサービスとを含む前記分野に関連する複数の事象を示す文字列が時間軸上に配置されたロードマップのうち、前記製品又はサービスごとに、当該製品又はサービスに関する環境負荷値を消費対象ごとに計算するように構成されている計算部と、\n前記環境負荷値が最大となる消費対象の環境負荷値の算定式の項ごとに、当該項の意味を示す文字列との類似性に基づいて、前記ロードマップに配置された文字列のうち当該項に関連する文字列を特定するように構成されている特定部と、\n特定された文字列を出力するように構成されている出力部と、\nを有することを特徴とする情報処理装置。",
+      "output_text_grid": "[Claim 1] Information processing apparatus, wherein a calculation unit configured to calculate, for each product or service, an environmental load value related to the product or service for each consumption target in a roadmap in which a character string indicating a plurality of events related to the field including a plurality of technologies related to the field and a plurality of products or services related to the field is arranged on a time axis; and; an identification unit configured to identify, for each term of an expression for calculating an environmental load value of a consumption target having a maximum environmental load value, a character string related to the term among character strings arranged in the roadmap based on similarity to a character string indicating a meaning of the term; and an output unit configured to output an identified character string."
+    },
+    {
+      "index": 2,
+      "score": 80,
+      "input_text": "[請求項2]\n前記特定部は、前記複数の製品又はサービスにおいて環境負荷値が最大となる消費対象が異なる場合には、前記時間軸上において最も遅く出現する前記製品又はサービスについて環境負荷値が最大となる消費対象の前記環境負荷値の算定式の項ごとに、当該項に関連する前記文字列を特定するように構成されている、\nことを特徴とする請求項１記載の情報処理装置。",
+      "output_text": "[Claim 2]\nThe information processing apparatus according to claim 1, wherein the identification unit is configured to identify the character string associated with each term of a formula for calculating an environmental load value of a consumption target that maximizes an environmental load value for a product or a service that most slowly appears on the time axis when a consumption target that maximizes an environmental load value differs among the plurality of products or services.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 116,
+          "end": 119,
+          "text": "ごとに",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AK55:AM55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 148,
+          "end": 163,
+          "text": "associated with",
+          "error": "一貫性の欠如",
+          "severity": "小",
+          "cells": [
+            "CY52:DM52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 164,
+          "end": 168,
+          "text": "each",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DO52:DR52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 177,
+          "end": 178,
+          "text": "a",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "EB52:EB52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 203,
+          "end": 205,
+          "text": "an",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BK55:BL55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 270,
+          "end": 272,
+          "text": "an",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DZ55:EA55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 302,
+          "end": 303,
+          "text": "a",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BN58:BN58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 315,
+          "end": 316,
+          "text": "a",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CA58:CA58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 335,
+          "end": 341,
+          "text": "slowly",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CU58:CZ58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 372,
+          "end": 373,
+          "text": "a",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "EF58:EF58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 408,
+          "end": 410,
+          "text": "an",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BU61:BV61"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記特定部は、前記複数の製品又はサービスにおいて環境負荷値が最大となる消費対象が異なる場合には、前記時間軸上において最も遅く出現する前記製品又はサービスについて環境負荷値が最大となる消費対象の前記環境負荷値の算定式の項ごとに、当該項に関連する前記文字列を特定するように構成されている、\nことを特徴とする請求項１記載の情報処理装置。",
+      "output_text_grid": "[Claim 2] The information processing apparatus according to claim 1, wherein the identification unit is configured to identify the character string associated with each term of a formula for calculating an environmental load value of a consumption target that maximizes an environmental load value for a product or a service that most slowly appears on the time axis when a consumption target that maximizes an environmental load value differs among the plurality of products or services."
+    },
+    {
+      "index": 3,
+      "score": 95,
+      "input_text": "[請求項3]\n前記出力部は、前記特定された文字列について、ネットワークを介して収集される情報との類似性に基づいて優先順位を付与し、前記優先順位を判別可能なように前記特定された文字列を出力するように構成されている、\nことを特徴とする請求項１又は２記載の情報処理装置。",
+      "output_text": "[Claim 3]\nThe information processing apparatus according to claim 1 or 2, wherein the output unit is configured to assign a priority to the specified character string based on similarity to information collected via a network, and output the specified character string so that the priority can be determined.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 140,
+          "end": 149,
+          "text": "specified",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CO82:CW82"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 242,
+          "end": 251,
+          "text": "specified",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CY85:DG85"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\n前記出力部は、前記特定された文字列について、ネットワークを介して収集される情報との類似性に基づいて優先順位を付与し、前記優先順位を判別可能なように前記特定された文字列を出力するように構成されている、\nことを特徴とする請求項１又は２記載の情報処理装置。",
+      "output_text_grid": "[Claim 3] The information processing apparatus according to claim 1 or 2, wherein the output unit is configured to assign a priority to the specified character string based on similarity to information collected via a network, and output the specified character string so that the priority can be determined."
+    }
+  ]
+}

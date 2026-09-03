@@ -1,0 +1,450 @@
+{
+  "file": "en-ja_sys3_03_US20070180420.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "3. A method for designing a circuit apparatus having at least first and second layers and at least first and second conductors disposed within the first and second layers, respectively, for conducting at least first and second signals, respectively, comprising:\ndetermining a minimum length for each of the conductors, the first conductor being longer than the second conductor;\ndetermining a propagation time for the first and second signals to propagate through the first and second conductors and whether the propagation time for each signal is within a time constraint; and\nupon determining that the propagation times for the signals are not within the time constraint, selecting first and second dielectric materials having different characteristic propagation speeds for the first and second layers, respectively, the characteristic propagation speed of the first dielectric material being faster than the characteristic propagation speed of the second dielectric material.",
+      "output_text": "3. 少なくとも第1層および第2層を有し、それぞれの層内に少なくとも第1導体および第2導体が配置され、それぞれ第1信号および第2信号を伝送するように構成された回路装置の設計方法であって、以下の工程を含む方法：\n各導体について最小長を決定する工程であって、第1導体が第2導体よりも長いこと；\n第1導体および第2導体を伝播する第1信号および第2信号の伝播時間を算出するとともに、各信号の伝播時間が所定の時間制約範囲内にあるか否かを判定する工程；\n信号の伝播時間が時間制約範囲外であると判定された場合、それぞれ第1層および第2層に対して、特性伝播速度が異なる第1誘電材料および第2誘電材料を選択する工程であり、第1誘電材料の特性伝播速度が第2誘電材料の特性伝播速度よりも速いことを特徴とする。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "3.",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG7:DH7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 10,
+          "end": 11,
+          "text": "層",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DQ7:DQ7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 14,
+          "end": 17,
+          "text": "第2層",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DU7:DW7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 21,
+          "end": 25,
+          "text": "それぞれ",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "EB7:EE7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 21,
+          "end": 50,
+          "text": "それぞれの層内に少なくとも第1導体および第2導体が配置され",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "EB8:ET8",
+            "DG11:DP11"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 36,
+          "end": 38,
+          "text": "導体",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EQ7:ER7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 41,
+          "end": 45,
+          "text": "第2導体",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DH10:DK10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 57,
+          "end": 59,
+          "text": "信号",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DX10:DY10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 62,
+          "end": 66,
+          "text": "第2信号",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EC10:EF10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 71,
+          "end": 79,
+          "text": "ように構成された",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "EL11:ES11"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 93,
+          "end": 104,
+          "text": "以下の工程を含む方法：",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DT13:ED13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 127,
+          "end": 131,
+          "text": "第1導体",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DN16:DQ16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 132,
+          "end": 136,
+          "text": "第2導体",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DS16:DV16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 141,
+          "end": 143,
+          "text": "こと",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EB16:EC16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 147,
+          "end": 149,
+          "text": "導体",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EH16:EI16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 152,
+          "end": 156,
+          "text": "第2導体",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EM16:EP16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 163,
+          "end": 165,
+          "text": "信号",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DJ19:DK19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 168,
+          "end": 172,
+          "text": "第2信号",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DO19:DR19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 182,
+          "end": 186,
+          "text": "とともに",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EC19:EF19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 196,
+          "end": 199,
+          "text": "所定の",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EQ19:ES19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 254,
+          "end": 255,
+          "text": "層",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DU25:DU25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 258,
+          "end": 261,
+          "text": "第2層",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DY25:EA25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 278,
+          "end": 282,
+          "text": "誘電材料",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "ES25:ET25",
+            "DG28:DH28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 285,
+          "end": 291,
+          "text": "第2誘電材料",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DL28:DQ28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 299,
+          "end": 301,
+          "text": "あり",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DZ28:EA28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 302,
+          "end": 308,
+          "text": "第1誘電材料",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EC28:EH28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 316,
+          "end": 322,
+          "text": "第2誘電材料",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EQ28:ET28",
+            "DG31:DH31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 334,
+          "end": 342,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DU32:EB32"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 342,
+          "end": 343,
+          "text": "。",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "EC31:EC31"
+          ]
+        }
+      ],
+      "input_text_grid": "3. A method for designing a circuit apparatus having at least first and second layers and at least first and second conductors disposed within the first and second layers, respectively, for conducting at least first and second signals, respectively, comprising: determining a minimum length for each of the conductors, the first conductor being longer than the second conductor; determining a propagation time for the first and second signals to propagate through the first and second conductors and whether the propagation time for each signal is within a time constraint; and upon determining that the propagation times for the signals are not within the time constraint, selecting first and second dielectric materials having different characteristic propagation speeds for the first and second layers, respectively, the characteristic propagation speed of the first dielectric material being faster than the characteristic propagation speed of the second dielectric material.",
+      "output_text_grid": "3. 少なくとも第1層および第2層を有し、それぞれの層内に少なくとも第1導体および第2導体が配置され、それぞれ第1信号および第2信号を伝送するように構成された回路装置の設計方法であって、以下の工程を含む方法：\n各導体について最小長を決定する工程であって、第1導体が第2導体よりも長いこと；\n第1導体および第2導体を伝播する第1信号および第2信号の伝播時間を算出するとともに、各信号の伝播時間が所定の時間制約範囲内にあるか否かを判定する工程；\n信号の伝播時間が時間制約範囲外であると判定された場合、それぞれ第1層および第2層に対して、特性伝播速度が異なる第1誘電材料および第2誘電材料を選択する工程であり、第1誘電材料の特性伝播速度が第2誘電材料の特性伝播速度よりも速いことを特徴とする。"
+    },
+    {
+      "index": 2,
+      "score": 75,
+      "input_text": "4. A method as defined in claim 3, further comprising:\nselecting the first and second dielectric materials to minimize a difference between a ratio of the length of$-the first conductor to the length of the second conductor and a ratio of the characteristic propagation speed of the first dielectric material to the characteristic propagation speed of the second dielectric material.",
+      "output_text": "4. 請求項3に記載の方法において、さらに以下の工程を含むもの：\n第1および第2の誘電材料を選択し、$-第1導体の長さと第2導体の長さの比と、第1誘電材料の特性伝播速度と第2誘電材料の特性伝播速度の比との差を最小化するようにする。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 164,
+          "end": 166,
+          "text": "$-",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "BP55:BQ55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "4.",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG52:DH52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 3,
+          "end": 32,
+          "text": "請求項3に記載の方法において、さらに以下の工程を含むもの：",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DJ53:EL53"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 50,
+          "end": 52,
+          "text": "$-",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "DQ55:DR55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 52,
+          "end": 56,
+          "text": "第1導体",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DS56:DV56"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 60,
+          "end": 64,
+          "text": "第2導体",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EA55:ED55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 71,
+          "end": 77,
+          "text": "第1誘電材料",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EL55:EQ55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 85,
+          "end": 91,
+          "text": "第2誘電材料",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DL58:DQ58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 109,
+          "end": 114,
+          "text": "ようにする",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EJ58:EN58"
+          ]
+        }
+      ],
+      "input_text_grid": "4. A method as defined in claim 3, further comprising: selecting the first and second dielectric materials to minimize a difference between a ratio of the length of$-the first conductor to the length of the second conductor and a ratio of the characteristic propagation speed of the first dielectric material to the characteristic propagation speed of the second dielectric material.",
+      "output_text_grid": "4. 請求項3に記載の方法において、さらに以下の工程を含むもの：\n第1および第2の誘電材料を選択し、$-第1導体の長さと第2導体の長さの比と、第1誘電材料の特性伝播速度と第2誘電材料の特性伝播速度の比との差を最小化するようにする。"
+    }
+  ]
+}

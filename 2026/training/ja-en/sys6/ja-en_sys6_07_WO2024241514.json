@@ -1,0 +1,151 @@
+{
+  "file": "ja-en_sys6_07_WO2024241514.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 50,
+      "input_text": "[請求項1]\n直流電力を交流電力に変換する単相インバータの交流側が複数直列接続されており、複数の前記単相インバータが出力する出力電圧が総和された全体出力電圧の直流電力又は交流電力を負荷に供給する電力変換器と、前記電力変換器を制御する制御部とを備えた電力変換装置であって、\n前記出力電圧の絶対値が最小である最小出力電圧を出力する前記単相インバータを最小単相インバータとし、\n複数の前記単相インバータの出力を選択的に組み合わせることで離散的に設定可能な前記全体出力電圧の絶対値を階調レベルとし、\n前記出力電圧の組合せである電圧組合せの複数によって同一の前記全体出力電圧のレベルが実現される予め定められた前記階調レベルを特別レベルとし、\n設定可能な前記階調レベルには少なくとも１つの前記特別レベルが含まれており、\n前記制御部は、\n複数の前記単相インバータにおける前記出力電圧の組合せを選択することにより設定電圧値の前記全体出力電圧を出力するように前記単相インバータを制御し、\n前記階調レベルを前後の一方に前記特別レベルを含ませて変更する際に、前記最小単相インバータを除いた少なくとも１つの前記単相インバータの前記出力電圧が変化しない前記電圧組合せを選択する、\n電力変換装置。",
+      "output_text": "a power converter including a plurality of single-phase inverters connected in series on an AC side, the power converter being configured to supply DC power or AC power of an overall output voltage obtained by summing output voltages output from the plurality of single-phase inverters to a load; and a controller configured to control the power converter, wherein the single-phase inverter that outputs a minimum output voltage having a minimum absolute value of the output voltages is defined as a minimum single-phase inverter, an absolute value of the overall output voltage that can be set discretely by selectively combining the outputs of the plurality of single-phase inverters is defined as a gradation level, a predetermined gradation level at which the same level of the overall output voltage is realized by a plurality of voltage combinations that are combinations of the output voltages is defined as a special level, at least one of the gradation levels includes the special level, the controller is configured to control the single-phase inverters to output the overall output voltage having a set voltage value by selecting the voltage combinations of the output voltages in the plurality of single-phase inverters, and when the gradation level is changed to include the special level on one of the front and rear sides, the controller is configured to select the voltage combination in which the output voltage of at least one of the single-phase inverters other than the minimum single-phase inverter does not change.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項1]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:F7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 7,
+          "end": 21,
+          "text": "直流電力を交流電力に変換する",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "H7:U7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 120,
+          "end": 134,
+          "text": "を備えた電力変換装置であって",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A16:N16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 299,
+          "end": 301,
+          "text": "前記",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "T28:U28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 316,
+          "end": 321,
+          "text": "設定可能な",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AK28:AN28",
+            "A31:A31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 330,
+          "end": 338,
+          "text": "少なくとも１つの",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "K31:R31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 286,
+          "end": 289,
+          "text": "to ",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EQ13:ES13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 289,
+          "end": 295,
+          "text": "a load",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "AY16:BD16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 631,
+          "end": 634,
+          "text": "the",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DG25:DI25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 932,
+          "end": 947,
+          "text": "at least one of",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "DW34:EK34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1145,
+          "end": 1152,
+          "text": "voltage",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "BC43:BI43"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1312,
+          "end": 1336,
+          "text": "the front and rear sides",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DV46:EM46",
+            "AY49:BC49"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n直流電力を交流電力に変換する単相インバータの交流側が複数直列接続されており、複数の前記単相インバータが出力する出力電圧が総和された全体出力電圧の直流電力又は交流電力を負荷に供給する電力変換器と、前記電力変換器を制御する制御部とを備えた電力変換装置であって、\n前記出力電圧の絶対値が最小である最小出力電圧を出力する前記単相インバータを最小単相インバータとし、\n複数の前記単相インバータの出力を選択的に組み合わせることで離散的に設定可能な前記全体出力電圧の絶対値を階調レベルとし、\n前記出力電圧の組合せである電圧組合せの複数によって同一の前記全体出力電圧のレベルが実現される予め定められた前記階調レベルを特別レベルとし、\n設定可能な前記階調レベルには少なくとも１つの前記特別レベルが含まれており、\n前記制御部は、\n複数の前記単相インバータにおける前記出力電圧の組合せを選択することにより設定電圧値の前記全体出力電圧を出力するように前記単相インバータを制御し、\n前記階調レベルを前後の一方に前記特別レベルを含ませて変更する際に、前記最小単相インバータを除いた少なくとも１つの前記単相インバータの前記出力電圧が変化しない前記電圧組合せを選択する、\n電力変換装置。",
+      "output_text_grid": "a power converter including a plurality of single-phase inverters connected in series on an AC side, the power converter being configured to supply DC power or AC power of an overall output voltage obtained by summing output voltages output from the plurality of single-phase inverters to a load; and a controller configured to control the power converter, wherein the single-phase inverter that outputs a minimum output voltage having a minimum absolute value of the output voltages is defined as a minimum single-phase inverter, an absolute value of the overall output voltage that can be set discretely by selectively combining the outputs of the plurality of single-phase inverters is defined as a gradation level, a predetermined gradation level at which the same level of the overall output voltage is realized by a plurality of voltage combinations that are combinations of the output voltages is defined as a special level, at least one of the gradation levels includes the special level, the controller is configured to control the single-phase inverters to output the overall output voltage having a set voltage value by selecting the voltage combinations of the output voltages in the plurality of single-phase inverters, and when the gradation level is changed to include the special level on one of the front and rear sides, the controller is configured to select the voltage combination in which the output voltage of at least one of the single-phase inverters other than the minimum single-phase inverter does not change."
+    }
+  ]
+}

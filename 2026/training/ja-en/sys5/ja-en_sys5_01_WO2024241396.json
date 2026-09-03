@@ -1,0 +1,331 @@
+{
+  "file": "ja-en_sys5_01_WO2024241396.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 80,
+      "input_text": "[請求項1]\n説明変数及び目的変数を含む複数の訓練データと、ガウス分布分散関数モデルの分散パラメータと、ガウス分布平均関数モデルの平均パラメータと、を用いて計算される平均負対数尤度の、前記分散パラメータについての勾配値を計算する、第１の勾配値計算手段と、\n前記複数の訓練データと、ガウス分布平均関数モデルの平均パラメータとを用いて計算される、前記説明変数及び平均パラメータを入力としたときの前記ガウス分布平均関数モデルの出力値と前記目的変数との平均二乗誤差の、平均パラメータについての勾配値を計算する、第２の勾配値計算手段と、\n前記平均負対数尤度の前記分散パラメータについての勾配値を用いて前記分散パラメータを更新し、前記平均二乗誤差の前記平均パラメータについての勾配値を用いて前記平均パラメータを更新する、パラメータ更新手段と、\nを備えている、ことを特徴とする機械学習装置。",
+      "output_text": "[Claim 1]\nA machine learning device comprising:\na first gradient calculation means for computing the gradient value of the mean negative log-likelihood with respect to the variance parameter, using multiple training data including both explanatory variables and target variables, along with the variance parameter of the Gaussian distribution variance function model and the mean parameter of the Gaussian distribution mean function model;\na second gradient calculation means for computing the gradient value of the mean squared error between the output value of the Gaussian distribution mean function model when given the explanatory variables and mean parameter as inputs, and the target variable, using the aforementioned multiple training data and the mean parameter of the Gaussian distribution mean function model; and\na parameter update means for updating the variance parameter using the gradient value of the mean negative log-likelihood with respect to the variance parameter, and updating the mean parameter using the gradient value of the mean squared error with respect to the mean parameter.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 78,
+          "end": 83,
+          "text": "計算される",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AM10:AN10",
+            "A13:C13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 120,
+          "end": 121,
+          "text": "値",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A16:A16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 165,
+          "end": 170,
+          "text": "計算される",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "F19:J19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 230,
+          "end": 242,
+          "text": "平均パラメータについての",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AE22:AN22",
+            "A25:B25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 256,
+          "end": 257,
+          "text": "値",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Q25:Q25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 119,
+          "end": 122,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BU10:BW10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 168,
+          "end": 171,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DR10:DT10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 198,
+          "end": 220,
+          "text": "multiple training data",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "BE13:BZ13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 231,
+          "end": 235,
+          "text": "both",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "CL13:CO13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 314,
+          "end": 366,
+          "text": "of the Gaussian distribution variance function model",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "BV16:DU16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 490,
+          "end": 493,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "AY22:BA22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 512,
+          "end": 515,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BU22:BW22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 543,
+          "end": 546,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CZ22:DB22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 609,
+          "end": 619,
+          "text": "when given",
+          "error": "文法",
+          "severity": "大",
+          "cells": [
+            "BS25:CB25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 650,
+          "end": 664,
+          "text": "mean parameter",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DH25:DU25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 680,
+          "end": 699,
+          "text": "the target variable",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "EL25:EN25",
+            "AY28:BM28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 711,
+          "end": 725,
+          "text": "aforementioned",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "BZ28:CM28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 726,
+          "end": 748,
+          "text": "multiple training data",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "CO29:DJ29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 772,
+          "end": 820,
+          "text": "of the Gaussian distribution mean function model",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "EI28:EN28",
+            "AY31:CM31"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n説明変数及び目的変数を含む複数の訓練データと、ガウス分布分散関数モデルの分散パラメータと、ガウス分布平均関数モデルの平均パラメータと、を用いて計算される平均負対数尤度の、前記分散パラメータについての勾配値を計算する、第１の勾配値計算手段と、\n前記複数の訓練データと、ガウス分布平均関数モデルの平均パラメータとを用いて計算される、前記説明変数及び平均パラメータを入力としたときの前記ガウス分布平均関数モデルの出力値と前記目的変数との平均二乗誤差の、平均パラメータについての勾配値を計算する、第２の勾配値計算手段と、\n前記平均負対数尤度の前記分散パラメータについての勾配値を用いて前記分散パラメータを更新し、前記平均二乗誤差の前記平均パラメータについての勾配値を用いて前記平均パラメータを更新する、パラメータ更新手段と、\nを備えている、ことを特徴とする機械学習装置。",
+      "output_text_grid": "[Claim 1] A machine learning device comprising: a first gradient calculation means for computing the gradient value of the mean negative log-likelihood with respect to the variance parameter, using multiple training data including both explanatory variables and target variables, along with the variance parameter of the Gaussian distribution variance function model and the mean parameter of the Gaussian distribution mean function model; a second gradient calculation means for computing the gradient value of the mean squared error between the output value of the Gaussian distribution mean function model when given the explanatory variables and mean parameter as inputs, and the target variable, using the aforementioned multiple training data and the mean parameter of the Gaussian distribution mean function model; and a parameter update means for updating the variance parameter using the gradient value of the mean negative log-likelihood with respect to the variance parameter, and updating the mean parameter using the gradient value of the mean squared error with respect to the mean parameter."
+    },
+    {
+      "index": 2,
+      "score": 20,
+      "input_text": "[請求項2]\n前記パラメータ更新手段が、前記平均負対数尤度と前記平均二乗誤差との和を計算する損失関数が最小化するように、前記分散パラメータ及び前記平均パラメータを更新する、\n請求項１に記載の機械学習装置。",
+      "output_text": "[Claim 2]\nThe parameter update means in the aforementioned claim updates the variance parameter and mean parameter such that the loss function—which calculates the sum of the average negative log-likelihood and the average squared error—is minimized.\nMachine learning device as claimed in Claim 1.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 37,
+          "end": 64,
+          "text": "in the aforementioned claim",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "CJ55:DJ55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 142,
+          "end": 143,
+          "text": "—",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CO58:CO58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 143,
+          "end": 159,
+          "text": "which calculates",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CP59:DE59"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 160,
+          "end": 163,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DG58:DI58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 175,
+          "end": 182,
+          "text": "average",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DV58:EB58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 236,
+          "end": 237,
+          "text": "—",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CQ61:CQ61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 251,
+          "end": 296,
+          "text": "Machine learning device as claimed in Claim 1",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DF61:EP61",
+            "AY64:BE64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 251,
+          "end": 274,
+          "text": "Machine learning device",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DF62:EB62"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記パラメータ更新手段が、前記平均負対数尤度と前記平均二乗誤差との和を計算する損失関数が最小化するように、前記分散パラメータ及び前記平均パラメータを更新する、\n請求項１に記載の機械学習装置。",
+      "output_text_grid": "[Claim 2] The parameter update means in the aforementioned claim updates the variance parameter and mean parameter such that the loss function—which calculates the sum of the average negative log-likelihood and the average squared error—is minimized. Machine learning device as claimed in Claim 1."
+    }
+  ]
+}

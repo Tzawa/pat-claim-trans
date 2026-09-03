@@ -1,0 +1,316 @@
+{
+  "file": "en-ja_sys3_04_US20080236877.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "1. A printed wiring board device comprising a power core having an outer layer, said power core comprising at least one embedded singulated capacitor wherein said embedded singulated capacitor comprises at least a first embedded singulated capacitor electrode and a second embedded singulated capacitor electrode and wherein said embedded singulated capacitor is positioned on said outer layer of said power core and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are directly connected to at least one Vcc (power) terminal and at least one Vss (ground) terminal, respectively, of a semiconductor device and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are interconnected to a first external planar capacitor electrode and a second external planar capacitor electrode, respectively of an external planar capacitor embedded within a printed wiring motherboard and wherein said printed wiring motherboard serves to supply a charge to said embedded singulated capacitor.",
+      "output_text": "1. 外側層を有するパワーコアを備えたプリント配線基板装置であって、当該パワーコアには少なくとも1つの埋め込み個別コンデンサが内蔵されており、この埋め込み個別コンデンサは、少なくとも第1の埋め込み個別コンデンサ電極と第2の埋め込み個別コンデンサ電極を有し、当該埋め込み個別コンデンサはパワーコアの外側層上に配置され、第1の埋め込み個別コンデンサ電極と第2の埋め込み個別コンデンサ電極は、それぞれ半導体デバイスの少なくとも1つのVcc（電源）端子および少なくとも1つのVss（接地）端子に直接接続されており、第1の埋め込み個別コンデンサ電極と第2の埋め込み個別コンデンサ電極は、それぞれプリント配線基板マザーボード内に埋め込まれた外部平面コンデンサの第1の外部平面コンデンサ電極および第2の外部平面コンデンサ電極と相互接続されており、当該プリント配線基板マザーボードは、当該埋め込み個別コンデンサに電荷を供給する機能を有する。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 397,
+          "end": 401,
+          "text": "said",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "J19:M19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 425,
+          "end": 429,
+          "text": "said",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AL19:AO19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 480,
+          "end": 484,
+          "text": "said",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "CO19:CR19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 684,
+          "end": 688,
+          "text": "said",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "I28:L28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 739,
+          "end": 743,
+          "text": "said",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "BL28:BO28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "1.",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG7:DH7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 34,
+          "end": 36,
+          "text": "当該",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EO7:EP7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 63,
+          "end": 70,
+          "text": "内蔵されており",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "ED10:EJ10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 71,
+          "end": 73,
+          "text": "この",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EL10:EM10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 125,
+          "end": 127,
+          "text": "有し",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DL16:DM16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 128,
+          "end": 130,
+          "text": "当該",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DO16:DP16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 174,
+          "end": 175,
+          "text": "と",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DU19:DU19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 269,
+          "end": 270,
+          "text": "と",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EJ25:EJ25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 298,
+          "end": 300,
+          "text": "基板",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DY28:DZ28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 366,
+          "end": 368,
+          "text": "当該",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DM34:DN34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 374,
+          "end": 376,
+          "text": "基板",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DU34:DV34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 384,
+          "end": 386,
+          "text": "当該",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EE34:EF34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 411,
+          "end": 412,
+          "text": "。",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DR37:DR37"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A printed wiring board device comprising a power core having an outer layer, said power core comprising at least one embedded singulated capacitor wherein said embedded singulated capacitor comprises at least a first embedded singulated capacitor electrode and a second embedded singulated capacitor electrode and wherein said embedded singulated capacitor is positioned on said outer layer of said power core and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are directly connected to at least one Vcc (power) terminal and at least one Vss (ground) terminal, respectively, of a semiconductor device and wherein said first embedded singulated capacitor electrode and said second embedded singulated capacitor electrode are interconnected to a first external planar capacitor electrode and a second external planar capacitor electrode, respectively of an external planar capacitor embedded within a printed wiring motherboard and wherein said printed wiring motherboard serves to supply a charge to said embedded singulated capacitor.",
+      "output_text_grid": "1. 外側層を有するパワーコアを備えたプリント配線基板装置であって、当該パワーコアには少なくとも1つの埋め込み個別コンデンサが内蔵されており、この埋め込み個別コンデンサは、少なくとも第1の埋め込み個別コンデンサ電極と第2の埋め込み個別コンデンサ電極を有し、当該埋め込み個別コンデンサはパワーコアの外側層上に配置され、第1の埋め込み個別コンデンサ電極と第2の埋め込み個別コンデンサ電極は、それぞれ半導体デバイスの少なくとも1つのVcc（電源）端子および少なくとも1つのVss（接地）端子に直接接続されており、第1の埋め込み個別コンデンサ電極と第2の埋め込み個別コンデンサ電極は、それぞれプリント配線基板マザーボード内に埋め込まれた外部平面コンデンサの第1の外部平面コンデンサ電極および第2の外部平面コンデンサ電極と相互接続されており、当該プリント配線基板マザーボードは、当該埋め込み個別コンデンサに電荷を供給する機能を有する。"
+    },
+    {
+      "index": 2,
+      "score": 80,
+      "input_text": "2. The printed wiring board device of claim 1 wherein said semiconductor device is a microprocessor.",
+      "output_text": "2. 請求項1に記載のプリント配線基板装置において、前記半導体デバイスがマイクロプロセッサであるもの",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "2.",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG55:DH55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 3,
+          "end": 26,
+          "text": "請求項1に記載のプリント配線基板装置において、",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DJ56:EF56"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 50,
+          "end": 51,
+          "text": "",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "DQ58:DQ58"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The printed wiring board device of claim 1 wherein said semiconductor device is a microprocessor.",
+      "output_text_grid": "2. 請求項1に記載のプリント配線基板装置において、前記半導体デバイスがマイクロプロセッサであるもの"
+    },
+    {
+      "index": 3,
+      "score": 80,
+      "input_text": "3. The printed wiring board device of claim 1 wherein said power core is interconnected to at least one signal layer.",
+      "output_text": "3. 請求項1に記載のプリント配線基板装置において、当該電源コアが少なくとも1つの信号層と相互接続されている構成。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "3.",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG73:DH73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 3,
+          "end": 26,
+          "text": "請求項1に記載のプリント配線基板装置において、",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DJ74:EF74"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 26,
+          "end": 28,
+          "text": "当該",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EG73:EH73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 54,
+          "end": 56,
+          "text": "構成",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DU76:DV76"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The printed wiring board device of claim 1 wherein said power core is interconnected to at least one signal layer.",
+      "output_text_grid": "3. 請求項1に記載のプリント配線基板装置において、当該電源コアが少なくとも1つの信号層と相互接続されている構成。"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "file": "en-ja_sys1_27_US20230238910.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 80,
+      "input_text": "1. A motor system configured to replace an internal combustion engine having a maximum engine speed in a machine, the motor system comprising:\nan electric motor having a maximum motor speed that is greater than the maximum engine speed;\na battery configured to power the electric motor; and\ncontrol electronics configured to control current delivered from the battery to the motor by delivering reduced current to the motor when the motor speed is less than a low motor speed threshold, delivering high current when the motor speed is between the low motor speed threshold and an intermediate speed threshold that is greater than the low speed threshold, delivering reduced current to the motor when the motor speed is between an intermediate motor speed threshold and a high motor speed threshold that corresponds the maximum engine speed.",
+      "output_text": "[請求項1]\n機械において最大エンジン回転数を有する内燃機関を置換するよう構成されたモータシステムであって、前記最大エンジン回転数より大きい最大モータ回転数を有する電動モータと、前記電動モータに電力を供給するよう構成されたバッテリと、前記バッテリから前記モータへ供給される電流を制御する制御電子回路とを備え、前記制御電子回路が、モータ回転数が低速モータ回転数閾値より低いときに前記モータへ供給する電流を低減し、前記モータ回転数が前記低速モータ回転数閾値とこれより大きい中間回転数閾値との間にあるときに高電流を供給し、前記モータ回転数が前記中間モータ回転数閾値と前記最大エンジン回転数に対応する高速モータ回転数閾値との間にあるときに前記モータへ供給する電流を低減するよう構成されていることを特徴とするモータシステム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 429,
+          "end": 432,
+          "text": "the",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "AT19:AV19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 634,
+          "end": 653,
+          "text": "low speed threshold",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "BJ25:CB25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 743,
+          "end": 749,
+          "text": "motor ",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "BZ28:CE28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 188,
+          "end": 204,
+          "text": "前記モータへ供給する電流を低減し",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "EI19:ET19",
+            "DG22:DJ22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 227,
+          "end": 231,
+          "text": "これより",
+          "error": "言語使用域",
+          "severity": "大",
+          "cells": [
+            "EH22:EK22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 267,
+          "end": 269,
+          "text": "前記",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "EH25:EI25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 315,
+          "end": 332,
+          "text": "前記モータへ供給する電流を低減する",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "EP28:ET28",
+            "DG31:DR31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 341,
+          "end": 349,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EB31:EI31"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A motor system configured to replace an internal combustion engine having a maximum engine speed in a machine, the motor system comprising: an electric motor having a maximum motor speed that is greater than the maximum engine speed; a battery configured to power the electric motor; and control electronics configured to control current delivered from the battery to the motor by delivering reduced current to the motor when the motor speed is less than a low motor speed threshold, delivering high current when the motor speed is between the low motor speed threshold and an intermediate speed threshold that is greater than the low speed threshold, delivering reduced current to the motor when the motor speed is between an intermediate motor speed threshold and a high motor speed threshold that corresponds the maximum engine speed.",
+      "output_text_grid": "[請求項1]\n機械において最大エンジン回転数を有する内燃機関を置換するよう構成されたモータシステムであって、前記最大エンジン回転数より大きい最大モータ回転数を有する電動モータと、前記電動モータに電力を供給するよう構成されたバッテリと、前記バッテリから前記モータへ供給される電流を制御する制御電子回路とを備え、前記制御電子回路が、モータ回転数が低速モータ回転数閾値より低いときに前記モータへ供給する電流を低減し、前記モータ回転数が前記低速モータ回転数閾値とこれより大きい中間回転数閾値との間にあるときに高電流を供給し、前記モータ回転数が前記中間モータ回転数閾値と前記最大エンジン回転数に対応する高速モータ回転数閾値との間にあるときに前記モータへ供給する電流を低減するよう構成されていることを特徴とするモータシステム。"
+    }
+  ]
+}

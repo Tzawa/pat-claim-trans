@@ -1,0 +1,39 @@
+{
+  "file": "ja-en_sys3_16_WO2024241779.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 80,
+      "input_text": "[請求項1]\n複数の分割コアが溶接により結合されてなる固定子と、\n前記固定子と対向して配置される回転子と、を備え、\n前記固定子の軸方向端からこれに最も近い連続した溶接部の終端までの領域を第１領域とし、かつ前記固定子の軸方向中央部を含む前記第１領域以外の領域を第２領域として、\n前記複数の分割コアの間の複数の結合部の少なくとも１つにおいて、前記第２領域における溶接部の割合は、前記第１領域における溶接部の割合よりも小さい、電動機。",
+      "output_text": "1. An electric motor comprising:\na stator formed by joining a plurality of divided cores by welding; and\na rotor disposed to face the stator,\nwherein a region from an axial end of the stator to a termination of a continuous weld portion closest thereto is defined as a first region, and a region other than the first region, including a central portion in the axial direction of the stator, is defined as a second region,\nand in at least one of a plurality of joint portions between the plurality of divided cores, a ratio of weld portions in the second region is smaller than a ratio of weld portions in the first region.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 245,
+          "end": 252,
+          "text": "thereto",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "DA13:DG13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 356,
+          "end": 359,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DN16:DP16"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n複数の分割コアが溶接により結合されてなる固定子と、\n前記固定子と対向して配置される回転子と、を備え、\n前記固定子の軸方向端からこれに最も近い連続した溶接部の終端までの領域を第１領域とし、かつ前記固定子の軸方向中央部を含む前記第１領域以外の領域を第２領域として、\n前記複数の分割コアの間の複数の結合部の少なくとも１つにおいて、前記第２領域における溶接部の割合は、前記第１領域における溶接部の割合よりも小さい、電動機。",
+      "output_text_grid": "1. An electric motor comprising: a stator formed by joining a plurality of divided cores by welding; and a rotor disposed to face the stator, wherein a region from an axial end of the stator to a termination of a continuous weld portion closest thereto is defined as a first region, and a region other than the first region, including a central portion in the axial direction of the stator, is defined as a second region, and in at least one of a plurality of joint portions between the plurality of divided cores, a ratio of weld portions in the second region is smaller than a ratio of weld portions in the first region."
+    }
+  ]
+}

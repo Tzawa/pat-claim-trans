@@ -1,0 +1,386 @@
+{
+  "file": "ja-en_sys5_14_WO2024241676.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 85,
+      "input_text": "[請求項1]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤがクエストをクリアできなかった場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text": "[Claim 1]\nA program for executing quests using a deck composed of a limited number of owned content items that a player possesses, comprising:\na computer configured to function as:\na memory means for associating each quest with a cleared deck—the deck used when clearing that specific quest;\na judgment means for determining, when a player fails to complete a quest, whether their owned content is sufficient to assemble one of the associated cleared decks;\na specification means for identifying, if such a determination is negative, the content items missing from the cleared deck among the player's owned content as specified content items; and\na control means for displaying to the player an acquisition screen allowing them to obtain the specified content items by consuming cost.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 16,
+          "end": 26,
+          "text": "所有コンテンツのうち",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "Q7:Z7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 128,
+          "end": 132,
+          "text": "記憶する",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "I16:L16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 182,
+          "end": 189,
+          "text": "当該クエストに",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "W20:AC20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 66,
+          "end": 129,
+          "text": "a limited number of owned content items that a player possesses",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DM7:ES7",
+            "AY10:CA10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 131,
+          "end": 167,
+          "text": "comprising: a computer configured to",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CD10:DM10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 242,
+          "end": 243,
+          "text": "—",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "CO13:CO13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 257,
+          "end": 270,
+          "text": "when clearing",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "DD13:DP13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 313,
+          "end": 324,
+          "text": "determining",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BR16:CB16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 375,
+          "end": 380,
+          "text": "their",
+          "error": "文法",
+          "severity": "大",
+          "cells": [
+            "EB16:EF16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 387,
+          "end": 394,
+          "text": "content",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "AY20:BE20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 484,
+          "end": 495,
+          "text": "identifying",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "AY24:BI24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 500,
+          "end": 506,
+          "text": "such a",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "BO24:BT24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 534,
+          "end": 537,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CW24:CY24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 552,
+          "end": 614,
+          "text": "missing from the cleared deck among the player's owned content",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DO25:EQ25",
+            "AY30:CD30"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 607,
+          "end": 614,
+          "text": "content",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BX28:CD28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 607,
+          "end": 614,
+          "text": "content",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "BX29:CD29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 723,
+          "end": 728,
+          "text": "them ",
+          "error": "文法",
+          "severity": "大",
+          "cells": [
+            "CO33:CS33"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 731,
+          "end": 737,
+          "text": "obtain",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CW33:DB33"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤがクエストをクリアできなかった場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text_grid": "[Claim 1] A program for executing quests using a deck composed of a limited number of owned content items that a player possesses, comprising: a computer configured to function as: a memory means for associating each quest with a cleared deck—the deck used when clearing that specific quest; a judgment means for determining, when a player fails to complete a quest, whether their owned content is sufficient to assemble one of the associated cleared decks; a specification means for identifying, if such a determination is negative, the content items missing from the cleared deck among the player's owned content as specified content items; and a control means for displaying to the player an acquisition screen allowing them to obtain the specified content items by consuming cost."
+    },
+    {
+      "index": 2,
+      "score": 90,
+      "input_text": "[請求項2]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤが実行するクエストを選択した場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤが前記選択したクエストを実行する前に、当該プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text": "[Claim 2]\nA program for executing quests using a deck composed of a limited number of owned content items that a player possesses, comprising:\na computer configured to function as:\na memory means for associating each quest with the corresponding cleared deck used to complete that quest;\na judgment means for determining, when a player selects a quest, whether the player's owned content is sufficient to form one of the associated cleared decks;\na specification means for identifying, if such a determination is negative, the content items missing from the cleared deck as specified content items from the player's owned content; and\na control means for displaying to the player, prior to executing the selected quest, an acquisition screen allowing the player to acquire the specified content items by consuming cost.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 16,
+          "end": 26,
+          "text": "所有コンテンツのうち",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "Q54:Z54"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 115,
+          "end": 121,
+          "text": "デッキである",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AJ60:AN60",
+            "A63:A63"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 128,
+          "end": 132,
+          "text": "記憶する",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "I63:L63"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 145,
+          "end": 149,
+          "text": "実行する",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "Z63:AC63"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 181,
+          "end": 188,
+          "text": "当該クエストに",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "V66:AB66"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 295,
+          "end": 302,
+          "text": "前記プレイヤが",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "P76:V76"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 66,
+          "end": 129,
+          "text": "a limited number of owned content items that a player possesses",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DM54:ES54",
+            "AY57:CA57"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 131,
+          "end": 167,
+          "text": "comprising: a computer configured to",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CD57:DM57"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 309,
+          "end": 320,
+          "text": "determining",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BI63:BS63"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 380,
+          "end": 387,
+          "text": "content",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EB63:EH63"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 473,
+          "end": 484,
+          "text": "identifying",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EC66:EM66"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 489,
+          "end": 495,
+          "text": "such a",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "AY69:BD69"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 523,
+          "end": 526,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CG69:CI69"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 541,
+          "end": 629,
+          "text": "missing from the cleared deck as specified content items from the player's owned content",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CY70:EN70",
+            "AY73:CQ73"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤが実行するクエストを選択した場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤが前記選択したクエストを実行する前に、当該プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text_grid": "[Claim 2] A program for executing quests using a deck composed of a limited number of owned content items that a player possesses, comprising: a computer configured to function as: a memory means for associating each quest with the corresponding cleared deck used to complete that quest; a judgment means for determining, when a player selects a quest, whether the player's owned content is sufficient to form one of the associated cleared decks; a specification means for identifying, if such a determination is negative, the content items missing from the cleared deck as specified content items from the player's owned content; and a control means for displaying to the player, prior to executing the selected quest, an acquisition screen allowing the player to acquire the specified content items by consuming cost."
+    }
+  ]
+}

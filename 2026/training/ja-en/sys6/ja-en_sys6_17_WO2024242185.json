@@ -1,0 +1,161 @@
+{
+  "file": "ja-en_sys6_17_WO2024242185.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 50,
+      "input_text": "[請求項1]\n第１ユーザ群のユーザごとの属性を示す第１データによって構成される第１テーブルデータに基づいて前記第１テーブルデータ内の欠損データを推定する第１推定モデルを構築する第１学習部と、\n前記第１ユーザ群の一部と共通する共通ユーザ群である第２ユーザ群のユーザごとの属性を示す第２データを有する第２テーブルデータ、および、前記第１テーブルデータにおける前記共通ユーザ群についての前記第１データに基づいて、前記第２テーブルデータ内の前記共通ユーザ群の欠損データを推定する第２推定モデルを構築する第２学習部と、\n前記第１推定モデルと前記第２推定モデルとに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する推定部と、を備える、推定装置。",
+      "output_text": "a first learning unit that constructs a first estimation model for estimating missing data in first table data based on the first table data, the first table data being constituted by first data indicating an attribute of each user of a first user group; a second learning unit that constructs a second estimation model for estimating missing data of a second user group in second table data based on the second table data and the first data of the second user group in the first table data, the second user group being a common user group that is common to a part of the first user group; and an estimation unit that estimates a value of the second data for the first user group excluding the common user group based on the first estimation model and the second estimation model.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項1]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:F7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 121,
+          "end": 148,
+          "text": "第２ユーザ群のユーザごとの属性を示す第２データを有する",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "B16:AB16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 324,
+          "end": 333,
+          "text": "を備える、推定装置",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "E31:M31"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n第１ユーザ群のユーザごとの属性を示す第１データによって構成される第１テーブルデータに基づいて前記第１テーブルデータ内の欠損データを推定する第１推定モデルを構築する第１学習部と、\n前記第１ユーザ群の一部と共通する共通ユーザ群である第２ユーザ群のユーザごとの属性を示す第２データを有する第２テーブルデータ、および、前記第１テーブルデータにおける前記共通ユーザ群についての前記第１データに基づいて、前記第２テーブルデータ内の前記共通ユーザ群の欠損データを推定する第２推定モデルを構築する第２学習部と、\n前記第１推定モデルと前記第２推定モデルとに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する推定部と、を備える、推定装置。",
+      "output_text_grid": "a first learning unit that constructs a first estimation model for estimating missing data in first table data based on the first table data, the first table data being constituted by first data indicating an attribute of each user of a first user group; a second learning unit that constructs a second estimation model for estimating missing data of a second user group in second table data based on the second table data and the first data of the second user group in the first table data, the second user group being a common user group that is common to a part of the first user group; and an estimation unit that estimates a value of the second data for the first user group excluding the common user group based on the first estimation model and the second estimation model."
+    },
+    {
+      "index": 2,
+      "score": 70,
+      "input_text": "[請求項2]\n前記第１推定モデルは、前記第１ユーザ群のそれぞれのユーザの特徴量と前記第１テーブルデータを構成するそれぞれの項目の特徴量とから前記第１ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記第２推定モデルは、前記共通ユーザ群のそれぞれのユーザの特徴量と前記第２テーブルデータを構成するそれぞれの項目の特徴量とから前記共通ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記推定部は、前記第１推定モデルで利用される前記第１ユーザ群のそれぞれのユーザの特徴量と前記第２推定モデルで利用される前記第２テーブルデータを構成するそれぞれの項目の特徴量とに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する、請求項１に記載の推定装置。",
+      "output_text": "the first estimation model estimates a value of each of the items corresponding to each of the users of the first user group from a feature value of each of the users of the first user group and a feature value of each of the items constituting the first table data, the second estimation model estimates a value of each of the items corresponding to each of the users of the common user group from a feature value of each of the users of the common user group and a feature value of each of the items constituting the second table data, and the estimation unit estimates a value of the second data for the first user group excluding the common user group based on the feature value of each of the users of the first user group used in the first estimation model and the feature value of each of the items constituting the second table data used in the second estimation model.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 6,
+          "text": "[請求項2]",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A46:F46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 343,
+          "end": 355,
+          "text": "請求項１に記載の推定装置",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "X70:AI70"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 3,
+          "text": "the",
+          "error": "文法",
+          "severity": "大",
+          "cells": [
+            "AY46:BA46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 132,
+          "end": 145,
+          "text": "feature value",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "CJ49:CV49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 197,
+          "end": 210,
+          "text": "feature value",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "BA52:BM52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 401,
+          "end": 414,
+          "text": "feature value",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "BF58:BR58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 467,
+          "end": 480,
+          "text": "feature value",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DT58:EF58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 669,
+          "end": 682,
+          "text": "feature value",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EC64:EO64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 771,
+          "end": 784,
+          "text": "feature value",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EF67:ER67"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記第１推定モデルは、前記第１ユーザ群のそれぞれのユーザの特徴量と前記第１テーブルデータを構成するそれぞれの項目の特徴量とから前記第１ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記第２推定モデルは、前記共通ユーザ群のそれぞれのユーザの特徴量と前記第２テーブルデータを構成するそれぞれの項目の特徴量とから前記共通ユーザ群のそれぞれのユーザに対応する前記それぞれの項目の値を推定し、\n前記推定部は、前記第１推定モデルで利用される前記第１ユーザ群のそれぞれのユーザの特徴量と前記第２推定モデルで利用される前記第２テーブルデータを構成するそれぞれの項目の特徴量とに基づいて、前記共通ユーザ群を除く前記第１ユーザ群についての前記第２データの値を推定する、請求項１に記載の推定装置。",
+      "output_text_grid": "the first estimation model estimates a value of each of the items corresponding to each of the users of the first user group from a feature value of each of the users of the first user group and a feature value of each of the items constituting the first table data, the second estimation model estimates a value of each of the items corresponding to each of the users of the common user group from a feature value of each of the users of the common user group and a feature value of each of the items constituting the second table data, and the estimation unit estimates a value of the second data for the first user group excluding the common user group based on the feature value of each of the users of the first user group used in the first estimation model and the feature value of each of the items constituting the second table data used in the second estimation model."
+    }
+  ]
+}

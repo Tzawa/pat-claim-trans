@@ -1,0 +1,252 @@
+{
+  "file": "en-ja_sys4_30_US20240040464.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 65,
+      "input_text": "1. A method for unmanned aerial vehicle handover, comprising:\ndetermining, by a source base station, that one or more base stations meet one or more handover conditions based on a measurement report from an unmanned aerial vehicle;\ndetermining, by the source base station, a candidate base station that has completed a handover preparation among the one or more base stations meeting the one or more handover conditions;\nhanding over, by the source base station, the unmanned aerial vehicle to the candidate base station meeting the one or more handover conditions;\ndetermining, by the source base station, one or more accessible base stations based on a flight path of the unmanned aerial vehicle and geographical location information of the one or more accessible base stations;\nselecting, by the source base station, a base station from the one or more accessible base stations based on a flight speed, a flight altitude, or the flight speed and the flight altitude of the unmanned aerial vehicle, wherein the selected base station is to perform a handover preparation operation, and the accessible base station is a base station that the unmanned aerial vehicle is able to access when flying according to the flight path;\nperforming, by the source base station, a handover preparation operation for handing over the base station that is to perform the handover preparation operation; and\ndetermining, by the source base station, the base station that has successfully performed the handover preparation as the candidate base station that has completed the handover preparation.",
+      "output_text": "１つ又は複数の基地局が無人航空機からの測定レポートに基づいて１つ又は複数のハンドオーバ条件を満たすことを決定することと、 前記１つ又は複数のハンドオーバ条件を満たす１つ又は複数の基地局のうち、ハンドオーバ準備を完了した候補基地局を決定することと、 前記１つ又は複数のハンドオーバ条件を満たす前記候補基地局に前記無人航空機をハンドオーバすることと、 前記無人航空機の飛行経路及び１つ又は複数のアクセス可能な基地局の地理的位置情報に基づいて、前記１つ又は複数のアクセス可能な基地局を決定することと、 前記無人航空機の飛行速度、飛行高度、又は前記飛行速度及び前記飛行高度に基づいて、前記１つ又は複数のアクセス可能な基地局から１つの基地局を選択することであって、前記選択された基地局は、ハンドオーバ準備動作を実行する基地局であり、前記アクセス可能な基地局は、前記飛行経路に従って飛行するときに前記無人航空機がアクセス可能な基地局である、選択することと、 前記ハンドオーバ準備動作を実行する基地局に対してハンドオーバ準備動作を実行することと、 前記ハンドオーバ準備を完了した前記候補基地局として、前記ハンドオーバ準備を正常に完了した基地局を決定することと、を含む、無人航空機ハンドオーバ方法。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "1.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A7:B7"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 75,
+          "end": 99,
+          "text": "by a source base station",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BX7:CM7",
+            "A10:G10"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 245,
+          "end": 271,
+          "text": "by the source base station",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BB13:CA13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 346,
+          "end": 350,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BE16:BH16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 435,
+          "end": 461,
+          "text": "by the source base station",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AV19:BU19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 579,
+          "end": 582,
+          "text": "by ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CS22:CU22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 582,
+          "end": 605,
+          "text": "the source base station",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "A25:W25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 792,
+          "end": 818,
+          "text": "by the source base station",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "V31:AU31"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1238,
+          "end": 1264,
+          "text": "by the source base station",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CC43:CT43",
+            "A46:G46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1266,
+          "end": 1267,
+          "text": "a",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "J46:J46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1299,
+          "end": 1315,
+          "text": "for handing over",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AQ46:BF46"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 1405,
+          "end": 1431,
+          "text": "by the source base station",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AX49:BW49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 56,
+          "end": 58,
+          "text": "こと",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DW10:DX10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 119,
+          "end": 121,
+          "text": "こと",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "ET13:ET13",
+            "DG16:DG16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 169,
+          "end": 171,
+          "text": "こと",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DP19:DQ19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 243,
+          "end": 245,
+          "text": "こと",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DJ25:DK25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 320,
+          "end": 322,
+          "text": "こと",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DG31:DH31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 406,
+          "end": 407,
+          "text": "な",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DM37:DM37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 418,
+          "end": 420,
+          "text": "こと",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DY37:DZ37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 462,
+          "end": 464,
+          "text": "こと",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "EC40:ED40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 519,
+          "end": 521,
+          "text": "こと",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "ET43:ET43",
+            "DG46:DG46"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A method for unmanned aerial vehicle handover, comprising: determining, by a source base station, that one or more base stations meet one or more handover conditions based on a measurement report from an unmanned aerial vehicle; determining, by the source base station, a candidate base station that has completed a handover preparation among the one or more base stations meeting the one or more handover conditions; handing over, by the source base station, the unmanned aerial vehicle to the candidate base station meeting the one or more handover conditions; determining, by the source base station, one or more accessible base stations based on a flight path of the unmanned aerial vehicle and geographical location information of the one or more accessible base stations; selecting, by the source base station, a base station from the one or more accessible base stations based on a flight speed, a flight altitude, or the flight speed and the flight altitude of the unmanned aerial vehicle, wherein the selected base station is to perform a handover preparation operation, and the accessible base station is a base station that the unmanned aerial vehicle is able to access when flying according to the flight path; performing, by the source base station, a handover preparation operation for handing over the base station that is to perform the handover preparation operation; and determining, by the source base station, the base station that has successfully performed the handover preparation as the candidate base station that has completed the handover preparation.",
+      "output_text_grid": "１つ又は複数の基地局が無人航空機からの測定レポートに基づいて１つ又は複数のハンドオーバ条件を満たすことを決定することと、 前記１つ又は複数のハンドオーバ条件を満たす１つ又は複数の基地局のうち、ハンドオーバ準備を完了した候補基地局を決定することと、 前記１つ又は複数のハンドオーバ条件を満たす前記候補基地局に前記無人航空機をハンドオーバすることと、 前記無人航空機の飛行経路及び１つ又は複数のアクセス可能な基地局の地理的位置情報に基づいて、前記１つ又は複数のアクセス可能な基地局を決定することと、 前記無人航空機の飛行速度、飛行高度、又は前記飛行速度及び前記飛行高度に基づいて、前記１つ又は複数のアクセス可能な基地局から１つの基地局を選択することであって、前記選択された基地局は、ハンドオーバ準備動作を実行する基地局であり、前記アクセス可能な基地局は、前記飛行経路に従って飛行するときに前記無人航空機がアクセス可能な基地局である、選択することと、 前記ハンドオーバ準備動作を実行する基地局に対してハンドオーバ準備動作を実行することと、 前記ハンドオーバ準備を完了した前記候補基地局として、前記ハンドオーバ準備を正常に完了した基地局を決定することと、を含む、無人航空機ハンドオーバ方法。"
+    }
+  ]
+}

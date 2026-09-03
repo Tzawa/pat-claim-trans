@@ -1,0 +1,184 @@
+{
+  "file": "ja-en_sys4_18_WO2024247036.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "[請求項1]\n特定の種別の光の方路切替が可能な第１振分部と、\n前記第１振分部で取り扱うことができる特定の種別の光と、前記第１振分部で取り扱うことができない特定の種別の光の方路切替が可能な第２振分部と、\nを備え、\n前記第２振分部は、\n入力された前記光を、前記第１振分部を経由する第１経路と、前記第１振分部を経由しない第２経路の少なくともいずれかの経路に出力する光出力部と、\n前記第２経路上に設けられ、Ｎ（Ｎは１以上の整数）個のポートとｋ（ｋは２以上の整数）個のポートとを有し、前記Ｎ個のポートのいずれかのポートに入力された前記光を、他の前記第２振分部が接続されている前記ｋ個のポートのいずれかのポートから出力するＮ×ｋマトリックス光スイッチと、\nを備え、\n前記光出力部は、端末間において波長単位の光パスを確立する場合には入力された前記光を少なくとも前記第１経路に出力し、光ファイバ単位の光パスを確立する場合には入力された前記光を少なくとも前記第２経路に出力する、\nを備える光ノード装置。",
+      "output_text": "[Claim 1]\nOptical node device, comprising: a first sorting section capable of switching a route of light of a specific type; and a second sorting section capable of switching a route of light of a specific type that can be handled by the first sorting section and light of a specific type that cannot be handled by the first sorting section, the second sorting unit includes: an optical output unit that outputs the input light to at least one of a first path that passes through the first sorting unit and a second path that does not pass through the first sorting unit; and N (N is an integer of 1 or more) ports and k (k is an integer of 2 or more) ports that are provided on the second path, an N×k matrix optical switch configured to output the light input to any one of the N ports from any one of the k ports to which another second distribution unit is connected, the optical output unit outputs the input light to at least the first path when establishing an optical path in units of wavelengths between terminals, and outputs the input light to at least the second path when establishing an optical path in units of optical fibers.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 51,
+          "end": 58,
+          "text": "sorting",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CX7:DD7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 90,
+          "end": 95,
+          "text": "route",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "EK7:EO7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 138,
+          "end": 145,
+          "text": "sorting",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CL10:CR10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 177,
+          "end": 182,
+          "text": "route",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DY10:EC10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 244,
+          "end": 251,
+          "text": "sorting",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CT13:CZ13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 325,
+          "end": 332,
+          "text": "sorting",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CD16:CJ16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 353,
+          "end": 360,
+          "text": "sorting",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DF16:DL16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 366,
+          "end": 374,
+          "text": "includes",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "DS16:DZ16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 490,
+          "end": 497,
+          "text": "sorting",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "AY22:BE22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 558,
+          "end": 565,
+          "text": "sorting",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DO22:DU22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 576,
+          "end": 694,
+          "text": "N (N is an integer of 1 or more) ports and k (k is an integer of 2 or more) ports that are provided on the second path",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "EG22:EP22",
+            "AY25:EO25",
+            "AY28:BI28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 840,
+          "end": 852,
+          "text": "distribution",
+          "error": "用語の一貫性",
+          "severity": "大",
+          "cells": [
+            "DE31:DP31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 896,
+          "end": 903,
+          "text": "outputs",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "BS34:BY34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 981,
+          "end": 992,
+          "text": "in units of",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BD37:BN37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1114,
+          "end": 1125,
+          "text": "in units of",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CL40:CV40"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n特定の種別の光の方路切替が可能な第１振分部と、\n前記第１振分部で取り扱うことができる特定の種別の光と、前記第１振分部で取り扱うことができない特定の種別の光の方路切替が可能な第２振分部と、\nを備え、\n前記第２振分部は、\n入力された前記光を、前記第１振分部を経由する第１経路と、前記第１振分部を経由しない第２経路の少なくともいずれかの経路に出力する光出力部と、\n前記第２経路上に設けられ、Ｎ（Ｎは１以上の整数）個のポートとｋ（ｋは２以上の整数）個のポートとを有し、前記Ｎ個のポートのいずれかのポートに入力された前記光を、他の前記第２振分部が接続されている前記ｋ個のポートのいずれかのポートから出力するＮ×ｋマトリックス光スイッチと、\nを備え、\n前記光出力部は、端末間において波長単位の光パスを確立する場合には入力された前記光を少なくとも前記第１経路に出力し、光ファイバ単位の光パスを確立する場合には入力された前記光を少なくとも前記第２経路に出力する、\nを備える光ノード装置。",
+      "output_text_grid": "[Claim 1] Optical node device, comprising: a first sorting section capable of switching a route of light of a specific type; and a second sorting section capable of switching a route of light of a specific type that can be handled by the first sorting section and light of a specific type that cannot be handled by the first sorting section, the second sorting unit includes: an optical output unit that outputs the input light to at least one of a first path that passes through the first sorting unit and a second path that does not pass through the first sorting unit; and N (N is an integer of 1 or more) ports and k (k is an integer of 2 or more) ports that are provided on the second path, an N×k matrix optical switch configured to output the light input to any one of the N ports from any one of the k ports to which another second distribution unit is connected, the optical output unit outputs the input light to at least the first path when establishing an optical path in units of wavelengths between terminals, and outputs the input light to at least the second path when establishing an optical path in units of optical fibers."
+    }
+  ]
+}

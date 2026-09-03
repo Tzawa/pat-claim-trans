@@ -1,0 +1,365 @@
+{
+  "file": "en-ja_sys3_29_US20240037054.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 50,
+      "input_text": "1. A system, comprising:\na processor configured to communicate over a network interface and a processor peripheral communication interface;\ncommunication switch circuitry communicatively coupling the processor peripheral communication interface and a device peripheral communication interface of an endpoint device;\nthe communication switch circuitry configured to establish logical isolation among ports of the communication switch circuitry by instantiating visibility over the logical isolation among the processor and the endpoint device; and\nthe processor configured to determine transactions received over the network interface are targeted for the endpoint device, and transfer at least data of the transactions over the communication switch circuitry for receipt by the endpoint device.",
+      "output_text": "1. 以下の構成要素からなるシステム：\na) ネットワークインターフェースおよびプロセッサ周辺通信インターフェースとの間で通信を行うように構成されたプロセッサ\nb) プロセッサ周辺通信インターフェースとエンドポイントデバイスのデバイス周辺通信インターフェースとを相互接続する通信スイッチ回路\nc) プロセッサとエンドポイントデバイスとの間で論理的な分離を確立することにより、通信スイッチ回路の各ポート間に論理的な分離を実現するように構成された通信スイッチ回路\nd) ネットワークインターフェースを介して受信したトランザクションがエンドポイントデバイスを対象とするものかどうかを判定し、少なくとも当該トランザクションのデータを通信スイッチ回路を介してエンドポイントデバイスへ転送するように構成されたプロセッサ",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 138,
+          "end": 140,
+          "text": "; ",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "AS10:AT10"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 196,
+          "end": 200,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "J13:M13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 408,
+          "end": 412,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Z19:AC19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 460,
+          "end": 470,
+          "text": "visibility",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BZ19:CI19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 504,
+          "end": 508,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "Y22:AB22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 522,
+          "end": 526,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AQ22:AT22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 612,
+          "end": 616,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AL25:AO25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 651,
+          "end": 655,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BY25:CB25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 724,
+          "end": 728,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BA28:BD28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 759,
+          "end": 770,
+          "text": "for receipt",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CJ28:CT28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 774,
+          "end": 778,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "D31:G31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 3,
+          "end": 19,
+          "text": "以下の構成要素からなるシステム：",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DJ7:DY7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 20,
+          "end": 22,
+          "text": "a)",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "EA7:EB7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 57,
+          "end": 61,
+          "text": "との間で",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "DX10:EA10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 80,
+          "end": 82,
+          "text": "b)",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "DG13:DH13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 131,
+          "end": 133,
+          "text": "相互",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DR16:DS16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 146,
+          "end": 353,
+          "text": "c) プロセッサとエンドポイントデバイスとの間で論理的な分離を確立することにより、通信スイッチ回路の各ポート間に論理的な分離を実現するように構成された通信スイッチ回路\nd) ネットワークインターフェースを介して受信したトランザクションがエンドポイントデバイスを対象とするものかどうかを判定し、少なくとも当該トランザクションのデータを通信スイッチ回路を介してエンドポイントデバイスへ転送するように構成されたプロセッサ",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "EG16:ET16",
+            "DG19:ET19",
+            "DG22:ET22",
+            "DG25:ET25",
+            "DG28:ET28",
+            "DG31:EM31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 146,
+          "end": 148,
+          "text": "c)",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "EG17:EH17"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 170,
+          "end": 181,
+          "text": "論理的な分離を確立する",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DQ20:EA20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 196,
+          "end": 197,
+          "text": "各",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EQ20:EQ20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 230,
+          "end": 232,
+          "text": "d)",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "EK23:EL23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 297,
+          "end": 299,
+          "text": "当該",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DX29:DY29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 352,
+          "end": 357,
+          "text": "サ",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "EM32:EQ32"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A system, comprising: a processor configured to communicate over a network interface and a processor peripheral communication interface; communication switch circuitry communicatively coupling the processor peripheral communication interface and a device peripheral communication interface of an endpoint device; the communication switch circuitry configured to establish logical isolation among ports of the communication switch circuitry by instantiating visibility over the logical isolation among the processor and the endpoint device; and the processor configured to determine transactions received over the network interface are targeted for the endpoint device, and transfer at least data of the transactions over the communication switch circuitry for receipt by the endpoint device.",
+      "output_text_grid": "1. 以下の構成要素からなるシステム：\na) ネットワークインターフェースおよびプロセッサ周辺通信インターフェースとの間で通信を行うように構成されたプロセッサ\nb) プロセッサ周辺通信インターフェースとエンドポイントデバイスのデバイス周辺通信インターフェースとを相互接続する通信スイッチ回路\nc) プロセッサとエンドポイントデバイスとの間で論理的な分離を確立することにより、通信スイッチ回路の各ポート間に論理的な分離を実現するように構成された通信スイッチ回路\nd) ネットワークインターフェースを介して受信したトランザクションがエンドポイントデバイスを対象とするものかどうかを判定し、少なくとも当該トランザクションのデータを通信スイッチ回路を介してエンドポイントデバイスへ転送するように構成されたプロセッサ"
+    },
+    {
+      "index": 2,
+      "score": 60,
+      "input_text": "2. The system of claim 1, wherein the endpoint device comprises at least one among a graphics processing unit (GPU) and Peripheral Component Interconnect Express (PCIe) graphics card.",
+      "output_text": "2. 請求項1に記載のシステムにおいて、エンドポイントデバイスが、グラフィックス処理ユニット（GPU）およびペリフェラルコンポーネントインターコネクトエクスプレス（PCIe）グラフィックスカードのうち少なくともいずれか一つを含む構成。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 34,
+          "end": 38,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AI46:AL46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 3,
+          "end": 19,
+          "text": "請求項1に記載のシステムにおいて",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DJ46:DY46"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 114,
+          "end": 116,
+          "text": "構成",
+          "error": "用語の一貫性",
+          "severity": "大",
+          "cells": [
+            "EO52:EP52"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The system of claim 1, wherein the endpoint device comprises at least one among a graphics processing unit (GPU) and Peripheral Component Interconnect Express (PCIe) graphics card.",
+      "output_text_grid": "2. 請求項1に記載のシステムにおいて、エンドポイントデバイスが、グラフィックス処理ユニット（GPU）およびペリフェラルコンポーネントインターコネクトエクスプレス（PCIe）グラフィックスカードのうち少なくともいずれか一つを含む構成。"
+    },
+    {
+      "index": 3,
+      "score": 65,
+      "input_text": "3. The system of claim 1, wherein the processor peripheral communication interface and the device peripheral communication interface each comprise a Peripheral Component Interconnect Express (PCIe) interface.",
+      "output_text": "3. 請求項1に記載のシステムにおいて、プロセッサ側通信インターフェースおよびデバイス側通信インターフェースの各々が、Peripheral Component Interconnect Express（PCIe）インターフェースで構成されているシステム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 34,
+          "end": 38,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AI67:AL67"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 87,
+          "end": 91,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CJ67:CM67"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 3,
+          "end": 19,
+          "text": "請求項1に記載のシステムにおいて",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DJ67:DY67"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The system of claim 1, wherein the processor peripheral communication interface and the device peripheral communication interface each comprise a Peripheral Component Interconnect Express (PCIe) interface.",
+      "output_text_grid": "3. 請求項1に記載のシステムにおいて、プロセッサ側通信インターフェースおよびデバイス側通信インターフェースの各々が、Peripheral Component Interconnect Express（PCIe）インターフェースで構成されているシステム。"
+    }
+  ]
+}

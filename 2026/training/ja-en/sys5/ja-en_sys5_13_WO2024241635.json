@@ -1,0 +1,384 @@
+{
+  "file": "ja-en_sys5_13_WO2024241635.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "[請求項1]\n水面下で軸線が前後方向に延びるように配置され、前側を上流側とするとともに後側を下流側とする流路を形成する筒部と、\n前記筒部の内部に配置され、前記軸線方向に延びる軸部と、\n前記軸部に装着され、前記流路内で前記軸線の径方向に延びるとともに前記軸線の周方向に配列された複数のプロペラ翼を有し、前記軸線回りに回転可能なプロペラと、\n前記流路内で前記プロペラに対して前側及び後側の少なくともいずれか一方に設けられ、前記径方向に延びるとともに前記周方向に配列され、前記軸部を支持する複数のストラットと、\nを備え、\n前記複数のストラットは、上下方向に延びて前記軸線を通る対称線に対して左右対称に配置され、\n前記ストラット同士の角度間隔のうち少なくとも１つの角度間隔は、他の前記ストラット同士の角度間隔と異なり、\n前記軸線を通るように水平方向に延在する水平面に対して、上下方向両側に少なくとも１つの前記ストラットが配置されている、推進装置。",
+      "output_text": "[Claim 1]\nA propulsion device comprising:\na cylindrical portion arranged with its axis extending in a forward-rearward direction submerged below the water surface, with one end positioned upstream and the other end positioned downstream to form a flow channel;\nan axis portion arranged inside the cylindrical portion and extending along the axis direction;\na propeller mounted on the axis portion, having multiple propeller blades extending radially along the axis direction and arranged circumferentially around the axis, capable of rotating about the axis; and\nmultiple struts positioned either forward or rearward of the propeller within the flow channel, extending radially and arranged circumferentially to support the axis portion.\nThe multiple struts extend vertically and are arranged symmetrically with respect to a vertical symmetry line passing through the axis direction.\nAt least one angle interval between the struts differs from other angle intervals between the struts.\nAt least one strut is positioned on both sides of the vertical direction relative to a horizontal plane extending horizontally through the axis direction.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 102,
+          "end": 108,
+          "text": "前記流路内で",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "W13:AB13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 292,
+          "end": 294,
+          "text": "左右",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "M28:N28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 312,
+          "end": 320,
+          "text": "の角度間隔のうち",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AG28:AN28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 145,
+          "end": 148,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CR10:CT10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 169,
+          "end": 176,
+          "text": "one end",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DP10:DV10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 201,
+          "end": 214,
+          "text": "the other end",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "BC13:BO13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 264,
+          "end": 268,
+          "text": "axis",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DN13:DQ13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 337,
+          "end": 340,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CM16:CO16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 384,
+          "end": 388,
+          "text": "axis",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "EH16:EK16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 441,
+          "end": 474,
+          "text": "radially along the axis direction",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CY19:EE19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 523,
+          "end": 557,
+          "text": "capable of rotating about the axis",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "CH22:DO22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 724,
+          "end": 728,
+          "text": "axis",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "CS28:CV28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 736,
+          "end": 741,
+          "text": ". The",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DE29:DI29"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 758,
+          "end": 775,
+          "text": "extend vertically",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "EA28:EQ28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 825,
+          "end": 833,
+          "text": "vertical",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "CV31:DC31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 856,
+          "end": 882,
+          "text": "through the axis direction",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "EA31:EP31",
+            "AY34:BG34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 882,
+          "end": 886,
+          "text": ". At",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "BH35:BK35"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 984,
+          "end": 988,
+          "text": ". At",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "BQ37:BT37"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1113,
+          "end": 1139,
+          "text": "through the axis direction",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DA40:DZ40"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n水面下で軸線が前後方向に延びるように配置され、前側を上流側とするとともに後側を下流側とする流路を形成する筒部と、\n前記筒部の内部に配置され、前記軸線方向に延びる軸部と、\n前記軸部に装着され、前記流路内で前記軸線の径方向に延びるとともに前記軸線の周方向に配列された複数のプロペラ翼を有し、前記軸線回りに回転可能なプロペラと、\n前記流路内で前記プロペラに対して前側及び後側の少なくともいずれか一方に設けられ、前記径方向に延びるとともに前記周方向に配列され、前記軸部を支持する複数のストラットと、\nを備え、\n前記複数のストラットは、上下方向に延びて前記軸線を通る対称線に対して左右対称に配置され、\n前記ストラット同士の角度間隔のうち少なくとも１つの角度間隔は、他の前記ストラット同士の角度間隔と異なり、\n前記軸線を通るように水平方向に延在する水平面に対して、上下方向両側に少なくとも１つの前記ストラットが配置されている、推進装置。",
+      "output_text_grid": "[Claim 1] A propulsion device comprising: a cylindrical portion arranged with its axis extending in a forward-rearward direction submerged below the water surface, with one end positioned upstream and the other end positioned downstream to form a flow channel; an axis portion arranged inside the cylindrical portion and extending along the axis direction; a propeller mounted on the axis portion, having multiple propeller blades extending radially along the axis direction and arranged circumferentially around the axis, capable of rotating about the axis; and multiple struts positioned either forward or rearward of the propeller within the flow channel, extending radially and arranged circumferentially to support the axis portion. The multiple struts extend vertically and are arranged symmetrically with respect to a vertical symmetry line passing through the axis direction. At least one angle interval between the struts differs from other angle intervals between the struts. At least one strut is positioned on both sides of the vertical direction relative to a horizontal plane extending horizontally through the axis direction."
+    },
+    {
+      "index": 2,
+      "score": 90,
+      "input_text": "[請求項2]\n前記ストラット同士の角度間隔のうち１つの角度間隔のみが、他の前記ストラット同士の角度間隔と異なっている、請求項１に記載の推進装置。",
+      "output_text": "[Claim 2]\nA propulsion device according to Claim 1, wherein only one of the angular intervals between the struts differs from the angular intervals between the remaining struts.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 10,
+          "end": 11,
+          "text": "A",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "BI55:BI55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 76,
+          "end": 83,
+          "text": "angular",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DW55:EC55"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 160,
+          "end": 169,
+          "text": "remaining",
+          "error": "(誤訳)係り先誤り",
+          "severity": "小",
+          "cells": [
+            "DM58:DU58"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記ストラット同士の角度間隔のうち１つの角度間隔のみが、他の前記ストラット同士の角度間隔と異なっている、請求項１に記載の推進装置。",
+      "output_text_grid": "[Claim 2] A propulsion device according to Claim 1, wherein only one of the angular intervals between the struts differs from the angular intervals between the remaining struts."
+    },
+    {
+      "index": 3,
+      "score": 50,
+      "input_text": "[請求項3]\nＮ本の前記ストラットのそれぞれが、前記軸線回りの領域を前記周方向に均等に分割する（Ｎ×２−１）本の分割線のいずれかに配置され、１以上Ｎ未満であるＮ’に対して、前記ストラット同士の角度間隔は、Ｎ’×３６０／（Ｎ×２−１）度のいずれかである、請求項１又は２に記載の推進装置。",
+      "output_text": "[Claim 3]\nIn a propulsion device according to Claims 1 or 2, each of the N aforementioned struts is positioned along one of the (N×2−1) dividing lines that evenly divide the area around the axis line in a circumferential direction. For N' where 1 ≤ N' < N, the angular spacing between the struts is either N'×360/(N×2−1) degrees.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 102,
+          "end": 122,
+          "text": "Ｎ’×３６０／（Ｎ×２−１）度のいずれか",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "W79:AN79",
+            "A82:B82"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 10,
+          "end": 12,
+          "text": "In",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "BI73:BJ73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 75,
+          "end": 89,
+          "text": "aforementioned",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "DV73:EI73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 111,
+          "end": 116,
+          "text": "along",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "BJ76:BN76"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 124,
+          "end": 127,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "BW76:BY76"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 170,
+          "end": 173,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DQ76:DS76"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 190,
+          "end": 199,
+          "text": "axis line",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EK76:ES76"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 230,
+          "end": 235,
+          "text": ". For",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "CC79:CG79"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 261,
+          "end": 276,
+          "text": "angular spacing",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DH79:DV79"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\nＮ本の前記ストラットのそれぞれが、前記軸線回りの領域を前記周方向に均等に分割する（Ｎ×２−１）本の分割線のいずれかに配置され、１以上Ｎ未満であるＮ’に対して、前記ストラット同士の角度間隔は、Ｎ’×３６０／（Ｎ×２−１）度のいずれかである、請求項１又は２に記載の推進装置。",
+      "output_text_grid": "[Claim 3] In a propulsion device according to Claims 1 or 2, each of the N aforementioned struts is positioned along one of the (N×2−1) dividing lines that evenly divide the area around the axis line in a circumferential direction. For N' where 1 ≤ N' < N, the angular spacing between the struts is either N'×360/(N×2−1) degrees."
+    }
+  ]
+}

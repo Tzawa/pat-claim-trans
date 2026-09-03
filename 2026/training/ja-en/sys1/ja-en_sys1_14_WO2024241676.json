@@ -1,0 +1,342 @@
+{
+  "file": "ja-en_sys1_14_WO2024241676.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 90,
+      "input_text": "[請求項1]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤがクエストをクリアできなかった場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text": "1.\nA program for executing a quest using a deck organized from the player's owned content items in a number less than or equal to a predetermined number, the program causing a computer to: store, in association with the quest, a clear deck that was used when the quest was cleared; determine, when the player fails to clear the quest, whether at least one clear deck associated with the quest can be organized using the player's owned content items; identify, when the determination is negative, as specific content, content that is lacking from the clear deck with respect to the player's owned content items; and display to the player an acquisition screen for acquiring the specific content by consuming a cost.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 115,
+          "end": 121,
+          "text": "デッキである",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "AJ13:AN13",
+            "A16:A16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 132,
+          "end": 136,
+          "text": "記憶手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "M16:P16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 218,
+          "end": 222,
+          "text": "判定手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "S22:V22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 290,
+          "end": 294,
+          "text": "特定手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "K29:N29"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 342,
+          "end": 346,
+          "text": "制御手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "W32:Z32"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 348,
+          "end": 356,
+          "text": "として機能させる",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AC32:AJ32"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 63,
+          "end": 68,
+          "text": "the p",
+          "error": "冠詞",
+          "severity": "大",
+          "cells": [
+            "DJ7:DN7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 343,
+          "end": 351,
+          "text": "at least",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "CR16:CY16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 499,
+          "end": 515,
+          "text": "specific content",
+          "error": "冠詞",
+          "severity": "小",
+          "cells": [
+            "BB22:BQ22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 508,
+          "end": 515,
+          "text": "content",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BK23:BQ23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 517,
+          "end": 524,
+          "text": "content",
+          "error": "冠詞",
+          "severity": "小",
+          "cells": [
+            "BT22:BZ22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 517,
+          "end": 524,
+          "text": "content",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "BT23:BZ23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 533,
+          "end": 609,
+          "text": "lacking from the clear deck with respect to the player's owned content items",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CJ22:ES22",
+            "AY26:BK26"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 686,
+          "end": 693,
+          "text": "content",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EK26:EQ26"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤがクエストをクリアできなかった場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text_grid": "1. A program for executing a quest using a deck organized from the player's owned content items in a number less than or equal to a predetermined number, the program causing a computer to: store, in association with the quest, a clear deck that was used when the quest was cleared; determine, when the player fails to clear the quest, whether at least one clear deck associated with the quest can be organized using the player's owned content items; identify, when the determination is negative, as specific content, content that is lacking from the clear deck with respect to the player's owned content items; and display to the player an acquisition screen for acquiring the specific content by consuming a cost."
+    },
+    {
+      "index": 2,
+      "score": 85,
+      "input_text": "[請求項2]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤが実行するクエストを選択した場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤが前記選択したクエストを実行する前に、当該プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text": "2.\nA non-transitory computer-readable medium storing instructions that cause a computer, for executing a quest using a deck assembled from a player's owned content in a number less than or equal to a predetermined number, to: store, in association with each quest, a clear deck that is a deck used when the quest is cleared; determine, when the player selects a quest to be executed, whether one clear deck associated with the quest can be assembled from the player's owned content; when the determination is negative, specify, as specific content, content that is missing from the player's owned content relative to the clear deck; and, before the player executes the selected quest, display to the player an acquisition screen for acquiring the specific content at a cost.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 132,
+          "end": 136,
+          "text": "記憶手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "M60:P60"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 217,
+          "end": 221,
+          "text": "判定手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "R66:U66"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 289,
+          "end": 293,
+          "text": "特定手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "J72:M72"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 366,
+          "end": 370,
+          "text": "制御手段",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "G78:J78"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 372,
+          "end": 380,
+          "text": "として機能させる",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "M78:T78"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 5,
+          "end": 44,
+          "text": "non-transitory computer-readable medium",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "大",
+          "cells": [
+            "BD50:CP50"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 45,
+          "end": 65,
+          "text": "storing instructions",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "CR50:DK50"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 77,
+          "end": 220,
+          "text": "a computer, for executing a quest using a deck assembled from a player's owned content in a number less than or equal to a predetermined number",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "DX50:EL50",
+            "AY53:EO53",
+            "AY57:CC57"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 139,
+          "end": 163,
+          "text": "a player's owned content",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "CS54:DP54"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 313,
+          "end": 315,
+          "text": "is",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "BX60:BY60"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 455,
+          "end": 481,
+          "text": "the player's owned content",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "DR63:EQ63"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 531,
+          "end": 547,
+          "text": "specific content",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "CU66:DJ66"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 549,
+          "end": 556,
+          "text": "content",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DM66:DS66"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 578,
+          "end": 604,
+          "text": "the player's owned content",
+          "error": "その他",
+          "severity": "小",
+          "cells": [
+            "EP66:ER66",
+            "AY69:BT69"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤが実行するクエストを選択した場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤが前記選択したクエストを実行する前に、当該プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text_grid": "2. A non-transitory computer-readable medium storing instructions that cause a computer, for executing a quest using a deck assembled from a player's owned content in a number less than or equal to a predetermined number, to: store, in association with each quest, a clear deck that is a deck used when the quest is cleared; determine, when the player selects a quest to be executed, whether one clear deck associated with the quest can be assembled from the player's owned content; when the determination is negative, specify, as specific content, content that is missing from the player's owned content relative to the clear deck; and, before the player executes the selected quest, display to the player an acquisition screen for acquiring the specific content at a cost."
+    }
+  ]
+}

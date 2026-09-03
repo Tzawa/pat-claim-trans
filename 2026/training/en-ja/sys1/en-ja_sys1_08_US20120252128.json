@@ -1,0 +1,99 @@
+{
+  "file": "en-ja_sys1_08_US20120252128.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 55,
+      "input_text": "1. A sensor, comprising\na catalytic nucleic acid molecule specific for a target agent comprising an enzyme nucleic acid strand and a substrate nucleic acid strand,\nwherein the enzyme nucleic acid strand comprises a 3′-end and a 5′-end and an active site specific for a target agent,\nwherein the substrate nucleic acid strand comprises a 3′-end and a 5′-end,\nwherein the substrate nucleic acid strand comprises nucleotides at the 5′-end of the substrate nucleic acid strand that permits formation of a loop of at least six nucleotides at the 5′-end of the substrate nucleic acid strand, and\nwherein the substrate nucleic acid strand hybridizes with the enzyme nucleic acid strand, thereby forming a vacant site between the 3′-end of the enzyme nucleic acid strand and the 5′-end of the substrate nucleic acid strand, wherein the vacant site is opposite to a cytosine present in the substrate nucleic acid strand and wherein the vacant site can bind to a fluorophore,\nwherein in the absence of the target agent, fluorescence of the fluorophore when bound to the vacant site is quenched, and wherein in the presence of the target agent, catalytic cleavage of substrate nucleic acid strand perturbs the vacant site and releases the fluorophore bound to the vacant site resulting in increased fluorescence.",
+      "output_text": "[請求項1]\nセンサーであって、酵素核酸鎖および基質核酸鎖を含む標的因子に特異的な触媒性核酸分子を備え、前記酵素核酸鎖が３′末端および５′末端を有し、標的因子に特異的な活性部位を有し、前記基質核酸鎖が３′末端および５′末端を有し、前記基質核酸鎖がその５′末端において少なくとも６個のヌクレオチドからなるループの形成を可能にするヌクレオチドを含み、前記基質核酸鎖が前記酵素核酸鎖とハイブリダイズして、前記酵素核酸鎖の３′末端と前記基質核酸鎖の５′末端との間に空位部を形成し、前記空位部が前記基質核酸鎖中に存在するシトシンに対向して位置し、かつ前記空位部が蛍光団に結合可能であり、前記標的因子が存在しない場合には、前記空位部に結合した蛍光団の蛍光が消光され、前記標的因子が存在する場合には、前記基質核酸鎖の触媒的切断により前記空位部が撹乱され、前記空位部に結合した蛍光団が遊離し、蛍光が増加することを特徴とするセンサー。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 16,
+          "end": 48,
+          "text": "酵素核酸鎖および基質核酸鎖を含む標的因子に特異的な触媒性核酸分子",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "DW7:ET7",
+            "DG10:DN10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 395,
+          "end": 403,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EP34:ET34",
+            "DG37:DI37"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A sensor, comprising a catalytic nucleic acid molecule specific for a target agent comprising an enzyme nucleic acid strand and a substrate nucleic acid strand, wherein the enzyme nucleic acid strand comprises a 3′-end and a 5′-end and an active site specific for a target agent, wherein the substrate nucleic acid strand comprises a 3′-end and a 5′-end, wherein the substrate nucleic acid strand comprises nucleotides at the 5′-end of the substrate nucleic acid strand that permits formation of a loop of at least six nucleotides at the 5′-end of the substrate nucleic acid strand, and wherein the substrate nucleic acid strand hybridizes with the enzyme nucleic acid strand, thereby forming a vacant site between the 3′-end of the enzyme nucleic acid strand and the 5′-end of the substrate nucleic acid strand, wherein the vacant site is opposite to a cytosine present in the substrate nucleic acid strand and wherein the vacant site can bind to a fluorophore, wherein in the absence of the target agent, fluorescence of the fluorophore when bound to the vacant site is quenched, and wherein in the presence of the target agent, catalytic cleavage of substrate nucleic acid strand perturbs the vacant site and releases the fluorophore bound to the vacant site resulting in increased fluorescence.",
+      "output_text_grid": "[請求項1]\nセンサーであって、酵素核酸鎖および基質核酸鎖を含む標的因子に特異的な触媒性核酸分子を備え、前記酵素核酸鎖が３′末端および５′末端を有し、標的因子に特異的な活性部位を有し、前記基質核酸鎖が３′末端および５′末端を有し、前記基質核酸鎖がその５′末端において少なくとも６個のヌクレオチドからなるループの形成を可能にするヌクレオチドを含み、前記基質核酸鎖が前記酵素核酸鎖とハイブリダイズして、前記酵素核酸鎖の３′末端と前記基質核酸鎖の５′末端との間に空位部を形成し、前記空位部が前記基質核酸鎖中に存在するシトシンに対向して位置し、かつ前記空位部が蛍光団に結合可能であり、前記標的因子が存在しない場合には、前記空位部に結合した蛍光団の蛍光が消光され、前記標的因子が存在する場合には、前記基質核酸鎖の触媒的切断により前記空位部が撹乱され、前記空位部に結合した蛍光団が遊離し、蛍光が増加することを特徴とするセンサー。"
+    },
+    {
+      "index": 2,
+      "score": 85,
+      "input_text": "2. The sensor of claim 1, wherein the vacant site is flanked by guanines present on a 3′-nucleotide of the enzyme nucleic acid strand and a 5′-nucleotide of the substrate nucleic acid strand.",
+      "output_text": "[請求項2]\n請求項１に記載のセンサーであって、前記空位部が、前記酵素核酸鎖の３′末端のヌクレオチドに存在するグアニンおよび前記基質核酸鎖の５′末端のヌクレオチドに存在するグアニンに挟まれていることを特徴とするセンサー。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 97,
+          "end": 105,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DX67:EE67"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The sensor of claim 1, wherein the vacant site is flanked by guanines present on a 3′-nucleotide of the enzyme nucleic acid strand and a 5′-nucleotide of the substrate nucleic acid strand.",
+      "output_text_grid": "[請求項2]\n請求項１に記載のセンサーであって、前記空位部が、前記酵素核酸鎖の３′末端のヌクレオチドに存在するグアニンおよび前記基質核酸鎖の５′末端のヌクレオチドに存在するグアニンに挟まれていることを特徴とするセンサー。"
+    },
+    {
+      "index": 3,
+      "score": 60,
+      "input_text": "3. The sensor of claim 1, wherein at least one pair of nucleotides are mismatched upon hybridization of the substrate nucleic acid molecule with the enzyme nucleic acid strand.",
+      "output_text": "[請求項3]\n請求項１に記載のセンサーであって、前記基質核酸分子が前記酵素核酸鎖とハイブリダイズした際に、少なくとも１対のヌクレオチドがミスマッチとなることを特徴とするセンサー。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 48,
+          "end": 50,
+          "text": "した",
+          "error": "誤訳（ミスマッチ部分はハイブリダイズしないので、ハイブリダイズ\"した\"際とするのは不適切と思われる）",
+          "severity": "小",
+          "cells": [
+            "DO85:DP85"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 76,
+          "end": 84,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EQ85:ET85",
+            "DG88:DJ88"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The sensor of claim 1, wherein at least one pair of nucleotides are mismatched upon hybridization of the substrate nucleic acid molecule with the enzyme nucleic acid strand.",
+      "output_text_grid": "[請求項3]\n請求項１に記載のセンサーであって、前記基質核酸分子が前記酵素核酸鎖とハイブリダイズした際に、少なくとも１対のヌクレオチドがミスマッチとなることを特徴とするセンサー。"
+    }
+  ]
+}

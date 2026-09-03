@@ -1,0 +1,227 @@
+{
+  "file": "en-ja_sys2_27_US20230238910.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 55,
+      "input_text": "1. A motor system configured to replace an internal combustion engine having a maximum engine speed in a machine, the motor system comprising:\nan electric motor having a maximum motor speed that is greater than the maximum engine speed;\na battery configured to power the electric motor; and\ncontrol electronics configured to control current delivered from the battery to the motor by delivering reduced current to the motor when the motor speed is less than a low motor speed threshold, delivering high current when the motor speed is between the low motor speed threshold and an intermediate speed threshold that is greater than the low speed threshold, delivering reduced current to the motor when the motor speed is between an intermediate motor speed threshold and a high motor speed threshold that corresponds the maximum engine speed.",
+      "output_text": "1. 機械において最大エンジン速度を有する内燃機関を置き換えるように構成されたモータシステムであって、モータシステムは以下を含むことを特徴とする：電気モータは、最大エンジン速度よりも大きい最大モータ速度を有する；電気モータに電力を供給するように構成されたバッテリ；また、制御電子機器は、モータ速度が低モータ速度閾値未満であるとき、低減された電流をモータに送達し、モータ速度が低モータ速度閾値と低速度閾値より大きい中間速度閾値との間にあるとき、高電流を送達し、モータ速度が中間モータ速度閾値と最大エンジン速度に対応する高モータ速度閾値との間にあるとき、低減された電流をモータに送達することによって、バッテリからモータに送達される電流を制御するように構成される。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 211,
+          "end": 215,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "N13:Q13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 267,
+          "end": 271,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BR13:BU13"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 356,
+          "end": 360,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BN16:BQ16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 371,
+          "end": 375,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CC16:CF16"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 414,
+          "end": 418,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AE19:AH19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 429,
+          "end": 433,
+          "text": "the ",
+          "error": "原文エラー",
+          "severity": "大",
+          "cells": [
+            "AT19:AW19"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 516,
+          "end": 520,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AO22:AR22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 543,
+          "end": 547,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BP22:BS22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 630,
+          "end": 634,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BF25:BI25"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 634,
+          "end": 653,
+          "text": "low speed threshold",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "BJ26:CB26"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 685,
+          "end": 689,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "T28:W28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 700,
+          "end": 704,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AI28:AL28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 743,
+          "end": 748,
+          "text": "motor",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "BZ28:CD28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 815,
+          "end": 819,
+          "text": "the ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "AY31:BB31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 51,
+          "end": 72,
+          "text": "モータシステムは以下を含むことを特徴とする",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DR10:EL10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 73,
+          "end": 105,
+          "text": "電気モータは、最大エンジン速度よりも大きい最大モータ速度を有する",
+          "error": "(誤訳)係り先誤り（この部分全体を「電気モータ」の名詞節にするべき）",
+          "severity": "大",
+          "cells": [
+            "EN10:ET10",
+            "DG13:EE13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 132,
+          "end": 135,
+          "text": "また、",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DS16:DU16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 135,
+          "end": 143,
+          "text": "制御電子機器は、",
+          "error": "(誤訳)係り先誤り（ここから以下すべては「制御電子機器」の名詞節にするべき）",
+          "severity": "大",
+          "cells": [
+            "DV17:EC17"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 327,
+          "end": 332,
+          "text": "る。",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DN31:DR31"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A motor system configured to replace an internal combustion engine having a maximum engine speed in a machine, the motor system comprising: an electric motor having a maximum motor speed that is greater than the maximum engine speed; a battery configured to power the electric motor; and control electronics configured to control current delivered from the battery to the motor by delivering reduced current to the motor when the motor speed is less than a low motor speed threshold, delivering high current when the motor speed is between the low motor speed threshold and an intermediate speed threshold that is greater than the low speed threshold, delivering reduced current to the motor when the motor speed is between an intermediate motor speed threshold and a high motor speed threshold that corresponds the maximum engine speed.",
+      "output_text_grid": "1. 機械において最大エンジン速度を有する内燃機関を置き換えるように構成されたモータシステムであって、モータシステムは以下を含むことを特徴とする：電気モータは、最大エンジン速度よりも大きい最大モータ速度を有する；電気モータに電力を供給するように構成されたバッテリ；また、制御電子機器は、モータ速度が低モータ速度閾値未満であるとき、低減された電流をモータに送達し、モータ速度が低モータ速度閾値と低速度閾値より大きい中間速度閾値との間にあるとき、高電流を送達し、モータ速度が中間モータ速度閾値と最大エンジン速度に対応する高モータ速度閾値との間にあるとき、低減された電流をモータに送達することによって、バッテリからモータに送達される電流を制御するように構成される。"
+    }
+  ]
+}

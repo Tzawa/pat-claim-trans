@@ -1,0 +1,164 @@
+{
+  "file": "en-ja_sys1_29_US20240037054.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 80,
+      "input_text": "1. A system, comprising:\na processor configured to communicate over a network interface and a processor peripheral communication interface;\ncommunication switch circuitry communicatively coupling the processor peripheral communication interface and a device peripheral communication interface of an endpoint device;\nthe communication switch circuitry configured to establish logical isolation among ports of the communication switch circuitry by instantiating visibility over the logical isolation among the processor and the endpoint device; and\nthe processor configured to determine transactions received over the network interface are targeted for the endpoint device, and transfer at least data of the transactions over the communication switch circuitry for receipt by the endpoint device.",
+      "output_text": "[請求項1]\nネットワークインターフェースおよびプロセッサ周辺通信インターフェースを介して通信するよう構成されたプロセッサと、前記プロセッサ周辺通信インターフェースとエンドポイントデバイスのデバイス周辺通信インターフェースとを通信的に結合する通信スイッチ回路とを備えるシステムであって、前記通信スイッチ回路が、前記プロセッサおよび前記エンドポイントデバイス間における論理的分離に対する可視性を生成することにより、前記通信スイッチ回路のポート間に論理的分離を確立するよう構成され、前記プロセッサが、前記ネットワークインターフェースを介して受信されたトランザクションが前記エンドポイントデバイスを宛先とするものであるかを判定し、前記トランザクションの少なくともデータを前記通信スイッチ回路を介して前記エンドポイントデバイスに送信するよう構成されていることを特徴とするシステム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 138,
+          "end": 140,
+          "text": "; ",
+          "error": "原文エラー",
+          "severity": "小",
+          "cells": [
+            "AS10:AT10"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 759,
+          "end": 770,
+          "text": "for receipt",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "CJ28:CT28"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 771,
+          "end": 774,
+          "text": "by ",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A31:C31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 155,
+          "end": 179,
+          "text": "前記プロセッサおよび前記エンドポイントデバイス間",
+          "error": "ぎこちない",
+          "severity": "小",
+          "cells": [
+            "EP16:ET16",
+            "DG19:DY19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 323,
+          "end": 328,
+          "text": "少なくとも",
+          "error": "(誤訳)係り先誤り（「前記トランザクションのデータ」に係るべき）",
+          "severity": "小",
+          "cells": [
+            "DJ31:DN31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 373,
+          "end": 381,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DT34:EA34"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A system, comprising: a processor configured to communicate over a network interface and a processor peripheral communication interface; communication switch circuitry communicatively coupling the processor peripheral communication interface and a device peripheral communication interface of an endpoint device; the communication switch circuitry configured to establish logical isolation among ports of the communication switch circuitry by instantiating visibility over the logical isolation among the processor and the endpoint device; and the processor configured to determine transactions received over the network interface are targeted for the endpoint device, and transfer at least data of the transactions over the communication switch circuitry for receipt by the endpoint device.",
+      "output_text_grid": "[請求項1]\nネットワークインターフェースおよびプロセッサ周辺通信インターフェースを介して通信するよう構成されたプロセッサと、前記プロセッサ周辺通信インターフェースとエンドポイントデバイスのデバイス周辺通信インターフェースとを通信的に結合する通信スイッチ回路とを備えるシステムであって、前記通信スイッチ回路が、前記プロセッサおよび前記エンドポイントデバイス間における論理的分離に対する可視性を生成することにより、前記通信スイッチ回路のポート間に論理的分離を確立するよう構成され、前記プロセッサが、前記ネットワークインターフェースを介して受信されたトランザクションが前記エンドポイントデバイスを宛先とするものであるかを判定し、前記トランザクションの少なくともデータを前記通信スイッチ回路を介して前記エンドポイントデバイスに送信するよう構成されていることを特徴とするシステム。"
+    },
+    {
+      "index": 2,
+      "score": 70,
+      "input_text": "2. The system of claim 1, wherein the endpoint device comprises at least one among a graphics processing unit (GPU) and Peripheral Component Interconnect Express (PCIe) graphics card.",
+      "output_text": "[請求項2]\n請求項１に記載のシステムであって、前記エンドポイントデバイスが、グラフィックスプロセッシングユニット（ＧＰＵ）またはペリフェラルコンポーネントインターコネクトエクスプレス（ＰＣＩｅ）グラフィックスカードの少なくともいずれかを含むことを特徴とするシステム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 7,
+          "end": 24,
+          "text": "請求項１に記載のシステムであって、",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DN49:ED49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 62,
+          "end": 65,
+          "text": "または",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "EC52:EE52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 121,
+          "end": 129,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DH58:DO58"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The system of claim 1, wherein the endpoint device comprises at least one among a graphics processing unit (GPU) and Peripheral Component Interconnect Express (PCIe) graphics card.",
+      "output_text_grid": "[請求項2]\n請求項１に記載のシステムであって、前記エンドポイントデバイスが、グラフィックスプロセッシングユニット（ＧＰＵ）またはペリフェラルコンポーネントインターコネクトエクスプレス（ＰＣＩｅ）グラフィックスカードの少なくともいずれかを含むことを特徴とするシステム。"
+    },
+    {
+      "index": 3,
+      "score": 70,
+      "input_text": "3. The system of claim 1, wherein the processor peripheral communication interface and the device peripheral communication interface each comprise a Peripheral Component Interconnect Express (PCIe) interface.",
+      "output_text": "[請求項3]\n請求項１に記載のシステムであって、前記プロセッサ周辺通信インターフェースおよび前記デバイス周辺通信インターフェースがそれぞれペリフェラルコンポーネントインターコネクトエクスプレス（ＰＣＩｅ）インターフェースを含むことを特徴とするシステム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 7,
+          "end": 24,
+          "text": "請求項１に記載のシステムであって、",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DN73:ED73"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 113,
+          "end": 121,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EN79:ET79",
+            "DG82:DG82"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The system of claim 1, wherein the processor peripheral communication interface and the device peripheral communication interface each comprise a Peripheral Component Interconnect Express (PCIe) interface.",
+      "output_text_grid": "[請求項3]\n請求項１に記載のシステムであって、前記プロセッサ周辺通信インターフェースおよび前記デバイス周辺通信インターフェースがそれぞれペリフェラルコンポーネントインターコネクトエクスプレス（ＰＣＩｅ）インターフェースを含むことを特徴とするシステム。"
+    }
+  ]
+}

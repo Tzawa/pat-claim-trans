@@ -1,0 +1,97 @@
+{
+  "file": "ja-en_sys3_14_WO2024241676.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 95,
+      "input_text": "[請求項1]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤがクエストをクリアできなかった場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text": "1. A program for executing a quest using a deck organized from a number of owned contents not exceeding a predetermined number among contents owned by a player,\nthe program causing a computer to function as:\na storage means for storing, in association with the quest, a clear deck which is a deck used when the quest has been cleared;\na determination means for determining, when the player has failed to clear the quest, whether a clear deck associated with the quest can be organized from the contents owned by the player;\na specifying means for specifying, when the determination is negative, as specific contents, contents that are lacking from the clear deck among the contents owned by the player; and\na control means for displaying to the player an acquisition screen for obtaining the specific contents by consuming a cost.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 16,
+          "end": 18,
+          "text": "所有",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "Q7:R7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 635,
+          "end": 701,
+          "text": "lacking from the clear deck among the contents owned by the player",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CW25:EP25",
+            "AY28:BQ28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 778,
+          "end": 787,
+          "text": "obtaining",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "AY31:BG31"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤがクエストをクリアできなかった場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text_grid": "1. A program for executing a quest using a deck organized from a number of owned contents not exceeding a predetermined number among contents owned by a player, the program causing a computer to function as: a storage means for storing, in association with the quest, a clear deck which is a deck used when the quest has been cleared; a determination means for determining, when the player has failed to clear the quest, whether a clear deck associated with the quest can be organized from the contents owned by the player; a specifying means for specifying, when the determination is negative, as specific contents, contents that are lacking from the clear deck among the contents owned by the player; and a control means for displaying to the player an acquisition screen for obtaining the specific contents by consuming a cost."
+    },
+    {
+      "index": 2,
+      "score": 95,
+      "input_text": "[請求項2]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤが実行するクエストを選択した場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤが前記選択したクエストを実行する前に、当該プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text": "2. A program for executing a quest using a deck organized from a number of owned contents not exceeding a predetermined number among contents owned by a player,\nthe program causing a computer to function as:\na storage means for storing, in association with the quest, a clear deck which is a deck used when the quest has been cleared;\na determination means for determining, when the player selects a quest to execute, whether a clear deck associated with the quest can be organized from the contents owned by the player;\na specifying means for specifying, when the determination is negative, as specific contents, contents that are lacking from the clear deck among the contents owned by the player; and\na control means for displaying, before the player executes the selected quest, an acquisition screen for obtaining the specific contents by consuming a cost.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 16,
+          "end": 18,
+          "text": "所有",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "Q49:R49"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 632,
+          "end": 698,
+          "text": "lacking from the clear deck among the contents owned by the player",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "CW67:EP67",
+            "AY70:BQ70"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 809,
+          "end": 818,
+          "text": "obtaining",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "CF73:CN73"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\nプレイヤが所有する所有コンテンツのうち、所定数以下の所有コンテンツによって編成されたデッキを用いてクエストを実行するプログラムであって、\nコンピュータを、\nクエストに対応付けて、当該クエストをクリアした際に用いられたデッキであるクリアデッキを記憶する記憶手段、\n前記プレイヤが実行するクエストを選択した場合に、当該プレイヤの所有コンテンツによって、当該クエストに対応付けられた一のクリアデッキを編成できるか否かを判定する判定手段、\n前記判定が否定された場合、前記プレイヤの所有コンテンツのうち、前記クリアデッキに不足しているコンテンツを特定コンテンツとして特定する特定手段、\n前記プレイヤが前記選択したクエストを実行する前に、当該プレイヤに対して、コストを消費して前記特定コンテンツを取得するための取得画面を表示させる制御手段、\nとして機能させる、\nプログラム。",
+      "output_text_grid": "2. A program for executing a quest using a deck organized from a number of owned contents not exceeding a predetermined number among contents owned by a player, the program causing a computer to function as: a storage means for storing, in association with the quest, a clear deck which is a deck used when the quest has been cleared; a determination means for determining, when the player selects a quest to execute, whether a clear deck associated with the quest can be organized from the contents owned by the player; a specifying means for specifying, when the determination is negative, as specific contents, contents that are lacking from the clear deck among the contents owned by the player; and a control means for displaying, before the player executes the selected quest, an acquisition screen for obtaining the specific contents by consuming a cost."
+    }
+  ]
+}

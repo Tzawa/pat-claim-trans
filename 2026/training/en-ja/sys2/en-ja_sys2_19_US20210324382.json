@@ -1,0 +1,144 @@
+{
+  "file": "en-ja_sys2_19_US20210324382.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 30,
+      "input_text": "1. A method for genome editing, comprising:\ngenerating a complex comprising Cas9, trans-activating CRISPR RNA, and a chimeric CRISPR RNA having a target-defining spacer region comprising a plurality of DNA nucleotides and a plurality of RNA bases, wherein the guide promotes sufficient strand invasion by the RNA motif to allow the complex to be active while also exhibiting increased cleavage specificity via the less thermodynamically stable DNA-DNA interaction; and\nco-transfecting the complex into a cell culture with an exonuclease that promotes DNA repair.",
+      "output_text": "1. ゲノム編集のための方法であって、以下を含む：Cas9、トランス活性化CRISPR RNA、および複数のDNAヌクレオチドおよび複数のRNA塩基を含む標的画定スペーサー領域を有するキメラCRISPR RNAを含む複合体であって、ガイドがRNAモチーフによる充分な鎖侵入を促進して複合体を活性にすると同時に、熱力学的に安定性の低いDNA-DNA相互作用を介して切断特異性の増加も示す複合体の生成;そして、DNA修復を促進するエキソヌクレアーゼを用いて複合体を細胞培養物に同時トランスフェクトする。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 256,
+          "end": 265,
+          "text": "the guide",
+          "error": "原文エラー（初出。ここではchimeric CRISPR RNA having a target-defining spacer region comprising a plurality of DNA nucleotides and a plurality of RNA basesのみを指す（trans-activating CRISPR RNAは含まない）ものと思われる。）",
+          "severity": "小",
+          "cells": [
+            "BF13:BN13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 48,
+          "end": 51,
+          "text": "および",
+          "error": "(誤訳)解釈の曖昧性",
+          "severity": "小",
+          "cells": [
+            "DO10:DQ10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 77,
+          "end": 81,
+          "text": "標的画定",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "ER10:ET10",
+            "DG13:DG13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 108,
+          "end": 248,
+          "text": "複合体であって、ガイドがRNAモチーフによる充分な鎖侵入を促進して複合体を活性にすると同時に、熱力学的に安定性の低いDNA-DNA相互作用を介して切断特異性の増加も示す複合体の生成;そして、DNA修復を促進するエキソヌクレアーゼを用いて複合体を細胞培養物に同時トランスフェクトする",
+          "error": "誤訳（２つの工程について、一方は「生成」、他方は「同時トランスフェクトする」と並列になっていない）",
+          "severity": "小",
+          "cells": [
+            "EI13:ET13",
+            "DG16:ET16",
+            "DG19:ET19",
+            "DG22:ET22",
+            "DG25:DN25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 181,
+          "end": 195,
+          "text": "切断特異性の増加も示す複合体",
+          "error": "(誤訳)係り先誤り（切断特異性の増大を示す、の係り先は複合体ではなくガイド）",
+          "severity": "小",
+          "cells": [
+            "EB20:EO20"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A method for genome editing, comprising: generating a complex comprising Cas9, trans-activating CRISPR RNA, and a chimeric CRISPR RNA having a target-defining spacer region comprising a plurality of DNA nucleotides and a plurality of RNA bases, wherein the guide promotes sufficient strand invasion by the RNA motif to allow the complex to be active while also exhibiting increased cleavage specificity via the less thermodynamically stable DNA-DNA interaction; and co-transfecting the complex into a cell culture with an exonuclease that promotes DNA repair.",
+      "output_text_grid": "1. ゲノム編集のための方法であって、以下を含む：Cas9、トランス活性化CRISPR RNA、および複数のDNAヌクレオチドおよび複数のRNA塩基を含む標的画定スペーサー領域を有するキメラCRISPR RNAを含む複合体であって、ガイドがRNAモチーフによる充分な鎖侵入を促進して複合体を活性にすると同時に、熱力学的に安定性の低いDNA-DNA相互作用を介して切断特異性の増加も示す複合体の生成;そして、DNA修復を促進するエキソヌクレアーゼを用いて複合体を細胞培養物に同時トランスフェクトする。"
+    },
+    {
+      "index": 2,
+      "score": 65,
+      "input_text": "2. The method of claim 1, wherein a majority of the bases in the modified CRISPR RNA guide's target-defining spacer region are DNA nucleotides.",
+      "output_text": "2. 修飾CRISPR RNAガイドの標的定義スペーサー領域の塩基の大部分は、DNAヌクレオチドであることを特徴とする請求項1に記載の方法。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 61,
+          "end": 90,
+          "text": "the modified CRISPR RNA guide",
+          "error": "原文エラー（初出。claim1の「a chimeric CRISPR RNA having a target-defining spacer region comprising a plurality of DNA nucleotides and a plurality of RNA bases」を指すものと思われる。）",
+          "severity": "小",
+          "cells": [
+            "BJ40:CL40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 3,
+          "end": 5,
+          "text": "修飾",
+          "error": "文脈上不適切 (訳語選択)（claim1の「a chimeric CRISPR RNA having a target-defining spacer region comprising a plurality of DNA nucleotides and a plurality of RNA bases」を指すものと思われ、また、該広報においてRNAの一部がDNAで置き換えた旨の記載があることから、「改変」が適切ではないかと思われる）",
+          "severity": "小",
+          "cells": [
+            "DJ40:DK40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 19,
+          "end": 23,
+          "text": "標的定義",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DZ40:EC40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 51,
+          "end": 59,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DR43:DY43"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The method of claim 1, wherein a majority of the bases in the modified CRISPR RNA guide's target-defining spacer region are DNA nucleotides.",
+      "output_text_grid": "2. 修飾CRISPR RNAガイドの標的定義スペーサー領域の塩基の大部分は、DNAヌクレオチドであることを特徴とする請求項1に記載の方法。"
+    },
+    {
+      "index": 3,
+      "score": 100,
+      "input_text": "3. An edited genome produced by the method of claim 2.",
+      "output_text": "3. 請求項2に記載の方法によって作製される編集されたゲノム。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [],
+      "input_text_grid": "3. An edited genome produced by the method of claim 2.",
+      "output_text_grid": "3. 請求項2に記載の方法によって作製される編集されたゲノム。"
+    }
+  ]
+}

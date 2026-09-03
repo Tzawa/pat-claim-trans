@@ -1,0 +1,118 @@
+{
+  "file": "en-ja_sys4_05_US20090129027.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 95,
+      "input_text": "1. An integrated voltage regulator module (VRM) and microprocessor assembly comprising:\na. a multilayer PC board;\nb. a microprocessor mounted to the multilayer PC board; and\nc. a VRM mounted on the multilayer PC board connected to the microprocessor and for regulating the voltage provided to the microprocessor, the VRM comprising at least one magnetic core and a plurality of surface-mount devices (SMDs) mounted along the periphery of the multilayer PC board.",
+      "output_text": "１．集積電圧レギュレータモジュール（ＶＲＭ）及びマイクロプロセッサアセンブリであって、 ａ．多層ＰＣ基板と、 ｂ．前記多層ＰＣ基板に取り付けられたマイクロプロセッサと、 ｃ．前記マイクロプロセッサに接続され、前記マイクロプロセッサに供給される電圧を調整するための、前記多層ＰＣ基板に取り付けられたＶＲＭと、を備え、前記ＶＲＭは、少なくとも１つの磁気コアと、前記多層ＰＣ基板の周辺に沿って取り付けられた複数の表面実装デバイス（ＳＭＤ）とを備える、集積電圧レギュレータモジュール（ＶＲＭ）及びマイクロプロセッサアセンブリ。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "１．",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DG7:DH7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 116,
+          "end": 118,
+          "text": "供給",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EQ13:ER13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 152,
+          "end": 153,
+          "text": "、",
+          "error": "句読点",
+          "severity": "小",
+          "cells": [
+            "EM16:EM16"
+          ]
+        }
+      ],
+      "input_text_grid": "1. An integrated voltage regulator module (VRM) and microprocessor assembly comprising: a. a multilayer PC board; b. a microprocessor mounted to the multilayer PC board; and c. a VRM mounted on the multilayer PC board connected to the microprocessor and for regulating the voltage provided to the microprocessor, the VRM comprising at least one magnetic core and a plurality of surface-mount devices (SMDs) mounted along the periphery of the multilayer PC board.",
+      "output_text_grid": "１．集積電圧レギュレータモジュール（ＶＲＭ）及びマイクロプロセッサアセンブリであって、 ａ．多層ＰＣ基板と、 ｂ．前記多層ＰＣ基板に取り付けられたマイクロプロセッサと、 ｃ．前記マイクロプロセッサに接続され、前記マイクロプロセッサに供給される電圧を調整するための、前記多層ＰＣ基板に取り付けられたＶＲＭと、を備え、前記ＶＲＭは、少なくとも１つの磁気コアと、前記多層ＰＣ基板の周辺に沿って取り付けられた複数の表面実装デバイス（ＳＭＤ）とを備える、集積電圧レギュレータモジュール（ＶＲＭ）及びマイクロプロセッサアセンブリ。"
+    },
+    {
+      "index": 2,
+      "score": 90,
+      "input_text": "2. The integrated VRM and microprocessor assembly of claim 1 wherein the integrated VRM and microprocessor assembly has at least two magnetic cores which sandwich the multilayer PC board having the SMDs mounted thereon.",
+      "output_text": "その上に実装された前記ＳＭＤを有する前記多層ＰＣ基板を挟む少なくとも２つの磁気コアを有する、請求項１に記載の統合ＶＲＭおよびマイクロプロセッサアセンブリ。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "2.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A40:B40"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 0,
+          "end": 2,
+          "text": "その",
+          "error": "(誤訳)係り先が不明",
+          "severity": "小",
+          "cells": [
+            "DG40:DH40"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The integrated VRM and microprocessor assembly of claim 1 wherein the integrated VRM and microprocessor assembly has at least two magnetic cores which sandwich the multilayer PC board having the SMDs mounted thereon.",
+      "output_text_grid": "その上に実装された前記ＳＭＤを有する前記多層ＰＣ基板を挟む少なくとも２つの磁気コアを有する、請求項１に記載の統合ＶＲＭおよびマイクロプロセッサアセンブリ。"
+    },
+    {
+      "index": 3,
+      "score": 95,
+      "input_text": "3. The integrated VRM and microprocessor assembly of claim 2 wherein the SMDs comprise at least a digital controller, MOSFET chips and at least one ceramic capacitor mounted to the multilayer PC board.",
+      "output_text": "前記ＳＭＤは、前記多層ＰＣ基板に取り付けられた、少なくともデジタルコントローラ、ＭＯＳＦＥＴチップ、及び少なくとも１つのセラミックコンデンサを含む、請求項２に記載の統合ＶＲＭ及びマイクロプロセッサアセンブリ。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 0,
+          "end": 2,
+          "text": "3.",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "A61:B61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 71,
+          "end": 73,
+          "text": "含む",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EL64:EM64"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The integrated VRM and microprocessor assembly of claim 2 wherein the SMDs comprise at least a digital controller, MOSFET chips and at least one ceramic capacitor mounted to the multilayer PC board.",
+      "output_text_grid": "前記ＳＭＤは、前記多層ＰＣ基板に取り付けられた、少なくともデジタルコントローラ、ＭＯＳＦＥＴチップ、及び少なくとも１つのセラミックコンデンサを含む、請求項２に記載の統合ＶＲＭ及びマイクロプロセッサアセンブリ。"
+    }
+  ]
+}

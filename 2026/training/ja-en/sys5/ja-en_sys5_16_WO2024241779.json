@@ -1,0 +1,105 @@
+{
+  "file": "ja-en_sys5_16_WO2024241779.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 80,
+      "input_text": "[請求項1]\n複数の分割コアが溶接により結合されてなる固定子と、\n前記固定子と対向して配置される回転子と、を備え、\n前記固定子の軸方向端からこれに最も近い連続した溶接部の終端までの領域を第１領域とし、かつ前記固定子の軸方向中央部を含む前記第１領域以外の領域を第２領域として、\n前記複数の分割コアの間の複数の結合部の少なくとも１つにおいて、前記第２領域における溶接部の割合は、前記第１領域における溶接部の割合よりも小さい、電動機。",
+      "output_text": "[Claim 1]\nAn electric motor comprising:\na stator formed by welding multiple split cores together, and\na rotor arranged to face the stator, wherein:\nthe region extending from the stator’s axial end to the end of the nearest continuous welding seam is defined as the first region, and the region excluding the first region—which includes the stator’s axial central portion—is defined as the second region;\nat least one of the multiple joining points between the split cores has a welding ratio in the second region that is smaller than the welding ratio in the first region.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 148,
+          "end": 151,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CW10:CY10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 211,
+          "end": 214,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "BM13:BO13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 261,
+          "end": 264,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "DK13:DM13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 283,
+          "end": 286,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "EG13:EI13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 320,
+          "end": 321,
+          "text": "—",
+          "error": "(誤訳)数値・記号",
+          "severity": "小",
+          "cells": [
+            "BY16:BY16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 370,
+          "end": 371,
+          "text": "—",
+          "error": "(誤訳)数値・記号",
+          "severity": "小",
+          "cells": [
+            "DW16:DW16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 385,
+          "end": 388,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "EL16:EN16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 420,
+          "end": 423,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CD19:CF19"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n複数の分割コアが溶接により結合されてなる固定子と、\n前記固定子と対向して配置される回転子と、を備え、\n前記固定子の軸方向端からこれに最も近い連続した溶接部の終端までの領域を第１領域とし、かつ前記固定子の軸方向中央部を含む前記第１領域以外の領域を第２領域として、\n前記複数の分割コアの間の複数の結合部の少なくとも１つにおいて、前記第２領域における溶接部の割合は、前記第１領域における溶接部の割合よりも小さい、電動機。",
+      "output_text_grid": "[Claim 1] An electric motor comprising: a stator formed by welding multiple split cores together, and a rotor arranged to face the stator, wherein: the region extending from the stator’s axial end to the end of the nearest continuous welding seam is defined as the first region, and the region excluding the first region—which includes the stator’s axial central portion—is defined as the second region; at least one of the multiple joining points between the split cores has a welding ratio in the second region that is smaller than the welding ratio in the first region."
+    }
+  ]
+}

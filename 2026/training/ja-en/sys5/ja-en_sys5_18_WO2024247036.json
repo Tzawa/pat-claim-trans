@@ -1,0 +1,204 @@
+{
+  "file": "ja-en_sys5_18_WO2024247036.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 70,
+      "input_text": "[請求項1]\n特定の種別の光の方路切替が可能な第１振分部と、\n前記第１振分部で取り扱うことができる特定の種別の光と、前記第１振分部で取り扱うことができない特定の種別の光の方路切替が可能な第２振分部と、\nを備え、\n前記第２振分部は、\n入力された前記光を、前記第１振分部を経由する第１経路と、前記第１振分部を経由しない第２経路の少なくともいずれかの経路に出力する光出力部と、\n前記第２経路上に設けられ、Ｎ（Ｎは１以上の整数）個のポートとｋ（ｋは２以上の整数）個のポートとを有し、前記Ｎ個のポートのいずれかのポートに入力された前記光を、他の前記第２振分部が接続されている前記ｋ個のポートのいずれかのポートから出力するＮ×ｋマトリックス光スイッチと、\nを備え、\n前記光出力部は、端末間において波長単位の光パスを確立する場合には入力された前記光を少なくとも前記第１経路に出力し、光ファイバ単位の光パスを確立する場合には入力された前記光を少なくとも前記第２経路に出力する、\nを備える光ノード装置。",
+      "output_text": "[Claim 1]\nA optical node device comprising:\na first routing section capable of switching the propagation path of light of a specific type; and\na second routing section capable of switching the propagation path of light of a specific type that can be handled by the first routing section and light of another specific type that cannot be handled by the first routing section;\nwherein the second routing section includes:\nan optical output section that outputs the incoming light to at least one of: the first path passing through the first routing section, and the second path not passing through the first routing section; and\na N×k matrix optical switch provided on the second path, having N ports and k ports, which outputs the light input to any of the N ports to any of the k ports to which another second routing section is connected; and\nthe optical output section outputs the incoming light to at least the first path when establishing wavelength-division optical paths between terminals, and outputs the incoming light to at least the second path when establishing fiber-unit optical paths.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "input",
+          "start": 200,
+          "end": 210,
+          "text": "（Ｎは１以上の整数）",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "A22:J22"
+          ]
+        },
+        {
+          "side": "input",
+          "start": 217,
+          "end": 227,
+          "text": "（ｋは２以上の整数）",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "R22:AA22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 51,
+          "end": 60,
+          "text": " routing ",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CX7:DF7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 89,
+          "end": 92,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "EJ7:EL7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 152,
+          "end": 160,
+          "text": "routing ",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DF10:DM10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 271,
+          "end": 279,
+          "text": "routing ",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DY13:EF13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 358,
+          "end": 365,
+          "text": "routing",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DN16:DT16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 394,
+          "end": 401,
+          "text": "routing",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BF19:BL19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 498,
+          "end": 501,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "BM22:BO22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 539,
+          "end": 546,
+          "text": "routing",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "DB22:DH22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 560,
+          "end": 563,
+          "text": "the",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "DW22:DY22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 606,
+          "end": 613,
+          "text": "routing",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BY25:CE25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 627,
+          "end": 629,
+          "text": "a ",
+          "error": "(誤訳)冠詞",
+          "severity": "大",
+          "cells": [
+            "CT25:CU25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 684,
+          "end": 710,
+          "text": "having N ports and k ports",
+          "error": "訳抜け",
+          "severity": "大",
+          "cells": [
+            "BE28:CD28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 810,
+          "end": 817,
+          "text": "routing",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "CE31:CK31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 943,
+          "end": 962,
+          "text": "wavelength-division",
+          "error": "誤訳",
+          "severity": "大",
+          "cells": [
+            "DS34:EK34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1073,
+          "end": 1083,
+          "text": "fiber-unit",
+          "error": "誤訳",
+          "severity": "小",
+          "cells": [
+            "BL40:BU40"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n特定の種別の光の方路切替が可能な第１振分部と、\n前記第１振分部で取り扱うことができる特定の種別の光と、前記第１振分部で取り扱うことができない特定の種別の光の方路切替が可能な第２振分部と、\nを備え、\n前記第２振分部は、\n入力された前記光を、前記第１振分部を経由する第１経路と、前記第１振分部を経由しない第２経路の少なくともいずれかの経路に出力する光出力部と、\n前記第２経路上に設けられ、Ｎ（Ｎは１以上の整数）個のポートとｋ（ｋは２以上の整数）個のポートとを有し、前記Ｎ個のポートのいずれかのポートに入力された前記光を、他の前記第２振分部が接続されている前記ｋ個のポートのいずれかのポートから出力するＮ×ｋマトリックス光スイッチと、\nを備え、\n前記光出力部は、端末間において波長単位の光パスを確立する場合には入力された前記光を少なくとも前記第１経路に出力し、光ファイバ単位の光パスを確立する場合には入力された前記光を少なくとも前記第２経路に出力する、\nを備える光ノード装置。",
+      "output_text_grid": "[Claim 1] A optical node device comprising: a first routing section capable of switching the propagation path of light of a specific type; and a second routing section capable of switching the propagation path of light of a specific type that can be handled by the first routing section and light of another specific type that cannot be handled by the first routing section; wherein the second routing section includes: an optical output section that outputs the incoming light to at least one of: the first path passing through the first routing section, and the second path not passing through the first routing section; and a N×k matrix optical switch provided on the second path, having N ports and k ports, which outputs the light input to any of the N ports to any of the k ports to which another second routing section is connected; and the optical output section outputs the incoming light to at least the first path when establishing wavelength-division optical paths between terminals, and outputs the incoming light to at least the second path when establishing fiber-unit optical paths."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "file": "en-ja_sys1_20_US20220000484.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 10,
+      "input_text": "8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to:\ncommunicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices;\nreceive a sensor output signal from a sensor on the surgical stapling instrument;\ndetermine a parameter associated with closure of an end effector based on the sensor output signal;\nreceive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and\nadjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.",
+      "output_text": "[請求項8]\n外科用ステープリング器具の制御回路であって、プロセッサおよび当該プロセッサと信号通信するメモリを備え、前記メモリが前記プロセッサによって実行可能な命令を格納し、前記命令が、１つ以上の外科用デバイスと信号通信する独立した制御回路を含み、前記１つ以上の外科用デバイスから受信したデータに基づいて手技情報を推定するよう構成された状況認識モジュールと通信可能に接続し、前記外科用ステープリング器具上のセンサからセンサ出力信号を受信し、前記センサ出力信号に基づいてエンドエフェクタの閉鎖に関連するパラメータを決定し、前記状況認識モジュールから入力を受信し、前記入力が前記状況認識モジュールによって推定された手技情報に基づき、前記状況認識モジュールからの入力および前記センサ出力信号に基づいて前記外科用ステープリング器具の発射パラメータを調整するよう構成されていることを特徴とする制御回路。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 87,
+          "end": 123,
+          "text": "前記命令が、１つ以上の外科用デバイスと信号通信する独立した制御回路を含み",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "DN13:ET13",
+            "DG16:DI16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 124,
+          "end": 186,
+          "text": "前記１つ以上の外科用デバイスから受信したデータに基づいて手技情報を推定するよう構成された状況認識モジュールと通信可能に接続し",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "DK16:ET16",
+            "DG19:EF19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 187,
+          "end": 219,
+          "text": "前記外科用ステープリング器具上のセンサからセンサ出力信号を受信し",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "EH19:ET19",
+            "DG22:DY22"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 220,
+          "end": 259,
+          "text": "前記センサ出力信号に基づいてエンドエフェクタの閉鎖に関連するパラメータを決定し",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "EA22:ET22",
+            "DG25:DY25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 260,
+          "end": 279,
+          "text": "前記状況認識モジュールから入力を受信し",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "EA25:ES25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 280,
+          "end": 313,
+          "text": "前記入力が前記状況認識モジュールによって推定された手技情報に基づき",
+          "error": "",
+          "severity": "",
+          "cells": [
+            "DG28:EM28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 314,
+          "end": 360,
+          "text": "前記状況認識モジュールからの入力および前記センサ出力信号に基づいて前記外科用ステープリング器",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "EO28:ET28",
+            "DG31:ET31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 360,
+          "end": 383,
+          "text": "具の発射パラメータを調整するよう構成されている",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "DG34:EC34"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 383,
+          "end": 391,
+          "text": "ことを特徴とする",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "ED34:EK34"
+          ]
+        }
+      ],
+      "input_text_grid": "8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to: communicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices; receive a sensor output signal from a sensor on the surgical stapling instrument; determine a parameter associated with closure of an end effector based on the sensor output signal; receive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and adjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.",
+      "output_text_grid": "[請求項8]\n外科用ステープリング器具の制御回路であって、プロセッサおよび当該プロセッサと信号通信するメモリを備え、前記メモリが前記プロセッサによって実行可能な命令を格納し、前記命令が、１つ以上の外科用デバイスと信号通信する独立した制御回路を含み、前記１つ以上の外科用デバイスから受信したデータに基づいて手技情報を推定するよう構成された状況認識モジュールと通信可能に接続し、前記外科用ステープリング器具上のセンサからセンサ出力信号を受信し、前記センサ出力信号に基づいてエンドエフェクタの閉鎖に関連するパラメータを決定し、前記状況認識モジュールから入力を受信し、前記入力が前記状況認識モジュールによって推定された手技情報に基づき、前記状況認識モジュールからの入力および前記センサ出力信号に基づいて前記外科用ステープリング器具の発射パラメータを調整するよう構成されていることを特徴とする制御回路。"
+    }
+  ]
+}

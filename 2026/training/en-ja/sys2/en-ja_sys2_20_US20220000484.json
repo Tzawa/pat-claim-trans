@@ -1,0 +1,297 @@
+{
+  "file": "en-ja_sys2_20_US20220000484.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 10,
+      "input_text": "8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to:\ncommunicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices;\nreceive a sensor output signal from a sensor on the surgical stapling instrument;\ndetermine a parameter associated with closure of an end effector based on the sensor output signal;\nreceive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and\nadjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.",
+      "output_text": "8. 外科用ステープル留め器具の制御回路であって、制御回路は、プロセッサと、プロセッサと信号通信するメモリとを備え、メモリは、プロセッサによって実行可能な命令を記憶する：状況認識モジュールに通信可能に結合され、状況認識モジュールは、1つ以上の外科用装置と信号通信する別個の制御回路を備え、別個の制御回路は、1つ以上の外科用装置から受信したデータに基づいて手技情報を推測するように構成される；外科用ステープル留め器具上のセンサからセンサ出力信号を受信する；センサ出力信号に基づき、エンドエフェクタの閉鎖に関連するパラメータを決定するステップと、状況認識モジュールから入力を受信し、入力は、状況認識モジュールによって推論された手続き情報に基づく；そして、状況認識モジュールからの入力及びセンサ出力信号に基づいて、外科用ステープル留め器具の発射パラメータを調整する。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 25,
+          "end": 29,
+          "text": "制御回路",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EF7:EI7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 38,
+          "end": 43,
+          "text": "プロセッサ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "ES7:ET7",
+            "DG10:DI10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 58,
+          "end": 61,
+          "text": "メモリ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DY10:EA10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 63,
+          "end": 68,
+          "text": "プロセッサ",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "ED10:EH10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 84,
+          "end": 85,
+          "text": "：",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "DK13:DK13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 85,
+          "end": 104,
+          "text": "状況認識モジュールに通信可能に結合され",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "DL14:ED14"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 105,
+          "end": 114,
+          "text": "状況認識モジュール",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EF13:EN13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 144,
+          "end": 151,
+          "text": "別個の制御回路",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EE16:EK16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 153,
+          "end": 163,
+          "text": "1つ以上の外科用装置",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EN16:ET16",
+            "DG19:DI19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 194,
+          "end": 195,
+          "text": "；",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "EO20:EO20"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 194,
+          "end": 207,
+          "text": "；外科用ステープル留め器具",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "EO21:ET21",
+            "DG23:DM23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 195,
+          "end": 227,
+          "text": "外科用ステープル留め器具上のセンサからセンサ出力信号を受信する；",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EP19:ET19",
+            "DG25:EG25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 226,
+          "end": 227,
+          "text": "；",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "EG24:EG24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 227,
+          "end": 234,
+          "text": "センサ出力信号",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EH23:EN23"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 265,
+          "end": 269,
+          "text": "ステップ",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "EF27:EI27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 271,
+          "end": 280,
+          "text": "状況認識モジュール",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EL27:ET27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 287,
+          "end": 288,
+          "text": "し",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "DN31:DN31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 289,
+          "end": 291,
+          "text": "入力",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DP30:DQ30"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 293,
+          "end": 302,
+          "text": "状況認識モジュール",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DT30:EB30"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 320,
+          "end": 321,
+          "text": "；",
+          "error": "句読点",
+          "severity": "大",
+          "cells": [
+            "DG33:DG33"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 325,
+          "end": 334,
+          "text": "状況認識モジュール",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "DL33:DT33"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 341,
+          "end": 348,
+          "text": "センサ出力信号",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EB33:EH33"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 354,
+          "end": 366,
+          "text": "外科用ステープル留め器具",
+          "error": "訳抜け",
+          "severity": "小",
+          "cells": [
+            "EO33:ET33",
+            "DG36:DL36"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 379,
+          "end": 380,
+          "text": "。",
+          "error": "その他",
+          "severity": "大",
+          "cells": [
+            "DZ36:DZ36"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 379,
+          "end": 380,
+          "text": "。",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "DZ37:DZ37"
+          ]
+        }
+      ],
+      "input_text_grid": "8. A control circuit of a surgical stapling instrument, wherein the control circuit comprises a processor and a memory in signal communication with the processor, wherein the memory stores instructions executable by the processor to: communicably couple to a situational awareness module, the situational awareness module comprising a separate control circuit in signal communication with one or more surgical devices, wherein the separate control circuit is configured to infer procedural information based on data received from the one or more surgical devices; receive a sensor output signal from a sensor on the surgical stapling instrument; determine a parameter associated with closure of an end effector based on the sensor output signal; receive an input from the situational awareness module, wherein the input is based on the procedural information inferred by the situational awareness module; and adjust a firing parameter of the surgical stapling instrument based on the input from the situational awareness module and the sensor output signal.",
+      "output_text_grid": "8. 外科用ステープル留め器具の制御回路であって、制御回路は、プロセッサと、プロセッサと信号通信するメモリとを備え、メモリは、プロセッサによって実行可能な命令を記憶する：状況認識モジュールに通信可能に結合され、状況認識モジュールは、1つ以上の外科用装置と信号通信する別個の制御回路を備え、別個の制御回路は、1つ以上の外科用装置から受信したデータに基づいて手技情報を推測するように構成される；外科用ステープル留め器具上のセンサからセンサ出力信号を受信する；センサ出力信号に基づき、エンドエフェクタの閉鎖に関連するパラメータを決定するステップと、状況認識モジュールから入力を受信し、入力は、状況認識モジュールによって推論された手続き情報に基づく；そして、状況認識モジュールからの入力及びセンサ出力信号に基づいて、外科用ステープル留め器具の発射パラメータを調整する。"
+    }
+  ]
+}

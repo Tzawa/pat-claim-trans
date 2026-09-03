@@ -1,0 +1,152 @@
+{
+  "file": "ja-en_sys3_08_WO2024241544.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 80,
+      "input_text": "[請求項1]\n或る分野に関連する複数の技術と前記分野に関連する複数の製品又はサービスとを含む前記分野に関連する複数の事象を示す文字列が時間軸上に配置されたロードマップのうち、前記製品又はサービスごとに、当該製品又はサービスに関する環境負荷値を消費対象ごとに計算するように構成されている計算部と、\n前記環境負荷値が最大となる消費対象の環境負荷値の算定式の項ごとに、当該項の意味を示す文字列との類似性に基づいて、前記ロードマップに配置された文字列のうち当該項に関連する文字列を特定するように構成されている特定部と、\n特定された文字列を出力するように構成されている出力部と、\nを有することを特徴とする情報処理装置。",
+      "output_text": "1. An information processing apparatus comprising:\na calculation unit configured, for each product or service among a plurality of products or services related to a certain field included in a roadmap in which character strings representing a plurality of events related to the field, including a plurality of technologies related to the field and the plurality of products or services, are arranged along a time axis, to calculate an environmental load value for each consumption target related to the corresponding product or service;\nan identification unit configured, for each term in a formula for calculating the environmental load value of the consumption target having the maximum environmental load value, to identify, from among the character strings arranged on the roadmap, a character string related to the term based on similarity to a character string representing the meaning of the term; and\nan output unit configured to output the identified character strings.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 179,
+          "end": 191,
+          "text": "included in ",
+          "error": "湧き出し",
+          "severity": "大",
+          "cells": [
+            "EA10:EL10"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 285,
+          "end": 294,
+          "text": "including",
+          "error": "(誤訳)係り先が不明",
+          "severity": "大",
+          "cells": [
+            "AY16:BG16"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 488,
+          "end": 535,
+          "text": "related to the corresponding product or service",
+          "error": "(誤訳)係り先誤り",
+          "severity": "大",
+          "cells": [
+            "BR22:DL22"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n或る分野に関連する複数の技術と前記分野に関連する複数の製品又はサービスとを含む前記分野に関連する複数の事象を示す文字列が時間軸上に配置されたロードマップのうち、前記製品又はサービスごとに、当該製品又はサービスに関する環境負荷値を消費対象ごとに計算するように構成されている計算部と、\n前記環境負荷値が最大となる消費対象の環境負荷値の算定式の項ごとに、当該項の意味を示す文字列との類似性に基づいて、前記ロードマップに配置された文字列のうち当該項に関連する文字列を特定するように構成されている特定部と、\n特定された文字列を出力するように構成されている出力部と、\nを有することを特徴とする情報処理装置。",
+      "output_text_grid": "1. An information processing apparatus comprising: a calculation unit configured, for each product or service among a plurality of products or services related to a certain field included in a roadmap in which character strings representing a plurality of events related to the field, including a plurality of technologies related to the field and the plurality of products or services, are arranged along a time axis, to calculate an environmental load value for each consumption target related to the corresponding product or service; an identification unit configured, for each term in a formula for calculating the environmental load value of the consumption target having the maximum environmental load value, to identify, from among the character strings arranged on the roadmap, a character string related to the term based on similarity to a character string representing the meaning of the term; and an output unit configured to output the identified character strings."
+    },
+    {
+      "index": 2,
+      "score": 85,
+      "input_text": "[請求項2]\n前記特定部は、前記複数の製品又はサービスにおいて環境負荷値が最大となる消費対象が異なる場合には、前記時間軸上において最も遅く出現する前記製品又はサービスについて環境負荷値が最大となる消費対象の前記環境負荷値の算定式の項ごとに、当該項に関連する前記文字列を特定するように構成されている、\nことを特徴とする請求項１記載の情報処理装置。",
+      "output_text": "2. The information processing apparatus according to claim 1,\nwherein, when the consumption targets having the maximum environmental load values differ among the plurality of products or services, the identification unit is configured, for each term in a formula for calculating the environmental load value of the consumption target having the maximum environmental load value for the product or service that appears latest along the time axis, to identify the character strings related to the respective terms.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 80,
+          "end": 99,
+          "text": "consumption targets",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EA52:ES52"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 253,
+          "end": 254,
+          "text": "a",
+          "error": "(誤訳)冠詞",
+          "severity": "小",
+          "cells": [
+            "DC58:DC58"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 418,
+          "end": 424,
+          "text": "latest",
+          "error": "文法",
+          "severity": "小",
+          "cells": [
+            "BT64:BY64"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 458,
+          "end": 511,
+          "text": "the character strings related to the respective terms",
+          "error": "一貫性の欠如",
+          "severity": "大",
+          "cells": [
+            "DH64:EQ64",
+            "AY67:BN67"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項2]\n前記特定部は、前記複数の製品又はサービスにおいて環境負荷値が最大となる消費対象が異なる場合には、前記時間軸上において最も遅く出現する前記製品又はサービスについて環境負荷値が最大となる消費対象の前記環境負荷値の算定式の項ごとに、当該項に関連する前記文字列を特定するように構成されている、\nことを特徴とする請求項１記載の情報処理装置。",
+      "output_text_grid": "2. The information processing apparatus according to claim 1, wherein, when the consumption targets having the maximum environmental load values differ among the plurality of products or services, the identification unit is configured, for each term in a formula for calculating the environmental load value of the consumption target having the maximum environmental load value for the product or service that appears latest along the time axis, to identify the character strings related to the respective terms."
+    },
+    {
+      "index": 3,
+      "score": 85,
+      "input_text": "[請求項3]\n前記出力部は、前記特定された文字列について、ネットワークを介して収集される情報との類似性に基づいて優先順位を付与し、前記優先順位を判別可能なように前記特定された文字列を出力するように構成されている、\nことを特徴とする請求項１又は２記載の情報処理装置。",
+      "output_text": "3. The information processing apparatus according to claim 1 or 2,\nwherein the output unit is configured to assign priorities to the identified character strings based on similarity to information collected via a network, and to output the identified character strings such that the assigned priorities are discernible.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 115,
+          "end": 161,
+          "text": "priorities to the identified character strings",
+          "error": "一貫性の欠如",
+          "severity": "大",
+          "cells": [
+            "BT85:DM85"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 251,
+          "end": 268,
+          "text": "character strings",
+          "error": "一貫性の欠如",
+          "severity": "大",
+          "cells": [
+            "DM88:EC88"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 292,
+          "end": 306,
+          "text": "priorities are",
+          "error": "一貫性の欠如",
+          "severity": "大",
+          "cells": [
+            "BH91:BU91"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項3]\n前記出力部は、前記特定された文字列について、ネットワークを介して収集される情報との類似性に基づいて優先順位を付与し、前記優先順位を判別可能なように前記特定された文字列を出力するように構成されている、\nことを特徴とする請求項１又は２記載の情報処理装置。",
+      "output_text_grid": "3. The information processing apparatus according to claim 1 or 2, wherein the output unit is configured to assign priorities to the identified character strings based on similarity to information collected via a network, and to output the identified character strings such that the assigned priorities are discernible."
+    }
+  ]
+}

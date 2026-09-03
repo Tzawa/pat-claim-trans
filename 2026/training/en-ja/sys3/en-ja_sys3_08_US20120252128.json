@@ -1,0 +1,162 @@
+{
+  "file": "en-ja_sys3_08_US20120252128.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 30,
+      "input_text": "1. A sensor, comprising\na catalytic nucleic acid molecule specific for a target agent comprising an enzyme nucleic acid strand and a substrate nucleic acid strand,\nwherein the enzyme nucleic acid strand comprises a 3′-end and a 5′-end and an active site specific for a target agent,\nwherein the substrate nucleic acid strand comprises a 3′-end and a 5′-end,\nwherein the substrate nucleic acid strand comprises nucleotides at the 5′-end of the substrate nucleic acid strand that permits formation of a loop of at least six nucleotides at the 5′-end of the substrate nucleic acid strand, and\nwherein the substrate nucleic acid strand hybridizes with the enzyme nucleic acid strand, thereby forming a vacant site between the 3′-end of the enzyme nucleic acid strand and the 5′-end of the substrate nucleic acid strand, wherein the vacant site is opposite to a cytosine present in the substrate nucleic acid strand and wherein the vacant site can bind to a fluorophore,\nwherein in the absence of the target agent, fluorescence of the fluorophore when bound to the vacant site is quenched, and wherein in the presence of the target agent, catalytic cleavage of substrate nucleic acid strand perturbs the vacant site and releases the fluorophore bound to the vacant site resulting in increased fluorescence.",
+      "output_text": "1. 以下の構成要素からなるセンサー：\n酵素核酸鎖と基質核酸鎖から構成される標的物質特異的な触媒核酸分子であって、\n当該酵素核酸鎖は3'末端および5'末端を有し、かつ標的物質に対して特異的な活性部位を備えており、\n当該基質核酸鎖は3'末端および5'末端を有し、\n当該基質核酸鎖の5'末端には、基質核酸鎖の5'末端において少なくとも6塩基からなるループ構造を形成可能なヌクレオチドが配置されており、\n当該基質核酸鎖は酵素核酸鎖とハイブリダイズし、これにより酵素核酸鎖の3'末端と基質核酸鎖の5'末端との間に空隙サイトが形成され、この空隙サイトは基質核酸鎖中に存在するシトシンと対向する位置にあり、かつこの空隙サイトは蛍光色素と結合可能であり、\n標的物質が存在しない場合、空隙サイトに結合した蛍光色素の蛍光は消光され、一方、標的物質が存在する場合、基質核酸鎖の触媒的切断により空隙サイトが乱され、空隙サイトに結合していた蛍光色素が放出されることで蛍光強度が増大する。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 3,
+          "end": 20,
+          "text": "以下の構成要素からなるセンサー：\n",
+          "error": "ぎこちない",
+          "severity": "大",
+          "cells": [
+            "DJ7:DZ7"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 100,
+          "end": 105,
+          "text": "備えており",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "EA13:EE13"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 166,
+          "end": 197,
+          "text": "塩基からなるループ構造を形成可能なヌクレオチドが配置されており",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DM19:EQ19"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 254,
+          "end": 257,
+          "text": "サイト",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DU25:DW25"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 303,
+          "end": 306,
+          "text": "サイト",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "ED28:EF28"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 336,
+          "end": 339,
+          "text": "サイト",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "DW31:DY31"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 423,
+          "end": 425,
+          "text": "強度",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "ED37:EE37"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A sensor, comprising a catalytic nucleic acid molecule specific for a target agent comprising an enzyme nucleic acid strand and a substrate nucleic acid strand, wherein the enzyme nucleic acid strand comprises a 3′-end and a 5′-end and an active site specific for a target agent, wherein the substrate nucleic acid strand comprises a 3′-end and a 5′-end, wherein the substrate nucleic acid strand comprises nucleotides at the 5′-end of the substrate nucleic acid strand that permits formation of a loop of at least six nucleotides at the 5′-end of the substrate nucleic acid strand, and wherein the substrate nucleic acid strand hybridizes with the enzyme nucleic acid strand, thereby forming a vacant site between the 3′-end of the enzyme nucleic acid strand and the 5′-end of the substrate nucleic acid strand, wherein the vacant site is opposite to a cytosine present in the substrate nucleic acid strand and wherein the vacant site can bind to a fluorophore, wherein in the absence of the target agent, fluorescence of the fluorophore when bound to the vacant site is quenched, and wherein in the presence of the target agent, catalytic cleavage of substrate nucleic acid strand perturbs the vacant site and releases the fluorophore bound to the vacant site resulting in increased fluorescence.",
+      "output_text_grid": "1. 以下の構成要素からなるセンサー：\n酵素核酸鎖と基質核酸鎖から構成される標的物質特異的な触媒核酸分子であって、\n当該酵素核酸鎖は3'末端および5'末端を有し、かつ標的物質に対して特異的な活性部位を備えており、\n当該基質核酸鎖は3'末端および5'末端を有し、\n当該基質核酸鎖の5'末端には、基質核酸鎖の5'末端において少なくとも6塩基からなるループ構造を形成可能なヌクレオチドが配置されており、\n当該基質核酸鎖は酵素核酸鎖とハイブリダイズし、これにより酵素核酸鎖の3'末端と基質核酸鎖の5'末端との間に空隙サイトが形成され、この空隙サイトは基質核酸鎖中に存在するシトシンと対向する位置にあり、かつこの空隙サイトは蛍光色素と結合可能であり、\n標的物質が存在しない場合、空隙サイトに結合した蛍光色素の蛍光は消光され、一方、標的物質が存在する場合、基質核酸鎖の触媒的切断により空隙サイトが乱され、空隙サイトに結合していた蛍光色素が放出されることで蛍光強度が増大する。"
+    },
+    {
+      "index": 2,
+      "score": 50,
+      "input_text": "2. The sensor of claim 1, wherein the vacant site is flanked by guanines present on a 3′-nucleotide of the enzyme nucleic acid strand and a 5′-nucleotide of the substrate nucleic acid strand.",
+      "output_text": "2. 請求項1に記載のセンサーにおいて、空隙部位が、酵素核酸鎖の3'末端ヌクレオチドおよび基質核酸鎖の5'末端ヌクレオチドに存在するグアニンによって両側から挟まれている構造を有するもの",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 20,
+          "end": 24,
+          "text": "空隙部位",
+          "error": "用語の一貫性",
+          "severity": "小",
+          "cells": [
+            "EA61:ED61"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 84,
+          "end": 90,
+          "text": "構造を有する",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "DK67:DP67"
+          ]
+        }
+      ],
+      "input_text_grid": "2. The sensor of claim 1, wherein the vacant site is flanked by guanines present on a 3′-nucleotide of the enzyme nucleic acid strand and a 5′-nucleotide of the substrate nucleic acid strand.",
+      "output_text_grid": "2. 請求項1に記載のセンサーにおいて、空隙部位が、酵素核酸鎖の3'末端ヌクレオチドおよび基質核酸鎖の5'末端ヌクレオチドに存在するグアニンによって両側から挟まれている構造を有するもの"
+    },
+    {
+      "index": 3,
+      "score": 50,
+      "input_text": "3. The sensor of claim 1, wherein at least one pair of nucleotides are mismatched upon hybridization of the substrate nucleic acid molecule with the enzyme nucleic acid strand.",
+      "output_text": "3. 請求項1に記載のセンサーにおいて、基質核酸分子と酵素核酸鎖とのハイブリダイゼーション時に少なくとも1組のヌクレオチドがミスマッチ状態となる構成。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 53,
+          "end": 54,
+          "text": "組",
+          "error": "文脈上不適切 (訳語選択)",
+          "severity": "小",
+          "cells": [
+            "DT85:DT85"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 72,
+          "end": 74,
+          "text": "構成",
+          "error": "湧き出し",
+          "severity": "小",
+          "cells": [
+            "EM85:EN85"
+          ]
+        }
+      ],
+      "input_text_grid": "3. The sensor of claim 1, wherein at least one pair of nucleotides are mismatched upon hybridization of the substrate nucleic acid molecule with the enzyme nucleic acid strand.",
+      "output_text_grid": "3. 請求項1に記載のセンサーにおいて、基質核酸分子と酵素核酸鎖とのハイブリダイゼーション時に少なくとも1組のヌクレオチドがミスマッチ状態となる構成。"
+    }
+  ]
+}
