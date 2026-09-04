@@ -1,0 +1,8 @@
+[Claim 1]
+A belt connector comprising: a frame structure (100A, 100B, 100C, 100D, 100E, 100F, 100G, 100H) that forms an opening (101) extending through the thickness direction, wherein the frame structure (100A, 100B, 100C, 100D, 100E, 100F, 100G, 100H) includes:
+　　a first mounting portion (10, 10B, 10G, 10H, 201) onto which a first belt (91) passing through the opening (101) is mounted,
+　　a second mounting portion (20, 20C, 301) positioned between the first mounting portion (10, 10B, 10G, 10H, 201) and the opening (101) in the direction perpendicular to the thickness direction, onto which a second belt (92) passing through the opening (101) is mounted,
+　　first side portions (30A) and second side portions (30B) positioned between each other in the width direction perpendicular to both the thickness direction and the connecting direction, thereby sandwiching the opening (101), and
+　　supporting portions (40, 40E, 40F, 40G, 40H) connected to at least one of the first side portions (30A) and second side portions (30B) to support the first mounting portions (10, 10B, 10G, 10H, 201).
+At least a portion of the supporting portions (40, 40E, 40F, 40G, 40H) undergoes elastic deformation when the first mounting portions (10, 10B, 10G, 10H, 201) receive load from the first belt (91), causing the first mounting portions (10, 10B, 10G, 10H, 201) to shift in a direction moving them away from the second mounting portions (20, 20C, 301).
+

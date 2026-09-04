@@ -1,0 +1,11 @@
+[Claim 1]
+A drain water inspection device for use in an indoor unit of an air-conditioning system that includes a drain pump capable of draining water from inside the drain pan and a float switch that switches between ON and OFF states in response to the water level within the drain pan, comprising:
+a battery housing section capable of removably holding a plurality of batteries;
+a battery connector section capable of electrically connecting a mobile battery;
+a voltage conversion section that can convert the output voltage of the at least one battery held in the battery housing section and the output voltage of the mobile battery connected to the battery connector section into the drive voltage for the drain pump;
+a pump connector section that is electrically connectable to the drain pump and electrically connected to the voltage conversion section;
+a pump drive switch that electrically connects the voltage conversion section and the pump connector section when the switch is in ON state, and electrically disconnects them when the switch is in OFF state;
+a switch connector section that is electrically connectable to the float switch and is electrically connected to the battery housing section and battery connector section; and
+a first notification section capable of indicating the state of the float switch.
+The drain water inspection device is configured such that when the drain pump is connected to the pump connector section and the pump drive switch is in ON state, the drain pump receives either the output voltage of the at least one battery or the output voltage of the mobile battery via the voltage conversion section, and when the float switch is connected to the switch connector section and is in ON state, the float switch receives either the output voltage of the at least one battery or the output voltage of the mobile battery.
+

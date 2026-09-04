@@ -1,0 +1,7 @@
+1. A belt connecting device comprising a frame body (100A, 100B, 100C, 100D, 100E, 100F, 100G, 100H) having an opening (101) formed therethrough in a thickness direction,
+wherein the frame body (100A, 100B, 100C, 100D, 100E, 100F, 100G, 100H) includes:
+a first hanging portion (10, 10B, 10G, 10H, 201) around which a first belt (91) passing through the opening (101) is wound;
+a second hanging portion (20, 20C, 301) disposed across the opening (101) from the first hanging portion (10, 10B, 10G, 10H, 201) in a connecting direction orthogonal to the thickness direction, and around which a second belt (92) passing through the opening (101) is wound;
+a first side portion (30A) and a second side portion (30B) disposed across the opening (101) from each other in a width direction orthogonal to both the thickness direction and the connecting direction; and
+a support portion (40, 40E, 40F, 40G, 40H) connected to at least one of the first side portion (30A) and the second side portion (30B) and supporting the first hanging portion (10, 10B, 10G, 10H, 201),
+wherein at least a part of the support portion (40, 40E, 40F, 40G, 40H) elastically deforms when the first hanging portion (10, 10B, 10G, 10H, 201) receives a load from the first belt (91), thereby displacing the first hanging portion (10, 10B, 10G, 10H, 201) in a direction away from the second hanging portion (20, 20C, 301).
