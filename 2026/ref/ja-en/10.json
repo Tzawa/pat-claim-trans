@@ -1,0 +1,122 @@
+{
+  "file": "10.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 24,
+      "input_text": "[請求項1]\n厚み方向に貫通する開口部（１０１）を形成する枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）を備え、\n前記枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）は、\n前記開口部（１０１）を挿通する第１ベルト（９１）が掛け回される第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）と、\n前記厚み方向に直交する連結方向において前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）との間に前記開口部（１０１）を挟んで配置され、前記開口部（１０１）を挿通する第２ベルト（９２）が掛け回される第２掛部（２０，２０Ｃ，３０１）と、\n前記厚み方向および前記連結方向に直交する幅方向において互いの間に前記開口部（１０１）を挟んで配置される第１側部（３０Ａ）および第２側部（３０Ｂ）と、\n前記第１側部（３０Ａ）および前記第２側部（３０Ｂ）の少なくとも一方に接続され、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を支持する支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）と、を備え、\n前記支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）の少なくとも一部は、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）が前記第１ベルト（９１）から荷重を受けることにより弾性変形し、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を前記第２掛部（２０，２０Ｃ，３０１）から離間する方向に変位させる、ベルト連結具。",
+      "output_text": "a first hook portion on which a first belt inserted through the opening is hooked; a second hook portion disposed between the first hook portion and the opening in a coupling direction orthogonal to the thickness direction, and on which a second belt inserted through the opening is hooked; a first side portion and a second side portion disposed between each other with the opening interposed therebetween in a width direction orthogonal to the thickness direction and the coupling direction; and a support portion connected to at least one of the first side portion and the second side portion, and configured to support the first hook portion, wherein at least a part of the support portion is elastically deformed by receiving a load from the first belt by the first hook portion, and displaces the first hook portion in a direction away from the second hook portion.",
+      "broad_error": "極大（正確性）：「厚み方向に貫通する開口部（１０１）を形成する枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）を備え、前記枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）は、」が全て訳抜け。\n大（正確性）：全ての符号が抜け。",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 21,
+          "end": 29,
+          "text": "on which",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "BT6:CA6"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 60,
+          "end": 71,
+          "text": "the opening",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "初出の要素に定冠詞。",
+          "color": "yellow",
+          "cells": [
+            "DG6:DQ6"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 105,
+          "end": 160,
+          "text": "disposed between the first hook portion and the opening",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "完全な誤訳。",
+          "color": "yellow",
+          "cells": [
+            "BG9:DI9"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 228,
+          "end": 236,
+          "text": "on which",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "CE12:CL12"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 338,
+          "end": 383,
+          "text": "disposed between each other with the opening ",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "誤訳。",
+          "color": "yellow",
+          "cells": [
+            "CR15:EJ15"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 383,
+          "end": 407,
+          "text": "interposed therebetween ",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "AY18:BV18"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 601,
+          "end": 611,
+          "text": "configured",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "不要。Configured toのを用いる意味を考えた場合、connected to at least …も、configured to be connected to at least …にすべきではないか。",
+          "color": "yellow",
+          "cells": [
+            "BQ24:BZ24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 718,
+          "end": 783,
+          "text": "by receiving a load from the first belt by the first hook portion",
+          "error": "正確性",
+          "severity": "中～大",
+          "explanation": "誤訳。by the first hook portionがthrough the first hook portionの意味で用いられていると考えた場合、[第１掛部を支持している支持部が第１掛部を通じて第１ベルトから荷重を受ける]という概念が成立する。実際に、弾性変形はこれにより生じると考えられる。しかし、この箇所をそう解釈することが言語的に困難であり、より適切な表現の方法が他に幾通りも考えられるため、程度が大に近いエラーとみなす。",
+          "color": "yellow",
+          "cells": [
+            "CM27:EQ27",
+            "AY30:BE30"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n厚み方向に貫通する開口部（１０１）を形成する枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）を備え、\n前記枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）は、\n前記開口部（１０１）を挿通する第１ベルト（９１）が掛け回される第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）と、\n前記厚み方向に直交する連結方向において前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）との間に前記開口部（１０１）を挟んで配置され、前記開口部（１０１）を挿通する第２ベルト（９２）が掛け回される第２掛部（２０，２０Ｃ，３０１）と、\n前記厚み方向および前記連結方向に直交する幅方向において互いの間に前記開口部（１０１）を挟んで配置される第１側部（３０Ａ）および第２側部（３０Ｂ）と、\n前記第１側部（３０Ａ）および前記第２側部（３０Ｂ）の少なくとも一方に接続され、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を支持する支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）と、を備え、\n前記支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）の少なくとも一部は、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）が前記第１ベルト（９１）から荷重を受けることにより弾性変形し、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を前記第２掛部（２０，２０Ｃ，３０１）から離間する方向に変位させる、ベルト連結具。",
+      "output_text_grid": "a first hook portion on which a first belt inserted through the opening is hooked; a second hook portion disposed between the first hook portion and the opening in a coupling direction orthogonal to the thickness direction, and on which a second belt inserted through the opening is hooked; a first side portion and a second side portion disposed between each other with the opening interposed therebetween in a width direction orthogonal to the thickness direction and the coupling direction; and a support portion connected to at least one of the first side portion and the second side portion, and configured to support the first hook portion, wherein at least a part of the support portion is elastically deformed by receiving a load from the first belt by the first hook portion, and displaces the first hook portion in a direction away from the second hook portion."
+    }
+  ]
+}

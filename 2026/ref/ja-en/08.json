@@ -1,0 +1,213 @@
+{
+  "file": "08.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 0,
+      "input_text": "[請求項1]\n厚み方向に貫通する開口部（１０１）を形成する枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）を備え、\n前記枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）は、\n前記開口部（１０１）を挿通する第１ベルト（９１）が掛け回される第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）と、\n前記厚み方向に直交する連結方向において前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）との間に前記開口部（１０１）を挟んで配置され、前記開口部（１０１）を挿通する第２ベルト（９２）が掛け回される第２掛部（２０，２０Ｃ，３０１）と、\n前記厚み方向および前記連結方向に直交する幅方向において互いの間に前記開口部（１０１）を挟んで配置される第１側部（３０Ａ）および第２側部（３０Ｂ）と、\n前記第１側部（３０Ａ）および前記第２側部（３０Ｂ）の少なくとも一方に接続され、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を支持する支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）と、を備え、\n前記支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）の少なくとも一部は、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）が前記第１ベルト（９１）から荷重を受けることにより弾性変形し、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を前記第２掛部（２０，２０Ｃ，３０１）から離間する方向に変位させる、ベルト連結具。",
+      "output_text": "[Claim 1]\nBelt coupling tool, wherein comprising a frame body (100A, 100B, 100C, 100D, 100E, 100F, 100G and 100H) forming an opening (101) penetrating in the thickness direction, the frame body (100A, 100B, 100C, 100D, 100E, 100F, 100G and 100H) includes a first hook portion (10, 10B, 10G, 10H and 201) on which a first belt (91) inserted through the opening portion (101) is hooked, and a second hook portion (20, 20C) on which a second belt (92) inserted through the opening portion (101) is hooked, the second hook portion being disposed between the first hook portion (10, 10B, 10G, 10H and 201) and the opening portion (101) in a connecting direction orthogonal to the thickness direction, 301), a first side portion (30A) and a second side portion (30B) disposed with the opening portion (101) interposed therebetween in a width direction orthogonal to the thickness direction and the coupling direction, and a support portion (40, 40E, 40F, 40G and 40H) connected to at least one of the first side portion (30A) and the second side portion (30B) and supporting the first hook portion (10, 10B, 10G, 10H and 201), at least a part of the support portion (40, 40E, 40F, 40G and 40H) elastically deforms when the first hook portion (10, 10B, 10G, 10H and 201) receives a load from the first belt (91) to displace the first hook portion (10, 10B, 10G, 10H and 201) in a direction away from the second hook portion (20, 20C, 301).",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 10,
+          "end": 28,
+          "text": "Belt coupling tool",
+          "error": "流暢性",
+          "severity": "小",
+          "explanation": "不定冠詞が必要。",
+          "color": "yellow",
+          "cells": [
+            "BI6:BZ6"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 30,
+          "end": 48,
+          "text": "wherein comprising",
+          "error": "流暢性／正確性",
+          "severity": "中",
+          "explanation": "文法的に不正確であるが故comprisingの主語が不明瞭になっている。",
+          "color": "yellow",
+          "cells": [
+            "CC6:CT6"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 246,
+          "end": 254,
+          "text": "includes",
+          "error": "流暢性",
+          "severity": "小",
+          "explanation": "includingであるべき。あるいは、前出のwherein付近を調整すれば、この箇所はこのままで問題ない。",
+          "color": "yellow",
+          "cells": [
+            "CY12:DF12"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 304,
+          "end": 312,
+          "text": "on which",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "BL15:BS15"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 352,
+          "end": 367,
+          "text": "opening portion",
+          "error": "用語",
+          "severity": "小",
+          "explanation": "前出のopeningと不統一。ただし、101の符号により概念の一貫性が維持されている。",
+          "color": "yellow",
+          "cells": [
+            "DH15:DV15"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 421,
+          "end": 429,
+          "text": "on which",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "CC18:CJ18"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 470,
+          "end": 485,
+          "text": "opening portion",
+          "error": "用語",
+          "severity": "小",
+          "explanation": "前出のopeningと不統一。ただし、101の符号により概念の一貫性が維持されている。",
+          "color": "yellow",
+          "cells": [
+            "DZ18:EN18"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 503,
+          "end": 605,
+          "text": "the second hook portion being disposed between the first hook portion (10, 10B, 10G, 10H and 201) and ",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "完全な誤訳。",
+          "color": "theme4",
+          "cells": [
+            "BP21:EP21",
+            "AY24:BT24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 605,
+          "end": 624,
+          "text": "the opening portion",
+          "error": "用語",
+          "severity": "小",
+          "explanation": "前出のopeningと不統一。ただし、101の符号により概念の一貫性が維持されている。",
+          "color": "yellow",
+          "cells": [
+            "BU24:CM24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 696,
+          "end": 700,
+          "text": "301)",
+          "error": "正確性",
+          "severity": "中",
+          "explanation": "おそらく初出時のsecond hook portionに付されるべき符号がここに記載されている。",
+          "color": "yellow",
+          "cells": [
+            "BT27:BW27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 702,
+          "end": 722,
+          "text": "a first side portion",
+          "error": "流暢性",
+          "severity": "小",
+          "explanation": "この部分がthe frame body includesにかかっているかが文法的に明確でない。the second hook portion being…の分詞構文がこの直前に挿入されていることも文法的な明確性を低下させている。この後のand a support portionについても同様の不明確性が生じている。",
+          "color": "yellow",
+          "cells": [
+            "BZ27:CS27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 779,
+          "end": 794,
+          "text": "opening portion",
+          "error": "用語",
+          "severity": "小",
+          "explanation": "前出のopeningと不統一。ただし、101の符号により概念の一貫性が維持されている。",
+          "color": "yellow",
+          "cells": [
+            "BC30:BQ30"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 892,
+          "end": 910,
+          "text": "coupling direction",
+          "error": "用語",
+          "severity": "中",
+          "explanation": "前出のconnecting directionと不統一。",
+          "color": "yellow",
+          "cells": [
+            "BQ33:CH33"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1200,
+          "end": 1207,
+          "text": "deforms",
+          "error": "流暢性",
+          "severity": "小",
+          "explanation": "deformingであるべき。あるいは、前出のwherein付近を調整すれば、この箇所はこのままで問題ない。",
+          "color": "yellow",
+          "cells": [
+            "CH42:CN42"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1208,
+          "end": 1212,
+          "text": "when",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "原文の「荷重を受けることにより」は荷重を受けることと弾性変形との因果関係を明示しているのに対し、when は基本的には時間的・条件的関係を表す。ただし、[正しい解釈が成立する可能性がある]点と、[原文においても荷重と弾性変形との因果関係を生じさせる構成が完全に明記されているわけではない点]を考慮し、エラーの程度を小とする。",
+          "color": "theme4",
+          "cells": [
+            "CP42:CS42"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n厚み方向に貫通する開口部（１０１）を形成する枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）を備え、\n前記枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）は、\n前記開口部（１０１）を挿通する第１ベルト（９１）が掛け回される第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）と、\n前記厚み方向に直交する連結方向において前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）との間に前記開口部（１０１）を挟んで配置され、前記開口部（１０１）を挿通する第２ベルト（９２）が掛け回される第２掛部（２０，２０Ｃ，３０１）と、\n前記厚み方向および前記連結方向に直交する幅方向において互いの間に前記開口部（１０１）を挟んで配置される第１側部（３０Ａ）および第２側部（３０Ｂ）と、\n前記第１側部（３０Ａ）および前記第２側部（３０Ｂ）の少なくとも一方に接続され、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を支持する支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）と、を備え、\n前記支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）の少なくとも一部は、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）が前記第１ベルト（９１）から荷重を受けることにより弾性変形し、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を前記第２掛部（２０，２０Ｃ，３０１）から離間する方向に変位させる、ベルト連結具。",
+      "output_text_grid": "[Claim 1] Belt coupling tool, wherein comprising a frame body (100A, 100B, 100C, 100D, 100E, 100F, 100G and 100H) forming an opening (101) penetrating in the thickness direction, the frame body (100A, 100B, 100C, 100D, 100E, 100F, 100G and 100H) includes a first hook portion (10, 10B, 10G, 10H and 201) on which a first belt (91) inserted through the opening portion (101) is hooked, and a second hook portion (20, 20C) on which a second belt (92) inserted through the opening portion (101) is hooked, the second hook portion being disposed between the first hook portion (10, 10B, 10G, 10H and 201) and the opening portion (101) in a connecting direction orthogonal to the thickness direction, 301), a first side portion (30A) and a second side portion (30B) disposed with the opening portion (101) interposed therebetween in a width direction orthogonal to the thickness direction and the coupling direction, and a support portion (40, 40E, 40F, 40G and 40H) connected to at least one of the first side portion (30A) and the second side portion (30B) and supporting the first hook portion (10, 10B, 10G, 10H and 201), at least a part of the support portion (40, 40E, 40F, 40G and 40H) elastically deforms when the first hook portion (10, 10B, 10G, 10H and 201) receives a load from the first belt (91) to displace the first hook portion (10, 10B, 10G, 10H and 201) in a direction away from the second hook portion (20, 20C, 301)."
+    }
+  ]
+}

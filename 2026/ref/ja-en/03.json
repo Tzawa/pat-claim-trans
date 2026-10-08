@@ -1,0 +1,139 @@
+{
+  "file": "03.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 24,
+      "input_text": "[請求項1]\nドレンパンの内部の水を排出可能なドレンポンプおよび前記ドレンパン内における水位に応じてＯＮ状態とＯＦＦ状態とが切り替わるフロートスイッチを備える空気調和機の室内機に対して用いられるドレン排水検査装置であって、\n少なくとも１つの電池を着脱可能に保持可能な電池収容部と、\nモバイルバッテリが電気的に接続可能なバッテリコネクタ部と、\n前記電池収容部に保持された前記少なくとも１つの電池の出力電圧および前記バッテリコネクタ部に接続された前記モバイルバッテリの出力電圧を前記ドレンポンプの駆動電圧に変換可能な電圧変換部と、\n前記ドレンポンプが電気的に接続可能であり、前記電圧変換部と電気的に接続されるポンプコネクタ部と、\nＯＮ状態において前記電圧変換部と前記ポンプコネクタ部との間を電気的に接続し、かつ、ＯＦＦ状態において前記電圧変換部と前記ポンプコネクタ部との間を電気的に遮断するポンプ駆動スイッチと、\n前記フロートスイッチが電気的に接続可能であり、前記電池収容部および前記バッテリコネクタ部と電気的に接続されるスイッチコネクタ部と、\n前記フロートスイッチの状態を報知可能な第１報知部と、\nを備え、\n前記ポンプコネクタ部に前記ドレンポンプが接続され、かつ、前記ポンプ駆動スイッチがＯＮ状態の場合に、前記ドレンポンプには、前記電圧変換部を介して、前記少なくとも１つの電池の出力電圧または前記モバイルバッテリの出力電圧が供給され、\n前記スイッチコネクタ部に前記フロートスイッチが接続され、かつ、前記フロートスイッチがＯＮ状態となった場合に、前記フロートスイッチには、前記少なくとも１つの電池の出力電圧または前記モバイルバッテリの出力電圧が供給される、ドレン排水検査装置。",
+      "output_text": "[Claim 1]\nDrain water discharge inspection device used for indoor unit of air conditioner having drain pump capable of discharging water inside drain pan and float switch switched between ON state and OFF state according to water level inside drain pan, wherein a drain pump is electrically connectable to: a battery housing portion capable of detachably holding at least one battery; a battery connector portion to which a mobile battery is electrically connectable; and a voltage conversion portion capable of converting an output voltage of the at least one battery held in the battery housing portion and an output voltage of the mobile battery connected to the battery connector portion into a drive voltage of the drain pump, the float switch may be electrically connected to a pump connector portion electrically connected to the voltage conversion portion, a pump drive switch electrically connecting the voltage conversion portion and the pump connector portion in an ON state and electrically disconnecting the voltage conversion portion and the pump connector portion in an OFF state, a switch connector portion electrically connected to the battery housing portion and the battery connector portion, and a first notification portion capable of notifying a state of the float switch, when the drain pump is connected to the pump connector portion and the pump drive switch is in an ON state, the output voltage of the at least one battery or the output voltage of the mobile battery is supplied to the drain pump via the voltage conversion portion, and when the float switch is connected to the switch connector portion and the float switch is in an ON state, the float switch is connected to the float switch, an output voltage of the at least one battery or an output voltage of the mobile battery is provided.",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 10,
+          "end": 243,
+          "text": "Drain water discharge inspection device used for indoor unit of air conditioner having drain pump capable of discharging water inside drain pan and float switch switched between ON state and OFF state according to water level inside ",
+          "error": "流暢性",
+          "severity": "中",
+          "explanation": "ここからwhereinまで、初出時の可算名詞に不定冠詞が使用されていない。",
+          "color": "yellow",
+          "cells": [
+            "BI6:EP6",
+            "AY9:ES9",
+            "AY12:CR12"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 243,
+          "end": 252,
+          "text": "drain pan",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "既出のdrain panと同一である点を示す「前記」が訳出されていない（訳抜け）。「前記」が訳出されていないため、drain panが既出のdrain panとは異なる構成要素であると解釈される。",
+          "color": "theme4",
+          "cells": [
+            "CS12:DA12"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 254,
+          "end": 261,
+          "text": "wherein",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "DD12:DJ12"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 262,
+          "end": 306,
+          "text": "a drain pump is electrically connectable to:",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "DL12:EM12",
+            "AY15:BM15"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 713,
+          "end": 715,
+          "text": "of",
+          "error": "正確性",
+          "severity": "中",
+          "explanation": "技術的文脈から、駆動電圧は、ドレンポンプを駆動するためのものであると考えられる。ここでのofは所有を強く連想させる。",
+          "color": "yellow",
+          "cells": [
+            "CL27:CM27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 731,
+          "end": 781,
+          "text": " the float switch may be electrically connected to",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "DD27:EN27",
+            "AY30:BJ30"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1256,
+          "end": 1273,
+          "text": "notifying a state",
+          "error": "流暢性",
+          "severity": "中",
+          "explanation": "この構文においてnotifyの目的語となるべきなのは、報知を受ける対象である（例：notify a user of a state）。",
+          "color": "yellow",
+          "cells": [
+            "AY45:BO45"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1671,
+          "end": 1720,
+          "text": "the float switch is connected to the float switch",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "CE57:EA57"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1722,
+          "end": 1822,
+          "text": "an output voltage of the at least one battery or an output voltage of the mobile battery is provided",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "ED57:EL57",
+            "AY60:EJ60"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\nドレンパンの内部の水を排出可能なドレンポンプおよび前記ドレンパン内における水位に応じてＯＮ状態とＯＦＦ状態とが切り替わるフロートスイッチを備える空気調和機の室内機に対して用いられるドレン排水検査装置であって、\n少なくとも１つの電池を着脱可能に保持可能な電池収容部と、\nモバイルバッテリが電気的に接続可能なバッテリコネクタ部と、\n前記電池収容部に保持された前記少なくとも１つの電池の出力電圧および前記バッテリコネクタ部に接続された前記モバイルバッテリの出力電圧を前記ドレンポンプの駆動電圧に変換可能な電圧変換部と、\n前記ドレンポンプが電気的に接続可能であり、前記電圧変換部と電気的に接続されるポンプコネクタ部と、\nＯＮ状態において前記電圧変換部と前記ポンプコネクタ部との間を電気的に接続し、かつ、ＯＦＦ状態において前記電圧変換部と前記ポンプコネクタ部との間を電気的に遮断するポンプ駆動スイッチと、\n前記フロートスイッチが電気的に接続可能であり、前記電池収容部および前記バッテリコネクタ部と電気的に接続されるスイッチコネクタ部と、\n前記フロートスイッチの状態を報知可能な第１報知部と、\nを備え、\n前記ポンプコネクタ部に前記ドレンポンプが接続され、かつ、前記ポンプ駆動スイッチがＯＮ状態の場合に、前記ドレンポンプには、前記電圧変換部を介して、前記少なくとも１つの電池の出力電圧または前記モバイルバッテリの出力電圧が供給され、\n前記スイッチコネクタ部に前記フロートスイッチが接続され、かつ、前記フロートスイッチがＯＮ状態となった場合に、前記フロートスイッチには、前記少なくとも１つの電池の出力電圧または前記モバイルバッテリの出力電圧が供給される、ドレン排水検査装置。",
+      "output_text_grid": "[Claim 1] Drain water discharge inspection device used for indoor unit of air conditioner having drain pump capable of discharging water inside drain pan and float switch switched between ON state and OFF state according to water level inside drain pan, wherein a drain pump is electrically connectable to: a battery housing portion capable of detachably holding at least one battery; a battery connector portion to which a mobile battery is electrically connectable; and a voltage conversion portion capable of converting an output voltage of the at least one battery held in the battery housing portion and an output voltage of the mobile battery connected to the battery connector portion into a drive voltage of the drain pump, the float switch may be electrically connected to a pump connector portion electrically connected to the voltage conversion portion, a pump drive switch electrically connecting the voltage conversion portion and the pump connector portion in an ON state and electrically disconnecting the voltage conversion portion and the pump connector portion in an OFF state, a switch connector portion electrically connected to the battery housing portion and the battery connector portion, and a first notification portion capable of notifying a state of the float switch, when the drain pump is connected to the pump connector portion and the pump drive switch is in an ON state, the output voltage of the at least one battery or the output voltage of the mobile battery is supplied to the drain pump via the voltage conversion portion, and when the float switch is connected to the switch connector portion and the float switch is in an ON state, the float switch is connected to the float switch, an output voltage of the at least one battery or an output voltage of the mobile battery is provided."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "file": "04.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 56,
+      "input_text": "1. A surgical instrument, comprising:\na shaft assembly, comprising:\nan anvil jaw movable between an unclamped position and a clamped position;\na cartridge jaw comprising a channel;\nan actuator moveable through a closure motion to move said anvil jaw into said clamped position;\nan I-beam configured to engage said anvil jaw and said cartridge jaw during a firing stroke and hold said anvil jaw in position relative to said cartridge jaw; and\na drive shaft configured to drive said I-beam;\na detachable motor control unit, comprising:\na motor-driven rotary clamping gear train operable to drive said drive shaft to apply a rotary closure motion to said actuator to drive said actuator through said closure motion; and\na motor-driven rotary firing gear train, wherein said motor-driven rotary firing gear train is operable to drive said drive shaft to apply a distal motion to said I-beam to drive said I-beam distally through said firing stroke, and wherein said motor-driven rotary firing gear train is operable independently from said motor-driven rotary clamping gear train; and\na control system configured to prohibit said firing stroke from being performed prior to said closure motion.",
+      "output_text": "以下を備える外科用器具： シャフトアセンブリであって、アンクランプ位置とクランプ位置との間で移動可能なアンビルジョーと、チャネルを備えるカートリッジジョーと、前記アンビルジョーを前記クランプ位置に移動させるために閉鎖運動を通して移動可能なアクチュエータと、発射ストローク中に前記アンビルジョーおよび前記カートリッジジョーに係合し、前記アンビルジョーを前記カートリッジジョンに対して所定の位置に保持するように構成されたＩビームと、前記Ｉビームを駆動するように構成された駆動シャフトとを備える、シャフトアセンブリと、 着脱可能なモータ制御ユニットであって、前記駆動シャフトを駆動して前記アクチュエータに回転閉鎖運動を適用し、前記アクチュエータを前記閉鎖運動を通して駆動するように動作可能なモータ駆動回転クランプ歯車列と、前記駆動シャフトを駆動して前記Ｉビームに遠位運動を適用し、前記Ｉビームを前記発射ストロークを通して遠位に駆動するように動作可能なモータ駆動回転発射歯車列であって、前記モータ駆動回転発射歯車列は、前記モータ駆動回転クランプ歯車列から独立して動作可能である、モータ駆動回転発射歯車列とを備える、着脱可能なモータ制御ユニットと、 前記閉鎖運動の前に前記発射ストロークが実行されることを禁止するように構成された制御システムと を備える、外科用器具。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 0,
+          "end": 12,
+          "text": "以下を備える外科用器具：",
+          "error": "スタイル・流暢性",
+          "severity": "中",
+          "explanation": "文末の「を備える、外科用器具」との整合性がない。",
+          "color": "yellow",
+          "cells": [
+            "DG6:DR6"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 183,
+          "end": 186,
+          "text": "ジョン",
+          "error": "流暢性",
+          "severity": "小",
+          "explanation": "「ジョー」の誤記。",
+          "color": "yellow",
+          "cells": [
+            "ED18:EF18"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 306,
+          "end": 308,
+          "text": "適用",
+          "error": "用語",
+          "severity": "中",
+          "explanation": "物理的な付与を表す語を用いるべき。以下の青ハイライト箇所も同様。",
+          "color": "theme3",
+          "cells": [
+            "EG27:EH27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 383,
+          "end": 385,
+          "text": "適用",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme3",
+          "cells": [
+            "ED33:EE33"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 547,
+          "end": 549,
+          "text": "禁止",
+          "error": "用語",
+          "severity": "中",
+          "explanation": "物理的な抑制を表す語を用いるべき。",
+          "color": "theme6",
+          "cells": [
+            "EH45:EI45"
+          ]
+        }
+      ],
+      "input_text_grid": "1. A surgical instrument, comprising: a shaft assembly, comprising: an anvil jaw movable between an unclamped position and a clamped position; a cartridge jaw comprising a channel; an actuator moveable through a closure motion to move said anvil jaw into said clamped position; an I-beam configured to engage said anvil jaw and said cartridge jaw during a firing stroke and hold said anvil jaw in position relative to said cartridge jaw; and a drive shaft configured to drive said I-beam; a detachable motor control unit, comprising: a motor-driven rotary clamping gear train operable to drive said drive shaft to apply a rotary closure motion to said actuator to drive said actuator through said closure motion; and a motor-driven rotary firing gear train, wherein said motor-driven rotary firing gear train is operable to drive said drive shaft to apply a distal motion to said I-beam to drive said I-beam distally through said firing stroke, and wherein said motor-driven rotary firing gear train is operable independently from said motor-driven rotary clamping gear train; and a control system configured to prohibit said firing stroke from being performed prior to said closure motion.",
+      "output_text_grid": "以下を備える外科用器具： シャフトアセンブリであって、アンクランプ位置とクランプ位置との間で移動可能なアンビルジョーと、チャネルを備えるカートリッジジョーと、前記アンビルジョーを前記クランプ位置に移動させるために閉鎖運動を通して移動可能なアクチュエータと、発射ストローク中に前記アンビルジョーおよび前記カートリッジジョーに係合し、前記アンビルジョーを前記カートリッジジョンに対して所定の位置に保持するように構成されたＩビームと、前記Ｉビームを駆動するように構成された駆動シャフトとを備える、シャフトアセンブリと、 着脱可能なモータ制御ユニットであって、前記駆動シャフトを駆動して前記アクチュエータに回転閉鎖運動を適用し、前記アクチュエータを前記閉鎖運動を通して駆動するように動作可能なモータ駆動回転クランプ歯車列と、前記駆動シャフトを駆動して前記Ｉビームに遠位運動を適用し、前記Ｉビームを前記発射ストロークを通して遠位に駆動するように動作可能なモータ駆動回転発射歯車列であって、前記モータ駆動回転発射歯車列は、前記モータ駆動回転クランプ歯車列から独立して動作可能である、モータ駆動回転発射歯車列とを備える、着脱可能なモータ制御ユニットと、 前記閉鎖運動の前に前記発射ストロークが実行されることを禁止するように構成された制御システムと を備える、外科用器具。"
+    },
+    {
+      "index": 2,
+      "score": 100,
+      "input_text": "2. The surgical instrument of claim 1, further comprising:\na replaceable staple cartridge positioned in said channel, comprising:\na cartridge body;\nstaples removably stored in said cartridge body; and\na sled movable within said cartridge body from a proximal position to a distal position to eject said staples from said cartridge body during said firing stroke.",
+      "output_text": "さらに、 前記チャネル内に位置付けられた交換可能なステープルカートリッジであって、 カートリッジ本体と、 前記カートリッジ本体内に取り外し可能に格納されたステープルと、 前記発射ストローク中に前記カートリッジ本体から前記ステープルを排出するために、近位位置から遠位位置まで前記カートリッジ本体内で移動可能なスレッドと、を備える、交換可能なステープルカートリッジを備える、請求項１に記載の外科用器具。",
+      "broad_error": "",
+      "correction": "",
+      "annotations": [],
+      "input_text_grid": "2. The surgical instrument of claim 1, further comprising: a replaceable staple cartridge positioned in said channel, comprising: a cartridge body; staples removably stored in said cartridge body; and a sled movable within said cartridge body from a proximal position to a distal position to eject said staples from said cartridge body during said firing stroke.",
+      "output_text_grid": "さらに、 前記チャネル内に位置付けられた交換可能なステープルカートリッジであって、 カートリッジ本体と、 前記カートリッジ本体内に取り外し可能に格納されたステープルと、 前記発射ストローク中に前記カートリッジ本体から前記ステープルを排出するために、近位位置から遠位位置まで前記カートリッジ本体内で移動可能なスレッドと、を備える、交換可能なステープルカートリッジを備える、請求項１に記載の外科用器具。"
+    }
+  ]
+}

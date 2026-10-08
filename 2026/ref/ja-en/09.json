@@ -1,0 +1,319 @@
+{
+  "file": "09.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 0,
+      "input_text": "[請求項1]\n厚み方向に貫通する開口部（１０１）を形成する枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）を備え、\n前記枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）は、\n前記開口部（１０１）を挿通する第１ベルト（９１）が掛け回される第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）と、\n前記厚み方向に直交する連結方向において前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）との間に前記開口部（１０１）を挟んで配置され、前記開口部（１０１）を挿通する第２ベルト（９２）が掛け回される第２掛部（２０，２０Ｃ，３０１）と、\n前記厚み方向および前記連結方向に直交する幅方向において互いの間に前記開口部（１０１）を挟んで配置される第１側部（３０Ａ）および第２側部（３０Ｂ）と、\n前記第１側部（３０Ａ）および前記第２側部（３０Ｂ）の少なくとも一方に接続され、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を支持する支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）と、を備え、\n前記支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）の少なくとも一部は、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）が前記第１ベルト（９１）から荷重を受けることにより弾性変形し、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を前記第２掛部（２０，２０Ｃ，３０１）から離間する方向に変位させる、ベルト連結具。",
+      "output_text": "[Claim 1]\nA belt connector comprising: a frame structure (100A, 100B, 100C, 100D, 100E, 100F, 100G, 100H) that forms an opening (101) extending through the thickness direction, wherein the frame structure (100A, 100B, 100C, 100D, 100E, 100F, 100G, 100H) includes:\na first mounting portion (10, 10B, 10G, 10H, 201) onto which a first belt (91) passing through the opening (101) is mounted,\na second mounting portion (20, 20C, 301) positioned between the first mounting portion (10, 10B, 10G, 10H, 201) and the opening (101) in the direction perpendicular to the thickness direction, onto which a second belt (92) passing through the opening (101) is mounted,\nfirst side portions (30A) and second side portions (30B) positioned between each other in the width direction perpendicular to both the thickness direction and the connecting direction, thereby sandwiching the opening (101), and\nsupporting portions (40, 40E, 40F, 40G, 40H) connected to at least one of the first side portions (30A) and second side portions (30B) to support the first mounting portions (10, 10B, 10G, 10H, 201).\nAt least a portion of the supporting portions (40, 40E, 40F, 40G, 40H) undergoes elastic deformation when the first mounting portions (10, 10B, 10G, 10H, 201) receive load from the first belt (91), causing the first mounting portions (10, 10B, 10G, 10H, 201) to shift in a direction moving them away from the second mounting portions (20, 20C, 301).",
+      "broad_error": "onto which a second belt (92) passing through the opening (101) is mountedは文法的に不明確である（onto whichがpositionedと並列であり双方がa second mounting portion (20, 20C, 301)を修飾する点は、文法的な明確さを欠く）が、技術的にはonto whichがa second mounting portion (20, 20C, 301)以外の語句を修飾し得ないと考えるのが妥当である。よって、onto which以下の部分をエラーとみなさない。",
+      "correction": "",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 272,
+          "end": 280,
+          "text": "mounting",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme9",
+          "cells": [
+            "DX12:EE12"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 380,
+          "end": 387,
+          "text": "mounted",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme9",
+          "cells": [
+            "EG15:EM15"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 398,
+          "end": 406,
+          "text": "mounting",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme9",
+          "cells": [
+            "BF18:BM18"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 430,
+          "end": 523,
+          "text": "positioned between the first mounting portion (10, 10B, 10G, 10H, 201) and the opening (101) ",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "完全な誤訳。",
+          "color": "yellow",
+          "cells": [
+            "CL18:ES18",
+            "AY21:CD21"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 526,
+          "end": 539,
+          "text": "the direction",
+          "error": "正確性",
+          "severity": "中～大",
+          "explanation": "「連結」が訳出されていない。また、後出のthe connecting direction（赤ハイライト部参照）と不統一であり、the connecting directionの意味を不明確にしている。よって、単なる訳漏れに相当する小～中程度のエラーではなく、中～大程度のエラーとみなす。",
+          "color": "FFFD5527",
+          "cells": [
+            "CH21:CT21"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 649,
+          "end": 656,
+          "text": "mounted",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme9",
+          "cells": [
+            "DI24:DO24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 658,
+          "end": 714,
+          "text": "first side portions (30A) and second side portions (30B)",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "複数形にする必要がない。また、後出のat least of one of the first side portions (30A) and second side portions (40, 40E, 40F, 40G, 40H)（緑でハイライト）との関連を考慮すべき。",
+          "color": "FF92D050",
+          "cells": [
+            "DR24:EP24",
+            "AY27:CB27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 715,
+          "end": 744,
+          "text": "positioned between each other",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "完全な誤訳。後出のthereby …（紫でハイライト）との関連も意識すべき。つまり、[first side portionsとsecond side portionsがpositioned between each otherという構成によってopeningをsandwichする]という、完全に誤った概念が生じている点を、意識すべき。",
+          "color": "theme7",
+          "cells": [
+            "CD27:DF27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 818,
+          "end": 842,
+          "text": "the connecting direction",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "FFFD5527",
+          "cells": [
+            "CI30:DF30"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 844,
+          "end": 875,
+          "text": "thereby sandwiching the opening",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme7",
+          "cells": [
+            "DI30:EM30"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 887,
+          "end": 906,
+          "text": "supporting portions",
+          "error": "正確性",
+          "severity": "中",
+          "explanation": "複数形にする必要がない。この箇所を複数形にすることにより、後続のat least one of …の箇所において、複数の支持部が複数の側部のうち幾つかと接続するという解釈が生じやすくなっているため、単なる単複の問題ではないと考え、エラーの程度を小ではなく中とする。",
+          "color": "yellow",
+          "cells": [
+            "BJ33:CB33"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 945,
+          "end": 1021,
+          "text": "at least one of the first side portions (30A) and second side portions (30B)",
+          "error": "正確性",
+          "severity": "中～大",
+          "explanation": "第１側部のうち少なくとも一つおよび第２側部のうち少なくとも一つ、という解釈も成立しうる。Superguide Corp. v. DirecTV Enterprises, Inc.の判決参照。（Superguide判決ではat least one ofに続く名詞が単数であり、本件とは異なる。全てのat least one ofに続く単数形の名詞がSuperguide判決と同様の解釈を生むと考える必要がないため、他のシステムの翻訳においてはat least one ofをエラーとみなさなかったが、ここでは複数形の名詞が用いられておりSuperguide判決と同様の解釈が生じやすいため、エラーとみなす。）",
+          "color": "FF92D050",
+          "cells": [
+            "DP33:ES33",
+            "AY36:CQ36"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1037,
+          "end": 1043,
+          "text": "first ",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "初出時は単数形だった。後続のfirst mounting portionsにもあてはまる。",
+          "color": "yellow",
+          "cells": [
+            "DH36:DM36"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1043,
+          "end": 1051,
+          "text": "mounting",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme9",
+          "cells": [
+            "DN36:DU36"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1051,
+          "end": 1060,
+          "text": " portions",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "DV36:ED36"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1085,
+          "end": 1087,
+          "text": ". ",
+          "error": "流暢性",
+          "severity": "小",
+          "explanation": "一文で書かれていない。",
+          "color": "yellow",
+          "cells": [
+            "BH39:BI39"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1087,
+          "end": 1132,
+          "text": "At least a portion of the supporting portions",
+          "error": "正確性／流暢性",
+          "severity": "中～大",
+          "explanation": "supporting portionsが複数形で書かれているため、「一以上の支持部（すべての支持部であってもよい）」という解釈が生じ得る。",
+          "color": "theme8",
+          "cells": [
+            "BJ39:DB39"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1188,
+          "end": 1192,
+          "text": "when",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "原文の「荷重を受けることにより」は荷重を受けることと弾性変形との因果関係を明示しているのに対し、when は基本的には時間的・条件的関係を表す。ただし、[正しい解釈が成立する可能性がある]点と、[原文においても荷重と弾性変形との因果関係を生じさせる構成が完全に明記されているわけではない点]を考慮し、エラーの程度を小とする。",
+          "color": "yellow",
+          "cells": [
+            "BK42:BN42"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1203,
+          "end": 1211,
+          "text": "mounting",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme9",
+          "cells": [
+            "BZ42:CG42"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1303,
+          "end": 1311,
+          "text": "mounting",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme9",
+          "cells": [
+            "CB45:CI45"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1396,
+          "end": 1403,
+          "text": "second ",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "初出時は単数形だった。",
+          "color": "yellow",
+          "cells": [
+            "BY48:CE48"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1403,
+          "end": 1411,
+          "text": "mounting",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "theme9",
+          "cells": [
+            "CF48:CM48"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1411,
+          "end": 1420,
+          "text": " portions",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "CN48:CV48"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\n厚み方向に貫通する開口部（１０１）を形成する枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）を備え、\n前記枠体（１００Ａ，１００Ｂ，１００Ｃ，１００Ｄ，１００Ｅ，１００Ｆ，１００Ｇ，１００Ｈ）は、\n前記開口部（１０１）を挿通する第１ベルト（９１）が掛け回される第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）と、\n前記厚み方向に直交する連結方向において前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）との間に前記開口部（１０１）を挟んで配置され、前記開口部（１０１）を挿通する第２ベルト（９２）が掛け回される第２掛部（２０，２０Ｃ，３０１）と、\n前記厚み方向および前記連結方向に直交する幅方向において互いの間に前記開口部（１０１）を挟んで配置される第１側部（３０Ａ）および第２側部（３０Ｂ）と、\n前記第１側部（３０Ａ）および前記第２側部（３０Ｂ）の少なくとも一方に接続され、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を支持する支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）と、を備え、\n前記支持部（４０，４０Ｅ，４０Ｆ，４０Ｇ，４０Ｈ）の少なくとも一部は、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）が前記第１ベルト（９１）から荷重を受けることにより弾性変形し、前記第１掛部（１０，１０Ｂ，１０Ｇ，１０Ｈ，２０１）を前記第２掛部（２０，２０Ｃ，３０１）から離間する方向に変位させる、ベルト連結具。",
+      "output_text_grid": "[Claim 1] A belt connector comprising: a frame structure (100A, 100B, 100C, 100D, 100E, 100F, 100G, 100H) that forms an opening (101) extending through the thickness direction, wherein the frame structure (100A, 100B, 100C, 100D, 100E, 100F, 100G, 100H) includes: a first mounting portion (10, 10B, 10G, 10H, 201) onto which a first belt (91) passing through the opening (101) is mounted, a second mounting portion (20, 20C, 301) positioned between the first mounting portion (10, 10B, 10G, 10H, 201) and the opening (101) in the direction perpendicular to the thickness direction, onto which a second belt (92) passing through the opening (101) is mounted, first side portions (30A) and second side portions (30B) positioned between each other in the width direction perpendicular to both the thickness direction and the connecting direction, thereby sandwiching the opening (101), and supporting portions (40, 40E, 40F, 40G, 40H) connected to at least one of the first side portions (30A) and second side portions (30B) to support the first mounting portions (10, 10B, 10G, 10H, 201). At least a portion of the supporting portions (40, 40E, 40F, 40G, 40H) undergoes elastic deformation when the first mounting portions (10, 10B, 10G, 10H, 201) receive load from the first belt (91), causing the first mounting portions (10, 10B, 10G, 10H, 201) to shift in a direction moving them away from the second mounting portions (20, 20C, 301)."
+    }
+  ]
+}

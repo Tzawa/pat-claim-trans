@@ -1,0 +1,265 @@
+{
+  "file": "04.xlsx",
+  "blocks": [
+    {
+      "index": 1,
+      "score": 0,
+      "input_text": "[請求項1]\nドレンパンの内部の水を排出可能なドレンポンプおよび前記ドレンパン内における水位に応じてＯＮ状態とＯＦＦ状態とが切り替わるフロートスイッチを備える空気調和機の室内機に対して用いられるドレン排水検査装置であって、\n少なくとも１つの電池を着脱可能に保持可能な電池収容部と、\nモバイルバッテリが電気的に接続可能なバッテリコネクタ部と、\n前記電池収容部に保持された前記少なくとも１つの電池の出力電圧および前記バッテリコネクタ部に接続された前記モバイルバッテリの出力電圧を前記ドレンポンプの駆動電圧に変換可能な電圧変換部と、\n前記ドレンポンプが電気的に接続可能であり、前記電圧変換部と電気的に接続されるポンプコネクタ部と、\nＯＮ状態において前記電圧変換部と前記ポンプコネクタ部との間を電気的に接続し、かつ、ＯＦＦ状態において前記電圧変換部と前記ポンプコネクタ部との間を電気的に遮断するポンプ駆動スイッチと、\n前記フロートスイッチが電気的に接続可能であり、前記電池収容部および前記バッテリコネクタ部と電気的に接続されるスイッチコネクタ部と、\n前記フロートスイッチの状態を報知可能な第１報知部と、\nを備え、\n前記ポンプコネクタ部に前記ドレンポンプが接続され、かつ、前記ポンプ駆動スイッチがＯＮ状態の場合に、前記ドレンポンプには、前記電圧変換部を介して、前記少なくとも１つの電池の出力電圧または前記モバイルバッテリの出力電圧が供給され、\n前記スイッチコネクタ部に前記フロートスイッチが接続され、かつ、前記フロートスイッチがＯＮ状態となった場合に、前記フロートスイッチには、前記少なくとも１つの電池の出力電圧または前記モバイルバッテリの出力電圧が供給される、ドレン排水検査装置。",
+      "output_text": "[Claim 1]\nA drain water inspection device for use in an indoor unit of an air-conditioning system that includes a drain pump capable of draining water from inside the drain pan and a float switch that switches between ON and OFF states in response to the water level within the drain pan, comprising:\na battery housing section capable of removably holding a plurality of batteries;\na battery connector section capable of electrically connecting a mobile battery;\na voltage conversion section that can convert the output voltage of the at least one battery held in the battery housing section and the output voltage of the mobile battery connected to the battery connector section into the drive voltage for the drain pump;\na pump connector section that is electrically connectable to the drain pump and electrically connected to the voltage conversion section;\na pump drive switch that electrically connects the voltage conversion section and the pump connector section when the switch is in ON state, and electrically disconnects them when the switch is in OFF state;\na switch connector section that is electrically connectable to the float switch and is electrically connected to the battery housing section and battery connector section; and\na first notification section capable of indicating the state of the float switch.\nThe drain water inspection device is configured such that when the drain pump is connected to the pump connector section and the pump drive switch is in ON state, the drain pump receives either the output voltage of the at least one battery or the output voltage of the mobile battery via the voltage conversion section, and when the float switch is connected to the switch connector section and is in ON state, the float switch receives either the output voltage of the at least one battery or the output voltage of the mobile battery.",
+      "broad_error": "",
+      "correction": "A drain water inspection device to be used for an indoor unit of an air conditioner that includes a drain pump capable of draining water from inside a drain pan and a float switch that switches between an ON state and an OFF state in accordance with a water level in the drain pan, the device comprising:\na battery housing section capable of removably holding at least one battery;\na battery connector section to which a mobile battery can be electrically connected;\na voltage conversion section that can convert an output voltage of the at least one battery held in the battery housing section and an output voltage of the mobile battery connected to the battery connector section into a drive voltage for the drain pump;　　\na pump connector section to which the drain pump can be electrically connected and which is electrically connected to the voltage conversion section;\na pump drive switch that electrically connects the voltage conversion section and the pump connector section when in an ON state, and electrically disconnects the voltage conversion section and the pump connector section when in an OFF state;\na switch connector section to which the float switch can be electrically connected and which is electrically connected to the battery housing section and the battery connector section; and\na first reporting section capable of reporting a state of the float switch, wherein\nwhen the drain pump is connected to the pump connector section and the pump drive switch is in the ON state, either the output voltage of the at least one battery or the output voltage of the mobile battery is supplied to the drain pump via the voltage conversion section, and\nwhen the float switch is connected to the switch connector section and is in the ON state, either the output voltage of the at least one battery or the output voltage of the mobile battery is supplied to the float switch.",
+      "annotations": [
+        {
+          "side": "output",
+          "start": 50,
+          "end": 52,
+          "text": "in",
+          "error": "正確性",
+          "severity": "中～大",
+          "explanation": "この種の検査装置は室内機の「中」にないことが多い。原文があえて「対して」と書いているものをinと訳すことは正確さを欠く。",
+          "color": "yellow",
+          "cells": [
+            "CW6:CX6"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 91,
+          "end": 97,
+          "text": "system",
+          "error": "用語",
+          "severity": "中",
+          "explanation": "\"機\"は機械的なメカニズムを強く示唆する。systemは空調に関わるハードウェアand/orソフトウェアからなる系全体を意味し得る。systemと訳す必要がない。air conditioner等でよい。",
+          "color": "yellow",
+          "cells": [
+            "EL6:EQ6"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 163,
+          "end": 176,
+          "text": "the drain pan",
+          "error": "正確性",
+          "severity": "中",
+          "explanation": "初出の構成要素",
+          "color": "yellow",
+          "cells": [
+            "DL9:DX9"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 236,
+          "end": 250,
+          "text": "in response to",
+          "error": "流暢性",
+          "severity": "小",
+          "explanation": "in response toは、事象の\"発生\"に対する応答を意味する（as an answer or reaction to something that has happened (Cambridge)）。ここで応答している対象は「水位」というモノである",
+          "color": "yellow",
+          "cells": [
+            "CM12:CZ12"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 251,
+          "end": 266,
+          "text": "the water level",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "初出の要素に定冠詞。概念としても文法的にも定冠詞を用いる必要はない。",
+          "color": "yellow",
+          "cells": [
+            "DB12:DP12"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 356,
+          "end": 380,
+          "text": "a plurality of batteries",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "電池が１つであるケースを排除している。",
+          "color": "yellow",
+          "cells": [
+            "DN15:EK15"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 421,
+          "end": 461,
+          "text": "electrically connecting a mobile battery",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "原文は、バッテリがコネクタ部に接続され得ることを意味する。connecting が間接目的語を伴わない（バッテリを何に接続するかが不明）という問題もある。",
+          "color": "yellow",
+          "cells": [
+            "CJ18:DW18"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 509,
+          "end": 527,
+          "text": "the output voltage",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "初出。定冠詞を用いる必要がない。",
+          "color": "yellow",
+          "cells": [
+            "BX21:CO21"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 531,
+          "end": 555,
+          "text": "the at least one battery",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "前出の\"a plurality of batteries\"との整合性がない。",
+          "color": "yellow",
+          "cells": [
+            "CT21:DQ21"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 596,
+          "end": 614,
+          "text": "the output voltage",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "初出。定冠詞を用いる必要がない。",
+          "color": "yellow",
+          "cells": [
+            "BK24:CB24"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 685,
+          "end": 702,
+          "text": "the drive voltage",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "初出。定冠詞を用いる必要がない。",
+          "color": "yellow",
+          "cells": [
+            "BD27:BT27"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 753,
+          "end": 784,
+          "text": "is electrically connectable to ",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "接続の方向（ポンプ→コネクタ）が適切に表現できていない。ただし、両者の間で電気的な接続が成立することは表現できているため、大きな誤訳ではない。",
+          "color": "yellow",
+          "cells": [
+            "DT27:EH27",
+            "AY30:BM30"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 970,
+          "end": 1000,
+          "text": "when the switch is in ON state",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "the switchが「フロートスイッチ」と「ポンプ駆動スイッチ」のどちらを指すかが分からない。このON状態がポンプ駆動スイッチを修飾する点を明記するか、せめて原文に合わせてwhen in (an) ON stateとすべき。",
+          "color": "yellow",
+          "cells": [
+            "BG36:CJ36"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1036,
+          "end": 1062,
+          "text": "when the switch is in OFF ",
+          "error": "正確性",
+          "severity": "大",
+          "explanation": "the switchが「フロートスイッチ」と「ポンプ駆動スイッチ」のどちらを指すかが分からない。このOFF状態がポンプ駆動スイッチを修飾する点を明記するか、せめて原文に合わせてwhen in (an) OFF stateとすべき。",
+          "color": "yellow",
+          "cells": [
+            "DU36:ET36"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1062,
+          "end": 1067,
+          "text": "state",
+          "error": "",
+          "severity": "",
+          "explanation": "",
+          "color": "yellow",
+          "cells": [
+            "AY39:BC39"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1101,
+          "end": 1131,
+          "text": "is electrically connectable to",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "接続の方向（スイッチ→コネクタ）が適切に表現できていない。ただし、両者の間で電気的な接続が成立することは表現できているため、大きな誤訳ではない。",
+          "color": "yellow",
+          "cells": [
+            "CL39:DO39"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1285,
+          "end": 1295,
+          "text": "indicating",
+          "error": "用語",
+          "severity": "中",
+          "explanation": "「報知」には、対象となるentityに\"知らせる\"という意味がある。一方、indicateは、示していればよく、必ずしも\"知らせる\"ことにはならない（なる場合もある）。",
+          "color": "yellow",
+          "cells": [
+            "CE45:CN45"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1325,
+          "end": 1327,
+          "text": ". ",
+          "error": "流暢性",
+          "severity": "中",
+          "explanation": "文の分割。",
+          "color": "yellow",
+          "cells": [
+            "DS45:DT45"
+          ]
+        },
+        {
+          "side": "output",
+          "start": 1505,
+          "end": 1513,
+          "text": "receives",
+          "error": "正確性",
+          "severity": "小",
+          "explanation": "「ポンプが電圧を受ける」と表現するのではなく、原文通りに「電圧がポンプに供給される」と表現した方がよい。ただし、技術的な意味が原文と訳文とで同等であるため、軽度のエラー（小）とみなす。",
+          "color": "yellow",
+          "cells": [
+            "DL51:DS51"
+          ]
+        }
+      ],
+      "input_text_grid": "[請求項1]\nドレンパンの内部の水を排出可能なドレンポンプおよび前記ドレンパン内における水位に応じてＯＮ状態とＯＦＦ状態とが切り替わるフロートスイッチを備える空気調和機の室内機に対して用いられるドレン排水検査装置であって、\n少なくとも１つの電池を着脱可能に保持可能な電池収容部と、\nモバイルバッテリが電気的に接続可能なバッテリコネクタ部と、\n前記電池収容部に保持された前記少なくとも１つの電池の出力電圧および前記バッテリコネクタ部に接続された前記モバイルバッテリの出力電圧を前記ドレンポンプの駆動電圧に変換可能な電圧変換部と、\n前記ドレンポンプが電気的に接続可能であり、前記電圧変換部と電気的に接続されるポンプコネクタ部と、\nＯＮ状態において前記電圧変換部と前記ポンプコネクタ部との間を電気的に接続し、かつ、ＯＦＦ状態において前記電圧変換部と前記ポンプコネクタ部との間を電気的に遮断するポンプ駆動スイッチと、\n前記フロートスイッチが電気的に接続可能であり、前記電池収容部および前記バッテリコネクタ部と電気的に接続されるスイッチコネクタ部と、\n前記フロートスイッチの状態を報知可能な第１報知部と、\nを備え、\n前記ポンプコネクタ部に前記ドレンポンプが接続され、かつ、前記ポンプ駆動スイッチがＯＮ状態の場合に、前記ドレンポンプには、前記電圧変換部を介して、前記少なくとも１つの電池の出力電圧または前記モバイルバッテリの出力電圧が供給され、\n前記スイッチコネクタ部に前記フロートスイッチが接続され、かつ、前記フロートスイッチがＯＮ状態となった場合に、前記フロートスイッチには、前記少なくとも１つの電池の出力電圧または前記モバイルバッテリの出力電圧が供給される、ドレン排水検査装置。",
+      "output_text_grid": "[Claim 1] A drain water inspection device for use in an indoor unit of an air-conditioning system that includes a drain pump capable of draining water from inside the drain pan and a float switch that switches between ON and OFF states in response to the water level within the drain pan, comprising: a battery housing section capable of removably holding a plurality of batteries; a battery connector section capable of electrically connecting a mobile battery; a voltage conversion section that can convert the output voltage of the at least one battery held in the battery housing section and the output voltage of the mobile battery connected to the battery connector section into the drive voltage for the drain pump; a pump connector section that is electrically connectable to the drain pump and electrically connected to the voltage conversion section; a pump drive switch that electrically connects the voltage conversion section and the pump connector section when the switch is in ON state, and electrically disconnects them when the switch is in OFF state; a switch connector section that is electrically connectable to the float switch and is electrically connected to the battery housing section and battery connector section; and a first notification section capable of indicating the state of the float switch. The drain water inspection device is configured such that when the drain pump is connected to the pump connector section and the pump drive switch is in ON state, the drain pump receives either the output voltage of the at least one battery or the output voltage of the mobile battery via the voltage conversion section, and when the float switch is connected to the switch connector section and is in ON state, the float switch receives either the output voltage of the at least one battery or the output voltage of the mobile battery."
+    }
+  ]
+}
